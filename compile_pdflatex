@@ -1,0 +1,12 @@
+pdflatex ms
+bibtex Furlanetto/chapter
+bibtex Mirocha/chapter
+bibtex Greig/chapter
+bibtex Bernardi/chapter
+bibtex Chapman_Jelic/chapter
+bibtex Greenhill_Subrahmanyan/chapter
+bibtex Trott_/chapter
+bibtex Koopmans_Bernardi/chapter
+pdflatex ms
+pdflatex ms
+rm *~ *.aux *.log *.blg *.out *\#

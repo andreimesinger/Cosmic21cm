@@ -1,0 +1,57 @@
+\documentclass[a4paper,openany, 12pt]{book}
+
+
+
+\usepackage[text={15.5cm,23cm},centering]{geometry}
+
+\usepackage{mathptmx}
+\usepackage{graphicx}
+\usepackage{chapterbib} %remember to bibtex each chapter before final compilation
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
+\urlstyle{same}
+
+\newcommand{\chapterauthor}[1]{\textsc{#1}\section*{}}  % Only needed for edited/contributed books
+
+%defines some roman math characters
+\newcommand{\rmd}{\ensuremath{\mathrm{d}}}
+\newcommand{\rme}{\ensuremath{\mathrm{e}}}
+\newcommand{\rmi}{\ensuremath{\mathrm{i}}}
+
+
+
+\title{The cosmic 21-cm revolution: charting the first billion years of our Universe}
+\author{Andrei Mesinger}
+
+
+
+
+\begin{document}
+\frontmatter
+\maketitle
+\tableofcontents
+
+\include{Mesinger/Preface}
+\include{Mesinger/Author}
+\include{Contributors} %only needed for edited books
+
+
+\mainmatter
+
+
+%\include{chapter}
+\include{Furlanetto/chapter}
+\include{Mirocha/chapter}
+\include{Greig/chapter}
+\include{Bernardi/chapter}
+\include{Chapman_Jelic/chapter}
+\include{Greenhill_Subrahmanyan/chapter}
+\include{Trott_/chapter}
+\include{Koopmans_Bernardi/chapter}
+%\part{Theory}
+%\appendix
+
+
+
+\end{document}

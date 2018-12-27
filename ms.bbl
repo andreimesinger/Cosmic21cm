@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{diamantaras1996pcn}
+KI~Diamantaras and SY~Kung.
+\newblock {\em {Principal component neural networks: theory and applications}}.
+\newblock John Wiley \& Sons, Inc. New York, NY, USA, 1996.
+
+\bibitem{hyvarinen2001ica}
+A.~Hyvarinen, J.~Karhunen, and E.~Oja.
+\newblock {\em {Independent Component Analysis}}.
+\newblock J. Wiley New York, 2001.
+
+\bibitem{jain2004ass}
+A.~Jain and E.Y. Chang.
+\newblock {Adaptive sampling for sensor networks}.
+\newblock {\em ACM International Conference Proceeding Series}, pages 10--16,
+  2004.
+
+\bibitem{madden2002tta}
+S.~Madden, M.J. Franklin, J.M. Hellerstein, and W.~Hong.
+\newblock {TAG: a Tiny AGgregation Service for Ad-Hoc Sensor Networks}.
+\newblock In {\em Proceedings of the 5th ACM Symposium on Operating System
+  Design and Implementation (OSDI)}, volume~36, pages 131 -- 146. ACM Press,
+  2002.
+
+\bibitem{madden2005taq}
+S.R. Madden, M.J. Franklin, J.M. Hellerstein, and W.~Hong.
+\newblock {TinyDB: an acquisitional query processing system for sensor
+  networks}.
+\newblock {\em ACM Transactions on Database Systems (TODS)}, 30(1):122--173,
+  2005.
+
+\bibitem{tulone2006pts}
+D.~Tulone and S.~Madden.
+\newblock {PAQ: Time Series Forecasting for Approximate Query Answering in
+  Sensor Networks}.
+\newblock In {\em Proceedings of the 3rd European Workshop on Wireless Sensor
+  Networks}, pages 21--37. Springer, 2006.
+
+\end{thebibliography}

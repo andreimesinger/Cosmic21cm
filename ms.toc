@@ -1,0 +1,46 @@
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\contentsline {chapter}{\numberline {1}Chapter title}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}A Section}{1}{section.1.1}
+\contentsline {paragraph}{Cras adipiscing}{2}{section*.5}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\contentsline {chapter}{\numberline {2}Chapter title}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}A Section}{5}{section.2.1}
+\contentsline {paragraph}{Cras adipiscing}{6}{section*.7}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\contentsline {chapter}{\numberline {3}Chapter title}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}A Section}{9}{section.3.1}
+\contentsline {paragraph}{Cras adipiscing}{10}{section*.9}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\contentsline {chapter}{\numberline {4}Chapter title}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}A Section}{13}{section.4.1}
+\contentsline {paragraph}{Cras adipiscing}{14}{section*.11}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-8}
+\contentsline {chapter}{\numberline {5}Chapter title}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}A Section}{17}{section.5.1}
+\contentsline {paragraph}{Cras adipiscing}{18}{section*.13}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\contentsline {chapter}{\numberline {6}Chapter title}{21}{chapter.6}
+\contentsline {section}{\numberline {6.1}A Section}{21}{section.6.1}
+\contentsline {paragraph}{Cras adipiscing}{22}{section*.15}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-10}
+\contentsline {chapter}{\numberline {7}Chapter title}{25}{chapter.7}
+\contentsline {section}{\numberline {7.1}A Section}{25}{section.7.1}
+\contentsline {paragraph}{Cras adipiscing}{26}{section*.17}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-11}
+\contentsline {chapter}{\numberline {8}Chapter title}{29}{chapter.8}
+\contentsline {section}{\numberline {8.1}A Section}{29}{section.8.1}
+\contentsline {paragraph}{Cras adipiscing}{30}{section*.19}
+\gdef \the@ipfilectr {}
