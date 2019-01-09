@@ -5,7 +5,7 @@ bibtex Greig/chapter
 bibtex Bernardi/chapter
 bibtex Chapman_Jelic/chapter
 bibtex Greenhill_Subrahmanyan/chapter
-bibtex Trott_/chapter
+bibtex Trott_Pober/chapter
 bibtex Koopmans_Bernardi/chapter
 pdflatex ms
 pdflatex ms
