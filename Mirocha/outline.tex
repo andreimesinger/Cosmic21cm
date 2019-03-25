@@ -106,7 +106,7 @@ In this section, define a generic emissivity as $\upepsilon_{\nu}(z; R)$, i.e., 
   \end{enumerate}
 \end{description}
 
-{\bf Note: in principle all the astrophysics is in $\upepsilon_{\nu}(z; R)$, which is still completely unspecified.} In the next two sections we focus on \textit{what} sources likely dominate the emission and what we know about their spectra, i.e., we focus on the frequency component of $\upepsilon$ in \S\ref{sec:source_spectra}. In \S\ref{sec:source_evol}, we turn our attention to the $z$ and $R$ dependence, and close in \S\ref{sec:methods}-\ref{sec:predictions}.
+{\bf Note: a lot of the astrophysics is in $\upepsilon_{\nu}(z; R)$, which is still completely unspecified.} In the next two sections we focus on \textit{what} sources likely dominate the emission and what we know about their spectra, i.e., we focus on the frequency component of $\upepsilon$ in \S\ref{sec:source_spectra}. In \S\ref{sec:source_evol}, we turn our attention to the $z$ and $R$ dependence, and close in \S\ref{sec:methods}-\ref{sec:predictions}. Also be clear that fundamentally $\upepsilon$ encodes galaxies (imagine taking $R\rightarrow 0$.), i.e., there's much more information available than the mean emissivity, or emissivity in some sub-volume.
 
 %%
 % SOURCES   
@@ -114,7 +114,7 @@ In this section, define a generic emissivity as $\upepsilon_{\nu}(z; R)$, i.e., 
 \section{The Sources of Ionization, Heating, and $\Lya$ Emission} \label{sec:source_spectra}  \vspace{-12pt}
 
 \begin{description}
-  \item[Massive Stars] \hfill
+  \item[Stars] \hfill
   \begin{enumerate}
       \item Start with discussion of PopIII stars, models for their spectra.
       \item Move on to ``normal'' galaxies, variations in spectra due to metallicity, initial mass function, etc.
@@ -134,7 +134,7 @@ In this section, define a generic emissivity as $\upepsilon_{\nu}(z; R)$, i.e., 
   \begin{enumerate}
       \item Solitary PopIII remnants
       \item X-ray binaries
-      \item AGNs.
+      \item AGNs. Do they matter?
   \end{enumerate}
   
 \end{description}
@@ -192,7 +192,7 @@ Once we've got a model for $\upepsilon$, how do we solve the relevant equations?
   \item[Semi-numeric Models] \hfill
   \begin{enumerate}
       \item Talk about semi-numeric philosophy. How to operate on density field directly, how to flag cells as ionized, how to do X-ray heating and $\Lya$ emission efficiently.
-      \item Publicly available codes: \textsc{21cmfast}, \textsc{simfast21}, Anastasia's code (maybe not public?)
+      \item Publicly available codes: \textsc{DexM}, \textsc{21cmfast}, \textsc{simfast21}, Anastasia's code (maybe not public?)
       \item Limitations
   \end{enumerate}
 
@@ -203,6 +203,7 @@ Once we've got a model for $\upepsilon$, how do we solve the relevant equations?
       \item Brief rundown of different RT methods (Eulerian v. Lagrangian or moving mesh)
       \item Current results of big simulation suites. How are things looking?
       \item Is there a mapping from the parameters of simulations to the parameters of semi-analytic and semi-numeric models?
+	  \item Limitations
   \end{enumerate}
   
 \end{description}
