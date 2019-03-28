@@ -1,4 +1,4 @@
-\select@language {croatian}
+\select@language {english}
 \gdef \the@ipfilectr {@-1}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
@@ -16,58 +16,67 @@
 \contentsline {paragraph}{Cras adipiscing}{6}{section*.7}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {3}Chapter title}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}A Section}{9}{section.3.1}
-\contentsline {paragraph}{Cras adipiscing}{10}{section*.9}
+\contentsline {chapter}{\numberline {3}Physical cosmology from the 21-cm line}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Physical cosmology through the 21-cm epoch}{9}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Dark matter}{9}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}PMBH}{9}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Unique signatures of cosmology}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Non-Gaussianity}{10}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}IGM Heating}{10}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Separating cosmology from astrophysics}{10}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Redshift space distortions}{10}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Time evolution}{10}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Summary}{10}{section.3.4}
+\contentsline {paragraph}{Cras adipiscing}{11}{section*.9}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\numberline {4}Inference from the 21cm signal}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}What do we actually measure?}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Optimal methods for extracting the astrophysics and cosmology from the 21cm signal}{14}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Minkowski functionals}{14}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Global signal}{14}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Power spectrum}{15}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Skewness/Kurtosis/PDFs etc.}{15}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Bispectrum}{15}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Wavelets}{15}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Individual bubbles}{15}{subsection.4.2.7}
-\contentsline {subsection}{\numberline {4.2.8}Stacked images}{16}{subsection.4.2.8}
-\contentsline {subsection}{\numberline {4.2.9}Bubble size distributions/statistics}{16}{subsection.4.2.9}
-\contentsline {subsection}{\numberline {4.2.10}Other statistics}{16}{subsection.4.2.10}
-\contentsline {section}{\numberline {4.3}Efficient methods to model/simulate the 21cm signal}{16}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Numerical simulations}{16}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Semi-numerical/analytic models of the 21cm signal}{17}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Intelligent sampling of the parameter space}{17}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Emulators}{17}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Characterising our ignorance}{17}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Inference methods for 21cm}{18}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Fisher Matrices}{18}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Bayesian MCMC}{18}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Nested sampling and model inference}{18}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Neural Networks}{19}{subsection.4.4.4}
+\contentsline {chapter}{\numberline {4}Inference from the 21cm signal}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}What do we actually measure?}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}Optimal methods for extracting the astrophysics and cosmology from the 21cm signal}{15}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Minkowski functionals}{15}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Global signal}{15}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Power spectrum}{16}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Skewness/Kurtosis/PDFs etc.}{16}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Bispectrum}{16}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Wavelets}{16}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Individual bubbles}{16}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.8}Stacked images}{17}{subsection.4.2.8}
+\contentsline {subsection}{\numberline {4.2.9}Bubble size distributions/statistics}{17}{subsection.4.2.9}
+\contentsline {subsection}{\numberline {4.2.10}Other statistics}{17}{subsection.4.2.10}
+\contentsline {section}{\numberline {4.3}Efficient methods to model/simulate the 21cm signal}{17}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Numerical simulations}{17}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Semi-numerical/analytic models of the 21cm signal}{18}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Intelligent sampling of the parameter space}{18}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Emulators}{18}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Characterising our ignorance}{18}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.4}Inference methods for 21cm}{19}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Fisher Matrices}{19}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Bayesian MCMC}{19}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Nested sampling and model inference}{19}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Neural Networks}{20}{subsection.4.4.4}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{\numberline {5}Chapter title}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}A Section}{21}{section.5.1}
-\contentsline {paragraph}{Cras adipiscing}{22}{section*.12}
+\contentsline {chapter}{\numberline {5}Chapter title}{22}{chapter.5}
+\contentsline {section}{\numberline {5.1}A Section}{22}{section.5.1}
+\contentsline {paragraph}{Cras adipiscing}{23}{section*.12}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-9}
-\contentsline {chapter}{\numberline {6}Chapter title}{25}{chapter.6}
-\contentsline {section}{\numberline {6.1}A Section}{25}{section.6.1}
-\contentsline {paragraph}{Cras adipiscing}{26}{section*.14}
+\contentsline {chapter}{\numberline {6}Chapter title}{26}{chapter.6}
+\contentsline {section}{\numberline {6.1}A Section}{26}{section.6.1}
+\contentsline {paragraph}{Cras adipiscing}{27}{section*.14}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-10}
-\contentsline {chapter}{\numberline {7}Chapter title}{29}{chapter.7}
-\contentsline {section}{\numberline {7.1}A Section}{29}{section.7.1}
-\contentsline {paragraph}{Cras adipiscing}{30}{section*.16}
+\contentsline {chapter}{\numberline {7}Chapter title}{30}{chapter.7}
+\contentsline {section}{\numberline {7.1}A Section}{30}{section.7.1}
+\contentsline {paragraph}{Cras adipiscing}{31}{section*.16}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-11}
-\contentsline {chapter}{\numberline {8}Status of 21~cm interferometric experiments}{33}{chapter.8}
-\contentsline {section}{\numberline {8.1}High-level topics}{33}{section.8.1}
-\contentsline {paragraph}{Cras adipiscing}{34}{section*.18}
+\contentsline {chapter}{\numberline {8}Status of 21~cm interferometric experiments}{34}{chapter.8}
+\contentsline {section}{\numberline {8.1}High-level topics}{34}{section.8.1}
+\contentsline {paragraph}{Cras adipiscing}{35}{section*.18}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-12}
-\contentsline {chapter}{\numberline {9}Chapter title}{37}{chapter.9}
-\contentsline {section}{\numberline {9.1}A Section}{37}{section.9.1}
-\contentsline {paragraph}{Cras adipiscing}{38}{section*.20}
+\contentsline {chapter}{\numberline {9}Chapter title}{38}{chapter.9}
+\contentsline {section}{\numberline {9.1}A Section}{38}{section.9.1}
+\contentsline {paragraph}{Cras adipiscing}{39}{section*.20}
 \gdef \the@ipfilectr {}
