@@ -1,3 +1,78 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{Chen2004}
+X.~{Chen} and J.~{Miralda-Escud{\'e}}.
+\newblock {The Spin-Kinetic Temperature Coupling and the Heating Rate due to
+  Ly{$\alpha$} Scattering before Reionization: Predictions for 21 Centimeter
+  Emission and Absorption}.
+\newblock {\em \apj}, 602:1--11, February 2004.
+
+\bibitem{Field1958}
+G.~B. {Field}.
+\newblock {Excitation of the Hydrogen 21-CM Line}.
+\newblock {\em Proceedings of the IRE}, 46:240--250, January 1958.
+
+\bibitem{Fukugita1994}
+M.~{Fukugita} and M.~{Kawasaki}.
+\newblock {Reionization during Hierarchical Clustering in a Universe Dominated
+  by Cold Dark Matter}.
+\newblock {\em \mnras}, 269:563, August 1994.
+
+\bibitem{FurlanettoPritchard2006}
+S.~R. {Furlanetto} and J.~R. {Pritchard}.
+\newblock {The scattering of Lyman-series photons in the intergalactic medium}.
+\newblock {\em \mnras}, 372:1093--1103, November 2006.
+
+\bibitem{Furlanetto2004}
+Steven Furlanetto, Matias Zaldarriaga, and Lars Hernquist.
+\newblock {The Growth of HII Regions During Reionization}.
+\newblock {\em arXiv.org}, March 2004.
+
+\bibitem{Furlanetto2010}
+Steven~R Furlanetto and Samuel Johnson~Stoever.
+\newblock {Secondary ionization and heating by fast electrons}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 404:1869,
+  June 2010.
+
+\bibitem{Hirata2006}
+Christopher~M Hirata.
+\newblock {Wouthuysen-Field coupling strength and application to high-redshift
+  21-cm radiation}.
+\newblock {\em \mnras}, 367(1):259--274, March 2006.
+
+\bibitem{Pritchard2006}
+Jonathan~R Pritchard and Steven~R Furlanetto.
+\newblock {Descending from on high: Lyman-series cascades and spin-kinetic
+  temperature coupling in the 21-cm line}.
+\newblock {\em \mnras}, 367(3):1057--1066, April 2006.
+
+\bibitem{Shull1979}
+J~M Shull.
+\newblock {Heating and ionization by X-ray photoelectrons}.
+\newblock {\em The Astrophysical Journal}, 234:761, December 1979.
+
+\bibitem{Shull1985}
+J~M Shull and M~E van Steenberg.
+\newblock {X-ray secondary heating and ionization in quasar emission-line
+  clouds}.
+\newblock {\em The Astrophysical Journal}, 298:268, November 1985.
+
+\bibitem{Verner1996}
+D~A Verner, D~A Verner, G~J Ferland, G~J Ferland, K~T Korista, K~T Korista, D~G
+  Yakovlev, and D~G Yakovlev.
+\newblock {Atomic Data for Astrophysics. II. New Analytic Fits for
+  Photoionization Cross Sections of Atoms and Ions}.
+\newblock {\em arXiv.org}, January 1996.
+
+\bibitem{Wouthuysen1952}
+S.~A. {Wouthuysen}.
+\newblock {On the excitation mechanism of the 21-cm (radio-frequency)
+  interstellar hydrogen emission line.}
+\newblock {\em \aj}, 57:31--32, 1952.
+
+\bibitem{Zygelman2005}
+B~Zygelman.
+\newblock {Hyperfine Transitions in Atomic Hydrogen}.
+\newblock {\em \apj}, 622:1356--1362, 2005.
 
 \end{thebibliography}
