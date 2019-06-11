@@ -7,6 +7,11 @@ X.~{Chen} and J.~{Miralda-Escud{\'e}}.
   Emission and Absorption}.
 \newblock {\em \apj}, 602:1--11, February 2004.
 
+\bibitem{Eldridge2009}
+John~J. {Eldridge} and Elizabeth~R. {Stanway}.
+\newblock {Spectral population synthesis including massive binaries}.
+\newblock {\em \mnras}, 400(2):1019--1028, Dec 2009.
+
 \bibitem{Field1958}
 G.~B. {Field}.
 \newblock {Excitation of the Hydrogen 21-CM Line}.
@@ -39,6 +44,15 @@ Christopher~M Hirata.
 \newblock {Wouthuysen-Field coupling strength and application to high-redshift
   21-cm radiation}.
 \newblock {\em \mnras}, 367(1):259--274, March 2006.
+
+\bibitem{Leitherer1999}
+Claus {Leitherer}, Daniel {Schaerer}, Jeffrey~D. {Goldader}, Rosa
+  M.~Gonz{\'a}lez {Delgado}, Carmelle {Robert}, Denis~Foo {Kune},
+  Du{\'\i}lia~F. {de Mello}, Daniel {Devost}, and Timothy~M. {Heckman}.
+\newblock {Starburst99: Synthesis Models for Galaxies with Active Star
+  Formation}.
+\newblock {\em The Astrophysical Journal Supplement Series}, 123(1):3--40, Jul
+  1999.
 
 \bibitem{Pritchard2006}
 Jonathan~R Pritchard and Steven~R Furlanetto.

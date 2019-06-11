@@ -5,45 +5,51 @@ The style file: plain.bst
 Database file #1: Mirocha/References.bib
 Warning--I didn't find a database entry for "Madau1997"
 Warning--I didn't find a database entry for "Barkana2005"
-You've used 13 entries,
+Warning--I didn't find a database entry for "["
+Warning--I didn't find a database entry for "WolcottGreen2011"
+Warning--I didn't find a database entry for "Gilfanov2004"
+Warning--I didn't find a database entry for "Mineo2012"
+Warning--I didn't find a database entry for "Furlanetto2006"
+Warning--I didn't find a database entry for "Mineo2012b"
+You've used 15 entries,
             2118 wiz_defined-function locations,
-            591 strings with 6150 characters,
-and the built_in function-call counts, 3961 in all, are:
-= -- 388
-> -- 174
+            619 strings with 6802 characters,
+and the built_in function-call counts, 4819 in all, are:
+= -- 465
+> -- 235
 < -- 0
-+ -- 69
-- -- 56
-* -- 295
-:= -- 696
-add.period$ -- 39
-call.type$ -- 13
-change.case$ -- 67
++ -- 93
+- -- 78
+* -- 377
+:= -- 845
+add.period$ -- 45
+call.type$ -- 15
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 141
-empty$ -- 309
-format.name$ -- 56
-if$ -- 800
+cite$ -- 15
+duplicate$ -- 163
+empty$ -- 362
+format.name$ -- 78
+if$ -- 969
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 13
-newline$ -- 68
-num.names$ -- 26
-pop$ -- 45
+int.to.str$ -- 15
+missing$ -- 15
+newline$ -- 78
+num.names$ -- 30
+pop$ -- 58
 preamble$ -- 1
-purify$ -- 54
+purify$ -- 69
 quote$ -- 0
-skip$ -- 96
+skip$ -- 111
 stack$ -- 0
-substring$ -- 266
-swap$ -- 13
+substring$ -- 315
+swap$ -- 15
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
+type$ -- 60
 warning$ -- 0
-while$ -- 40
-width$ -- 15
-write$ -- 143
-(There were 2 warnings)
+while$ -- 46
+width$ -- 17
+write$ -- 165
+(There were 8 warnings)
