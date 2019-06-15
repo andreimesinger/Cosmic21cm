@@ -20,6 +20,36 @@ This chapter reviews the basics of radio interferometry (van-Citter-Zernike theo
 \item ionospheric impact/calibration;
 \item 21-cm image tomography;  
 \end{itemize}
+
+\section{Interferometry overview}
+
+The Van Cittert-Zernike theorem expresses the fundamental relationship between the sky spatial brightness (or brightness distribution) $I$ and the quantity measured by an interferometer, i.e. visibility $V$ \citep{TMS}:
+\begin{equation}
+V_{ij} ({\bf b}, \lambda) = \int_\Omega {\tilde I} (\hat{\sigma}, \lambda) \, e^{-2 \pi i {\bf b} \cdot {\hat \sigma}} d {\bf \sigma},
+\label{eq:1}
+\end{equation}
+where ${\bf b}$ is the baseline vector that separates between antenna $i$ and $j$ and $\hat{sigma}$ is the observing direction (see Figure ???). The baseline vector is here specified in wevelengths, i.e. ${\bf b} = \frac{{\bf b_{\rm m}}}{\lambda}$, where ${\bf b_{\rm m}}$ is the baseline vector expressed in meters and $\lambda$ is the observing wavelength.
+The sky brightness distribution does not enter directly in equation~\ref{eq:1}, but filtered by the antenna primary beam response $A$ that depends upon the direction in the sky and the wavelength, i.e. ${\tilde I} = A  \, I$. The response of the primary beam attenuates the sky emission away from the pointing direction, effectively reducing the field of view $\theta$ of the instrument. Generally speaking, the size of the field of view is essentially given by the antenna diamater $D$: 
+\begin{equation}
+\theta \approx \frac{\lambda}{D}.
+\label{eq:2}
+\end{equation}
+The integral of equation~\ref{eq:1} is normally taken over the source size $\Omega$. Equation~\ref{eq:1} is often re-written in a different coordinate system, i.e. the components of the baseline vector $(u,v,w)$ and the reciprocal $(l,m,n)$, where $(l,m)$ are the coordinates in the plane on the sky tangent to the observing direction $n$ \citep[for further details on coordinate systems see][]{TMS}. Using this different coordinate system, equation~\ref{eq:1} becomes:
+\begin{equation}
+V_{ij} (u,v,w, \lambda) = \int_\Omega {\tilde I} (\hat{\sigma}, \lambda) \, e^{-2 \pi i (ul + vm + wn} dl \, dm \, dn,
+\label{eq:3}
+\end{equation}
+{\bf (GB: fix the above equation)}...
+
+Although low frequency radio observations are intrinsically wide-field, for the purpose of studying the 21~cm observables, we can reduce equation~\ref{eq:3} to a two dimensional Fourier transform:
+\begin{equation}
+V_{ij} (u,v, \lambda) = \int_\Omega {\tilde I} (\hat{\sigma}, \lambda) \, e^{-2 \pi i (ul + vm} dl \, dm.
+\label{eq:4}
+\end{equation}
+Equation~\ref{eq:4} indicates that an interferometer measures the two dimensional Fourier transform of the spatial sky brightness distribution.
+
+
+
 %Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu egestas erat. Maecenas tincidunt lacinia tincidunt. Mauris id lectus nec neque feugiat condimentum vitae at diam. In vel orci nunc, non commodo mauris. Vivamus ipsum enim, vulputate quis pharetra non, molestie quis felis. Vivamus porttitor placerat turpis at accumsan. Nunc tortor velit, faucibus a rhoncus nec, blandit non elit. Nam consectetur lectus eu nisi blandit dapibus rhoncus dui tempus. Mauris fermentum dolor vel ipsum vulputate sit amet ultricies tortor lacinia. Donec ut nibh erat. Morbi nec mi ante. Integer nec vestibulum diam. Donec tincidunt pellentesque quam, ut interdum mauris venenatis condimentum. Nam condimentum, augue in aliquet gravida, neque dui elementum eros, id semper eros purus sed felis. Curabitur in justo sit amet sapien ultrices hendrerit at quis nibh. Quisque iaculis pulvinar tincidunt. 
 %\begin{eqnarray}
 %C(12) &= &\left[\overrightarrow{\pi}\cdot\overrightarrow{\phi}(x+r)\right] \nonumber \\ 
