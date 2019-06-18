@@ -3,53 +3,55 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Mirocha/chapter.aux
 The style file: plain.bst
 Database file #1: Mirocha/References.bib
-Warning--I didn't find a database entry for "Madau1997"
-Warning--I didn't find a database entry for "Barkana2005"
 Warning--I didn't find a database entry for "["
+Warning--I didn't find a database entry for "McQuinn2012"
+Warning--I didn't find a database entry for "Madau1997"
+Warning--I didn't find a database entry for "Cooray2002"
+Warning--I didn't find a database entry for "Barkana2005"
 Warning--I didn't find a database entry for "WolcottGreen2011"
 Warning--I didn't find a database entry for "Gilfanov2004"
 Warning--I didn't find a database entry for "Mineo2012"
 Warning--I didn't find a database entry for "Furlanetto2006"
 Warning--I didn't find a database entry for "Mineo2012b"
-You've used 15 entries,
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            619 strings with 6802 characters,
-and the built_in function-call counts, 4819 in all, are:
-= -- 465
-> -- 235
+            616 strings with 6837 characters,
+and the built_in function-call counts, 4695 in all, are:
+= -- 453
+> -- 238
 < -- 0
-+ -- 93
-- -- 78
-* -- 377
-:= -- 845
-add.period$ -- 45
-call.type$ -- 15
-change.case$ -- 84
++ -- 94
+- -- 80
+* -- 381
+:= -- 818
+add.period$ -- 42
+call.type$ -- 14
+change.case$ -- 82
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 163
-empty$ -- 362
-format.name$ -- 78
-if$ -- 969
+cite$ -- 14
+duplicate$ -- 152
+empty$ -- 346
+format.name$ -- 80
+if$ -- 941
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 15
-newline$ -- 78
-num.names$ -- 30
+int.to.str$ -- 14
+missing$ -- 14
+newline$ -- 73
+num.names$ -- 28
 pop$ -- 58
 preamble$ -- 1
-purify$ -- 69
+purify$ -- 68
 quote$ -- 0
-skip$ -- 111
+skip$ -- 103
 stack$ -- 0
-substring$ -- 315
-swap$ -- 15
+substring$ -- 317
+swap$ -- 14
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 56
 warning$ -- 0
-while$ -- 46
-width$ -- 17
-write$ -- 165
-(There were 8 warnings)
+while$ -- 44
+width$ -- 16
+write$ -- 154
+(There were 10 warnings)

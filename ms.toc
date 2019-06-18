@@ -13,70 +13,70 @@
 \contentsline {chapter}{\numberline {2}Astrophysics from the 21-cm background}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Properties of the High-$z$ Intergalactic Medium}{5}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}The brightness temperature}{5}{subsection.2.1.1}
-\contentsline {subsubsection}{The ``global'' 21-cm signal}{6}{section*.7}
-\contentsline {subsection}{\numberline {2.1.2}Basics of Non-Equilibrium Ionization Chemistry}{7}{subsection.2.1.2}
-\contentsline {subsubsection}{Ionization and Heating Around Point Sources}{8}{section*.8}
-\contentsline {subsubsection}{Ionization and Heating on Large Scales}{10}{section*.9}
-\contentsline {section}{\numberline {2.2}Techniques for Modeling the IGM}{11}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The Ionization Field}{11}{subsection.2.2.1}
-\contentsline {subsubsection}{Global Evolution}{11}{section*.10}
-\contentsline {subsubsection}{Spatial Structure}{12}{section*.11}
-\contentsline {subsubsection}{Effects of Helium Reionization}{13}{section*.12}
-\contentsline {subsection}{\numberline {2.2.2}The (Kinetic) Temperature Field}{13}{subsection.2.2.2}
-\contentsline {subsubsection}{Global Evolution}{13}{section*.13}
-\contentsline {subsubsection}{Spatial Structure}{14}{section*.14}
-\contentsline {subsection}{\numberline {2.2.3}The Ly-$\alpha $ Background}{14}{subsection.2.2.3}
-\contentsline {subsubsection}{Global Evolution}{14}{section*.15}
-\contentsline {subsubsection}{Spatial Fluctuations in the Ly-$\alpha $ background}{14}{section*.16}
-\contentsline {subsubsection}{$\text {Ly-}\alpha $ Heating}{15}{section*.17}
-\contentsline {subsubsection}{Excitation of $\text {Ly-}\alpha $ via fast photo-electrons}{15}{section*.18}
-\contentsline {section}{\numberline {2.3}Sources of the UV and X-ray Backgrounds}{15}{section.2.3}
+\contentsline {subsection}{\numberline {2.1.2}Basics of Non-Equilibrium Ionization Chemistry}{6}{subsection.2.1.2}
+\contentsline {subsubsection}{Ionization and Heating Around Point Sources}{8}{section*.7}
+\contentsline {subsubsection}{Ionization and Heating on Large Scales}{9}{section*.8}
+\contentsline {section}{\numberline {2.2}Techniques for Modeling the IGM}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The Density Field}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}The Ionization Field}{11}{subsection.2.2.2}
+\contentsline {subsubsection}{Global Evolution}{11}{section*.9}
+\contentsline {subsubsection}{Spatial Structure}{12}{section*.10}
+\contentsline {subsubsection}{Effects of Helium Reionization}{13}{section*.11}
+\contentsline {subsection}{\numberline {2.2.3}The (Kinetic) Temperature Field}{13}{subsection.2.2.3}
+\contentsline {subsubsection}{Global Evolution}{13}{section*.12}
+\contentsline {subsubsection}{Spatial Structure}{13}{section*.13}
+\contentsline {subsection}{\numberline {2.2.4}The Ly-$\alpha $ Background}{13}{subsection.2.2.4}
+\contentsline {subsubsection}{Global Evolution}{14}{section*.14}
+\contentsline {subsubsection}{Spatial Fluctuations in the Ly-$\alpha $ background}{14}{section*.15}
+\contentsline {subsubsection}{$\text {Ly-}\alpha $ Heating}{14}{section*.16}
+\contentsline {subsubsection}{Excitation of $\text {Ly-}\alpha $ via fast photo-electrons}{14}{section*.17}
+\contentsline {section}{\numberline {2.3}Sources of the UV and X-ray Backgrounds}{14}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}UV Emission from Stars}{15}{subsection.2.3.1}
-\contentsline {subsubsection}{Population III Stars}{17}{section*.19}
-\contentsline {subsection}{\numberline {2.3.2}The escape of UV photons from galaxies}{17}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}X-rays from Black Holes}{17}{subsection.2.3.3}
-\contentsline {subsubsection}{Super-massive Black Holes}{18}{section*.20}
+\contentsline {subsubsection}{Population III Stars}{16}{section*.18}
+\contentsline {subsection}{\numberline {2.3.2}The escape of UV photons from galaxies}{16}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}X-rays from Black Holes}{16}{subsection.2.3.3}
+\contentsline {subsubsection}{Super-massive Black Holes}{18}{section*.19}
 \contentsline {subsection}{\numberline {2.3.4}X-rays from Shocks and Hot Gas}{18}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}The escape of X-ray photons from galaxies}{19}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Cosmic Rays from Supernovae}{19}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.5}The escape of X-ray photons from galaxies}{18}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Cosmic Rays from Supernovae}{18}{subsection.2.3.6}
 \contentsline {section}{\numberline {2.4}The cosmic star and BH formation rate density}{19}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}First Stars}{19}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Transition to PopII}{20}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Simple Physical Models for High-$z$ Galaxies}{20}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}Observational Constraints}{20}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}A Fast Alternative}{21}{subsection.2.4.5}
-\contentsline {section}{\numberline {2.5}Predictions for the 21-cm Background}{21}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Generic Series of Events}{21}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Sensitivity to Model Parameters}{22}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.4.5}A Fast Alternative}{20}{subsection.2.4.5}
+\contentsline {section}{\numberline {2.5}Predictions for the 21-cm Background}{20}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Generic Series of Events}{20}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Sensitivity to Model Parameters}{21}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Tools}{22}{subsection.2.5.3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {3}Chapter title}{26}{chapter.3}
-\contentsline {section}{\numberline {3.1}A Section}{26}{section.3.1}
-\contentsline {paragraph}{Cras adipiscing}{27}{section*.22}
+\contentsline {chapter}{\numberline {3}Chapter title}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}A Section}{25}{section.3.1}
+\contentsline {paragraph}{Cras adipiscing}{26}{section*.21}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\numberline {4}Chapter title}{30}{chapter.4}
-\contentsline {section}{\numberline {4.1}A Section}{30}{section.4.1}
-\contentsline {paragraph}{Cras adipiscing}{31}{section*.24}
+\contentsline {chapter}{\numberline {4}Chapter title}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}A Section}{29}{section.4.1}
+\contentsline {paragraph}{Cras adipiscing}{30}{section*.23}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{\numberline {5}Chapter title}{34}{chapter.5}
-\contentsline {section}{\numberline {5.1}A Section}{34}{section.5.1}
-\contentsline {paragraph}{Cras adipiscing}{35}{section*.26}
+\contentsline {chapter}{\numberline {5}Chapter title}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}A Section}{33}{section.5.1}
+\contentsline {paragraph}{Cras adipiscing}{34}{section*.25}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-9}
-\contentsline {chapter}{\numberline {6}Chapter title}{38}{chapter.6}
-\contentsline {section}{\numberline {6.1}A Section}{38}{section.6.1}
-\contentsline {paragraph}{Cras adipiscing}{39}{section*.28}
+\contentsline {chapter}{\numberline {6}Chapter title}{37}{chapter.6}
+\contentsline {section}{\numberline {6.1}A Section}{37}{section.6.1}
+\contentsline {paragraph}{Cras adipiscing}{38}{section*.27}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-10}
-\contentsline {chapter}{\numberline {7}Chapter title}{42}{chapter.7}
-\contentsline {section}{\numberline {7.1}A Section}{42}{section.7.1}
-\contentsline {paragraph}{Cras adipiscing}{43}{section*.30}
+\contentsline {chapter}{\numberline {7}Chapter title}{41}{chapter.7}
+\contentsline {section}{\numberline {7.1}A Section}{41}{section.7.1}
+\contentsline {paragraph}{Cras adipiscing}{42}{section*.29}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-11}
-\contentsline {chapter}{\numberline {8}Chapter title}{46}{chapter.8}
-\contentsline {section}{\numberline {8.1}A Section}{46}{section.8.1}
-\contentsline {paragraph}{Cras adipiscing}{47}{section*.32}
+\contentsline {chapter}{\numberline {8}Chapter title}{45}{chapter.8}
+\contentsline {section}{\numberline {8.1}A Section}{45}{section.8.1}
+\contentsline {paragraph}{Cras adipiscing}{46}{section*.31}
 \gdef \the@ipfilectr {}

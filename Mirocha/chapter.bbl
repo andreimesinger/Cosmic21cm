@@ -33,12 +33,6 @@ Steven Furlanetto, Matias Zaldarriaga, and Lars Hernquist.
 \newblock {The Growth of HII Regions During Reionization}.
 \newblock {\em arXiv.org}, March 2004.
 
-\bibitem{Furlanetto2010}
-Steven~R Furlanetto and Samuel Johnson~Stoever.
-\newblock {Secondary ionization and heating by fast electrons}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society}, 404:1869,
-  June 2010.
-
 \bibitem{Hirata2006}
 Christopher~M Hirata.
 \newblock {Wouthuysen-Field coupling strength and application to high-redshift
@@ -54,22 +48,24 @@ Claus {Leitherer}, Daniel {Schaerer}, Jeffrey~D. {Goldader}, Rosa
 \newblock {\em The Astrophysical Journal Supplement Series}, 123(1):3--40, Jul
   1999.
 
+\bibitem{Mirocha2012}
+Jordan Mirocha, Stephen Skory, Jack~O Burns, and John~H Wise.
+\newblock {Optimized Multi-frequency Spectra for Applications in Radiative
+  Feedback and Cosmological Reionization}.
+\newblock {\em The Astrophysical Journal}, 756(1):94, September 2012.
+
 \bibitem{Pritchard2006}
 Jonathan~R Pritchard and Steven~R Furlanetto.
 \newblock {Descending from on high: Lyman-series cascades and spin-kinetic
   temperature coupling in the 21-cm line}.
 \newblock {\em \mnras}, 367(3):1057--1066, April 2006.
 
-\bibitem{Shull1979}
-J~M Shull.
-\newblock {Heating and ionization by X-ray photoelectrons}.
-\newblock {\em The Astrophysical Journal}, 234:761, December 1979.
-
-\bibitem{Shull1985}
-J~M Shull and M~E van Steenberg.
-\newblock {X-ray secondary heating and ionization in quasar emission-line
-  clouds}.
-\newblock {\em The Astrophysical Journal}, 298:268, November 1985.
+\bibitem{Thomas2008}
+Rajat~M Thomas and Saleem Zaroubi.
+\newblock {Time-evolution of ionization and heating around first stars and
+  miniqsos}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  384(3):1080--1096, March 2008.
 
 \bibitem{Verner1996}
 D~A Verner, D~A Verner, G~J Ferland, G~J Ferland, K~T Korista, K~T Korista, D~G
