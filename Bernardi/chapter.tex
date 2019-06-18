@@ -60,14 +60,22 @@ The combination of a large number of antennas and the Earth rotation synthesis, 
 \end{equation}
 where ${\tilde I}_D$ indicates the sky brightness distribution sampled at a finite number of $(u,v)$ points (often termed {\it dirty image}) and I dropped the explicit dependence on the antenna pair as redundant at his point. Using the convolution theorem, equation~\ref{eq:6} can be re-written as:
 \begin{equation}
-{\bar I}_D  =  {\tilde S \, V} =  {\tilde S} \ast {\tilde V} = {\rm PSF} \ast {\tilde V}.
+{\bar I}_D  =  \tilde{S \, V} =  {\tilde S} \ast {\tilde V} = {\rm PSF} \ast {\tilde V}.
 \label{eq:6}
 \end{equation}
-where
+where the tilde indicates the Fourier transform, $\ast$ the convolution operation and {\rm PSF} is the Point Spread Function, i.e. the response of the interferometric array to a point sources which, in our case, is also the Fourier transform of the $uv$ coverage.
 
-I will give some examples of sampling functions for different instruments in Section~\ref{sec:design}, however, the sampling function always effectively reduces the integral over a finite (often not contiguous) area of the $uv$ plane. In particular, the sampled $uv$ plane is restricted to a minimum $uv$ distance that cannot be shorter than the antenna size and a maximum $uv$ distance given by equation~\ref{eq:2}.
+I will give some examples of sampling functions for different instruments in Section~\ref{sec:design}, however, the sampling function always effectively reduces the integral over a finite (often not contiguous) area of the $uv$ plane. In particular, the sampled $uv$ plane is restricted to a minimum $uv$ distance that cannot be shorter than the antenna size and a maximum $uv$ distance given by equation~\ref{eq:2}. The result of not sampling all the Fourier modes is that the PSF has got ``sidelobes", i.e. nulls and secondary lobes that can often contaminate fainter true sky emission. The best reconstruction of the sky brightness distribution ${\bar I}$ requires deconvolution of the dirty image from the PSF. 
 
 
+
+
+\section{21~cm observables: power spectra and images}
+\label{sec:observables}
+
+The ultimate goal of 21~cm observations is to image the spatial sitribution of the 21~cm signal as a function of redshift, also know as {\it 21~cm tomography}. Given the curent theoretical predictions, 
+
+These observation need to achieve mK sensitivity  (see Chapter 1 in this book).  
 
 
 %\section{Challenges in 21~cm observations: interferometric calibration in presence of bright foreground emission, wide fields of view, ionosphere}
