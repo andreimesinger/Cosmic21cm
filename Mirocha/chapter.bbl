@@ -1,5 +1,13 @@
 \begin{thebibliography}{10}
 
+\bibitem{Mineo2012a}
+
+
+\bibitem{Chabrier2003}
+Gilles {Chabrier}.
+\newblock {Galactic Stellar and Substellar Initial Mass Function}.
+\newblock {\em \pasp}, 115(809):763--795, Jul 2003.
+
 \bibitem{Chen2004}
 X.~{Chen} and J.~{Miralda-Escud{\'e}}.
 \newblock {The Spin-Kinetic Temperature Coupling and the Heating Rate due to
@@ -7,10 +15,22 @@ X.~{Chen} and J.~{Miralda-Escud{\'e}}.
   Emission and Absorption}.
 \newblock {\em \apj}, 602:1--11, February 2004.
 
+\bibitem{Das2017}
+Arpan {Das}, Andrei {Mesinger}, Andrea {Pallottini}, Andrea {Ferrara}, and
+  John~H. {Wise}.
+\newblock {High-mass X-ray binaries and the cosmic 21-cm signal: impact of host
+  galaxy absorption}.
+\newblock {\em \mnras}, 469(1):1166--1174, Jul 2017.
+
 \bibitem{Eldridge2009}
 John~J. {Eldridge} and Elizabeth~R. {Stanway}.
 \newblock {Spectral population synthesis including massive binaries}.
 \newblock {\em \mnras}, 400(2):1019--1028, Dec 2009.
+
+\bibitem{Fabbiano2006}
+G.~{Fabbiano}.
+\newblock {Populations of X-Ray Sources in Galaxies}.
+\newblock {\em \araa}, 44(1):323--366, Sep 2006.
 
 \bibitem{Field1958}
 G.~B. {Field}.
@@ -33,11 +53,26 @@ Steven Furlanetto, Matias Zaldarriaga, and Lars Hernquist.
 \newblock {The Growth of HII Regions During Reionization}.
 \newblock {\em arXiv.org}, March 2004.
 
+\bibitem{Furlanetto2006}
+Steven~R. {Furlanetto}.
+\newblock {The global 21-centimeter background from high redshifts}.
+\newblock {\em \mnras}, 371(2):867--878, Sep 2006.
+
+\bibitem{Gilfanov2004}
+M.~{Gilfanov}, H.~J. {Grimm}, and R.~{Sunyaev}.
+\newblock {L$_{X}$-SFR relation in star-forming galaxies}.
+\newblock {\em \mnras}, 347(3):L57--L60, Jan 2004.
+
 \bibitem{Hirata2006}
 Christopher~M Hirata.
 \newblock {Wouthuysen-Field coupling strength and application to high-redshift
   21-cm radiation}.
 \newblock {\em \mnras}, 367(1):259--274, March 2006.
+
+\bibitem{Kroupa2001}
+Pavel {Kroupa}.
+\newblock {On the variation of the initial mass function}.
+\newblock {\em \mnras}, 322(2):231--246, Apr 2001.
 
 \bibitem{Leitherer1999}
 Claus {Leitherer}, Daniel {Schaerer}, Jeffrey~D. {Goldader}, Rosa
@@ -45,8 +80,13 @@ Claus {Leitherer}, Daniel {Schaerer}, Jeffrey~D. {Goldader}, Rosa
   Du{\'\i}lia~F. {de Mello}, Daniel {Devost}, and Timothy~M. {Heckman}.
 \newblock {Starburst99: Synthesis Models for Galaxies with Active Star
   Formation}.
-\newblock {\em The Astrophysical Journal Supplement Series}, 123(1):3--40, Jul
-  1999.
+\newblock {\em \apjs}, 123(1):3--40, Jul 1999.
+
+\bibitem{Mineo2012b}
+S.~{Mineo}, M.~{Gilfanov}, and R.~{Sunyaev}.
+\newblock {X-ray emission from star-forming galaxies - II. Hot
+  interstellarmedium}.
+\newblock {\em \mnras}, 426(3):1870--1883, Nov 2012.
 
 \bibitem{Mirocha2012}
 Jordan Mirocha, Stephen Skory, Jack~O Burns, and John~H Wise.
@@ -60,6 +100,36 @@ Jonathan~R Pritchard and Steven~R Furlanetto.
   temperature coupling in the 21-cm line}.
 \newblock {\em \mnras}, 367(3):1057--1066, April 2006.
 
+\bibitem{Remillard2006}
+Ronald~A. Remillard and Jeffrey~E. McClintock.
+\newblock X-ray properties of black-hole binaries.
+\newblock {\em Annual Review of Astronomy and Astrophysics}, 44(1):49--92,
+  2006.
+
+\bibitem{Salpeter1955}
+Edwin~E. {Salpeter}.
+\newblock {The Luminosity Function and Stellar Evolution.}
+\newblock {\em \apj}, 121:161, Jan 1955.
+
+\bibitem{Scalo1998}
+John {Scalo}.
+\newblock {The IMF Revisited: A Case for Variations}.
+\newblock In Gary {Gilmore} and Debbie {Howell}, editors, {\em The Stellar
+  Initial Mass Function (38th Herstmonceux Conference)}, volume 142 of {\em
+  Astronomical Society of the Pacific Conference Series}, page 201, Jan 1998.
+
+\bibitem{Stanway2016}
+Elizabeth~R. {Stanway}, J.~J. {Eldridge}, and George~D. {Becker}.
+\newblock {Stellar population effects on the inferred photon density at
+  reionization}.
+\newblock {\em \mnras}, 456(1):485--499, Feb 2016.
+
+\bibitem{Tanaka2016}
+Takamitsu~L. {Tanaka}, Ryan~M. {O'Leary}, and Rosalba {Perna}.
+\newblock {The imprint of the cosmic supermassive black hole growth history on
+  the 21 cm background radiation}.
+\newblock {\em \mnras}, 455(3):2619--2626, Jan 2016.
+
 \bibitem{Thomas2008}
 Rajat~M Thomas and Saleem Zaroubi.
 \newblock {Time-evolution of ionization and heating around first stars and
@@ -67,12 +137,10 @@ Rajat~M Thomas and Saleem Zaroubi.
 \newblock {\em Monthly Notices of the Royal Astronomical Society},
   384(3):1080--1096, March 2008.
 
-\bibitem{Verner1996}
-D~A Verner, D~A Verner, G~J Ferland, G~J Ferland, K~T Korista, K~T Korista, D~G
-  Yakovlev, and D~G Yakovlev.
-\newblock {Atomic Data for Astrophysics. II. New Analytic Fits for
-  Photoionization Cross Sections of Atoms and Ions}.
-\newblock {\em arXiv.org}, January 1996.
+\bibitem{WolcottGreen2012}
+J.~{Wolcott-Green} and Z.~{Haiman}.
+\newblock {Feedback from the infrared background in the early Universe}.
+\newblock {\em \mnras}, 425(1):L51--L55, Sep 2012.
 
 \bibitem{Wouthuysen1952}
 S.~A. {Wouthuysen}.

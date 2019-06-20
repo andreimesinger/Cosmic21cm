@@ -3,55 +3,72 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Mirocha/chapter.aux
 The style file: plain.bst
 Database file #1: Mirocha/References.bib
+I was expecting a `,' or a `}'---line 109 of file Mirocha/References.bib
+ :        
+ :        author = {{Mineo}, S. and {Gilfanov}, M. and {Sunyaev}, R.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 230 of file Mirocha/References.bib
+ : @article{Scalo1986,
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 465 of file Mirocha/References.bib
+ : @article{Leitherer1999
+ :                       ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "["
-Warning--I didn't find a database entry for "McQuinn2012"
 Warning--I didn't find a database entry for "Madau1997"
 Warning--I didn't find a database entry for "Cooray2002"
 Warning--I didn't find a database entry for "Barkana2005"
-Warning--I didn't find a database entry for "WolcottGreen2011"
-Warning--I didn't find a database entry for "Gilfanov2004"
+Warning--I didn't find a database entry for "Barkana2001"
+Warning--I didn't find a database entry for "Mirabel2011"
+Warning--I didn't find a database entry for "Mirocha2018"
 Warning--I didn't find a database entry for "Mineo2012"
-Warning--I didn't find a database entry for "Furlanetto2006"
-Warning--I didn't find a database entry for "Mineo2012b"
-You've used 14 entries,
+Warning--I didn't find a database entry for "Oh2001"
+Warning--to sort, need author or key in Mineo2012a
+Warning--empty author in Mineo2012a
+Warning--empty title in Mineo2012a
+Warning--empty journal in Mineo2012a
+Warning--empty year in Mineo2012a
+You've used 27 entries,
             2118 wiz_defined-function locations,
-            616 strings with 6837 characters,
-and the built_in function-call counts, 4695 in all, are:
-= -- 453
-> -- 238
-< -- 0
-+ -- 94
-- -- 80
-* -- 381
-:= -- 818
-add.period$ -- 42
-call.type$ -- 14
-change.case$ -- 82
+            706 strings with 8472 characters,
+and the built_in function-call counts, 8727 in all, are:
+= -- 842
+> -- 372
+< -- 2
++ -- 147
+- -- 120
+* -- 717
+:= -- 1468
+add.period$ -- 79
+call.type$ -- 27
+change.case$ -- 139
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 152
-empty$ -- 346
-format.name$ -- 80
-if$ -- 941
+cite$ -- 32
+duplicate$ -- 306
+empty$ -- 704
+format.name$ -- 120
+if$ -- 1792
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 14
-newline$ -- 73
-num.names$ -- 28
-pop$ -- 58
+int.to.str$ -- 27
+missing$ -- 27
+newline$ -- 136
+num.names$ -- 54
+pop$ -- 102
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 113
 quote$ -- 0
-skip$ -- 103
+skip$ -- 206
 stack$ -- 0
-substring$ -- 317
-swap$ -- 14
-text.length$ -- 0
+substring$ -- 640
+swap$ -- 36
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
-warning$ -- 0
-while$ -- 44
-width$ -- 16
-write$ -- 154
-(There were 10 warnings)
+type$ -- 108
+warning$ -- 5
+while$ -- 82
+width$ -- 29
+write$ -- 292
+(There were 3 error messages)
