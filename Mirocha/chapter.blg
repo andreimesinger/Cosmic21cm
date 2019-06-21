@@ -8,67 +8,59 @@ I was expecting a `,' or a `}'---line 109 of file Mirocha/References.bib
  :        author = {{Mineo}, S. and {Gilfanov}, M. and {Sunyaev}, R.},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 230 of file Mirocha/References.bib
+You're missing a field name---line 268 of file Mirocha/References.bib
  : @article{Scalo1986,
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 465 of file Mirocha/References.bib
+Repeated entry---line 619 of file Mirocha/References.bib
  : @article{Leitherer1999
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "["
-Warning--I didn't find a database entry for "Madau1997"
-Warning--I didn't find a database entry for "Cooray2002"
-Warning--I didn't find a database entry for "Barkana2005"
-Warning--I didn't find a database entry for "Barkana2001"
-Warning--I didn't find a database entry for "Mirabel2011"
-Warning--I didn't find a database entry for "Mirocha2018"
-Warning--I didn't find a database entry for "Mineo2012"
-Warning--I didn't find a database entry for "Oh2001"
 Warning--to sort, need author or key in Mineo2012a
 Warning--empty author in Mineo2012a
 Warning--empty title in Mineo2012a
 Warning--empty journal in Mineo2012a
 Warning--empty year in Mineo2012a
-You've used 27 entries,
+You've used 38 entries,
             2118 wiz_defined-function locations,
-            706 strings with 8472 characters,
-and the built_in function-call counts, 8727 in all, are:
-= -- 842
-> -- 372
+            763 strings with 9983 characters,
+and the built_in function-call counts, 12394 in all, are:
+= -- 1189
+> -- 563
 < -- 2
-+ -- 147
-- -- 120
-* -- 717
-:= -- 1468
-add.period$ -- 79
-call.type$ -- 27
-change.case$ -- 139
++ -- 222
+- -- 184
+* -- 1025
+:= -- 2103
+add.period$ -- 112
+call.type$ -- 38
+change.case$ -- 204
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 306
-empty$ -- 704
-format.name$ -- 120
-if$ -- 1792
+cite$ -- 43
+duplicate$ -- 427
+empty$ -- 977
+format.name$ -- 184
+if$ -- 2535
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 27
-newline$ -- 136
-num.names$ -- 54
-pop$ -- 102
+int.to.str$ -- 38
+missing$ -- 38
+newline$ -- 191
+num.names$ -- 76
+pop$ -- 145
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 167
 quote$ -- 0
-skip$ -- 206
+skip$ -- 287
 stack$ -- 0
-substring$ -- 640
-swap$ -- 36
+substring$ -- 869
+swap$ -- 47
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
+type$ -- 152
 warning$ -- 5
-while$ -- 82
-width$ -- 29
-write$ -- 292
+while$ -- 115
+width$ -- 40
+write$ -- 413
 (There were 3 error messages)

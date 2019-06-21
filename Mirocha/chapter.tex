@@ -7,7 +7,7 @@
 \\
 \end{bf}
 
-The goal of this chapter is to describe the astrophysics encoded by the 21-cm background. We will begin in \S\ref{sec:RT} with a general introduction to radiative transfer and ionization chemistry in gas of primordial composition. Then, in \S\ref{sec:xi_Tk_Ja}, we will introduce techniques used to model the the UV and X-ray backgrounds that drive re-ionization and re-heating of the intergalactic medium. In \S\ref{sec:sources}, we will provide a review of the most plausible sources of ionization and heating in the early Universe, while in \S\ref{sec:predictions}, we will summarize the status of current 21-cm predictions and highlight the modeling tools available today.
+The goal of this chapter is to describe the astrophysics encoded by the 21-cm background. We will begin in \S\ref{sec:RT} with a general introduction to radiative transfer and ionization chemistry in gas of primordial composition. Then, in \S\ref{sec:techniques}, we will introduce techniques used to model the the UV and X-ray backgrounds that drive re-ionization and re-heating of the intergalactic medium (IGM). In \S\ref{sec:sources}, we will provide a review of the most plausible sources of ionization and heating in the early Universe, and in \S\ref{sec:predictions}, we will summarize the status of current 21-cm predictions, build some intuition for how different model parameters affect the observable signals, and highlight the modeling tools available today.
 
 
 
@@ -36,17 +36,17 @@ The goal of this chapter is to describe the astrophysics encoded by the 21-cm ba
 %% Ionization, thermal, and Ly-a histories
 %%%
 \section{Properties of the High-$z$ Intergalactic Medium} \label{sec:RT}
-In this section we provide a general introduction to the intergalactic medium (IGM) and how its properties are expected to evolve with time. We will start with a brief recap of the 21-cm brightness temperature (\ref{sec:dTb}), then turn our attention to its primary dependencies, the ionization state and temperature of the IGM, and the radiative processes relevant to their evolution on scales large and small (\S\ref{sec:ioniz_heating}). Readers familiar with the basic physics may skip ahead to \S\ref{sec:techniques}, in which we focus specifically on how this physics is captured in 21-cm modeling codes.
+In this section we provide a general introduction to the intergalactic medium (IGM) and how its properties are expected to evolve with time. We will start with a brief recap of the 21-cm brightness temperature (\ref{sec:dTb}), then turn our attention to its primary dependencies, the ionization state and temperature of the IGM, and the radiative processes relevant to their evolution on scales large and small (\S\ref{sec:ioniz_heating}). Readers familiar with the basic physics may skip ahead to \S\ref{sec:techniques}, in which we focus specifically on how this physics is modeled in 21-cm modeling codes.
 
 % T_21
 \subsection{The brightness temperature} \label{sec:dTb}
 The differential brightness temperature\footnote{Can replace this first sub-section with pointers to Chapter 1 to avoid redundancy.} of a patch of the IGM at redshift $z$ and position $\mathbf{x}$ is given by\footnote{Refer back to Chapter 1 for a more detailed introduction.} 
 \begin{equation}
-    \delta T_b(z, \mathbf{x}) \simeq 27 (1 + \boldmath{\delta}) (1 - \mathbf{x_i}) \left(\frac{\Omega_{b,0} h^2}{0.023} \right) \left(\frac{0.15}{\Omega_{m,0} h^2} \frac{1 + z}{10} \right)^{1/2} \left(1 - \frac{T_R}{\mathbf{T_S}} \right) , \label{eq:dTb}
+    \delta T_b(z, \mathbf{x}) \simeq 27 (1 + \delta) (1 - x_i) \left(\frac{\Omega_{b,0} h^2}{0.023} \right) \left(\frac{0.15}{\Omega_{m,0} h^2} \frac{1 + z}{10} \right)^{1/2} \left(1 - \frac{T_R}{T_S} \right) , \label{eq:dTb}
 \end{equation}
-where $\mathbf{\delta}$ is the baryonic overdensity relative to the cosmic mean, $x_i$ is the ionized fraction, $T_R$ is the radiation background temperature (generally the CMB, $T_R = T_{\gamma}$), and
+where $\delta$ is the baryonic overdensity relative to the cosmic mean, $x_i$ is the ionized fraction, $T_R$ is the radiation background temperature (generally the CMB, $T_R = T_{\gamma}$), and
 \begin{equation}
-    \mathbf{T_S}^{-1} \approx \frac{T_R^{-1} + \mathbf{x_c} \mathbf{T_K}^{-1} + \mathbf{x_{\alpha}} \mathbf{T_{\alpha}}^{-1}}{1 + \mathbf{x_c} + \mathbf{x_{\alpha}}} . \label{eq:Ts}
+    T_S^{-1} \approx \frac{T_R^{-1} + x_c T_K^{-1} + x_{\alpha} T_{\alpha}^{-1}}{1 + x_c + x_{\alpha}} . \label{eq:Ts}
 \end{equation}
 is the spin temperature, which quantifies the level populations in the ground state of the hydrogen atom, and itself depends on the kinetic temperature, $T_K$, and ``colour temperature'' of the Lyman-$\alpha$ radiation background, $T_{\alpha}$. Because the IGM is optically thick to Ly-$\alpha$ photons, the approximation $T_K \approx T_{\alpha}$ is generally very accurate.
 
@@ -65,7 +65,7 @@ accounts for variations in the background intensity near line-center
 electron mass and charge, respectively, $f_{\alpha}$ is the $\Lya$ oscillator
 strength, $T_{\gamma,0}$ is the CMB temperature today, and $A_{10}$ is the Einstein A coefficient for the 21-cm transition.
 
-A more detailed introduction to collisional and radiative coupling can be found in Chapter 1. For the purposes of this chapter, the key takeaway from Equations \ref{eq:dTb}-\ref{eq:xalpha} is simply that the 21-cm background probes the ionization field, kinetic temperature field, and $\Lya$ background intensity. We quickly review the basics of non-equilibrium ionization chemistry in the next sub-section (\S\ref{eq:ioniz_heating}) before moving on to techniques used to model these properties of the IGM in \S\ref{sec:techniques}.
+A more detailed introduction to collisional and radiative coupling can be found in Chapter 1. For the purposes of this chapter, the key takeaway from Equations \ref{eq:dTb}-\ref{eq:xalpha} is simply that the 21-cm background probes the ionization field, kinetic temperature field, and $\Lya$ background intensity. We quickly review the basics of non-equilibrium ionization chemistry in the next sub-section (\S\ref{sec:ioniz_heating}) before moving on to techniques used to model these properties of the IGM in \S\ref{sec:techniques}.
 
 
 % Global signal
@@ -86,7 +86,7 @@ A more detailed introduction to collisional and radiative coupling can be found 
 % RT background?
 %%
 \subsection{Basics of Non-Equilibrium Ionization Chemistry} \label{sec:ioniz_heating}
-As described in the previous section, the 21-cm brightness temperature of a patch of the IGM depends on the ionization and thermal state of the gas, as well as the incident Ly-$\alpha$ intensity\footnote{Note that Ly-$\alpha$ photons can transfer energy to the gas though we omit this dependence from the current discussion (see \S1).}. The evolution of the ionization and temperature are coupled and so must be evolved self-consistently. The number density of hydrogen and helium ions {\color{red} in a static medium} can be written as the following set of coupled differential equations\footnote{{\color{red} Gabriel Altay pointed out a typo in my He equations many years ago...make sure that's fixed.}}:
+As described in the previous section, the 21-cm brightness temperature of a patch of the IGM depends on the ionization and thermal state of the gas, as well as the incident Ly-$\alpha$ intensity\footnote{Note that Ly-$\alpha$ photons can transfer energy to the gas though we omit this dependence from the current discussion (see \S1).}. The evolution of the ionization and temperature are coupled and so must be evolved self-consistently. The number density of hydrogen and helium ions in a static medium can be written as the following set of coupled differential equations\footnote{{\color{red} Gabriel Altay pointed out a typo in my He equations many years ago...make sure that's fixed.}}:
 \begin{align}
     \frac{d \nHII}{dt} & = (\ionHI + \ionsecHI + \ioncollHI \nel) \nHI - \recHII \nel \nHII   \label{eq:HIIRateEquation} \\
     \frac{d \nHeII}{dt} & = (\ionHeI + \ionsecHeI + \ioncollHeI \nel) \nHeI \nonumber + \recHeIII \nel \nHeIII  - (\ioncollHeII + \recHeII + \xiHeII) \nel \nHeII \\ & - (\ionHeII + \ionsecHeII) \nHeII \label{eq:HeIIRateEquation} \\ 
@@ -97,12 +97,12 @@ Each of these equations represents the balance between ionizations of species
 \HeIII. Associating the index $i$ with absorbing species, $i = $\HI, \HeI,
 \HeII, and the index $i^{\prime}$ with ions, $i^{\prime} = $\HII, \HeII,
 \HeIII, we define $\Gamma_i$ as the photo-ionization rate coefficient,
-$\gamma_i$ as the rate coefficient for ionization by photo-electrons \cite[e.g.,][]{Shull1985,Furlanetto2010}, $\alpha_{i^{\prime}}$
+$\gamma_i$ as the rate coefficient for ionization by photo-electrons \cite{Shull1985,Furlanetto2010}, $\alpha_{i^{\prime}}$
 ($\xi_{i^{\prime}}$) as the case-B (dielectric) recombination rate
 coefficients, $\beta_i$ as the collisional ionization rate coefficients, and
 $\nel = \nHII + \nHeII + 2\nHeIII$ as the number density of electrons.
 
-While the coefficients $\alpha$, $\beta$, and $xi$ only depend on the gas temperature, the photo- and secondary-ionization coefficients, $\Gamma$ and $\gamma$, depend on input from astrophysical sources and thus constitute the bulk of the challenge for theoretical models. We will revisit these coefficients in more detail momentarily.
+While the coefficients $\alpha$, $\beta$, and $\xi$ only depend on the gas temperature, the photo- and secondary-ionization coefficients, $\Gamma$ and $\gamma$, depend on input from astrophysical sources and thus constitute the bulk of the challenge for theoretical models. We will revisit these coefficients in more detail momentarily.
 
 The final equation necessary in a primordial chemical network is that governing the kinetic temperature evolution, which we can write as a sum of various heating and cooling processes, i.e.,
 \begin{align}
@@ -117,23 +117,47 @@ $i^{\prime}$ indicate ions $\HII$, $\HeII$, and $\HeIII$, while unprimed
 indices $i$ indicate neutrals $\HI$, $\HeI$, and $\HeII$. The constants in
 Equation (\ref{eq:TemperatureEvolution}) are the total number density of
 baryons, $\ntot = n_\mathrm{H} + n_{\mathrm{He}} + \nel$, the mean molecular
-weight, $\mu$, Boltzmann's constant, $\kB$, and the fraction of secondary
-electron energy deposited as heat, $\fheat$. Formulae to compute the values of
+weight, $\mu$, Boltzmann's constant, $\kB$, and the fraction of photo-electron energy deposited as heat, $\fheat$ \cite{Shull1985,Furlanetto2010}. Formulae to compute the values of
 $\alpha_i$, $\beta_i$, $\xi_i$, $\zeta_i$, $\eta_{i^{\prime}}$, $\psi_i$, and
-$\cooldielHeII$, are compiled in, e.g., \cite{Fukugita1994}, {\color{red} who
-else?}.
+$\cooldielHeII$, are compiled in {\color{red} numerous sources \cite{Fukugita1994}.}
 
-These equations do not yet explicitly take into account the cosmic expansion, which dilutes the density and adds an adiabatic cooling term to Eq. \ref{eq:TemperatureEvolution}, however these generalizations are straightforward to implement in practice, as we will show in the next section. For the duration of this chapter we will operate within this simple chemical network, ignoring, e.g., molecular species like $\Htwo$ and $\mathrm{HD}$ whose cooling channels are important in primordial gases. Though an interesting topic in their own right, molecular processes reside in the ``subgrid'' component of most 21-cm models, given that they influence how, when, and where stars are able to form, but do not directly affect the bulk properties of the IGM on large scales to which 21-cm measurements are sensitive.
+These equations do not yet explicitly take into account the cosmic expansion, which dilutes the density and adds an adiabatic cooling term to Eq. \ref{eq:TemperatureEvolution}, however these generalizations are straightforward to implement in practice, as we will show in the next section. For the duration of this chapter we will operate within this simple chemical network, ignoring, e.g., molecular species like $\Htwo$ and $\mathrm{HD}$ whose cooling channels are important in primordial gases. Though an interesting topic in their own right, molecular processes reside in the ``subgrid'' component of most 21-cm models, given that they influence how, when, and where stars are able to form (see \S\ref{sec:sources}), but do not directly affect the bulk properties of the IGM on large scales to which 21-cm measurements are sensitive. 
 
 %%
 % POINT SOURCES
 %%
-\subsubsection{Ionization and Heating Around Point Sources} \label{sec:smallscales}
-In order to build intuition for the progression of ionization and heating in the IGM it is instructive to consider the impact of a single point source of UV and X-ray photons on its surroundings. Many early works focused on such 1-D radiative transfer problems, and many have subsequently been implemented in full cosmological calculations ({\color{red} citations}). In principle, this is the ideal way to simulation reionization -- iterating over all sources in a cosmological volume and for each one applying 1-D radiative transfer techniques over the surrounding $4\pi$ steradians. In practice, such approaches are computationally expensive, and while they provide detailed predictions ({\color{red} citations}), more approximate techniques are required to survey the parameter space and perform inference ({\color{red} citations}).
+\subsection{Ionization and Heating Around Point Sources} \label{sec:smallscales}
+In order to build intuition for the progression of ionization and heating in the IGM it is instructive to consider the impact of a single point source of UV and X-ray photons on its surroundings. Many early works focused on such 1-D radiative transfer problems, and many have subsequently been implemented in full cosmological calculations ({\color{red} citations}). In principle, this is the ideal way to simulation reionization -- iterating over all sources in a cosmological volume and for each one applying 1-D radiative transfer techniques over the surrounding $4\pi$ steradians. In practice, such approaches are computationally expensive, and while they provide detailed predictions ({\color{red} citations}), more approximate techniques are required to survey the parameter space and perform inference ({\color{red} citations; see Brad's chapter}).
 
-{\color{red} Write a 1-D radiative transfer equation here!}
+In 1-D, the change in the intensity of a ray of photons, $I_{\nu}$, is a function of the path length, $s$, the emissivity of sources along the path, $j_{\nu}$, and the absorption coefficient, $\alpha_{\nu}$, 
+\begin{equation}
+	dI_{\nu} = j_{\nu} - \alpha_{\nu} I_{\nu} .
+\end{equation}
+If considering a point source, $j_{\nu} = 0$, we can integrate to obtain
+\begin{equation}
+	I_{\nu}(s) = I_{\nu,0} \exp\left[-\int_0^s \alpha_{\nu}(s^{\prime}) ds^{\prime} \right] ,
+\end{equation}
+i.e., the intensity of photons declines exponentially along the ray. It is customary to define the optical depth, $\tau_{\nu}$, as
+\begin{equation}
+	d\tau_{\nu} = \alpha_{\nu} ds ,
+\end{equation}
+in which case we can write
+\begin{equation}
+	I_{\nu}(s) = I_{\nu,0} e^{-\tau_{\nu}} .
+\end{equation}
+In the reionization context, the optical depth of interest is that of the IGM, which is composed of (almost) entirely hydrogen and helium\footnote{Note that metals on small scales will also contribute some opacity, though in most models it is galaxies themselves that are the point sources of radiation from which we solve the RTE, rather than individual sources within galaxies. As a result,  one's choice of source spectrum should encode any intrinsic attenuation from metals (or H and He) in the interstellar medium. See \S\ref{sec:sources} for more details.}, in which case the optical depth is 
+\begin{equation}
+	\tau_{\nu} = \sum_i \sigma_{\nu,i} N_i
+\end{equation}
+where $i=\HI,\HeI,\HeII$, and $N_i = \int_0^s ds^{\prime} n_i(s^{\prime})$ is the column density of each species along the ray.
 
-In an idealized 1-D geometry, i.e., one in which the source emits isotropically and the surrounding medium is spherically symmetric, the rate coefficients for ionization and heating take the following form:
+With a solution for $I_{\nu}(s)$ in hand, one can determine the photoionization and heating rates by integrating over all photon frequencies and weighting by the bound-free absorption cross section for each species. For example, the photoionization rate coefficient for hydrogen is given by
+\begin{equation}
+	\Gamma_{\HI}(s) = \int_{\nu_{\HI}}^{\infty} \sigma_{\HI} I_{\nu}(s) \frac{d\nu}{h\nu} \label{eq:GammaHI}
+\end{equation}
+where $\nu_{\HI}$ is the frequency of the hydrogen ionization threshold, $h\nu=13.6$ eV.
+
+Note that in practice the RTE is solved on a grid, in which case it may be difficult to achieve high enough spatial resolution to ensure photon conservation. For example, a discretized version of Eq. \ref{eq:GammaHI} uses the intensity of radiation incident upon the face of a resolution element to calculate the photoionization rate within that element, but the radiation incident on the subsequent resolution element is not guaranteed correctly reflect the attenuation within the preceding element. As a result, in order to guarantee photon conservation, it is common to slightly reframe the calculation as follows \cite{Abel1999}:
 \begin{align}
     \Gamma_i & = A_i \int_{\nu_i}^{\infty} I_{\nu} e^{-\tau_{\nu}} \left(1 - e^{-\Delta \tau_{i,\nu}}\right) \frac{d\nu}{h\nu} \label{eq:PhotoIonizationRate} \\
     \gamma_{ij} & = A_j \int_{\nu_j}^{\infty} \left(\frac{\nu - \nu_j}{\nu_i}\right) I_{\nu} e^{-\tau_{\nu}} \left(1 - e^{-\Delta \tau_{j,\nu}}\right) \frac{d\nu}{h\nu} \label{eq:SecondaryIonizationRate} \\
@@ -141,7 +165,7 @@ In an idealized 1-D geometry, i.e., one in which the source emits isotropically 
 \end{align}
 The normalization constant in each expression is defined as $A_i \equiv L_{\mathrm{bol}}/n_i V_{\sh}(r)$, where $V_{\sh}$ is the volume of a shell in this 1-D grid of concentric spherical shells, each having thickness $\Delta r$ and volume $V_{\sh}(r) = 4 \pi [(r + \Delta r)^3 - r^3] / 3$, where $r$ is the distance between the origin and the inner interface of each shell. We denote the ionization threshold energy for species $i$ as $h\nu_i$. $I_{\nu}$ represents the SED of radiation sources, and satisfies $\int_{\nu} I_{\nu} d\nu = 1$, such that $L_{\mathrm{bol}} I_{\nu} = L_{\nu}$. Note that the total secondary ionization rate for a given species is the sum of ionizations due to the secondary electrons from all species, i.e., $\gamma_i = \fion \sum_j \gamma_{ij} n_j / n_i$.
 
-These expressions preserve photon number by inferring the number of photo-ionizations of species $i$ in a shell from the radiation incident upon it and its optical depth \cite[e.g.,][]{Abel1999},
+These expressions preserve photon number by inferring the number of photo-ionizations of species $i$ in a shell from the radiation incident upon it and its optical depth \cite{Abel1999},
 \begin{equation}
     \Delta \tau_{i,\nu} = n_i \sigma_{i,\nu} \Delta r .
 \end{equation}    
@@ -155,11 +179,9 @@ source.
 
 In words, Equations \ref{eq:PhotoIonizationRate}-\ref{eq:HeatingRate} are propagating photons from a source at the origin, with bolometric luminosity $L_{\mathrm{bol}}$, and tracking the attenuation suffered between the source and some volume element of interest at radius $r$, $e^{-\tau}$, and the attenuation within that volume element, $\Delta \tau$, which results in ionization and heating. In each case, we integrate over the contribution from photons at all frequencies above the ionization threshold, additionally modifying the integrands for $\gamma_{ij}$ and $\Lambda_i$ with $(\nu - \nu_i)$-like factors to account for the fact that both the number of photo-electrons (proportional to $(\nu - \nu_j) / \nu_i$) and their energy (proportional to $\nu - \nu_i$) that determine the extent of secondary ionization and photo-electric heating. {\color{red} Forgot to put the factors $f_{\mathrm{heat}}$ and $f_{\mathrm{ion}}$ in above equations.}
 
-Equations \ref{eq:PhotoIonizationRate}-\ref{eq:HeatingRate} can be solved once a source luminosity, $L_{\mathrm{bol}}$, spectral shape, $I_{\nu}$, and density profile of the surrounding medium, $n(r)$, have been specified. In practice, to avoid performing these integrals on each step of an ODE solver (for Eqs. \ref{eq:eq:HIIRateEquation}-\ref{eq:TemperatureEvolution}), the results can be tabulated as a function of $\tau$ or column density, $N_i$, where $\tau_{i,\nu}=\sigma_{i,\nu} N_i$ \cite{Thomas2008,Mirocha2012}.
+Equations \ref{eq:PhotoIonizationRate}-\ref{eq:HeatingRate} can be solved once a source luminosity, $L_{\mathrm{bol}}$, spectral shape, $I_{\nu}$, and density profile of the surrounding medium, $n(r)$, have been specified. In practice, to avoid performing these integrals on each step of an ODE solver (for Eqs. \ref{eq:HIIRateEquation}-\ref{eq:TemperatureEvolution}), the results can be tabulated as a function of $\tau$ or column density, $N_i$, where $\tau_{i,\nu}=\sigma_{i,\nu} N_i$ \cite{Thomas2008,Mirocha2012}.
 
-{\color{red} Show some example results from, e.g., Thomas et al. 2008?}
-
-{\color{red} Mention the picket fence and $\Lya$ profile around individual sources here?}
+{\color{red} Show some example results from, e.g., Thomas et al. 2008.}
 
 %\begin{figure}[]
 %\begin{center}
@@ -174,8 +196,8 @@ Equations \ref{eq:PhotoIonizationRate}-\ref{eq:HeatingRate} can be solved once a
 %%
 % Metagalactic background
 %%
-\subsubsection{Ionization and Heating on Large Scales} \label{sec:largescales}
-While the procedure outlined in the previous section is relevant to small-scale ionization and heating, i.e., that which is driven a single (or perhaps a few) source(s) nearby, it is also instructive to consider the ionization and heating caused by a \textit{population} of sources separated by great distances. In this limit, rather than considering the luminosity of a single source at the origin of a 1-D grid, we treat the volume-averaged emissivity of sources in a large ``chunk'' of the Universe, and solve for the evolution of the mean intensity in this volume. 
+\subsection{Ionization and Heating on Large Scales} \label{sec:largescales}
+While the procedure outlined in the previous section is relevant to small-scale ionization and heating, i.e., that which is driven a single (or perhaps a few) source(s) close to a volume element of interest, it is also instructive to consider the ionization and heating caused by a \textit{population} of sources separated by great distances. In this limit, rather than considering the luminosity of a single source at the origin of a 1-D grid, we treat the volume-averaged emissivity of sources in a large ``chunk'' of the Universe, and solve for the evolution of the mean intensity in this volume. 
 
 The transfer equation now takes its cosmological form, i.e., 
 \begin{equation}
@@ -197,7 +219,7 @@ The solution to Equation \ref{eq:rte_diffeq} {\color{red} assuming X, Y, and Z} 
 \begin{equation}
     \hat{J}_{\nu} (z) = \frac{c}{4\pi} (1 + z)^2 \int_{z}^{z_f} \frac{\epsilon_{\nu}^{\prime}(z^{\prime})}{H(z^{\prime})} e^{-\overline{\tau}_{\nu}} dz^{\prime} . \label{eq:AngleAveragedFlux}
 \end{equation}    
-where $z_f$ is the ``first light redshift'' when astrophysical sources first turn on, $H$ is the Hubble parameter, and the other variables take on their usual meaning. 
+where $z_f$ is the ``first light redshift'' when astrophysical sources first turn on, $H$ is the Hubble parameter, and the other variables take on their usual meaning. {\color{red} Talk briefly about how this can be solved efficiently.}
 
 With the background intensity in hand, one can solve for the rate coefficients for ionization and heating, and evolve the ionization state and temperature of the gas.  These coefficients are equivalent to those for the 1-D problem (Eqs. \ref{eq:PhotoIonizationRate}-\ref{eq:HeatingRate}), though the intensity of radiation at some distance $R$ from the source has been replaced by the mean background intensity. They are:
 \begin{align}
@@ -207,22 +229,19 @@ With the background intensity in hand, one can solve for the rate coefficients f
 \end{align}
 {\color{red} Note similarities between these equations and the 1-D example in previous section.}
 
-
-{\color{red} Reality exists somewhere between these two extremes, hence, the next section.}
-
 %%%
 %% EVOLUTION EQUATIONS. I. Ionization
 %%%
 \section{Techniques for Modeling the IGM} \label{sec:techniques}
-In the previous section we introduced the basics of ionization chemistry and radiative transfer in a primordial medium, and explored extreme limits on very small and very large scales. These limits bracket the range of possibilities for volume elements, which ``see'' radiation from a single (or few) source(s) nearby or the combined radiative output of many sources at cosmological distincances. {\color{red} Reality is often somewhere between.} The mean free path of photons in a hydroge-only medium is \cite[e.g.,][]{McQuinn2012}
+In the previous section we introduced the basics of ionization chemistry and radiative transfer in a primordial medium, and explored extreme limits on very small and very large scales. These limits bracket the range of possibilities for volume elements, which ``see'' radiation from a single (or few) source(s) nearby or the combined radiative output of many sources at cosmological distincances. {\color{red} Reality is often somewhere between.} The mean free path of photons in a hydrogen-only medium is \cite{McQuinn2012}
 \begin{equation}
-	\lambda_{\HI} \approx 7 \xHI^{-1} \left(\frac{h\nu}{200 \ \mathrm{eV}} \right)^{2.6} \left(\frac{1+z}{10} \right)^{-2} \ \mathrm{cMpc} ,
+	\lambda_{\HI} \approx 7 \xHI^{-1} \left(\frac{h\nu}{200 \ \mathrm{eV}} \right)^{2.6} \left(\frac{1+z}{10} \right)^{-2} \ \mathrm{cMpc} \label{eq:mfp},
 \end{equation}
 i.e., mean-free paths for UV photons with $h\nu < 0.1 keV$ (or so) are very short. Because the mean free paths of UV photons are short, the IGM is divided roughly into two different phases: (i) a fully-ionized phase composed of ``bubbles,'' which grow around UV sources, and (ii) a ``bulk IGM'' phase outside bubbles in which ionization and heating is dominated by X-rays. The boundaries between these two phases can become fuzzy if reionization is driven by sources with hard spectra. However, even in such cases, the two-phase picture is a useful conceptual framework for understanding evolution in the 21-cm background, and provides a basis for approximations to the radiative transfer that have enabled the development of more efficient approaches to modeling the 21-cm background. 
 
 In this section, we describe the evolution of the ionization and temperature fields in this two-zone framework, in each case focusing first on the volume-averaged evolution relevant to the global 21-cm signal, and then the spatial structure relevant for 21-cm fluctuations. We will revisit extensions of the two-phase approximation in later sections.
 
-Note that for now, we will not specify the properties of UV and X-ray sources, but instead fold their properties into a single time-, frequency-, and position-dependent emissivity, $\epsilon = \epsilon_{\nu}(z,R)$. Models for $\epsilon$ will be put forth in \S\ref{sec:sources} and \S\ref{sec:sfrd}, from which 21-cm predictions will follow in \S\ref{sec:predictions}. 
+Note that for now, we will not specify the properties of UV and X-ray sources, but instead fold their properties into a single time-, frequency-, and position-dependent emissivity, $\epsilon = \epsilon_{\nu}(z,R)$. Models for $\epsilon$ will be put forth in \S\ref{sec:sources}, from which 21-cm predictions will follow in \S\ref{sec:predictions}. 
 
 %Hydrogen atoms can be ionized by photons with energies $h\nu > 13.6$ eV. The bound-free cross-section for interaction between photons and hydrogen atoms in the ground state is given approximately by\footnote{See \cite{Verner1996} for more detailed fits to the cross section as a function of photon energy.}
 %\begin{equation}
@@ -238,7 +257,7 @@ Note that for now, we will not specify the properties of UV and X-ray sources, b
 % DENSITY
 %%
 \subsection{The Density Field}
-{\color{red} Do we want to delve into this here? Discuss Dex-M, etc.}
+{\color{red} Do we want to delve into this here?}
 
 %%
 % IONIZATION FIELD
@@ -247,44 +266,42 @@ Note that for now, we will not specify the properties of UV and X-ray sources, b
 
 % Global ionization evolution
 \subsubsection{Global Evolution} \label{sec:ionization_global}
-In the two phase approximation of the IGM, the volume-averaged ionized fraction is a weighted average between the fully-ionized phase, with volume filling fraction $\QHII$, and the (likely) low-level ionization in the bulk IGM phase, characterized by its electron fraction, $x_e$, i.e.,
+In the two phase approximation of the IGM, the volume-averaged ionized fraction is a weighted average between the fully-ionized phase, with volume filling fraction $\QHII$, and the (likely) low-level ionization in the bulk IGM phase, characterized by its electron fraction, $x_e$, i.e.\footnote{{\color{red} Note that we should be more careful about $x_e$ and $\xHII$. the former is important for collisional coupling, the latter for $\xibar$} },
 \begin{equation}
 	\xibar = \QHII + (1 - \QHII) x_e
 \end{equation}
-{\color{red} Note that we should be more careful about $x_e$ and $\xHII$. the former is important for collisional coupling, the latter for $\xibar$} 
+
 
 In the limit of neglible ionization in the bulk IGM phase, $\xibar \approx \QHII$, we recover the standard ionization balance equation for reionization (e.g., Madau et al., others),
 \begin{equation}
 	\frac{d \QHII}{dt} = \nHI \Gamma_{\HI} - n_e \nHII \alpha_{\HII} \label{eq:ion_balance}
 \end{equation}
-where we have written the rate coefficient for photo-ionization generically as {\color{red} the ionization photon production rate}...We have also neglected collisional ionization and ionization by hot photo-electrons, though such effects could be absorbed into $\Gamma_{\HI}$\footnote{Secondary ionization is generally unimportant in HII regions since stars do not emit much above 1 Rydberg. As a result, photo-electrons are incapable of causing further ionization, and instead deposit most of their energy in heat or collisioanl excitation.}.
+where we have written the rate coefficient for photo-ionization generically as {\color{red} the ionization photon production rate}...We have also neglected collisional ionization and ionization by hot photo-electrons, though such effects could be absorbed into $\Gamma_{\HI}$\footnote{Secondary ionization is generally unimportant in HII regions since stars do not emit much above 1 Rydberg. As a result, photo-electrons are incapable of causing further ionization, and instead deposit most of their energy in heat or collisional excitation.}.
 
 %The recombination coefficient is a function of temperature,
 %\begin{equation}
 %	\alpha_{\HII} = 2.6 \times 10^{-13} \left(\frac{T_K}{10^4 \ \mathrm{K}} \right)^{-0.8}
 %\end{equation}
 
-Note: unlike the post-EoR Universe, we never really care about the UV background because it only exists inside bubbles. Up until late times, the background intensity in bubbles cannot reasonably be considered a useful global metric since it only traces galaxies relatively nearby (i.e., in that bubble).
+%Note: unlike the post-EoR Universe, we never really care about the UV background because it only exists inside bubbles. Up until late times, the background intensity in bubbles cannot reasonably be considered a useful global metric since it only traces galaxies relatively nearby (i.e., in that bubble).
 
-Talk about CMB optical depth here and maybe LAEs.
+The mean ionization history is currently only crudely constrained. High-$z$ quasar spectra suggest that reionization ended at $z \sim 6$ but provide no information on the detailed history. The CMB optical depth provides an integral constraint on reionization, i.e.,
 \begin{equation}
-	\tau_e = \int_0^{R_{\mathrm{ls}}} dl n_e \sigma_T
+	\tau_e = \int_0^{R_{\mathrm{ls}}} ds n_e (s) \sigma_T
 \end{equation}
-where $\sigma_T = 6.65 \times 10^{-25} \ \mathrm{cm}^{-2}$ is the Thomson cross section.
+where $\sigma_T = 6.65 \times 10^{-25} \ \mathrm{cm}^{-2}$ is the Thomson cross section, and $R_{\mathrm{ls}}$ is the distance to the last scattering surface, and thus only roughly constrains the timing and duration of reionization. 
 
-In the limit of a completely neutral bulk IGM, this reduces to...
+In principle there is much more information in the spatial fluctuations in the ionization field, simple models for which we discuss in the next section.
 
+{\color{red} Show predictions for $\QHII$ compared to constraints from CMB, quasars, LAEs.}
 
-Sometimes people treat $\tau_e$ like a free parameter. 
-
-Outline current constraints?
 
 
 % Spatial structure of ionization field
 \subsubsection{Spatial Structure} \label{sec:ionization_local}
 While the evolution of the average ionized fraction contains a wealth of information about the properties of UV (and perhaps X-ray) sources in the early Universe, fluctuations in the ionization field contain much more information. Indeed, the patchy ``swiss cheese'' structure generic to UV-driven reionization scenarios provided the initial impetus to study reionization via 21-cm interferometry \cite{Madau1997}.
 
-If computational resources were no issue, radiative transfer simulations would be the ideal tool to approach this problem for reasons that will be apparent momentarily. However, once again, the two-phase approximation opens the door to a simple statistical treatment of fluctuations in the ionization field. Given that 21-cm fluctuation efforts are geared largely toward measuring the 21-cm power spectrum, here we restrict our discussion to the ionization power spectrum, which forms a part of the 21-cm power spectrum that we will describe in more detail in subsequent sections.
+If computational resources were no issue, radiative transfer simulations would be the ideal tool to approach this problem for reasons that will be apparent momentarily. However, once again, the two-phase approximation opens the door to a simple statistical treatment of fluctuations in the ionization field. Given that 21-cm fluctuation efforts are geared largely toward measuring the 21-cm power spectrum, here we restrict our discussion to the ionization power spectrum, which forms a part of the 21-cm power spectrum that we will describe in more detail in \S\ref{sec:predictions}. We will follow closely the early work of \cite{Furlanetto2004} in what follows.
 
 The power spectrum of the ionization field is simply the Fourier transform of its two-point correlation function, which we can write as
 \begin{equation}
@@ -304,7 +321,7 @@ Now, to model the probability of ionization we first assume that the ionizatoin 
 \begin{equation}
 	P_{ii} = P_{ii,1b} + P_{ii,2b}
 \end{equation}
-where the first term encodes the configuration in which both points are within a single bubble (hence the ``1b'' subscript), while the second term is the probability that points are in different bubbles. 
+where the first term encodes the probability that both points are within a single bubble (hence the ``1b'' subscript), while the second term is the probability that points are in two different bubbles. 
 
 Two points separated by $r_{12}$ can be ionized by the same bubble so long as the diameter of the bubble is the distance between the points or greater. For bubbles bigger than the absolute minimum ($r_{12}$), there is an ``overlap region,'' with volume $\IV$, in which a bubble of mass $m$ can ionize both points.
 
@@ -312,7 +329,7 @@ If $p_1$ is ionized, then the probability that $p_2$ is ionized by the same sour
 \begin{equation}
   \IV = 
   \begin{cases}
-    \frac{4}{3}\pi R(m)^2 - \pi r_{12} \left[R(m)^2 - \frac{r_{12}^2}{12} \right] & r_{12} < 2 R(m) \\
+    \frac{4}{3}\pi R(m)^2 - \pi r_{12} \left[R(m)^2 - \frac{r_{12}^2}{12} \right] & r_{12} \leq 2 R(m) \\
     0 & r_{12} > 2 R(m)
   \end{cases}
   \label{eq:V_overlap}
@@ -323,22 +340,22 @@ This argument results in an infinite sum over probabilities, with each successiv
 \begin{align}
     P_{ii,1} (r_{12}) & = P\left[m_1,\IV(m_1,r_{12})\right] \nonumber \\
     & + (1 - P\left[m_1,\IV(m_1,r_{12})\right]) P\left[m_2,\IV(m_2,r_{12})\right] + ... \nonumber \\
-    & = P_1 + (1 - P_1) P_2 + (1 - P_1)(1 - P_2) P_3 + ... \nonumber \\
-    & = P_1 + (P_2 - P_1 P_2) + (P_3 - P_3 P_1 - P_3 P_2 + P_1 P_2 P_3) + ... \nonumber \\
-    & = 1 - P_1 P_2 - (P_1 P_3 - P_2 P_3 + P_1 P_2 P_3) + ... \nonumber \\
-    & = 1 - (1 - P_1) (1  - P_2) (1 - P_3) ... \nonumber  \\
-    & = 1 - \Pi_i (1 - P_i) \nonumber \\
+    %& = P_1 + (1 - P_1) P_2 + (1 - P_1)(1 - P_2) P_3 + ... \nonumber \\
+    %& = P_1 + (P_2 - P_1 P_2) + (P_3 - P_3 P_1 - P_3 P_2 + P_1 P_2 P_3) + ... \nonumber \\
+    %& = 1 - P_1 P_2 - (P_1 P_3 - P_2 P_3 + P_1 P_2 P_3) + ... \nonumber \\
+    %& = 1 - (1 - P_1) (1  - P_2) (1 - P_3) ... \nonumber  \\
+    %& = 1 - \Pi_i (1 - P_i) \nonumber \\
     & = 1 - \exp \left[ \sum_i \log(1 - P_i) \right]
 \end{align}
-To compute the probabilities, we need only the abundance of sources as a function of their mass, which we will leave as a general quantity $n(m)$, for now, and the overlap volume, i.e.,
+To compute the probabilities, we need only the abundance of sources as a function of their mass, which we will leave as a general quantity, $n(m)$, for now, and the overlap volume, i.e.,
 \begin{equation}
     P\left[m_1,\IV(m_1,r_{12})\right] = n(m_1) \IV(m_1,r_{12})
 \end{equation}
-Now, the last step is to realize that $P_i = 1 - \exp\left[-n_i V_i] \right]$. This follows from a Poissonian argument, in which the probability is
+The final step is to realize that $P_i = 1 - \exp\left[-n_i V_i] \right]$, which follows from a Poissonian argument, i.e., assuming that
 \begin{equation}
-    P_i = \frac{\lambda^N e^{-\lambda}}{N!}
+    P_i = \frac{\lambda^N e^{-\lambda}}{N!} .
 \end{equation}
-But, we don't care which source does the ionizing, so we should just compute the probability that there's \textit{not} a source in the volume, and subtract that from one to obtain the probability that there's \textit{any kind of} source in the volume. We know the mean number of bubbles, so we can make a Poissonian argument with $N=0$ to determine this probability, i.e.,
+However, we are uninterested in exactly how many sources ionize a point -- we care only about whether the point is ionized -- so we need only compute the probability that there's \textit{not} a source in the volume, and subtract that from unity to obtain the probability that there's \textit{any kind of} source in the volume. We know the mean number of bubbles, so we can make a Poissonian argument with $N=0$ to determine this probability, i.e.,
 \begin{equation}
     P(N \geq 1) = 1 - P(N = 0) = 1 - e^{-\lambda} \label{eq:P1src}
 \end{equation}
@@ -354,45 +371,37 @@ The other possibility is that two points are members of two different bubbles, w
 \end{align}
 This is only valid if we neglect clustering of sources. In reality, if we're in the neighborhood of a bubble, there's a good chance there's another bubble nearby. So, we can replace one of the terms in curly braces with $n(m) \rightarrow n(m) (1 + \xi_{bb}(m, r_{12}))$, where $\xi_{bb}$ is the excess probability of finding a bubble of mass $m$ a distance $r_{12}$ away from another bubble. 
 
+At this point, it is clear that the ``bubble size distribution'', or equivalent bubble mass distribution, $n(m)$, of sources will determine the nature of the ionization field. {\color{red} Very quickly summarize the results of the excursion set approach and defer to references here. Point to \S\ref{sec:codes} for a discussion of how codes do this in practice.}
+
+{\color{red} Things to mention here:
+\begin{itemize}
+	\item Photon conservation can be a problem.
+	\item Dealing with overlap is a problem.
+\end{itemize}}
+
+{\color{red} Show ionization power spectra and maybe cross spectra with density field.}
 
 
+%%
+% RECOMBINATIONS
+%%
+\subsubsection{Recombinations}
+{\color{red} Will need to describe the challenge here in some detail, defer to \S\ref{sec:predictions} for how one deals with this in semi-numeric and numerical simulations.}
 
-\cite{Furlanetto2004}. Will revisit codes in \S\ref{sec:predictions}.
+%%
+% 
+%\subsubsection{Effects of Helium Reionization}
+%HeI and HI likely re-ionize at the same time....HeII later.
 
-\begin{equation}
-	\zeta \fcoll = 1
-\end{equation}
-
-
-{\color{red} Talk about bubble size distribution.}
-
-Note that this model makes potentially different predictions for $\QHII$! People have tried to remedy this photon-conservation issue, see, e.g., Paranjape \& Choudhury, others?
-
-
-The core challenge in modeling these spatial fluctuations in analytic or semi-numeric frameworks is handling the overlap of otherwise spherical bubbles...
-
-
-Talk about how big the typical voxel is and what the trade-offs are there.
-
-
-Mention that we'll talk in more detail about tools like 21cmFAST later on.
-
-Point out what fluctuations get us beyond mean signal!
-
-
-Mention current constraints from end of reionization.
-
-
-\subsubsection{Effects of Helium Reionization}
-HeI and HI likely re-ionize at the same time....HeII later.
-
-Mention correction factor $A_{\mathrm{He}}$ that one often sees in papers?
+%Mention correction factor $A_{\mathrm{He}}$ that one often sees in papers?
 
 %%
 % EVOLUTION EQUATIONS. II. Temperature
 %%
 \subsection{The (Kinetic) Temperature Field}
-Energetic X-ray photons with $E > 100$ eV will be able to travel large distances due to the strong energy dependence of the bound-free cross section (see Eqs. \ref{eq:xsec}-\ref{eq:mfp}). As a result, the ionization state and temperature of gas in the ``bulk IGM'' spans a continuum of values and must be evolved in detail. 
+Energetic X-ray photons with $E > 100$ eV will be able to travel large distances due to the strong energy dependence of the bound-free cross section (see Eq. \ref{eq:mfp}). As a result, the ionization state and temperature of gas in the ``bulk IGM'' spans a continuum of values and must be evolved in detail. 
+
+{\color{red} This section needs quite a bit more work!}
 
 % Mean temperature
 \subsubsection{Global Evolution} \label{sec:temperature_global}
@@ -402,26 +411,22 @@ Modeling the temperature in the bulk of the IGM in a general case is best handle
 
 It is useful to consider first a case in which heating of the IGM is spatially uniform, which could occur if the sources of heating have very hard spectra. In this limit, we can consider the evolution of the average background intensity,
 
-
-
-Show simple models a la Pritchard \& Loeb.
+{\color{red} Show simple models a la Pritchard \& Loeb.}
 
 
 
 % Fluctuations in the temperature
 \subsubsection{Spatial Structure} \label{sec:temperature_local}
+Talk about Jonathan's 2007 approach, Janakee's stuff, \textsc{21cmFAST} approach, progress in RT sims (hard because X-ray mfp long). Ross et al. simulations.
 
-
-
-Talk about Jonathan's 2007 approach, Janakee's stuff, 21cmFAST approach, progress in RT sims (hard because X-ray mfp long). Ross et al. simulations.
-
+{\color{red} Show example temperature power spectrum from, e.g., Pritchard \& Furlanetto, and/or pictures from Andrei's 2013 paper. Point out dependence on normalization and spectral slope.}
 
 
 %%
 % EVOLUTION EQUATIONS. III. Ly-a coupling
 %%
 \subsection{The Ly-$\alpha$ Background}
-Here, we can 
+{\color{red} This section needs quite a bit more work! Will discuss early Barkana stuff, Holzbauer \& Furlanetto approach, semi-numeric treatments, Ahn et al.}
 
 
 \subsubsection{Global Evolution}
@@ -444,8 +449,7 @@ is set by the horizon of $\Lyn$ photons -- a photon redshifting through the  $\L
 Talk about excitation of Lyman alpha by photo-electrons.
 
 \subsubsection{Spatial Fluctuations in the Ly-$\alpha$ background} 
-Holzbauer, Barkana, who else? Ahn, picket fence stuff.
-
+{\color{red} Show a figure or two from Barkana \& Loeb or Holzbauer \& Furlanetto.}
 
 
 %\subsection{Overlap in Evolution}
@@ -456,32 +460,31 @@ Holzbauer, Barkana, who else? Ahn, picket fence stuff.
 % Heatting
 %%
 \subsubsection{$\Lya$ Heating}
-Talk about initial papers about $\Lya$ heating, the subsequent revisions, and the revival of this concept in the last year or so.
+{\color{red} Talk briefly about initial papers about $\Lya$ heating, the subsequent revisions, and the revival of this concept in the last year or so.}
 
 
 \subsubsection{Excitation of $\Lya$ via fast photo-electrons}
+Brief discussion.
 
 %%%
 %% SOURCES
 %%%
-\section{Spectral Properties of UV and X-ray Sources} \label{sec:sources}
-In the previous section we outlined a procedure for evolving the ionization and temperature field without actually specificying the sources of ionization and heating. Instead, we used a generic emissivity, $\epsilon_{\nu}$, to encode the integrated emissions of sources at frequency $\nu$ within some region $R$, which we can write as an integral over the differential luminosity function of sources, i.e.,
+\section{Sources of the UV and X-ray Background} \label{sec:sources}
+In the previous section we outlined a procedure for evolving the ionization and temperature field without actually specificying the sources of ionization and heating. Instead, we used a generic emissivity, $\epsilon_{\nu}$, to encode the integrated emissions of sources at frequency $\nu$ within some region $R$, which we will now write as an integral over the differential luminosity function of sources, i.e.,
 \begin{equation}
 	\epsilon_{\nu}(z,R) = \int_0^{\infty} dL_{\nu} \frac{dn}{dL_{\nu}} .
 \end{equation}
-Given the success of models which link the evolution of galaxies to the evolution of their host dark matter halos ({\color{red} citations}), it is common to rewrite the emissivity as a weighted integral over the DM halo mass function (HMF), $dn/dm$, 
+Given the success of models which link the evolution of galaxies to the evolution of their host dark matter halos ({\color{red} citations}), it is common to rewrite the emissivity as an integral over the DM halo mass function (HMF), $dn/dm$, multiplied by a conversion factor between halo mass and galaxy light, $dm/dL_{\nu}$, i.e.,
 \begin{equation}
 	\epsilon_{\nu}(z,R) = \int_{\mmin}^{\infty} dm \frac{dn}{dm} \frac{dm}{d L_{\nu}} ,
 \end{equation}
-where $\mmin$ is the minimum mass of DM halos capable of hosting galaxies. Because $dn/dm$ is reasonably well-determined from large N-body simulations of structure formation ({\color{red} citations}), much of the modeling focus is on the mass-to-light ratio, $dm/dL_{\nu}$, which encodes the efficiency with which galaxies form in halos and the relative luminosities of different kinds of sources within galaxies (e.g., stars, compact objects, diffuse gas) that emit at different frequencies. 
+where $\mmin$ is the minimum mass of DM halos capable of hosting galaxies. Because $dn/dm$ is reasonably well-determined from large N-body simulations of structure formation ({\color{red} citations}), much of the modeling focus is on the mass-to-light ratio, $dm/dL_{\nu}$, which encodes the efficiency with which galaxies form in halos and the relative luminosities of different kinds of sources within galaxies (e.g., stars, compact objects, diffuse gas) that emit at different frequencies\footnote{Most models consider regions $R$ that are sufficiently large that one can assume a well-populated HMF, though at very early times this approximation may break down, rendering stochasticity due to poor HMF sampling an important effect.}. 
 
-We generally consider regions $R$ that are sufficiently large that one can assume a well-populated HMF\footnote{Note about how this may not be true...}. Simple models for the global 21-cm signal are an illustrative limiting case -- if one neglects all potential spatial structure in the source distribution and IGM properties, the mean 21-cm background probes the emissivity averaged over the \textit{entire Universe}. However, even for models targeting spatial fluctuations, we generally only consider relatively large $R \sim$ Mpc scale regions, since the ionized bubbles detectable in 21-cm maps are sourced by many galaxies (see \S\ref{sec:ionization_local}). 
-
-The main strength of the 21-cm background as a probe of high-$z$ galaxies is now apparent: though 21-cm measurements cannot constrain the properties of individual galaxies, they can constrain the properties of \textit{all} galaxies, in aggregate, \textit{even those too faint to be detected directly}. As a result, it is common to forego detailed modeling of the mass-to-light ratio and instead model the emissivity as
+The main strength of the 21-cm background as a probe of high-$z$ galaxies is now apparent: though 21-cm measurements cannot constrain the properties of individual galaxies, they can constrain the properties of \textit{all} galaxies, in aggregate, \textit{even those too faint to be detected directly}. As a result, it is common to forego detailed modeling of the mass-to-light ratio and instead relate the emissivity to the fraction of mass in the Universe in collapsed objects,
 \begin{equation}
 	\epsilon_{\nu}(z, R) = \rho_b \fcoll(z, R) \zeta_{\nu} ,
 \end{equation}
-where the collapsed fraction is
+where the collapsed fraction is an integral over the HMF,
 \begin{equation}
 	\fcoll = \rho_m^{-1} \int_{\mmin}^{\infty} dm m \frac{dn}{dm}
 \end{equation}
@@ -491,17 +494,65 @@ and $\zeta_{\nu}$ is an efficiency factor that quantifies the number of photons 
 \end{equation}
 where $f_{\ast}$ is the star formation efficiency (SFE), $N_{\nu}$ is the number of photons emitted per stellar baryon at some frequency $\nu$, and $f_{\esc}$ is the fraction of those photons that escape into the IGM. One could define additional $\zeta$ factors to represent, e.g., emission from black holes or exotic particles, in which case $f_{\ast}$ and $N_{\nu}$ would be replaced by some black hole or exotic particle production efficiencies. In practice, three $\zeta$ factors are defined: $\zeta$, $\zeta_X$, and $\zeta_{\alpha}$, i.e., one efficiency factor for each radiation background of interest. A minimal model for the 21-cm background thus contains four parameters: $\mmin$, $\zeta$, $\zeta_X$, and $\zeta_{\alpha}$. 
 
-Because the factors within $\zeta$ are degenerate with each other, at least as far as 21-cm measurements are concerned, they generally are not treated separately as free parameters. However, it is still useful to consider each individually in order to determine a fiducial value of $\zeta$ and explore deviations from the fiducial model. In addition, inclusion of ancillary measurements may eventually allow $\zeta$ to be decomposed into its consituent parts. For the remainder of this section, we focus on plausible values of $N_{\nu}$ and $f_{\esc}$, leaving a more detailed discussion of $f_{\ast}$ to \S\ref{sec:sfrd}. 
+Because the factors within $\zeta$ are degenerate with each other, at least as far as 21-cm measurements are concerned, they generally are not treated separately as free parameters. However, it is still useful to consider each individually in order to determine a fiducial value of $\zeta$ and explore deviations from that fiducial model. In addition, inclusion of ancillary measurements may eventually allow $\zeta$ to be decomposed into its consituent parts. For the remainder of this section, we focus on plausible values of $f_{\ast}$, $N_{\nu}$ and $f_{\esc}$.
+
+%%
+% PopII Star Formation
+%%
+\subsection{Star Formation}
+Current high-$z$ measurements support a relatively simple picture of star formation in early galaxies. The basic idea is that star formation is fueled by the inflow of gas from the IGM, but the overall rate of star formation in galaxies is self-limiting because winds and supernovae explosions expell gas that would otherwise form stars ({\color{red} many many references}). Qualitatively, the need for some kind of feedback is apparent simply from the mismatch in shapes between the halo mass function and galaxy luminosity function, the latter of which is steeper at both the very bright and very faint ends. 
+
+{\color{red} Introduce MAR-driven models, semi-empirical constraints, etc.}
+
+{\color{red} Show example SFE recovered from UVLF fits. Variations in expectations at very high-$z$.}
+
+%%
+% PopIII
+%%
+\subsubsection{Pop~III Star Formation}
+The very first generations of stars to form in the Universe did so under very different conditions than stars today, and it is not clear that the arguments outlined in the previous section apply. The first stars, by definition, formed from chemically-pristine material, since no previous generations of stars had existed to enrich the medium with heavy elements. This has long been recognized as a reason that the first stars are likely different than stars today ({\color{red} references}). Without the energetically low-lying electronic transitions common in heavy elements, hydrogen-only gas clouds cannot cool efficiently, as collisions energetic enough to excite atoms from $n=1$ to $n=2$ (which subsequently cool via spontaneous emission of $\Lya$ photons) imply temperatures of $\sim 10^4$ K. Halos with such virial temperatures are very rare at redshifts greater than $z \sim 10$.
+
+However, other cooling channels may be available even in halos too small to support atomic (hydrogen) line cooling. Hydrogen molecules, $\Htwo$, can form using free electrons as a catalyst\footnote{Dust is the primary catalyst of $\Htwo$ formation in the local Universe, but of course is does not exist in the first collapsing clouds.}, 
+\begin{align}
+	\Hatom + e^- & \rightarrow \Hatom^- + h\nu \\
+	\Hatom^- + \Hatom & \rightarrow \Htwo + e^- ,
+\end{align}
+These reactions are limited by the availability of free electrons\footnote{
+Exotic models in which an X-ray background emerges before the formation of the first stars may similarly affect early star formation by boosting the electron fraction.} and the survivability of $H^-$ ions. Even in the absence of astrophysical backgrounds, the formation of $\Htwo$ is limited by the CMB, which at the high redshifts of interest can dissociate the $H^-$ ion. \cite{Tegmark1997} found that the molecular hydrogen fraction in high-$z$ halos scales with the virial temperature as
+\begin{equation}
+	f_{\Htwo} \approx 3.5 \times 10^{-4} \left(\frac{\Tvir}{10^3 \ \mathrm{K}} \right)^{1.52} .
+\end{equation}
+Once the first stars form, the situation grows considerably more complicated. As will be detailed in the following section (\S\ref{sec:UV}), massive stars are prodigious sources of UV photons. Some of these photons originate in the Lyman-Werner band ($\sim 11.2$-$13.6$ eV), and are thus capable of dissociating molecular hydrogen. This processs is expected to quickly surpass $H^-$ dissociation by the CMB as the most important mechanism capable of regulating star formation in chemically pristine halos. 
+
+A substantial literature has emerged in the last $\sim 20$ years aimed at understanding the critical LW background intensity, $\JLW$, required to prevent star formation in high-$z$ minihaloes. 
+\begin{equation}
+	M_{\min} = 2.5 \times 10^5 \left(\frac{1+z}{26} \right)^{-3/2} (1 + 6.96(4\pi \JLW)^{0.47})  \ \Msun
+\end{equation}
+
+{\color{red} Brief discussion of self-shielding complication.}
+
+{\color{red} Talk about metal enrichment and how this is (probably) the cause of the demise of PopIII.}
+
+{\color{red} Draw attention to how 21-cm background can contribute here: $\Lya$ and LW backgrounds are closely related. Note that there are very few studies of PopIII in the 21-cm background. Can point to Anastasia's stuff, my stuff, maybe Rick's stuff will be done soon...}
+
+{\color{red} Bottom line: $\mmin$ sort of understood, $f_{\ast}$ unknown.}
+
+{\color{red} Show some models for the PopIII SFRD and compare to PopII SFRD extrapolated from observations and/or predictions from models.}
+
+%%
+% PopIII -> PopII via metal enrichment, LW feedback
+%%
+
 
 
 % STARS
-\subsection{UV Emission from Stars}
+\subsection{UV Emission from Stars} \label{sec:UV}
 Stellar photons are likely the dominant drivers of reionization\footnote{There is still some room for a contribution from quasars \cite[see, e.g.,][]{Madau2018}.} and the initial ``activation'' of the 21-cm background via Wouthuysen-Field coupling at $z \sim 30$. The 21-cm background is thus sensitive to the spectral characteristics of stars in the Lyman continuum and Lyman Werner bands\footnote{We use this definition here loosely. Technically, the LW band is $\sim 11.2-13.6$ eV, a range which bounds photons capable of photo-dissociating molecular hydrogen, $H_2$. The $\Lya$ background is sourced by photons in a slightly broader interval, $\sim 10.2-13.6$ eV, but it is tedious to continually indicate this distinction, and as a result, we use ``LW band'' to mean all photons capable of eventually generating $\Lya$ photons.}. It is also in principle sensitive to the spectrum of even harder He-ionizing photons, since photo-electrons generated from helium ionization can heat and ionize the gas, while HeII recombinations can result in H-ionizing photons. The 21-cm signal could in principle even constrain the rest-frame infrared spectrum of stars in the early Universe, since IR photons can feedback on star-formation at very early times through $H^-$ photo-detachment \cite{WolcottGreen2012}. In this section, we focus only on the soft UV spectrum ($E < 54.4$ eV) to which the 21-cm background is most sensitive.
 
 The most detailed predictions for stellar spectra come from stellar population synthesis (SPS) models, which take the following approach:
 \begin{itemize}
 	\item Assume a model for the stellar initial mass function (IMF), $\xi(m)$, i.e., the number of relative number of stars formed in different mass bins. Commonly-adopted IMFs include Salpeter \cite{Salpeter1955}, Chabrier \cite{Chabrier2003}, Kroupa \cite{Kroupa2001}, and Scalo \cite{Scalo1998} which are all generally power-laws with indices $\sim -2.3$ , but differing in shape at the low mass end of the distribution ($M_{\ast} < 0.5 \ \Msun$ ).
-	\item Assume a model for stellar evolution, i.e., how stars of different masses age and traverse the Hertzprung-Russell (HR) diagram.
+	\item Assume a model for stellar evolution, i.e., how stars of different masses traverse the Hertzprung-Russell (HR) diagram over time.
 	\item Assume a model for stellar atmospheres, i.e., as a function of stellar mass, age, and composition, determine the output spectrum.
 \end{itemize}
 With all these ingredients, one can synthesize a spectrum from a population of stars with a given age,
@@ -513,14 +564,20 @@ where $l_{\nu}(m, t)$ is the specific luminosity of a star of mass $m$ and age $
 Generally, 21-cm models do not operate at level of SPS models because the 21-cm background is insensitive to the detailed spectra and SFHs of individual galaxies. Instead, because 21-cm measurements probe the relatively narrow intervals $10.2 < h\nu / \mathrm{eV} < 13.6$ via Wouthuysen-Field coupling and $h\nu > 13.6$ eV through the ionization field, it is common to distill the predictions of SPS models into just two numbers, $\Nion$ and $N_{\alpha}$, which integrate over age and the details of the stellar SED, i.e.,
 \begin{align}
 	\Nion & = m_{\ast}^{-1} \int_0^{\infty} dt^{\prime} \int_{\nuLL}^{\infty} \frac{d\nu}{h\nu} L_{\nu}(t^{\prime}) \\
-	N_{\alpha} & = m_{\ast}^{-1} \int_0^{\infty} dt^{\prime} \int_{\nuLya}^{\nuLL} \frac{d\nu}{h\nu} L_{\nu}(t^{\prime}) \nonumber \\
+	N_{\alpha} & = m_{\ast}^{-1} \int_0^{\infty} dt^{\prime} \int_{\nuLya}^{\nuLL} \frac{d\nu}{h\nu} L_{\nu}(t^{\prime})
 \end{align}
-where $\nuLL$ is the frequency of the Lyman limit (13.6 eV) and $\nuLya$ is the Ly-$\alpha$ frequency. The time integral is expected to be quite accurate given that UV emission is dominated by massive, short-lived stars. 
+where $\nuLL$ is the frequency of the Lyman limit (13.6 eV) and $\nuLya$ is the Ly-$\alpha$ frequency. UV emission is dominated by massive, short-lived stars, hence the integration from $t=0$ to $t=\infty$.
 
-Assuming a Scalo IMF, stellar metallicity of $Z=Z_{\odot}/20$, using \textsc{starburst99} SPS model, \cite{Barkana2001} report $N_{\alpha}=9690$, further broken down into sub-intervals between each Ly-$n$ resonance, an oft-used reference value even today. {\color{red} The canonical value of $\Nion=4000$ (I think) makes the same assumptions but I can't find where this first appeared.} The general expectation is for $\Nion$ and $N_{\alpha}$ increase for more top-heavy IMF and lower metallicity, meaning these values are likely to increase for Pop~III stars ({\color{red} citations}). Similarly, binary evolution can effectively increase the lifetimes of massive stars, leading to a net gain in UV photon production \cite{Stanway2016}.
+Assuming a Scalo IMF, stellar metallicity of $Z=Z_{\odot}/20$, using \textsc{starburst99} SPS model, \cite{Barkana2005} report $N_{\alpha}=9690$, further broken down into sub-intervals between each Ly-$n$ resonance, an oft-used reference value even today. {\color{red} The canonical value of $\Nion=4000$ (I think) makes the same assumptions but I can't find where this first appeared.} The general expectation is for $\Nion$ and $N_{\alpha}$ increase for more top-heavy IMF and lower metallicity, meaning these values are likely to increase for Pop~III stars ({\color{red} citations}). Similarly, binary evolution can effectively increase the lifetimes of massive stars, leading to a net gain in UV photon production \cite{Stanway2016}.
 
 {\color{red} Note that detailed SPS may be needed to if jointly fitting 21-cm measurements and galaxy population.}
 
+{\color{red} Show PopII and PopIII spectra?}
+
+%%
+% fesc
+%%
+\subsection{Escape of UV Photons from Galaxies}
 {\color{red} Summarize briefly the status of $\fesc$.}
 
 
@@ -549,22 +606,20 @@ While several of these factors are uncertain, particularly $\fsurv$ and $\fact$,
 
 There are of course additional arguments not present in Eq. \ref{eq:LxSFR}. For example, the MCD spectrum is only a good representation of HMXB spectra in the ``high soft'' state. At other times, in the so-called ``low hard'' state, HMXB spectra are well fit by a power-law. The relative amount of time spent in each of these states is unknown. 
 
-In addition, physical models for the $L_X$-SFR relation may invoke the metallicity as a driver of changes in the relation with time and/or galaxy (stellar) mass. As the metallicity declines, one might expect the stellar IMF to change (as outlined above), however, the winds of massive stars responsible for transferring material to BHs will also grow weaker as the opacity of their atmospheres decline. As a result, increases in $L_X$/SFR likely saturate below some critical metallicity. Observations of nearby, metal-poor dwarf galaxies support this picture, with $L_X$/SFR reaching a maximum of $\sim 10$ times the canonical relation quoted in Eq. \ref{eq:LxSFR_Mineo} \cite{Mineo2012}.
+In addition, physical models for the $L_X$-SFR relation may invoke the metallicity as a driver of changes in the relation with time and/or galaxy (stellar) mass. As the metallicity declines, one might expect the stellar IMF to change (as outlined above), however, the winds of massive stars responsible for transferring material to BHs will also grow weaker as the opacity of their atmospheres decline. As a result, increases in $L_X$/SFR likely saturate below some critical metallicity. Observations of nearby, metal-poor dwarf galaxies support this picture, with $L_X$/SFR reaching a maximum of $\sim 10$ times the canonical relation quoted in Eq. \ref{eq:LxSFR_Mineo} \cite{Mineo2012a}.
 
+{\color{red} Show different spectra often adopted in models and discuss.}
 
-Left to discuss:
-\begin{itemize}
-	\item Observational limits on $L_X$/SFR from Chandra stacks.
-	\item Low metallicity constraints.
-	\item LMXB contamination.
-	\item Validity of nearby sources as EoR analogs.
-\end{itemize}
-
+%{\color{red} Left to discuss:
+%\begin{itemize}
+%	\item Observational limits on $L_X$/SFR from Chandra stacks?
+%	\item Low metallicity constraints.
+%\end{itemize}}
 
 %%
 % PopIII
 %%
-\subsubsection{Super-massive Black Holes}
+\subsubsection{Super-Massive Black Holes}
 {\color{red} Say a few words about plausibility, reference \cite{Tanaka2016}.}
 
 
@@ -579,11 +634,19 @@ This luminosity is that from all unresolved emission, and as a result, is not ex
 
 Though the soft X-ray luminosity from hot gas appears to be subdominant to the HMXB component in nearby galaxies, there are of course uncertainties in how these relations evolve. Furthermore, the bremmstrahlung emission characteristic of hot ISM gas has a much steeper $\sim \nu^{-2.5}$ spectrum than inverse Compton ($\sim \nu^{-1}$) or XRBs ($\sim \nu^{-1}$ or $\nu^{-1.5}$), and thus may heat more efficiently (owing to $\sigma \propto \nu^{-3}$ cross section) provided soft X-rays can escape galaxies. 
 
+%%
+% NHI, Emin
+%%
+\subsection{Escape of X-rays from Galaxies}
+Though the mean free paths of X-rays are longer than those of UV photons, they still may not all escape from galaxies into the IGM. 
+
+The column density is used to account for absorption by neutral hydrogen in the ISM, which hardens the intrinsic spectrum. Simulations suggest typical values of $\NHI \sim 10^{21} \ \mathrm{cm}^{-2}$ \cite{Das2017}, which is substantial enough to eliminate emission below $\sim 0.5$ keV. 
+
 Given the many unknowns regarding X-ray emission in the early Universe, 21-cm models often employ a three-parameter approach, i.e., instead of a single value of $\zeta_X$, the specific X-ray luminosity is modeled as 
 \begin{equation}
 	L_{X,\nu} = L_{X,0} \left(\frac{h \nu}{1 \mathrm{keV}} \right)^{\alpha_X} \exp\left[-\sigma_{\nu} \NHI \right]
 \end{equation}
-and the normalization, $L_{X,0}$, spectral index $\alpha_X$, and typical column density, $\NHI$, are left as free parameters. The column density is used to account for absorption by neutral hydrogen in the ISM, which hardens the intrinsic spectrum. Simulations suggest typical values of $\NHI \sim 10^{21} \ \mathrm{cm}^{-2}$ \cite{Das2017}, which is substantial enough to eliminate emission below $\sim 0.5$ keV. 
+and the normalization, $L_{X,0}$, spectral index $\alpha_X$, and typical column density, $\NHI$, are left as free parameters. 
 
 It is common to approximate this intrinsic attenuation with a piecewise model for $L_X$, i.e., 
 \begin{align}
@@ -592,9 +655,9 @@ L_{X,\nu} = \left\{ \begin{array}{cc}
                 L_{X,0} \left(\frac{h \nu}{1 \mathrm{keV}} \right)^{\alpha_X} & h\nu \geq \Emin \
                 \end{array} \right.
 \end{align}
-
-
 Note that $\NHI$ (or $\Emin$) can be degenerate with the intrinsic spectrum, e.g., the SED of HMXBs in the high-soft state exhibits a turn-over at energies $h\nu < 1$ keV, which could be mistaken for strong intrinsic absorption.
+
+{\color{red} Translate this to $\zeta_X$.}
 
 
 % DCBHS? 
@@ -606,89 +669,29 @@ Note that $\NHI$ (or $\Emin$) can be degenerate with the intrinsic spectrum, e.g
 %%%
 %% Evolution of SFRD
 %%%
-\section{Star and BH Formation} \label{sec:sfrd}
-In the previous section we highlighted the spectral properties of the first luminous sources without specifying a model for how, when, and where they are expected to form. Here, we outline commonly-used approaches for modeling the redshift and spatial distribution of sources at high redshift, starting with the very first stars (\S\ref{sec:firststars}), proceeding through the transition to normal star formation (\S\ref{sec:PopIII2PopII}) and finally, the evolution of ``normal'' Pop~II galaxies (\S\ref{sec:galaxies}). 
-
-{\color{red} We're basically modeling $f_{\ast}$ and $\mmin$ in this section.}
+%\section{Star ({\color{red} and BH?}) Formation} \label{sec:sfrd}
+%In the previous section we highlighted the spectral properties of the first luminous sources without specifying a model for how, when, and where they are expected to form. Here, we outline commonly-used approaches for modeling the redshift and spatial distribution of sources at high redshift, starting with the very first stars (\S\ref{sec:firststars}), and proceeding through the transition to ``normal'' Pop~II star formation (\S\ref{sec:galaxies}). 
+%
+%{\color{red} We're basically modeling $f_{\ast}$ and $\mmin$ in this section.}
 
 
 %%
 % PopIII stars
 %%
-\subsection{First Stars} \label{sec:firststars}
-The first generations of stars to form in the Universe did so under very different conditions than stars today. As the first stars, by definition, they formed from chemically-pristine material, since no previous generations of stars had existed to enrich the medium with heavy elements. This has long been recognized as a reason that the first stars are likely different than stars today. Without the low-lying electronic transitions common in heavy elements, hydrogen-only gas clouds cannot cool efficiently, as collisions energetic enough to excite atoms from $n=1$ to $n=2$ (which subsequently cool via spontaneous emission of $\Lya$ photons) imply temperatures of $\sim 10^4$ K. Halos with such virial temperatures are not abundant until $z \sim 10$.
-
-However, other cooling channels may be available even in halos too small to support atomic (hydrogen) line cooling. Hydrogen molecules, $\Htwo$, can form using free electrons as a catalyst\footnote{Dust is the primary catalyst of $\Htwo$ formation in the local Universe, but of course is does not exist in the first collapsing clouds.}, 
-\begin{align}
-	\Hatom + e^- & \rightarrow \Hatom^- + h\nu \\
-	\Hatom^- + \Hatom & \rightarrow \Htwo + e^- ,
-\end{align}
-These reactions are of course limited by the availability of free electrons and the survivability of $H^-$ ions. Exotic models in which an X-ray background emerges before the formation of the first stars may thus affect early star formation by boosting the electron fraction. Even in more conventional scenarios, pristine clouds collapsing at late times may proceed differently than comparable clouds at early times due to the presence of a diffuse X-ray background generated by early HMXBs. 
-
-Even in the absence of astrophysical backgrounds, the formation of $\Htwo$ is limited by the CMB, which at the high redshifts of interest can dissociate the $H^-$ ion. Tegmark et al. 1997 found that the molecular hydrogen fraction in high-$z$ halos scales with the virial temperature as
-\begin{equation}
-	f_{\Htwo} \approx 3.5 \times 10^{-4} \left(\frac{\Tvir}{10^3 \ \mathrm{K}} \right)^{1.52} .
-\end{equation}
-
-
-
-Star formation efficiency: unknown.
-
-
-{\color{red} Note that there are very few studies of PopIII in the 21-cm background.} Can point to Anastasia's stuff, my stuff, maybe Rick's stuff will be done soon...
-
-
-%%
-% PopIII -> PopII via metal enrichment, LW feedback
-%%
-\subsection{Transition to PopII} \label{sec:PopIII2PopII}
-The duration 
-
-Talk about LW feedback, metal enrichment.
-
-\begin{equation}
-	M_{\min} = 2.5 \times 10^5 \left(\frac{1+z}{26} \right)^{-3/2} (1 + 6.96(4\pi \JLW)^{0.47})  \ \Msun
-\end{equation}
-This is from Visbal et al. (2014).
-
-
-Talk about PopIII.2.
-
-
+%\subsection{First Stars} \label{sec:firststars}
 
 
 
 %%
 % PopII galaxies via metal enrichment, LW feedback
 %%
-\subsection{Simple Physical Models for High-$z$ Galaxies} \label{sec:galaxies}
-
-
-
-
-We generally don't resolve galaxies and may not even treat halos (semi-numeric codes operate on density field).
-
-
-Physical arguments for SFE
-
-Talk about fcoll approach vs. m-dep modeling. 
-
-
+%\subsection{"Normal" Star Formation} \label{sec:galaxies}
 %%
-% Semi-empirical validation of the simple physical arguments
-%%
-\subsection{Observational Constraints}
-Current observations of galaxies at $z > 6$ are consistent with the simple picture of star formation described above. 
+% SIMPLER APPROACH
+%% 
 
 
 
-%%
-% fcoll approach
-%%
-\subsection{A Fast Alternative}
-fcoll approach
-
-{\color{red} Put this at the beginning?? Pitch}
 
 
 
@@ -702,13 +705,15 @@ Over the last four sections we have assembled a simple physical picture of the I
 % Generic predictions
 %%
 \subsection{Generic Series of Events}
-Figure \ref{fig:predictions} depicts what are now standard predictions for the global 21-cm signal (top) and power spectrum (bottom). Time proceeds from left to right, roughly logarithmically, from the Big Bang until the end of reionization. There are four distinct epochs within this time period, labeled A, B, C, and D, which we describe in more detail below.
+{\color{red} Figure XYZ} depicts what are now standard predictions for the global 21-cm signal (top) and power spectrum (bottom). Time proceeds from left to right from the Big Bang until the end of reionization. There are four distinct epochs within this time period, labeled A, B, C, and D, which we describe in more detail below.
 \begin{description}
 	\item[A. The Dark Ages:] As the Universe expands after cosmological recombination, Compton scattering between free electrons and photons keep the radiation and matter temperature in equilibrium. The density is high enough the collisional coupling remains effective, and so $\TS = \TK = \TCMB$. Eventually, Compton scattering becomes inefficient as the CMB cools and the density continues to fall, which allows the gas to cool faster than the CMB ({\color{red} see also earlier figures}). Collisional coupling remains effective for a short time longer and so $\TK$ follows $\TS$. This results in the first decoupling of $\TS$ from $\TCMB$ at $z \sim 80$, and thus an absorption signature at $\nu \sim 15$ MHz, which comes to an end as collisional coupling becomes inefficient, leaving $\TS$ to reflect $\TCMB$ once again.
 	\item[B. First Light:] When the first stars form they flood the IGM with UV photons for the first time. While Lyman continuum photons are trapped near sources, photons with energies $10.2 < h\nu / \mathrm{eV} < 13.6$ either redshift directly through the $\Lya$ resonance or cascade via higher $\Lyn$ levels, giving rise to a large-scale $\Lya$ background capable of triggeiring Wouthuysen-Field coupling as they scatter through the medium. As a result, $\TS$ is driven back toward $\TK$, which (in most models) still reflects the cold temperatures of an adiabatically-cooling IGM.
 	\item[C. X-ray Heating:] The first generations of stars beget the first generations of X-ray sources, whether they be the explosions of the first stars themselves or remnant neutron stars or black holes that subsequently accrete. Though the details change depending on the identity of the first X-ray sources, generally such sources provide photons energetic enough to travel great distances. Upon absorption, they heat and partially ionize the gas, eventually driving $\TS > \TCMB$. Once $\TS \gg \TCMB$, the 21-cm signal ``saturates,'' and subsequently sensitive only to the density and ionization fields. However, it is possible that heating is never ``complete'' in this sense before the completion of reionization, meaning neutral pockets of IGM gas may remain at temperatures at or below $\TCMB$ until they are engulfed in the overlap event of large ionized bubbles.
 	\item[D. Reionization:] As the global star formation rate density climbs, the growth of ionized regions around groups and clusters of galaxies will continue, eventually culminating in the completion of cosmic reionization. This rise in ionization corresponds to a decline in the amount of neutral hydrogen in the Universe capable of producing or absorbing 21-cm radiation. As a result, the amplitude of the 21-cm signal, both in its mean and fluctuations, falls as reionization progresses.
 \end{description}
+
+{\color{red} Draw connection between features in 21-cm signal and evolution of ionization, heating, and $J_{\alpha}$ introduced in earlier sections.}
 
 
 The evolution of 21-cm fluctuations is more complicated, though this same series of events imprints on fluctuation patterns as well. 
@@ -720,7 +725,6 @@ The evolution of 21-cm fluctuations is more complicated, though this same series
 \subsection{Sensitivity to Model Parameters}
 Use this section to highlight the sensitivity to parameters in more detail.
 
-
 Things to discuss:
 \begin{itemize}
 	\item Sensitivity to $\Tmin$ and $\fstar$.
@@ -729,8 +733,13 @@ Things to discuss:
 	\item Clumping, feedback
 	\item Shot noise in galaxy counts in voxels.
 	\item PopIII stuff. AGN stuff.
-	\item Exotic physics? Defer to Jonathan's chapter?
+	\item Exotic physics? Defer to Jonathan's chapter.
 \end{itemize}
+
+%Figures
+%\begin{itemize}
+%	\item 
+%\end{itemize}
 
 \begin{center}
 \begin{table}
@@ -752,14 +761,17 @@ $\Tmin$ & Minimum virial temperature of star-forming halos & $10^4$ K \\
 \end{center}
 
 
+%%
+% TOOLS
+%%
+\subsection{Modeling Tools} \label{sec:codes}
+Predictions from previous section came from a mix of different groups and codes. Discuss some differences here.
 
-\subsection{Tools}
-Group by codes or techniques? Problem is, not everybody's code is public.
 \begin{itemize}
-	\item \textsc{21cmFAST} and DexM
-	\item \textsc{ares}
+	\item \textsc{21cmFAST} and \textsc{DexM}
 	\item Anastasia's code
 	\item simfast21
+	\item \textsc{ares}	
 	\item RT simulations
 \end{itemize}
 
