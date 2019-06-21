@@ -3,44 +3,79 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Trott_Pober/chapter.aux
 The style file: plain.bst
 Database file #1: Trott_Pober/References.bib
-You've used 2 entries,
+I was expecting a `,' or a `}'---line 860 of file Trott_Pober/References.bib
+ :        
+ :        author = {{Moore}, David F. and {Aguirre}, James E. and {Kohn}, Saul A. and
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1539 of file Trott_Pober/References.bib
+ :        
+ :        author = {{Wieringa}, Mark H.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2105 of file Trott_Pober/References.bib
+ : @article{bharadwaj05
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2154 of file Trott_Pober/References.bib
+ : @article{yoshiura15
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in pober13
+Warning--to sort, need author or key in wieringa92
+Warning--to sort, need author or key in moore17
+Warning--empty author in pober13
+Warning--empty title in pober13
+Warning--empty journal in pober13
+Warning--empty year in pober13
+Warning--empty author in wieringa92
+Warning--empty title in wieringa92
+Warning--empty journal in wieringa92
+Warning--empty year in wieringa92
+Warning--empty author in moore17
+Warning--empty title in moore17
+Warning--empty journal in moore17
+Warning--empty year in moore17
+Warning--empty publisher in tms
+You've used 136 entries,
             2118 wiz_defined-function locations,
-            509 strings with 4391 characters,
-and the built_in function-call counts, 688 in all, are:
-= -- 66
-> -- 26
-< -- 1
-+ -- 10
-- -- 8
-* -- 36
-:= -- 113
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 9
+            1205 strings with 46266 characters,
+and the built_in function-call counts, 76512 in all, are:
+= -- 6444
+> -- 7101
+< -- 8
++ -- 2817
+- -- 2680
+* -- 7598
+:= -- 13535
+add.period$ -- 402
+call.type$ -- 136
+change.case$ -- 1744
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 33
-empty$ -- 61
-format.name$ -- 8
-if$ -- 155
+cite$ -- 152
+duplicate$ -- 1719
+empty$ -- 3443
+format.name$ -- 2680
+if$ -- 14502
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 16
+int.to.str$ -- 136
+missing$ -- 137
+newline$ -- 677
+num.names$ -- 266
+pop$ -- 1550
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 1612
 quote$ -- 0
-skip$ -- 24
+skip$ -- 1291
 stack$ -- 0
-substring$ -- 30
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 2953
+swap$ -- 367
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 24
+type$ -- 542
+warning$ -- 16
+while$ -- 389
+width$ -- 139
+write$ -- 1467
+(There were 4 error messages)

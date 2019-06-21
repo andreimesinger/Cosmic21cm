@@ -1,15 +1,1017 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{100}
 
-\bibitem{diamantaras1996pcn}
-KI~Diamantaras and SY~Kung.
-\newblock {\em {Principal component neural networks: theory and applications}}.
-\newblock John Wiley \& Sons, Inc. New York, NY, USA, 1996.
+\bibitem{pober13}
 
-\bibitem{tulone2006pts}
-D.~Tulone and S.~Madden.
-\newblock {PAQ: Time Series Forecasting for Approximate Query Answering in
-  Sensor Networks}.
-\newblock In {\em Proceedings of the 3rd European Workshop on Wireless Sensor
-  Networks}, pages 21--37. Springer, 2006.
+
+\bibitem{wieringa92}
+
+
+\bibitem{moore17}
+
+
+\bibitem{ali08}
+S.~S. {Ali}, S.~{Bharadwaj}, and J.~N. {Chengalur}.
+\newblock {Foregrounds for redshifted 21-cm studies of reionization: Giant
+  Meter Wave Radio Telescope 153-MHz observations}.
+\newblock {\em \mnras}, 385:2166--2174, April 2008.
+
+\bibitem{ali15}
+Z.~S. {Ali}, A.~R. {Parsons}, H.~{Zheng}, J.~C. {Pober}, A.~{Liu}, J.~E.
+  {Aguirre}, R.~F. {Bradley}, G.~{Bernardi}, C.~L. {Carilli}, C.~{Cheng}, D.~R.
+  {DeBoer}, M.~R. {Dexter}, J.~{Grobbelaar}, J.~{Horrell}, D.~C. {Jacobs},
+  P.~{Klima}, D.~H.~E. {MacMahon}, M.~{Maree}, D.~F. {Moore}, N.~{Razavi},
+  I.~I. {Stefan}, W.~P. {Walbrugh}, and A.~{Walker}.
+\newblock {PAPER-64 Constraints on Reionization: The 21 cm Power Spectrum at z
+  = 8.4}.
+\newblock {\em \apj}, 809:61, August 2015.
+
+\bibitem{2018MNRAS.476.3051A}
+K.~M.~B. {Asad}, L.~V.~E. {Koopmans}, V.~{Jeli{\'c}}, A.~G. {de Bruyn}, V.~N.
+  {Pandey}, and B.~K. {Gehlot}.
+\newblock {Polarization leakage in epoch of reionization windows - III.
+  Wide-field effects of narrow-field arrays}.
+\newblock {\em \mnras}, 476(3):3051--3062, May 2018.
+
+\bibitem{2016MNRAS.462.4482A}
+K.~M.~B. {Asad}, L.~V.~E. {Koopmans}, V.~{Jeli{\'c}}, A.~{Ghosh}, F.~B.
+  {Abdalla}, M.~A. {Brentjens}, A.~G. {de Bruyn}, B.~{Ciardi}, B.~K. {Gehlot},
+  and I.~T. {Iliev}.
+\newblock {Polarization leakage in epoch of reionization windows - II. Primary
+  beam model and direction-dependent calibration}.
+\newblock {\em \mnras}, 462(4):4482--4494, Nov 2016.
+
+\bibitem{2015MNRAS.451.3709A}
+K.~M.~B. {Asad}, L.~V.~E. {Koopmans}, V.~{Jeli{\'c}}, V.~N. {Pand ey},
+  A.~{Ghosh}, F.~B. {Abdalla}, G.~{Bernardi}, M.~A. {Brentjens}, A.~G. {de
+  Bruyn}, and S.~{Bus}.
+\newblock {Polarization leakage in epoch of reionization windows - I. Low
+  Frequency Array observations of the 3C196 field}.
+\newblock {\em \mnras}, 451(4):3709--3727, Aug 2015.
+
+\bibitem{barry19}
+N.~{Barry}, A.~P. {Beardsley}, R.~{Byrne}, B.~{Hazelton}, M.~F. {Morales},
+  J.~C. {Pober}, and I.~{Sullivan}.
+\newblock {The FHD/$\boldsymbol{\varepsilon}$ppsilon Epoch of Reionization
+  Power Spectrum Pipeline}.
+\newblock {\em arXiv e-prints}, page arXiv:1901.02980, Jan 2019.
+
+\bibitem{barry16}
+N.~{Barry}, B.~{Hazelton}, I.~{Sullivan}, M.~F. {Morales}, and J.~C. {Pober}.
+\newblock {Calibration Requirements for Detecting the 21 cm Epoch of
+  Reionization Power Spectrum and Implications for the SKA}.
+\newblock {\em ArXiv e-prints 1603.00607}, March 2016.
+
+\bibitem{beardsley13}
+A.~P. {Beardsley}, B.~J. {Hazelton}, M.~F. {Morales}, W.~{Arcus}, and {others}.
+\newblock {The EoR sensitivity of the Murchison Widefield Array}.
+\newblock {\em MNRAS}, 429:L5--L9, February 2013.
+
+\bibitem{beardsley16}
+A.~P. {Beardsley}, B.~J. {Hazelton}, I.~S. {Sullivan}, P.~{Carroll},
+  N.~{Barry}, M.~{Rahimi}, B.~{Pindor}, C.~M. {Trott}, J.~{Line}, D.~C.
+  {Jacobs}, M.~F. {Morales}, J.~C. {Pober}, G.~{Bernardi}, J.~D. {Bowman},
+  M.~P. {Busch}, F.~{Briggs}, R.~J. {Cappallo}, B.~E. {Corey}, A.~{de
+  Oliveira-Costa}, J.~S. {Dillon}, D.~{Emrich}, A.~{Ewall-Wice}, L.~{Feng},
+  B.~M. {Gaensler}, R.~{Goeke}, L.~J. {Greenhill}, J.~N. {Hewitt},
+  N.~{Hurley-Walker}, M.~{Johnston-Hollitt}, D.~L. {Kaplan}, J.~C. {Kasper},
+  H.~S. {Kim}, E.~{Kratzenberg}, E.~{Lenc}, A.~{Loeb}, C.~J. {Lonsdale}, M.~J.
+  {Lynch}, B.~{McKinley}, S.~R. {McWhirter}, D.~A. {Mitchell}, E.~{Morgan},
+  A.~R. {Neben}, N.~{Thyagarajan}, D.~{Oberoi}, A.~R. {Offringa}, S.~M. {Ord},
+  S.~{Paul}, T.~{Prabu}, P.~{Procopio}, J.~{Riding}, A.~E.~E. {Rogers},
+  A.~{Roshi}, N.~{Udaya Shankar}, S.~K. {Sethi}, K.~S. {Srivani},
+  R.~{Subrahmanyan}, M.~{Tegmark}, S.~J. {Tingay}, M.~{Waterson}, R.~B.
+  {Wayth}, R.~L. {Webster}, A.~R. {Whitney}, A.~{Williams}, C.~L. {Williams},
+  C.~{Wu}, and J.~S.~B. {Wyithe}.
+\newblock {First Season MWA EoR Power Spectrum Results at Redshift 7}.
+\newblock {\em ArXiv e-prints}, August 2016.
+
+\bibitem{2013ApJ...771..105B}
+G.~{Bernardi}, L.~J. {Greenhill}, D.~A. {Mitchell}, S.~M. {Ord}, B.~J.
+  {Hazelton}, B.~M. {Gaensler}, A.~{de Oliveira-Costa}, M.~F. {Morales},
+  N.~{Udaya Shankar}, and R.~{Subrahmanyan}.
+\newblock {A 189 MHz, 2400 deg$^{2}$ Polarization Survey with the Murchison
+  Widefield Array 32-element Prototype}.
+\newblock {\em \apj}, 771(2):105, Jul 2013.
+
+\bibitem{bharadwaj01}
+S.~{Bharadwaj} and S.~K. {Sethi}.
+\newblock {HI Fluctuations at Large Redshifts: I--Visibility correlation}.
+\newblock {\em Journal of Astrophysics and Astronomy}, 22:293--307, Dec 2001.
+
+\bibitem{bharadwaj05}
+Somnath {Bharadwaj} and Sk.~Saiyad {Ali}.
+\newblock {On using visibility correlations to probe the HI distribution from
+  the dark ages to the present epoch - I. Formalism and the expected signal}.
+\newblock {\em \mnras}, 356(4):1519--1528, Feb 2005.
+
+\bibitem{bharadwaj19}
+Somnath {Bharadwaj}, Srijita {Pal}, Samir {Choudhuri}, and Prasun {Dutta}.
+\newblock {A Tapered Gridded Estimator (TGE) for the multifrequency angular
+  power spectrum (MAPS) and the cosmological H I 21-cm power spectrum}.
+\newblock {\em \mnras}, 483(4):5694--5700, Mar 2019.
+
+\bibitem{bowman13_mwascience}
+J.~D. {Bowman}, I.~{Cairns}, D.~L. {Kaplan}, T.~{Murphy}, D.~{Oberoi}, and
+  {others}.
+\newblock {Science with the Murchison Widefield Array}.
+\newblock {\em PASA}, 30:31, April 2013.
+
+\bibitem{bowman18}
+J.~D. {Bowman}, A.~E.~E. {Rogers}, R.~A. {Monsalve}, T.~J. {Mozdzen}, and
+  N.~{Mahesh}.
+\newblock {An absorption profile centred at 78 megahertz in the sky-averaged
+  spectrum}.
+\newblock {\em \nat}, 555:67--70, March 2018.
+
+\bibitem{2009ApJ...695..183B}
+Judd~D. {Bowman}, Miguel~F. {Morales}, and Jacqueline~N. {Hewitt}.
+\newblock {Foreground Contamination in Interferometric Measurements of the
+  Redshifted 21 cm Power Spectrum}.
+\newblock {\em \apj}, 695(1):183--199, Apr 2009.
+
+\bibitem{byrne19}
+Ruby {Byrne}, Miguel~F. {Morales}, Bryna {Hazelton}, Wenyang {Li}, Nichole
+  {Barry}, Adam~P. {Beardsley}, Ronniy {Joseph}, Jonathan {Pober}, Ian
+  {Sullivan}, and Cathryn {Trott}.
+\newblock {Fundamental Limitations on the Calibration of Redundant 21 cm
+  Cosmology Instruments and Implications for HERA and the SKA}.
+\newblock {\em \apj}, 875(1):70, Apr 2019.
+
+\bibitem{2016MNRAS.461.4151C}
+P.~A. {Carroll}, J.~{Line}, M.~F. {Morales}, N.~{Barry}, A.~P. {Beardsley},
+  B.~J. {Hazelton}, D.~C. {Jacobs}, J.~C. {Pober}, I.~S. {Sullivan}, and R.~L.
+  {Webster}.
+\newblock {A high reliability survey of discrete Epoch of Reionization
+  foreground sources in the MWA EoR0 field}.
+\newblock {\em \mnras}, 461(4):4151--4175, Oct 2016.
+
+\bibitem{chapman14}
+E.~{Chapman}, S.~{Zaroubi}, and F.~{Abdalla}.
+\newblock {Foreground Removal vs. Foreground Avoidance: Contamination of the
+  EoR Window}.
+\newblock {\em ArXiv/1408.4695}, August 2014.
+
+\bibitem{2013MNRAS.429..165C}
+Emma {Chapman}, Filipe~B. {Abdalla}, J.~{Bobin}, J.~L. {Starck}, Geraint
+  {Harker}, Vibor {Jeli{\'c}}, Panagiotis {Labropoulos}, Saleem {Zaroubi},
+  Michiel~A. {Brentjens}, and A.~G. {de Bruyn}.
+\newblock {The scale of the problem: recovering images of reionization with
+  Generalized Morphological Component Analysis}.
+\newblock {\em \mnras}, 429(1):165--176, Feb 2013.
+
+\bibitem{2012MNRAS.423.2518C}
+Emma {Chapman}, Filipe~B. {Abdalla}, Geraint {Harker}, Vibor {Jeli{\'c}},
+  Panagiotis {Labropoulos}, Saleem {Zaroubi}, Michiel~A. {Brentjens}, A.~G. {de
+  Bruyn}, and L.~V.~E. {Koopmans}.
+\newblock {Foreground removal using FASTICA: a showcase of LOFAR-EoR}.
+\newblock {\em \mnras}, 423(3):2518--2532, Jul 2012.
+
+\bibitem{cheng18}
+Carina {Cheng}, Aaron~R. {Parsons}, Matthew {Kolopanis}, Daniel~C. {Jacobs},
+  Adrian {Liu}, Saul~A. {Kohn}, James~E. {Aguirre}, Jonathan~C. {Pober},
+  Zaki~S. {Ali}, Gianni {Bernardi}, Richard~F. {Bradley}, Chris~L. {Carilli},
+  David~R. {DeBoer}, Matthew~R. {Dexter}, Joshua~S. {Dillon}, Pat {Klima},
+  David H.~E. {MacMahon}, David~F. {Moore}, Chuneeta~D. {Nunhokee}, William~P.
+  {Walbrugh}, and Andre {Walker}.
+\newblock {Characterizing Signal Loss in the 21 cm Reionization Power Spectrum:
+  A Revised Study of PAPER-64}.
+\newblock {\em ArXiv e-prints}, page arXiv:1810.05175, October 2018.
+
+\bibitem{chouduri14}
+S.~{Choudhuri}, S.~{Bharadwaj}, A.~{Ghosh}, and S.~S. {Ali}.
+\newblock {Visibility-based angular power spectrum estimation in low-frequency
+  radio interferometric observations}.
+\newblock {\em MNRAS}, 445:4351--4365, December 2014.
+
+\bibitem{2016MNRAS.463.4093C}
+Samir {Choudhuri}, Somnath {Bharadwaj}, Suman {Chatterjee}, Sk.~Saiyad {Ali},
+  Nirupam {Roy}, and Abhik {Ghosh}.
+\newblock {The visibility-based tapered gridded estimator (TGE) for the
+  redshifted 21-cm power spectrum}.
+\newblock {\em \mnras}, 463(4):4093--4107, Dec 2016.
+
+\bibitem{2013MNRAS.428.1755C}
+B.~{Ciardi}, P.~{Labropoulos}, A.~{Maselli}, R.~{Thomas}, S.~{Zaroubi},
+  L.~{Graziani}, J.~S. {Bolton}, G.~{Bernardi}, M.~{Brentjens}, and A.~G. {de
+  Bruyn}.
+\newblock {Prospects for detecting the 21 cm forest from the diffuse
+  intergalactic medium with LOFAR}.
+\newblock {\em \mnras}, 428(2):1755--1765, Jan 2013.
+
+\bibitem{datta10}
+A.~{Datta}, J.~D. {Bowman}, and C.~L. {Carilli}.
+\newblock {Bright Source Subtraction Requirements for Redshifted 21 cm
+  Measurements}.
+\newblock {\em ApJ}, 724:526--538, November 2010.
+
+\bibitem{datta07}
+Kanan~K. {Datta}, T.~Roy {Choudhury}, and Somnath {Bharadwaj}.
+\newblock {The multifrequency angular power spectrum of the epoch of
+  reionization 21-cm signal}.
+\newblock {\em \mnras}, 378(1):119--128, Jun 2007.
+
+\bibitem{deboer16}
+D.~R. {DeBoer}, A.~R. {Parsons}, J.~E. {Aguirre}, P.~{Alexander}, Z.~S. {Ali},
+  A.~P. {Beardsley}, G.~{Bernardi}, J.~D. {Bowman}, R.~F. {Bradley}, C.~L.
+  {Carilli}, C.~{Cheng}, E.~{de Lera Acedo}, J.~S. {Dillon}, A.~{Ewall-Wice},
+  G.~{Fadana}, N.~{Fagnoni}, R.~{Fritz}, S.~R. {Furlanetto}, B.~{Glendenning},
+  B.~{Greig}, J.~{Grobbelaar}, B.~J. {Hazelton}, J.~N. {Hewitt}, J.~{Hickish},
+  D.~C. {Jacobs}, A.~{Julius}, M.~{Kariseb}, S.~A. {Kohn}, T.~{Lekalake},
+  A.~{Liu}, A.~{Loots}, D.~{MacMahon}, L.~{Malan}, C.~{Malgas}, M.~{Maree},
+  N.~{Mathison}, E.~{Matsetela}, A.~{Mesinger}, M.~F. {Morales}, A.~R. {Neben},
+  N.~{Patra}, S.~{Pieterse}, J.~C. {Pober}, N.~{Razavi-Ghods}, J.~{Ringuette},
+  J.~{Robnett}, K.~{Rosie}, R.~{Sell}, C.~{Smith}, A.~{Syce}, M.~{Tegmark},
+  N.~{Thyagarajan}, P.~K.~G. {Williams}, and H.~{Zheng}.
+\newblock {Hydrogen Epoch of Reionization Array (HERA)}.
+\newblock {\em ArXiv e-prints}, June 2016.
+
+\bibitem{dewdney16}
+P.~{Dewdney}, W.~{Turner}, R.~{Braun}, J.~{Santander-Vela}, M.~{Waterson}, and
+  G-H {Tan}.
+\newblock {SKA System Baseline Design v2}.
+\newblock {\em SKA Document Series}, 2016.
+
+\bibitem{dillon13}
+J.~S. {Dillon}, A.~{Liu}, and M.~{Tegmark}.
+\newblock {A fast method for power spectrum and foreground analysis for 21 cm
+  cosmology}.
+\newblock {\em \prd}, 87(4):043005, February 2013.
+
+\bibitem{dillon15}
+J.~S. {Dillon}, A.~R. {Neben}, J.~N. {Hewitt}, M.~{Tegmark}, N.~{Barry}, A.~P.
+  {Beardsley}, J.~D. {Bowman}, F.~{Briggs}, P.~{Carroll}, A.~{de
+  Oliveira-Costa}, A.~{Ewall-Wice}, L.~{Feng}, L.~J. {Greenhill}, B.~J.
+  {Hazelton}, L.~{Hernquist}, N.~{Hurley-Walker}, D.~C. {Jacobs}, H.~S. {Kim},
+  P.~{Kittiwisit}, E.~{Lenc}, J.~{Line}, A.~{Loeb}, B.~{McKinley}, D.~A.
+  {Mitchell}, M.~F. {Morales}, A.~R. {Offringa}, S.~{Paul}, B.~{Pindor}, J.~C.
+  {Pober}, P.~{Procopio}, J.~{Riding}, S.~{Sethi}, N.~U. {Shankar},
+  R.~{Subrahmanyan}, I.~{Sullivan}, N.~{Thyagarajan}, S.~J. {Tingay},
+  C.~{Trott}, R.~B. {Wayth}, R.~L. {Webster}, S.~{Wyithe}, G.~{Bernardi}, R.~J.
+  {Cappallo}, A.~A. {Deshpande}, M.~{Johnston-Hollitt}, D.~L. {Kaplan}, C.~J.
+  {Lonsdale}, S.~R. {McWhirter}, E.~{Morgan}, D.~{Oberoi}, S.~M. {Ord},
+  T.~{Prabu}, K.~S. {Srivani}, A.~{Williams}, and C.~L. {Williams}.
+\newblock {Empirical covariance modeling for 21 cm power spectrum estimation: A
+  method demonstration and new limits from early Murchison Widefield Array
+  128-tile data}.
+\newblock {\em \prd}, 91(12):123011, June 2015.
+
+\bibitem{eisenstein99}
+D.~J. {Eisenstein} and W.~{Hu}.
+\newblock {Power Spectra for Cold Dark Matter and Its Variants}.
+\newblock {\em ApJ}, 511:5--15, January 1999.
+
+\bibitem{ellingson09}
+S.~W. {Ellingson}, T.~E. {Clarke}, A.~{Cohen}, J.~{Craig}, N.~E. {Kassim},
+  Y.~{Pihlstrom}, L.~J. {Rickard}, and G.~B. {Taylor}.
+\newblock {The Long Wavelength Array}.
+\newblock {\em IEEE Proceedings}, 97:1421--1430, August 2009.
+
+\bibitem{ewall-wice16}
+A.~{Ewall-Wice}, Joshua~S. {Dillon}, J.~N. {Hewitt}, A.~{Loeb}, A.~{Mesinger},
+  A.~R. {Neben}, A.~R. {Offringa}, M.~{Tegmark}, N.~{Barry}, and A.~P.
+  {Beardsley}.
+\newblock {First limits on the 21 cm power spectrum during the Epoch of X-ray
+  heating}.
+\newblock {\em \mnras}, 460(4):4320--4347, Aug 2016.
+
+\bibitem{ewall-wice17}
+Aaron {Ewall-Wice}, Joshua~S. {Dillon}, Adrian {Liu}, and Jacqueline {Hewitt}.
+\newblock {The impact of modelling errors on interferometer calibration for 21
+  cm power spectra}.
+\newblock {\em \mnras}, 470(2):1849--1870, Sep 2017.
+
+\bibitem{furlanetto06}
+S.~R. {Furlanetto}, S.~P. {Oh}, and F.~H. {Briggs}.
+\newblock {Cosmology at low frequencies: The 21 cm transition and the
+  high-redshift Universe}.
+\newblock {\em Phys. Rep.}, 433:181--301, October 2006.
+
+\bibitem{2018arXiv180906661G}
+B.~K. {Gehlot}, F.~G. {Mertens}, L.~V.~E. {Koopmans}, M.~A. {Brentjens},
+  S.~{Zaroubi}, B.~{Ciardi}, A.~{Ghosh}, M.~{Hatef}, I.~T. {Iliev}, and
+  V.~{Jeli{\'c}}.
+\newblock {The first power spectrum limit on the 21-cm signal of neutral
+  hydrogen during the Cosmic Dawn at $z=20-25$ from LOFAR}.
+\newblock {\em arXiv e-prints}, page arXiv:1809.06661, Sep 2018.
+
+\bibitem{ghosh11}
+Abhik {Ghosh}, Somnath {Bharadwaj}, Sk.~Saiyad {Ali}, and Jayaram~N.
+  {Chengalur}.
+\newblock {GMRT observation towards detecting the post-reionization 21-cm
+  signal}.
+\newblock {\em \mnras}, 411(4):2426--2438, Mar 2011.
+
+\bibitem{ghosh11a}
+Abhik {Ghosh}, Somnath {Bharadwaj}, Sk.~Saiyad {Ali}, and Jayaram~N.
+  {Chengalur}.
+\newblock {Improved foreground removal in GMRT 610 MHz observations towards
+  redshifted 21-cm tomography}.
+\newblock {\em \mnras}, 418(4):2584--2589, Dec 2011.
+
+\bibitem{2015MNRAS.452.1587G}
+Abhik {Ghosh}, L{\'e}on V.~E. {Koopmans}, E.~{Chapman}, and V.~{Jeli{\'c}}.
+\newblock {A Bayesian analysis of redshifted 21-cm H I signal and foregrounds:
+  simulations for LOFAR}.
+\newblock {\em \mnras}, 452(2):1587--1600, Sep 2015.
+
+\bibitem{ghosh12}
+Abhik {Ghosh}, Jayanti {Prasad}, Somnath {Bharadwaj}, Sk.~Saiyad {Ali}, and
+  Jayaram~N. {Chengalur}.
+\newblock {Characterizing foreground for redshifted 21 cm radiation: 150 MHz
+  Giant Metrewave Radio Telescope observations}.
+\newblock {\em \mnras}, 426(4):3295--3314, Nov 2012.
+
+\bibitem{greig16}
+Bradley {Greig}, Andrei {Mesinger}, and Jonathan~C. {Pober}.
+\newblock {Constraints on the temperature of the intergalactic medium at z =
+  8.4 with 21-cm observations}.
+\newblock {\em \mnras}, 455(4):4295--4300, Feb 2016.
+
+\bibitem{2010MNRAS.405.2492H}
+Geraint {Harker}, Saleem {Zaroubi}, Gianni {Bernardi}, Michiel~A. {Brentjens},
+  A.~G. {de Bruyn}, Benedetta {Ciardi}, Vibor {Jeli{\'c}}, Leon V.~E.
+  {Koopmans}, Panagiotis {Labropoulos}, and Garrelt {Mellema}.
+\newblock {Power spectrum extraction for redshifted 21-cm Epoch of Reionization
+  experiments: the LOFAR case}.
+\newblock {\em \mnras}, 405(4):2492--2504, Jul 2010.
+
+\bibitem{2009MNRAS.393.1449H}
+Geraint J.~A. {Harker}, Saleem {Zaroubi}, Rajat~M. {Thomas}, Vibor {Jeli{\'c}},
+  Panagiotis {Labropoulos}, Garrelt {Mellema}, Ilian~T. {Iliev}, Gianni
+  {Bernardi}, Michiel~A. {Brentjens}, and A.~G. {de Bruyn}.
+\newblock {Detection and extraction of signals from the epoch of reionization
+  using higher-order one-point statistics}.
+\newblock {\em \mnras}, 393(4):1449--1458, Mar 2009.
+
+\bibitem{hurleywalker16}
+N.~{Hurley-Walker}, J.~R. {Callingham}, P.~J. {Hancock}, T.~M.~O. {Franzen},
+  L.~{Hindson}, A.~D. {Kapi{\'n}ska}, J.~{Morgan}, A.~R. {Offringa}, R.~B.
+  {Wayth}, C.~{Wu}, Q.~{Zheng}, T.~{Murphy}, M.~E. {Bell}, K.~S. {Dwarakanath},
+  B.~{For}, B.~M. {Gaensler}, M.~{Johnston-Hollitt}, E.~{Lenc}, P.~{Procopio},
+  L.~{Staveley-Smith}, R.~{Ekers}, J.~D. {Bowman}, F.~{Briggs}, R.~J.
+  {Cappallo}, A.~A. {Deshpande}, L.~{Greenhill}, B.~J. {Hazelton}, D.~L.
+  {Kaplan}, C.~J. {Lonsdale}, S.~R. {McWhirter}, D.~A. {Mitchell}, M.~F.
+  {Morales}, E.~{Morgan}, D.~{Oberoi}, S.~M. {Ord}, T.~{Prabu}, N.~U.
+  {Shankar}, K.~S. {Srivani}, R.~{Subrahmanyan}, S.~J. {Tingay}, R.~L.
+  {Webster}, A.~{Williams}, and C.~L. {Williams}.
+\newblock {GaLactic and Extragalactic All-sky Murchison Widefield Array (GLEAM)
+  survey - I. A low-frequency extragalactic catalogue}.
+\newblock {\em \mnras}, 464:1146--1167, January 2017.
+
+\bibitem{2014PASA...31...45H}
+Natasha {Hurley-Walker}, John {Morgan}, Randall~B. {Wayth}, Paul~J. {Hancock},
+  Martin~E. {Bell}, Gianni {Bernardi}, Ramesh {Bhat}, Frank {Briggs},
+  Avinash~A. {Deshpande}, and Aaron {Ewall-Wice}.
+\newblock {The Murchison Widefield Array Commissioning Survey: A Low-Frequency
+  Catalogue of 14 110 Compact Radio Sources over 6 100 Square Degrees}.
+\newblock {\em \pasa}, 31:e045, Nov 2014.
+
+\bibitem{hutter19}
+Anne {Hutter}, Pratika {Dayal}, Sangeeta {Malhotra}, James {Rhoads},
+  Tirthankar~Roy {Choudhury}, Benedetta {Ciardi}, Christopher~J. {Conselice},
+  Asantha {Cooray}, Jean-Gabriel {Cuby}, and Kanan~K. {Datta}.
+\newblock {Astro2020 Science White Paper: A proposal to exploit galaxy-21cm
+  synergies to shed light on the Epoch of Reionization}.
+\newblock {\em arXiv e-prints}, page arXiv:1903.03628, Mar 2019.
+
+\bibitem{hutter17}
+Anne {Hutter}, Pratika {Dayal}, Volker {M{\"u}ller}, and Cathryn~M. {Trott}.
+\newblock {Exploring 21cm-Lyman Alpha Emitter Synergies for SKA}.
+\newblock {\em \apj}, 836(2):176, Feb 2017.
+
+\bibitem{jacobs16}
+D.~C. {Jacobs}, B.~J. {Hazelton}, C.~M. {Trott}, J.~S. {Dillon}, B.~{Pindor},
+  I.~S. {Sullivan}, J.~C. {Pober}, N.~{Barry}, A.~P. {Beardsley},
+  G.~{Bernardi}, J.~D. {Bowman}, F.~{Briggs}, R.~J. {Cappallo}, P.~{Carroll},
+  B.~E. {Corey}, A.~{de Oliveira-Costa}, D.~{Emrich}, A.~{Ewall-Wice},
+  L.~{Feng}, B.~M. {Gaensler}, R.~{Goeke}, L.~J. {Greenhill}, J.~N. {Hewitt},
+  N.~{Hurley-Walker}, M.~{Johnston-Hollitt}, D.~L. {Kaplan}, J.~C. {Kasper},
+  H.~{Kim}, E.~{Kratzenberg}, E.~{Lenc}, J.~{Line}, A.~{Loeb}, C.~J.
+  {Lonsdale}, M.~J. {Lynch}, B.~{McKinley}, S.~R. {McWhirter}, D.~A.
+  {Mitchell}, M.~F. {Morales}, E.~{Morgan}, A.~R. {Neben}, N.~{Thyagarajan},
+  D.~{Oberoi}, A.~R. {Offringa}, S.~M. {Ord}, S.~{Paul}, T.~{Prabu},
+  P.~{Procopio}, J.~{Riding}, A.~E.~E. {Rogers}, A.~{Roshi}, N.~{Udaya
+  Shankar}, S.~K. {Sethi}, K.~S. {Srivani}, R.~{Subrahmanyan}, M.~{Tegmark},
+  S.~J. {Tingay}, M.~{Waterson}, R.~B. {Wayth}, R.~L. {Webster}, A.~R.
+  {Whitney}, A.~{Williams}, C.~L. {Williams}, C.~{Wu}, and J.~S.~B. {Wyithe}.
+\newblock {The Murchison Widefield Array 21 cm Power Spectrum Analysis
+  Methodology}.
+\newblock {\em \apj}, 825:114, July 2016.
+
+\bibitem{jacobs10}
+Daniel~C. {Jacobs}, James~E. {Aguirre}, Aaron~R. {Parsons}, Jonathan~C.
+  {Pober}, Richard~F. {Bradley}, Chris~L. {Carilli}, Nicole~E. {Gugliucci},
+  Jason~R. {Manley}, Carel {van der Merwe}, and David~F. {Moore}.
+\newblock {New 145 MHz Source Measurements by PAPER in the Southern Sky}.
+\newblock {\em \apj}, 734(2):L34, Jun 2011.
+
+\bibitem{jacobs17}
+Daniel~C. {Jacobs}, Jacob {Burba}, Judd~D. {Bowman}, Abraham~R. {Neben},
+  Benjamin {Stinnett}, Lauren {Turner}, Kali {Johnson}, Michael {Busch}, Jay
+  {Allison}, and Marc {Leatham}.
+\newblock {First Demonstration of ECHO: an External Calibrator for Hydrogen
+  Observatories}.
+\newblock {\em \pasp}, 129(973):035002, Mar 2017.
+
+\bibitem{jacobs15}
+Daniel~C. {Jacobs}, Jonathan~C. {Pober}, Aaron~R. {Parsons}, James~E.
+  {Aguirre}, Zaki~S. {Ali}, Judd {Bowman}, Richard~F. {Bradley}, Chris~L.
+  {Carilli}, David~R. {DeBoer}, and Matthew~R. {Dexter}.
+\newblock {Multiredshift Limits on the 21 cm Power Spectrum from PAPER}.
+\newblock {\em \apj}, 801(1):51, Mar 2015.
+
+\bibitem{2014A&A...568A.101J}
+V.~{Jeli{\'c}}, A.~G. {de Bruyn}, M.~{Mevius}, F.~B. {Abdalla}, K.~M.~B.
+  {Asad}, G.~{Bernardi}, M.~A. {Brentjens}, S.~{Bus}, E.~{Chapman}, and
+  B.~{Ciardi}.
+\newblock {Initial LOFAR observations of epoch of reionization windows. II.
+  Diffuse polarized emission in the ELAIS-N1 field}.
+\newblock {\em \aap}, 568:A101, Aug 2014.
+
+\bibitem{2008MNRAS.389.1319J}
+V.~{Jeli{\'c}}, S.~{Zaroubi}, P.~{Labropoulos}, R.~M. {Thomas}, G.~{Bernardi},
+  M.~A. {Brentjens}, A.~G. {de Bruyn}, B.~{Ciardi}, G.~{Harker}, and L.~V.~E.
+  {Koopmans}.
+\newblock {Foreground simulations for the LOFAR-epoch of reionization
+  experiment}.
+\newblock {\em \mnras}, 389(3):1319--1335, Sep 2008.
+
+\bibitem{2010MNRAS.409.1647J}
+Vibor {Jeli{\'c}}, Saleem {Zaroubi}, Panagiotis {Labropoulos}, Gianni
+  {Bernardi}, A.~G. {de Bruyn}, and L{\'e}on V.~E. {Koopmans}.
+\newblock {Realistic simulations of the Galactic polarized foreground:
+  consequences for 21-cm reionization detection experiments}.
+\newblock {\em \mnras}, 409(4):1647--1659, Dec 2010.
+
+\bibitem{jordan16}
+C.~H. {Jordan}, S.~{Murray}, C.~M. {Trott}, R.~B. {Wayth}, D.~A. {Mitchell},
+  M.~{Rahimi}, B.~{Pindor}, P.~{Procopio}, and J.~{Morgan}.
+\newblock {Characterization of the ionosphere above the Murchison Radio
+  Observatory using the Murchison Widefield Array}.
+\newblock {\em \mnras}, 471:3974--3987, November 2017.
+
+\bibitem{joseph18}
+Ronniy~C. {Joseph}, Cathryn~M. {Trott}, and Randall~B. {Wayth}.
+\newblock {The Bias and Uncertainty of Redundant and Sky-based Calibration
+  Under Realistic Sky and Telescope Conditions}.
+\newblock {\em \aj}, 156(6):285, Dec 2018.
+
+\bibitem{2011MNRAS.414.1656K}
+S.~{Kazemi}, S.~{Yatawatta}, S.~{Zaroubi}, P.~{Lampropoulos}, A.~G. {de Bruyn},
+  L.~V.~E. {Koopmans}, and J.~{Noordam}.
+\newblock {Radio interferometric calibration using the SAGE algorithm}.
+\newblock {\em \mnras}, 414(2):1656--1666, Jun 2011.
+
+\bibitem{kerrigan19}
+Joshua {Kerrigan}, Paul {La Plante}, Saul {Kohn}, Jonathan~C. {Pober}, James
+  {Aguirre}, Zara {Abdurashidova}, Paul {Alexander}, Zaki~S. {Ali}, Yanga
+  {Balfour}, and Adam~P. {Beardsley}.
+\newblock {Optimizing Sparse RFI Prediction using Deep Learning}.
+\newblock {\em arXiv e-prints}, page arXiv:1902.08244, Feb 2019.
+
+\bibitem{kerrigan18}
+Joshua~R. {Kerrigan}, Jonathan~C. {Pober}, Zaki~S. {Ali}, Carina {Cheng},
+  Adam~P. {Beardsley}, Aaron~R. {Parsons}, James~E. {Aguirre}, Nichole {Barry},
+  Richard~F. {Bradley}, and Gianni {Bernardi}.
+\newblock {Improved 21 cm Epoch of Reionization Power Spectrum Measurements
+  with a Hybrid Foreground Subtraction and Avoidance Technique}.
+\newblock {\em \apj}, 864(2):131, Sep 2018.
+
+\bibitem{kohn16}
+S.~A. {Kohn}, J.~E. {Aguirre}, C.~D. {Nunhokee}, G.~{Bernardi}, J.~C. {Pober},
+  Z.~S. {Ali}, R.~F. {Bradley}, C.~L. {Carilli}, D.~R. {DeBoer}, and N.~E.
+  {Gugliucci}.
+\newblock {Constraining Polarized Foregrounds for EoR Experiments I: 2D Power
+  Spectra from the PAPER-32 Imaging Array}.
+\newblock {\em \apj}, 823(2):88, Jun 2016.
+
+\bibitem{koopmans15}
+L.~{Koopmans}, J.~{Pritchard}, G.~{Mellema}, J.~{Aguirre}, K.~{Ahn},
+  R.~{Barkana}, I.~{van Bemmel}, G.~{Bernardi}, A.~{Bonaldi}, F.~{Briggs}, and
+  {others}.
+\newblock {The Cosmic Dawn and Epoch of Reionisation with SKA}.
+\newblock {\em Advancing Astrophysics with the Square Kilometre Array
+  (AASKA14)}, page~1, 2015.
+
+\bibitem{kubota18}
+Kenji {Kubota}, Shintaro {Yoshiura}, Keitaro {Takahashi}, Kenji {Hasegawa},
+  Hidenobu {Yajima}, Masami {Ouchi}, B.~{Pindor}, and R.~L. {Webster}.
+\newblock {Detectability of the 21-cm signal during the epoch of reionization
+  with 21-cm Lyman {\ensuremath{\alpha}} emitter cross-correlation - I}.
+\newblock {\em \mnras}, 479(2):2754--2766, Sep 2018.
+
+\bibitem{lanman19}
+Adam {Lanman}, Bryna {Hazelton}, Daniel {Jacobs}, Matthew {Kolopanis}, Jonathan
+  {Pober}, James {Aguirre}, and Nithyanandan {Thyagarajan}.
+\newblock {pyuvsim: A comprehensive simulation package for radio
+  interferometers in python.}
+\newblock {\em The Journal of Open Source Software}, 4(37):1234, May 2019.
+
+\bibitem{2017PASA...34...40L}
+E.~{Lenc}, C.~S. {Anderson}, N.~{Barry}, J.~D. {Bowman}, I.~H. {Cairns}, J.~S.
+  {Farnes}, B.~M. {Gaensler}, G.~{Heald}, M.~{Johnston-Hollitt}, and D.~L.
+  {Kaplan}.
+\newblock {The Challenges of Low-Frequency Radio Polarimetry: Lessons from the
+  Murchison Widefield Array}.
+\newblock {\em \pasa}, 34:e040, Sep 2017.
+
+\bibitem{2016ApJ...830...38L}
+E.~{Lenc}, B.~M. {Gaensler}, X.~H. {Sun}, E.~M. {Sadler}, A.~G. {Willis},
+  N.~{Barry}, A.~P. {Beardsley}, M.~E. {Bell}, G.~{Bernardi}, and J.~D.
+  {Bowman}.
+\newblock {Low-frequency Observations of Linearly Polarized Structures in the
+  Interstellar Medium near the South Galactic Pole}.
+\newblock {\em \apj}, 830(1):38, Oct 2016.
+
+\bibitem{li18_redundant}
+W.~{Li}, J.~C. {Pober}, B.~J. {Hazelton}, N.~{Barry}, M.~F. {Morales},
+  I.~{Sullivan}, A.~R. {Parsons}, Z.~S. {Ali}, J.~S. {Dillon}, and A.~P.
+  {Beardsley}.
+\newblock {Comparing Redundant and Sky-model-based Interferometric Calibration:
+  A First Look with Phase II of the MWA}.
+\newblock {\em \apj}, 863(2):170, Aug 2018.
+
+\bibitem{line18}
+J.~L.~B. {Line}, B.~{McKinley}, J.~{Rasti}, M.~{Bhardwaj}, R.~B. {Wayth}, R.~L.
+  {Webster}, D.~{Ung}, D.~{Emrich}, L.~{Horsley}, and A.~{Beardsley}.
+\newblock {In situ measurement of MWA primary beam variation using ORBCOMM}.
+\newblock {\em \pasa}, 35:45, Dec 2018.
+
+\bibitem{line17}
+J.~L.~B. {Line}, R.~L. {Webster}, B.~{Pindor}, D.~A. {Mitchell}, and C.~M.
+  {Trott}.
+\newblock {PUMA: The Positional Update and Matching Algorithm}.
+\newblock {\em \pasa}, 34:e003, Jan 2017.
+
+\bibitem{liu11}
+A.~{Liu} and M.~{Tegmark}.
+\newblock {A method for 21 cm power spectrum estimation in the presence of
+  foregrounds}.
+\newblock {\em PhRvD}, 83(10):103006--+, May 2011.
+
+\bibitem{liu10}
+Adrian {Liu}, Max {Tegmark}, Scott {Morrison}, Andrew {Lutomirski}, and Matias
+  {Zaldarriaga}.
+\newblock {Precision calibration of radio interferometers using redundant
+  baselines}.
+\newblock {\em \mnras}, 408(2):1029--1050, Oct 2010.
+
+\bibitem{martinot18}
+Zachary~E. {Martinot}, James~E. {Aguirre}, Saul~A. {Kohn}, and Immanuel~Q.
+  {Washington}.
+\newblock {Ionospheric Attenuation of Polarized Foregrounds in 21 cm Epoch of
+  Reionization Measurements: A Demonstration for the HERA Experiment}.
+\newblock {\em \apj}, 869(1):79, Dec 2018.
+
+\bibitem{mcquinn06}
+M.~{McQuinn}, O.~{Zahn}, M.~{Zaldarriaga}, L.~{Hernquist}, and S.~R.
+  {Furlanetto}.
+\newblock {Cosmological Parameter Estimation Using 21 cm Radiation from the
+  Epoch of Reionization}.
+\newblock {\em ApJ}, 653:815--834, December 2006.
+
+\bibitem{2018MNRAS.478.3640M}
+F.~G. {Mertens}, A.~{Ghosh}, and L.~V.~E. {Koopmans}.
+\newblock {Statistical 21-cm signal separation via Gaussian Process Regression
+  analysis}.
+\newblock {\em \mnras}, 478(3):3640--3652, Aug 2018.
+
+\bibitem{mesinger11}
+A.~{Mesinger}, S.~{Furlanetto}, and R.~{Cen}.
+\newblock {21CMFAST: a fast, seminumerical simulation of the high-redshift
+  21-cm signal}.
+\newblock {\em MNRAS}, 411:955--972, February 2011.
+
+\bibitem{mitchell08}
+D.~A. {Mitchell}, L.~J. {Greenhill}, R.~B. {Wayth}, R.~J. {Sault}, C.~J.
+  {Lonsdale}, R.~J. {Cappallo}, M.~F. {Morales}, and S.~M. {Ord}.
+\newblock {Real-Time Calibration of the Murchison Widefield Array}.
+\newblock {\em IEEE Journal of Selected Topics in Signal Processing, Vol.~2,
+  Issue 5, p.707-717}, 2:707--717, November 2008.
+
+\bibitem{moore13}
+D.~F. {Moore}, J.~E. {Aguirre}, A.~R. {Parsons}, D.~C. {Jacobs}, and J.~C.
+  {Pober}.
+\newblock {The Effects of Polarized Foregrounds on 21 cm Epoch of Reionization
+  Power Spectrum Measurements}.
+\newblock {\em \apj}, 769:154, June 2013.
+
+\bibitem{morales04}
+M.~F. {Morales} and J.~{Hewitt}.
+\newblock {Toward Epoch of Reionization Measurements with Wide-Field Radio
+  Observations}.
+\newblock {\em ApJ}, 615:7--18, November 2004.
+
+\bibitem{morales19}
+Miguel~F. {Morales}, Adam {Beardsley}, Jonathan {Pober}, Nichole {Barry}, Bryna
+  {Hazelton}, Daniel {Jacobs}, and Ian {Sullivan}.
+\newblock {Understanding the diversity of 21 cm cosmology analyses}.
+\newblock {\em \mnras}, 483(2):2207--2216, Feb 2019.
+
+\bibitem{2019MNRAS.483.5480M}
+A.~{Mouri Sardarabadi} and L.~V.~E. {Koopmans}.
+\newblock {Quantifying suppression of the cosmological 21-cm signal due to
+  direction-dependent gain calibration in radio interferometers}.
+\newblock {\em \mnras}, 483(4):5480--5490, Mar 2019.
+
+\bibitem{murray17}
+S.~G. {Murray}, C.~M. {Trott}, and C.~H. {Jordan}.
+\newblock {An Improved Statistical Point-source Foreground Model for the Epoch
+  of Reionization}.
+\newblock {\em \apj}, 845:7, August 2017.
+
+\bibitem{neben15}
+A.~R. {Neben}, R.~F. {Bradley}, J.~N. {Hewitt}, G.~{Bernardi}, J.~D. {Bowman},
+  F.~{Briggs}, R.~J. {Cappallo}, A.~A. {Deshpande}, R.~{Goeke}, and L.~J.
+  {Greenhill}.
+\newblock {Measuring phased-array antenna beampatterns with high dynamic range
+  for the Murchison Widefield Array using 137 MHz ORBCOMM satellites}.
+\newblock {\em Radio Science}, 50(7):614--629, Jul 2015.
+
+\bibitem{neben16}
+Abraham~R. {Neben}, Richard~F. {Bradley}, Jacqueline~N. {Hewitt}, David~R.
+  {DeBoer}, Aaron~R. {Parsons}, James~E. {Aguirre}, Zaki~S. {Ali}, Carina
+  {Cheng}, Aaron {Ewall-Wice}, and Nipanjana {Patra}.
+\newblock {The Hydrogen Epoch of Reionization Array Dish. I. Beam Pattern
+  Measurements and Science Implications}.
+\newblock {\em \apj}, 826(2):199, Aug 2016.
+
+\bibitem{nunhokee17}
+C.~D. {Nunhokee}, G.~{Bernardi}, S.~A. {Kohn}, J.~E. {Aguirre},
+  N.~{Thyagarajan}, J.~S. {Dillon}, G.~{Foster}, T.~L. {Grobler}, J.~Z.~E.
+  {Martinot}, and A.~R. {Parsons}.
+\newblock {Constraining Polarized Foregrounds for EoR Experiments. II.
+  Polarization Leakage Simulations in the Avoidance Scheme}.
+\newblock {\em \apj}, 848(1):47, Oct 2017.
+
+\bibitem{2019MNRAS.484.2866O}
+A.~R. {Offringa}, F.~{Mertens}, and L.~V.~E. {Koopmans}.
+\newblock {The impact of interference excision on 21-cm epoch of reionization
+  power spectrum analyses}.
+\newblock {\em \mnras}, 484(2):2866--2875, Apr 2019.
+
+\bibitem{offringa19}
+A.~R. {Offringa}, F.~{Mertens}, and L.~V.~E. {Koopmans}.
+\newblock {The impact of interference excision on 21-cm epoch of reionization
+  power spectrum analyses}.
+\newblock {\em \mnras}, 484(2):2866--2875, Apr 2019.
+
+\bibitem{offringa12}
+A.~R. Offringa, J.~J. van~de Gronde, and J.~B. T.~M. Roerdink.
+\newblock A morphological algorithm for improved radio-frequency interference
+  detection.
+\newblock {\em A\&A}, 539, March 2012.
+
+\bibitem{paciga13}
+Gregory {Paciga}, Joshua~G. {Albert}, Kevin {Bandura}, Tzu-Ching {Chang},
+  Yashwant {Gupta}, Christopher {Hirata}, Julia {Odegova}, Ue-Li {Pen},
+  Jeffrey~B. {Peterson}, Jayanta {Roy}, J.~Richard {Shaw}, Kris {Sigurdson},
+  and Tabitha {Voytek}.
+\newblock {A simulation-calibrated limit on the H I power spectrum from the
+  GMRT Epoch of Reionization experiment}.
+\newblock {\em \mnras}, 433(1):639--647, Jul 2013.
+
+\bibitem{paciga11}
+Gregory {Paciga}, Tzu-Ching {Chang}, Yashwant {Gupta}, Rajaram {Nityanada},
+  Julia {Odegova}, Ue-Li {Pen}, Jeffrey~B. {Peterson}, Jayanta {Roy}, and Kris
+  {Sigurdson}.
+\newblock {The GMRT Epoch of Reionization experiment: a new upper limit on the
+  neutral hydrogen power spectrum at z{\ensuremath{\approx}} 8.6}.
+\newblock {\em \mnras}, 413(2):1174--1183, May 2011.
+
+\bibitem{parsons12a}
+A.~{Parsons}, J.~{Pober}, M.~{McQuinn}, D.~{Jacobs}, and J.~{Aguirre}.
+\newblock {A Sensitivity and Array-configuration Study for Measuring the Power
+  Spectrum of 21 cm Emission from Reionization}.
+\newblock {\em ApJ}, 753:81, July 2012.
+
+\bibitem{parsons10}
+A.~R. {Parsons}, D.~C. {Backer}, G.~S. {Foster}, M.~C.~H. {Wright}, R.~F.
+  {Bradley}, N.~E. {Gugliucci}, C.~R. {Parashare}, E.~E. {Benoit}, J.~E.
+  {Aguirre}, D.~C. {Jacobs}, C.~L. {Carilli}, D.~{Herne}, M.~J. {Lynch}, J.~R.
+  {Manley}, and D.~J. {Werthimer}.
+\newblock {The Precision Array for Probing the Epoch of Re-ionization: Eight
+  Station Results}.
+\newblock {\em AJ}, 139:1468--1480, April 2010.
+
+\bibitem{parsons14}
+A.~R. {Parsons}, A.~{Liu}, J.~E. {Aguirre}, Z.~S. {Ali}, R.~F. {Bradley}, C.~L.
+  {Carilli}, D.~R. {DeBoer}, M.~R. {Dexter}, N.~E. {Gugliucci}, D.~C. {Jacobs},
+  P.~{Klima}, D.~H.~E. {MacMahon}, J.~R. {Manley}, D.~F. {Moore}, J.~C.
+  {Pober}, I.~I. {Stefan}, and W.~P. {Walbrugh}.
+\newblock {New Limits on 21 cm Epoch of Reionization from PAPER-32 Consistent
+  with an X-Ray Heated Intergalactic Medium at z = 7.7}.
+\newblock {\em \apj}, 788:106, June 2014.
+
+\bibitem{parsons08}
+Aaron {Parsons}, Donald {Backer}, Andrew {Siemion}, Henry {Chen}, Dan
+  {Werthimer}, Pierre {Droz}, Terry {Filiba}, Jason {Manley}, Peter {McMahon},
+  and Arash {Parsa}.
+\newblock {A Scalable Correlator Architecture Based on Modular FPGA Hardware,
+  Reuseable Gateware, and Data Packetization}.
+\newblock {\em \pasp}, 120(873):1207, Nov 2008.
+
+\bibitem{parsons16}
+Aaron~R. {Parsons}, Adrian {Liu}, Zaki~S. {Ali}, and Carina {Cheng}.
+\newblock {Optimized Beam Sculpting with Generalized Fringe-rate Filters}.
+\newblock {\em \apj}, 820(1):51, Mar 2016.
+
+\bibitem{parsons12b}
+Aaron~R. {Parsons}, Jonathan~C. {Pober}, James~E. {Aguirre}, Christopher~L.
+  {Carilli}, Daniel~C. {Jacobs}, and David~F. {Moore}.
+\newblock {A Per-baseline, Delay-spectrum Technique for Accessing the 21 cm
+  Cosmic Reionization Signature}.
+\newblock {\em \apj}, 756(2):165, Sep 2012.
+
+\bibitem{2017ApJ...838...65P}
+A.~H. {Patil}, S.~{Yatawatta}, L.~V.~E. {Koopmans}, A.~G. {de Bruyn}, M.~A.
+  {Brentjens}, S.~{Zaroubi}, K.~M.~B. {Asad}, M.~{Hatef}, V.~{Jeli{\'c}}, and
+  M.~{Mevius}.
+\newblock {Upper Limits on the 21 cm Epoch of Reionization Power Spectrum from
+  One Night with LOFAR}.
+\newblock {\em \apj}, 838(1):65, Mar 2017.
+
+\bibitem{patil16}
+A.~H. {Patil}, S.~{Yatawatta}, S.~{Zaroubi}, L.~V.~E. {Koopmans}, A.~G. {de
+  Bruyn}, V.~{Jeli{\'c}}, B.~{Ciardi}, I.~T. {Iliev}, M.~{Mevius}, V.~N.
+  {Pandey}, and B.~K. {Gehlot}.
+\newblock {Systematic biases in low frequency radio interferometric data due to
+  calibration: the LOFAR EoR case}.
+\newblock {\em \mnras}, September 2016.
+
+\bibitem{patil14}
+A.~H. {Patil}, S.~{Zaroubi}, E.~{Chapman}, V.~{Jeli{\'c}}, G.~{Harker}, F.~B.
+  {Abdalla}, K.~M.~B. {Asad}, G.~{Bernardi}, M.~A. {Brentjens}, A.~G. {de
+  Bruyn}, S.~{Bus}, B.~{Ciardi}, S.~{Daiboo}, E.~R. {Fernandez}, A.~{Ghosh},
+  H.~{Jensen}, S.~{Kazemi}, L.~V.~E. {Koopmans}, P.~{Labropoulos}, M.~{Mevius},
+  O.~{Martinez}, G.~{Mellema}, A.~R. {Offringa}, V.~N. {Pandey}, J.~{Schaye},
+  R.~M. {Thomas}, H.~K. {Vedantham}, V.~{Veligatla}, S.~J. {Wijnholds}, and
+  S.~{Yatawatta}.
+\newblock {Constraining the epoch of reionization with the variance statistic:
+  simulations of the LOFAR case}.
+\newblock {\em \mnras}, 443:1113--1124, September 2014.
+
+\bibitem{2014MNRAS.443.1113P}
+Ajinkya~H. {Patil}, Saleem {Zaroubi}, Emma {Chapman}, Vibor {Jeli{\'c}},
+  Geraint {Harker}, Filipe~B. {Abdalla}, Khan M.~B. {Asad}, Gianni {Bernardi},
+  Michiel~A. {Brentjens}, and A.~G. {de Bruyn}.
+\newblock {Constraining the epoch of reionization with the variance statistic:
+  simulations of the LOFAR case}.
+\newblock {\em \mnras}, 443(2):1113--1124, Sep 2014.
+
+\bibitem{pober14}
+J.~C. {Pober}, A.~{Liu}, J.~S. {Dillon}, J.~E. {Aguirre}, J.~D. {Bowman}, R.~F.
+  {Bradley}, C.~L. {Carilli}, D.~R. {DeBoer}, J.~N. {Hewitt}, D.~C. {Jacobs},
+  M.~{McQuinn}, M.~F. {Morales}, A.~R. {Parsons}, M.~{Tegmark}, and D.~J.
+  {Werthimer}.
+\newblock {What Next-generation 21 cm Power Spectrum Measurements can Teach us
+  About the Epoch of Reionization}.
+\newblock {\em \apj}, 782:66, February 2014.
+
+\bibitem{pober15}
+Jonathan~C. {Pober}, Zaki~S. {Ali}, Aaron~R. {Parsons}, Matthew {McQuinn},
+  James~E. {Aguirre}, Gianni {Bernardi}, Richard~F. {Bradley}, Chris~L.
+  {Carilli}, Carina {Cheng}, and David~R. {DeBoer}.
+\newblock {PAPER-64 Constraints On Reionization. II. The Temperature of the z
+  =8.4 Intergalactic Medium}.
+\newblock {\em \apj}, 809(1):62, Aug 2015.
+
+\bibitem{pober12}
+Jonathan~C. {Pober}, Aaron~R. {Parsons}, Daniel~C. {Jacobs}, James~E.
+  {Aguirre}, Richard~F. {Bradley}, Chris~L. {Carilli}, Nicole~E. {Gugliucci},
+  David~F. {Moore}, and Chaitali~R. {Parashare}.
+\newblock {A Technique for Primary Beam Calibration of Drift-scanning,
+  Wide-field Antenna Elements}.
+\newblock {\em \aj}, 143(2):53, Feb 2012.
+
+\bibitem{procopio15}
+P.~{Procopio}, B.~{Pindor}, D.A.M. {Mitchell}, and {builders}.
+\newblock {Calibration of MWA data using the MWA Real-Time System}.
+\newblock {\em ApJ}, 2015, in prep.
+
+\bibitem{rana19}
+Sandeep {Rana} and Jasjeet~S. {Bagla}.
+\newblock {Angular clustering of point sources at 150 MHz in the TGSS survey}.
+\newblock {\em \mnras}, 485(4):5891--5896, Jun 2019.
+
+\bibitem{ali06}
+SK. {Saiyad Ali}, Somnath {Bharadwaj}, and Sanjay~K. {Pandey}.
+\newblock {Probing the bispectrum at high redshifts using 21-cm HI
+  observations}.
+\newblock {\em \mnras}, 366(1):213--218, Feb 2006.
+
+\bibitem{stefan10}
+Irina~I. {Stefan}, Chris~L. {Carilli}, David~A. {Green}, Zaki {Ali}, James~E.
+  {Aguirre}, Richard~F. {Bradley}, David {DeBoer}, Matthew {Dexter}, Nicole~E.
+  {Gugliucci}, and D.~E. {Harris}.
+\newblock {Imaging on PAPER: Centaurus A at 148 MHz}.
+\newblock {\em \mnras}, 432(2):1285--1293, Jun 2013.
+
+\bibitem{2012ApJ...759...17S}
+I.~S. {Sullivan}, M.~F. {Morales}, B.~J. {Hazelton}, W.~{Arcus}, D.~{Barnes},
+  G.~{Bernardi}, F.~H. {Briggs}, J.~D. {Bowman}, J.~D. {Bunton}, and R.~J.
+  {Cappallo}.
+\newblock {Fast Holographic Deconvolution: A New Technique for Precision Radio
+  Interferometry}.
+\newblock {\em \apj}, 759(1):17, Nov 2012.
+
+\bibitem{swarup91}
+G.~{Swarup}, S.~{Ananthakrishnan}, V.~K. {Kapahi}, A.~P. {Rao}, C.~R.
+  {Subrahmanya}, and V.~K. {Kulkarni}.
+\newblock {The Giant Metre-Wave Radio Telescope}.
+\newblock {\em Current Science}, 60:95, Jan 1991.
+
+\bibitem{tegmark97}
+M.~{Tegmark}.
+\newblock {How to measure CMB power spectra without losing information}.
+\newblock {\em PhRvD}, 55:5895--5907, May 1997.
+
+\bibitem{tms}
+A.~R. {Thompson}, J.~M. {Moran}, and G.~W. {Swenson}.
+\newblock {\em {Interferometry and synthesis in radio astronomy}}.
+\newblock 1986.
+
+\bibitem{thyagarajan15a}
+N.~{Thyagarajan}, D.~C. {Jacobs}, J.~D. {Bowman}, and {others}.
+\newblock {Foregrounds in Wide-field Redshifted 21 cm Power Spectra}.
+\newblock {\em \apj}, 804:14, May 2015.
+
+\bibitem{tingay13_mwasystem}
+S.~J. {Tingay}, R.~{Goeke}, J.~D. {Bowman}, D.~{Emrich}, and {others}.
+\newblock {The Murchison Widefield Array: The Square Kilometre Array Precursor
+  at Low Radio Frequencies}.
+\newblock {\em PASA}, 30:7, January 2013.
+
+\bibitem{trottchips2016}
+C.~M. {Trott}, B.~{Pindor}, P.~{Procopio}, R.~B. {Wayth}, D.~A. {Mitchell},
+  B.~{McKinley}, S.~J. {Tingay}, N.~{Barry}, A.~P. {Beardsley}, G.~{Bernardi},
+  J.~D. {Bowman}, F.~{Briggs}, R.~J. {Cappallo}, P.~{Carroll}, A.~{de
+  Oliveira-Costa}, J.~S. {Dillon}, A.~{Ewall-Wice}, L.~{Feng}, L.~J.
+  {Greenhill}, B.~J. {Hazelton}, J.~N. {Hewitt}, N.~{Hurley-Walker},
+  M.~{Johnston-Hollitt}, D.~C. {Jacobs}, D.~L. {Kaplan}, H.~S. {Kim},
+  E.~{Lenc}, J.~{Line}, A.~{Loeb}, C.~J. {Lonsdale}, M.~F. {Morales},
+  E.~{Morgan}, A.~R. {Neben}, N.~{Thyagarajan}, D.~{Oberoi}, A.~R. {Offringa},
+  S.~M. {Ord}, S.~{Paul}, J.~C. {Pober}, T.~{Prabu}, J.~{Riding}, N.~{Udaya
+  Shankar}, S.~K. {Sethi}, K.~S. {Srivani}, R.~{Subrahmanyan}, I.~S.
+  {Sullivan}, M.~{Tegmark}, R.~L. {Webster}, A.~{Williams}, C.~L. {Williams},
+  C.~{Wu}, and J.~S.~B. {Wyithe}.
+\newblock {CHIPS: The Cosmological H i Power Spectrum Estimator}.
+\newblock {\em \apj}, 818:139, February 2016.
+
+\bibitem{trottwayth2016}
+C.~M. {Trott} and R.~B. {Wayth}.
+\newblock {Spectral Calibration Requirements of Radio Interferometers for Epoch
+  of Reionisation Science with the SKA}.
+\newblock {\em \pasa}, 33:e019, May 2016.
+
+\bibitem{trott12}
+C.~M. {Trott}, R.~B. {Wayth}, and S.~J. {Tingay}.
+\newblock {The Impact of Point-source Subtraction Residuals on 21 cm Epoch of
+  Reionization Estimation}.
+\newblock {\em ApJ}, 757:101, September 2012.
+
+\bibitem{trott17_skala}
+Cathryn~M. {Trott}, Eloy {de Lera Acedo}, Randall~B. {Wayth}, Nicolas
+  {Fagnoni}, Adrian~T. {Sutinjo}, Brett {Wakley}, and Chris Ivan~B. {Punzalan}.
+\newblock {Spectral performance of Square Kilometre Array Antennas - II.
+  Calibration performance}.
+\newblock {\em \mnras}, 470(1):455--465, Sep 2017.
+
+\bibitem{trott19_kde}
+Cathryn~M. {Trott}, Shih~Ching {Fu}, S.~G. {Murray}, C.~H. {Jordan}, J.~L.~B.
+  {Line}, N.~{Barry}, R.~{Byrne}, B.~J. {Hazelton}, K.~{Hasegawa}, and
+  R.~{Joseph}.
+\newblock {Robust statistics towards detection of the 21 cm signal from the
+  Epoch of Reionization}.
+\newblock {\em \mnras}, 486(4):5766--5784, Jul 2019.
+
+\bibitem{trott18}
+Cathryn~M. {Trott}, C.~H. {Jordan}, S.~G. {Murray}, B.~{Pindor}, D.~A.
+  {Mitchell}, R.~B. {Wayth}, J.~{Line}, B.~{McKinley}, A.~{Beardsley}, and
+  J.~{Bowman}.
+\newblock {Assessment of Ionospheric Activity Tolerances for Epoch of
+  Reionization Science with the Murchison Widefield Array}.
+\newblock {\em \apj}, 867(1):15, Nov 2018.
+
+\bibitem{trott19_bispectrum}
+Cathryn~M. {Trott}, Catherine~A. {Watkinson}, Christopher~H. {Jordan}, Shintaro
+  {Yoshiura}, Suman {Majumdar}, N.~{Barry}, R.~{Byrne}, B.~J. {Hazelton},
+  K.~{Hasegawa}, and R.~{Joseph}.
+\newblock {Gridded and direct Epoch of Reionisation bispectrum estimates using
+  the Murchison Widefield Array}.
+\newblock {\em arXiv e-prints}, page arXiv:1905.07161, May 2019.
+
+\bibitem{trottwayth17_extended}
+Cathryn~M. {Trott} and Randall~B. {Wayth}.
+\newblock {Building Models for Extended Radio Sources: Implications for Epoch
+  of Reionisation Science}.
+\newblock {\em \pasa}, 34:e061, Nov 2017.
+
+\bibitem{vanhaarlem13}
+M.~P. {van Haarlem}, M.~W. {Wise}, A.~W. {Gunst}, G.~{Heald}, J.~P. {McKean},
+  J.~W.~T. {Hessels}, A.~G. {de Bruyn}, R.~{Nijboer}, J.~{Swinbank},
+  R.~{Fallows}, M.~{Brentjens}, A.~{Nelles}, R.~{Beck}, H.~{Falcke},
+  R.~{Fender}, J.~{H{\"o}randel}, L.~V.~E. {Koopmans}, G.~{Mann}, G.~{Miley},
+  H.~{R{\"o}ttgering}, B.~W. {Stappers}, and {others}.
+\newblock {LOFAR: The LOw-Frequency ARray}.
+\newblock {\em \aap}, 556:A2, August 2013.
+
+\bibitem{wayth15}
+R.~B. {Wayth}, E.~{Lenc}, M.~E. {Bell}, J.~R. {Callingham}, K.~S.
+  {Dwarakanath}, T.~M.~O. {Franzen}, B.-Q. {For}, B.~{Gaensler}, P.~{Hancock},
+  L.~{Hindson}, N.~{Hurley-Walker}, C.~A. {Jackson}, M.~{Johnston-Hollitt},
+  A.~D. {Kapi{\'n}ska}, B.~{McKinley}, J.~{Morgan}, A.~R. {Offringa},
+  P.~{Procopio}, L.~{Staveley-Smith}, C.~{Wu}, Q.~{Zheng}, C.~M. {Trott},
+  G.~{Bernardi}, J.~D. {Bowman}, F.~{Briggs}, R.~J. {Cappallo}, B.~E. {Corey},
+  A.~A. {Deshpande}, D.~{Emrich}, R.~{Goeke}, L.~J. {Greenhill}, B.~J.
+  {Hazelton}, D.~L. {Kaplan}, J.~C. {Kasper}, E.~{Kratzenberg}, C.~J.
+  {Lonsdale}, M.~J. {Lynch}, S.~R. {McWhirter}, D.~A. {Mitchell}, M.~F.
+  {Morales}, E.~{Morgan}, D.~{Oberoi}, S.~M. {Ord}, T.~{Prabu}, A.~E.~E.
+  {Rogers}, A.~{Roshi}, N.~U. {Shankar}, K.~S. {Srivani}, R.~{Subrahmanyan},
+  S.~J. {Tingay}, M.~{Waterson}, R.~L. {Webster}, A.~R. {Whitney},
+  A.~{Williams}, and C.~L. {Williams}.
+\newblock {GLEAM: The GaLactic and Extragalactic All-Sky MWA Survey}.
+\newblock {\em \pasa}, 32:e025, June 2015.
+
+\bibitem{wayth18}
+R.~B. {Wayth}, S.~J. {Tingay}, C.~M. {Trott}, D.~{Emrich},
+  M.~{Johnston-Hollitt}, B.~{McKinley}, B.~M. {Gaensler}, A.~P. {Beardsley},
+  T.~{Booler}, B.~{Crosse}, T.~M.~O. {Franzen}, L.~{Horsley}, D.~L. {Kaplan},
+  D.~{Kenney}, M.~F. {Morales}, D.~{Pallot}, G.~{Sleap}, K.~{Steele},
+  M.~{Walker}, A.~{Williams}, C.~{Wu}, I.~H. {Cairns}, M.~D. {Filipovic},
+  S.~{Johnston}, T.~{Murphy}, P.~{Quinn}, L.~{Staveley-Smith}, R.~{Webster},
+  and J.~S.~B. {Wyithe}.
+\newblock {The Phase II Murchison Widefield Array: Design Overview}.
+\newblock {\em ArXiv e-prints}, September 2018.
+
+\bibitem{wilensky19}
+Michael~J. {Wilensky}, Miguel~F. {Morales}, Bryna~J. {Hazelton}, Nichole
+  {Barry}, Ruby {Byrne}, and Sumit {Roy}.
+\newblock {Absolving the SSINS of Precision Interferometric Radio Data: A New
+  Technique for Mitigating Ultra-faint Radio Frequency Interference}.
+\newblock {\em arXiv e-prints}, page arXiv:1906.01093, Jun 2019.
+
+\bibitem{2012ApJ...755...47W}
+Christopher~L. {Williams}, Jacqueline~N. {Hewitt}, Alan~M. {Levine}, Angelica
+  {de Oliveira-Costa}, Judd~D. {Bowman}, Frank~H. {Briggs}, B.~M. {Gaensler},
+  Lars~L. {Hernquist}, Daniel~A. {Mitchell}, and Miguel~F. {Morales}.
+\newblock {Low-frequency Imaging of Fields at High Galactic Latitude with the
+  Murchison Widefield Array 32 Element Prototype}.
+\newblock {\em \apj}, 755(1):47, Aug 2012.
+
+\bibitem{wyithe07}
+J.~S.~B. {Wyithe} and M.~F. {Morales}.
+\newblock {Biased reionization and non-Gaussianity in redshifted 21-cm
+  intensity maps of the reionization epoch}.
+\newblock {\em \mnras}, 379:1647--1657, August 2007.
+
+\bibitem{2013A&A...550A.136Y}
+S.~{Yatawatta}, A.~G. {de Bruyn}, M.~A. {Brentjens}, P.~{Labropoulos}, V.~N.
+  {Pandey}, S.~{Kazemi}, S.~{Zaroubi}, L.~V.~E. {Koopmans}, A.~R. {Offringa},
+  and V.~{Jeli{\'c}}.
+\newblock {Initial deep LOFAR observations of epoch of reionization windows. I.
+  The north celestial pole}.
+\newblock {\em \aap}, 550:A136, Feb 2013.
+
+\bibitem{yoshiura19}
+S.~{Yoshiura}, K.~{Ichiki}, B.~{Pindor}, K.~{Takahashi}, H.~{Tashiro}, and
+  C.~M. {Trott}.
+\newblock {Study of systematics effects on the cross power spectrum of 21 cm
+  line and cosmic microwave background using Murchison Widefield Array data}.
+\newblock {\em \mnras}, 483(2):2697--2711, Feb 2019.
+
+\bibitem{yoshiura18}
+S.~{Yoshiura}, J.~L.~B. {Line}, K.~{Kubota}, K.~{Hasegawa}, and K.~{Takahashi}.
+\newblock {Detectability of 21 cm-signal during the Epoch of Reionization with
+  21 cm-Lyman-{\ensuremath{\alpha}} emitter cross-correlation - II. Foreground
+  contamination}.
+\newblock {\em \mnras}, 479(2):2767--2776, Sep 2018.
+
+\bibitem{yoshiura15}
+Shintaro {Yoshiura}, Hayato {Shimabukuro}, Keitaro {Takahashi}, Rieko {Momose},
+  Hiroyuki {Nakanishi}, and Hiroshi {Imai}.
+\newblock {Sensitivity for 21 cm bispectrum from Epoch of Reionization}.
+\newblock {\em \mnras}, 451(1):266--274, Jul 2015.
+
+\bibitem{2012MNRAS.425.2964Z}
+S.~{Zaroubi}, A.~G. {de Bruyn}, G.~{Harker}, R.~M. {Thomas}, P.~{Labropolous},
+  V.~{Jeli{\'c}}, L.~V.~E. {Koopmans}, M.~A. {Brentjens}, G.~{Bernardi}, and
+  B.~{Ciardi}.
+\newblock {Imaging neutral hydrogen on large scales during the Epoch of
+  Reionization with LOFAR}.
+\newblock {\em \mnras}, 425(4):2964--2973, Oct 2012.
+
+\bibitem{zheng14}
+H.~{Zheng}, M.~{Tegmark}, V.~{Buza}, J.~S. {Dillon}, H.~{Gharibyan},
+  J.~{Hickish}, E.~{Kunz}, A.~{Liu}, J.~{Losh}, and A.~{Lutomirski}.
+\newblock {MITEoR: a scalable interferometer for precision 21 cm cosmology}.
+\newblock {\em \mnras}, 445(2):1084--1103, Dec 2014.
+
+\bibitem{zheng12}
+Qian {Zheng}, Xiang-Ping {Wu}, Jun-Hua {Gu}, Jingying {Wang}, and Haiguang
+  {Xu}.
+\newblock {A Method to Extract the Angular Power Spectrum of the Epoch of
+  Reionization from Low-frequency Radio Interferometers}.
+\newblock {\em \apj}, 758(1):L24, Oct 2012.
 
 \end{thebibliography}

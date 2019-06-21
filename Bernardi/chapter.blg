@@ -3,44 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Bernardi/References.bib
-You've used 2 entries,
+Warning--I didn't find a database entry for "???"
+Warning--empty publisher in TMS
+You've used 1 entry,
             2118 wiz_defined-function locations,
-            509 strings with 4382 characters,
-and the built_in function-call counts, 688 in all, are:
-= -- 66
-> -- 26
-< -- 1
-+ -- 10
-- -- 8
-* -- 36
-:= -- 113
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 9
+            503 strings with 4173 characters,
+and the built_in function-call counts, 303 in all, are:
+= -- 23
+> -- 18
+< -- 0
++ -- 7
+- -- 6
+* -- 21
+:= -- 58
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 5
 chr.to.int$ -- 0
 cite$ -- 2
-duplicate$ -- 33
-empty$ -- 61
-format.name$ -- 8
-if$ -- 155
+duplicate$ -- 12
+empty$ -- 23
+format.name$ -- 6
+if$ -- 58
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 16
+int.to.str$ -- 1
+missing$ -- 2
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 11
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 5
 quote$ -- 0
-skip$ -- 24
+skip$ -- 6
 stack$ -- 0
-substring$ -- 30
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 5
+swap$ -- 1
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 24
+type$ -- 2
+warning$ -- 1
+while$ -- 2
+width$ -- 2
+write$ -- 11
+(There were 2 warnings)
