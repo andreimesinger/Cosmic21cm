@@ -59,26 +59,38 @@
 \contentsline {chapter}{\numberline {5}Observational strategies: power spectra and images}{21}{chapter.5}
 \contentsline {section}{\numberline {5.1}Chapter layout}{21}{section.5.1}
 \contentsline {section}{\numberline {5.2}Interferometry overview}{22}{section.5.2}
-\contentsline {section}{\numberline {5.3}Challenges in 21~cm observations}{23}{section.5.3}
-\contentsline {section}{\numberline {5.4}Array design}{23}{section.5.4}
+\contentsline {section}{\numberline {5.3}21~cm observables: power spectra and images}{23}{section.5.3}
+\contentsline {section}{\numberline {5.4}Challenges in 21~cm observations}{24}{section.5.4}
+\contentsline {section}{\numberline {5.5}Array design}{24}{section.5.5}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-9}
-\contentsline {chapter}{\numberline {6}Chapter title}{25}{chapter.6}
-\contentsline {section}{\numberline {6.1}A Section}{25}{section.6.1}
-\contentsline {paragraph}{Cras adipiscing}{26}{section*.12}
+\contentsline {chapter}{\numberline {6}Chapter title}{26}{chapter.6}
+\contentsline {section}{\numberline {6.1}A Section}{26}{section.6.1}
+\contentsline {paragraph}{Cras adipiscing}{27}{section*.12}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-10}
-\contentsline {chapter}{\numberline {7}Chapter title}{29}{chapter.7}
-\contentsline {section}{\numberline {7.1}A Section}{29}{section.7.1}
-\contentsline {paragraph}{Cras adipiscing}{30}{section*.14}
+\contentsline {chapter}{\numberline {7}Chapter title}{30}{chapter.7}
+\contentsline {section}{\numberline {7.1}A Section}{30}{section.7.1}
+\contentsline {paragraph}{Cras adipiscing}{31}{section*.14}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-11}
-\contentsline {chapter}{\numberline {8}Status of 21~cm interferometric experiments}{33}{chapter.8}
-\contentsline {section}{\numberline {8.1}High-level topics}{33}{section.8.1}
-\contentsline {paragraph}{Cras adipiscing}{34}{section*.16}
+\contentsline {chapter}{\numberline {8}Status of 21~cm interferometric experiments}{34}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{34}{section.8.1}
+\contentsline {section}{\numberline {8.2}Early work}{35}{section.8.2}
+\contentsline {section}{\numberline {8.3}Experimental methodologies and current experiments}{36}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Giant Metrewave Radio Telescope - GMRT}{37}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Murchison Widefield Array - MWA}{39}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Low Frequency Array - LOFAR}{43}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}Precision Array for Probing the Epoch of Reionization - PAPER}{46}{subsection.8.3.4}
+\contentsline {section}{\numberline {8.4}Published results}{49}{section.8.4}
+\contentsline {section}{\numberline {8.5}Current challenges}{49}{section.8.5}
+\contentsline {section}{\numberline {8.6}Prospects for the future}{52}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Current instruments}{52}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}Future instruments}{52}{subsection.8.6.2}
+\contentsline {subsection}{\numberline {8.6.3}Future analyses}{53}{subsection.8.6.3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-12}
-\contentsline {chapter}{\numberline {9}Chapter title}{37}{chapter.9}
-\contentsline {section}{\numberline {9.1}A Section}{37}{section.9.1}
-\contentsline {paragraph}{Cras adipiscing}{38}{section*.18}
+\contentsline {chapter}{\numberline {9}Chapter title}{68}{chapter.9}
+\contentsline {section}{\numberline {9.1}A Section}{68}{section.9.1}
+\contentsline {paragraph}{Cras adipiscing}{69}{section*.17}
 \gdef \the@ipfilectr {}
