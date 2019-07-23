@@ -1,48 +1,81 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Trott_Pober/chapter.aux
 The style file: plain.bst
-I found no \citation commands---while reading file Trott_Pober/chapter.aux
 Database file #1: Trott_Pober/References.bib
-You've used 0 entries,
+I was expecting a `,' or a `}'---line 860 of file Trott_Pober/References.bib
+ :        
+ :        author = {{Moore}, David F. and {Aguirre}, James E. and {Kohn}, Saul A. and
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1539 of file Trott_Pober/References.bib
+ :        
+ :        author = {{Wieringa}, Mark H.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2105 of file Trott_Pober/References.bib
+ : @article{bharadwaj05
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2154 of file Trott_Pober/References.bib
+ : @article{yoshiura15
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in pober13
+Warning--to sort, need author or key in wieringa92
+Warning--to sort, need author or key in moore17
+Warning--empty author in pober13
+Warning--empty title in pober13
+Warning--empty journal in pober13
+Warning--empty year in pober13
+Warning--empty author in wieringa92
+Warning--empty title in wieringa92
+Warning--empty journal in wieringa92
+Warning--empty year in wieringa92
+Warning--empty author in moore17
+Warning--empty title in moore17
+Warning--empty journal in moore17
+Warning--empty year in moore17
+Warning--empty publisher in tms
+You've used 136 entries,
             2118 wiz_defined-function locations,
-            497 strings with 4033 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            1205 strings with 46266 characters,
+and the built_in function-call counts, 76512 in all, are:
+= -- 6444
+> -- 7101
+< -- 8
++ -- 2817
+- -- 2680
+* -- 7598
+:= -- 13535
+add.period$ -- 402
+call.type$ -- 136
+change.case$ -- 1744
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 152
+duplicate$ -- 1719
+empty$ -- 3443
+format.name$ -- 2680
+if$ -- 14502
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 136
+missing$ -- 137
+newline$ -- 677
+num.names$ -- 266
+pop$ -- 1550
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 1612
 quote$ -- 0
-skip$ -- 1
+skip$ -- 1291
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 2953
+swap$ -- 367
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+type$ -- 542
+warning$ -- 16
+while$ -- 389
+width$ -- 139
+write$ -- 1467
+(There were 4 error messages)
