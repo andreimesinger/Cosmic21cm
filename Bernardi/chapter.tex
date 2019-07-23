@@ -36,11 +36,9 @@ The sky brightness distribution does not enter directly in equation~\ref{eq:1}, 
 \end{equation}
 The integral of equation~\ref{eq:1} is taken over the source size $\Omega$. Equation~\ref{eq:1} is often re-written in a different coordinate system, i.e. the components of the baseline vector $(u,v,w)$ and the reciprocal $(l,m,n)$, where $(l,m)$ are the coordinates in the plane on the sky tangent to the observing direction $n$ (for a detailed discussion on coordinate systems see, for example \cite{TMS}). Using this different coordinate system, equation~\ref{eq:1} becomes (e.g., \cite{TMS}):
 \begin{equation}
-V_{ij} (u,v,w, \lambda) = \int_\Omega {\bar I} (\hat{\sigma}, \lambda) \, e^{-2 \pi i (ul + vm + wn)} dl \, dm \, dn,
+V_{ij} (u,v,w, \lambda) = \int_\Omega {\bar I} (\hat{\sigma}, \lambda) \, e^{-2 \pi i (ul + vm + wn)} \frac {dl \, dm \, dn}{\sqrt{1 - l^2 - m^2}},
 \label{eq:3}
 \end{equation}
-{\bf (GB: fix the above equation)}...
-
 Although low frequency radio observations are intrinsically wide-field, for the purpose of studying the 21~cm observables, we can reduce equation~\ref{eq:3} to a two dimensional Fourier transform:
 \begin{equation}
 V_{ij} (u,v, \lambda) = \int_\Omega {\bar I} (l, m, \lambda) \, e^{-2 \pi i (ul + vm)} dl \, dm.
@@ -80,12 +78,57 @@ The ultimate goal of 21~cm observations is to image the spatial distribution of 
 where $\langle \rangle$ indicates the ensamble average, $\bf k$ is the Fourier conjugate of $\bf x$, tilde the Fourier transform, $^*$ the complex conjugate operator and $\delta$ the Dirac delta function. The power spectrum has a very close connection with the visibility measured by an interferometer (include CMB references). A direct relationship between the three dimensional 21~cm distribution and interferometric visibilities can be derived. An interferometric array already operates a two dimensional Fourier transform of the sky brightness distribution, therefore a Fourier transform 
 
 %\section{Challenges in 21~cm observations: interferometric calibration in presence of bright foreground emission, wide fields of view, ionosphere}
-\section{Challenges in 21~cm observations}
+\section{Interferometric calibration and 21~cm observations}
 \label{sec:challenges}
 
-The separation of the cosmological signal from the much brighter foreground emission (see Section ???) is the key challenge in interferometric observations of the 21~cm signal. As long as foreground emission is smooth in frequency (see Section ???) the separation of the 21~cm signal is possible. However, it has been realized already in the early days that there is a strong coupling between foreground and interferometric calibration. 
+Celestial signals always experience a corruption due to the non-ideal instrumental response that needs to be corrected for a posteriori, in a process that is known as interferometric calibration. Calibration relies on the definition of a data model where the corruptions are described by antenna based quantities known as Jones matrices. The data model is known as the interferometric measurement equation (\cite{hamaker96},\cite{smirnov11}) that will be summarized in the following.
 
-The celestial signals aways experience a corruption due to the non-ideal instrumental response. 
+If each antenna measures two orthogonal, linear polarizations $x$ and $y$, the cross-polarization visibility products can be grouped in a $2 \times 2$ matrix ${\bf V}$
+\begin{equation}
+    {\bf V} (u,v,\lambda) \equiv 
+    \left[ 
+    \begin{array}{cc}
+    V_{xx} (u,v,\lambda) & V_{xy} (u,v,\lambda) \\
+    V_{yx} (u,v,\lambda) & V_{yy} (u,v,\lambda) \\
+    \end{array}
+    \right].   
+\label{eq:sec:1}
+\end{equation} 
+The sky brightness distribution $I$ can also be written as a $2 \times 2$ matrix ${\bf B}$ using the Stokes parameters as a polarization basis:
+\begin{equation}
+    {\bf B}_I (l,m,\lambda) \equiv 
+    \left[
+    \begin{array}{cc}
+    I (l,m,\lambda) + Q (l,m,\lambda) & U (l,m,\lambda) + iV (l,m,\lambda) \\
+    U (l,m,\lambda) - iV (l,m,\lambda) & I (l,m,\lambda) - Q (l,m,\lambda) \\
+    \end{array}
+    \right].   
+\label{eq:sec:2}
+\end{equation} 
+At this point, equation~\ref{eq:3} can be written by including the corruptions represented by the Jones matrices $J$ (\cite{hamaker96},\cite{smirnov11}):
+\begin{equation}
+{\bf V} (u,v,\lambda) = {\bf J} \left( \int_\Omega {\bf B}_I (l, m, \lambda) \, e^{-2 \pi i (ul + vm)} dl \, dm  \right) {\bf J}^H
+\label{eq:sec:3}
+\end{equation} 
+Equation~\ref{eq:sec:3} is known as the measurement equation and is the core of interferometric calibration. For an array with $N$ antennas, equation~\ref{eq:sec:3} can be written for each of the $\frac{N (N - 1)}{2}$ visibilities forming an overdetermined system of equations. The development of calibration algorithms is a very active research line (\cite{mitchell08}, \cite{tasse15}, \cite{smirnov15}) although beyond the scope of this chapter and we mention it here for completeness.
+The solution of the system of calibration equations requires some knowledge of the sky brightness distribution ${\bf B}_I$, or a {\it sky model}. Traditionally this is achieved by observing a calibration source, i.e. a bright, unresolved point source with known spectral and polarization properties. Calibration solutions are then applied to the observed field that, in turn, is then used to improve the sky model ${\bf B}_I$ which, in turn, leads to more accurate calibration solutions $J$ in the loop that is traditionally called {\it self calibration} (\cite{wilkinson82}, \cite{pearson84}). This approach can lead to a high accurate calibration (e.g., \cite{bernardi10}, \cite{smirnov11b}).
+
+The advantage of the measurement equation is that it can factorize different physical terms into different matrices. For example, the frequency response of the electronic filters and its time variations essentially affects only the two polarization response and are modeled with a diagonal Jones matrix $B$:
+\begin{equation}
+    {\bf B} (t,\nu) \equiv 
+    \left[
+    \begin{array}{cc}
+    b (t,\nu) 	& 	0 	\\
+    0 		& b (t,\nu) 	\\
+    \end{array}
+    \right],   
+\label{eq:sec:4}
+\end{equation} 
+
+
+
+
+The separation of the cosmological signal from the much brighter foreground emission is the key challenge in interferometric observations of the 21~cm signal. As long as foreground emission is smooth in frequency the separation of the 21~cm signal is possible. However, it has been realized already in the early days that there is a strong coupling between foregrounds and interferometric calibration. 
 
 
 \section{Array design}
