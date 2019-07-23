@@ -1,48 +1,56 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Greig/chapter.aux
 The style file: plain.bst
-I found no \citation commands---while reading file Greig/chapter.aux
 Database file #1: Greig/References.bib
-You've used 0 entries,
+Repeated entry---line 414 of file Greig/References.bib
+ : @article{Fialkov:2018
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 433 of file Greig/References.bib
+ : @article{Furlanetto:2006
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--empty title in Furlanetto:2006
+You've used 41 entries,
             2118 wiz_defined-function locations,
-            497 strings with 4015 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            765 strings with 12339 characters,
+and the built_in function-call counts, 16477 in all, are:
+= -- 1571
+> -- 915
+< -- 3
++ -- 359
+- -- 318
+* -- 1419
+:= -- 2717
+add.period$ -- 122
+call.type$ -- 41
+change.case$ -- 281
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 42
+duplicate$ -- 550
+empty$ -- 1136
+format.name$ -- 318
+if$ -- 3397
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 41
+missing$ -- 41
+newline$ -- 207
+num.names$ -- 82
+pop$ -- 211
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 241
 quote$ -- 0
-skip$ -- 1
+skip$ -- 434
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 1105
+swap$ -- 140
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+type$ -- 164
+warning$ -- 1
+while$ -- 123
+width$ -- 43
+write$ -- 451
+(There were 2 error messages)
