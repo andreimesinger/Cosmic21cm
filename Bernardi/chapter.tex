@@ -1,7 +1,7 @@
 \chapter{Observational strategies: power spectra and images}
 
 \begin{bf}
-  \author{Gianni Bernardi (INAF-IRA)}\\
+  \author{Gianni Bernardi (INAF-IRA \& Rhodes University)}\\
   
 Abstract\\
 
@@ -59,7 +59,7 @@ Equation~\ref{eq:4} indicates that an {\it interferometer measures the two dimen
 {\bar I} (l, m, \lambda) = \int_{- \infty}^{+ \infty} V_{ij} (u,v, \lambda) \, e^{2 \pi i (ul + vm)} du \, dv.
 \label{eq:5}
 \end{equation}
-Equation~\ref{eq:5} is, however, a poor reconstruction of the sky brightness distribution as only one Fourier mode is sampled at the time $t$. Strictly speaking, indeed, all the quantities in equation~\ref{eq:4} and \ref{eq:5} are time variable. In most cases, the time dependence of the primary beam and the sky brightness distribution can be neglected, however, this is not the case for the visibility $V$ as the projection of the baseline vector with respect to the source direction changes significantly throughout a long (e.g. a few hours) track. In this way, many measurements of the visibility coherence function $V$ as $(u,v,)$ change with time can be made, allowing for a better reconstruction of the ${\bar I} (l, m, \lambda)$ function. This methods is commonly described as {\it filling the $uv$ plane via Earth rotation synthesis} and was invented by \cite{???}. The other (complementary) way to fill the $uv$ plane is to deploy more antennas on the ground in order to increase the number of instantaneous measurements of independent Fourier modes. If $N$ antennas are connected in an interferometric array, $\frac{N (N - 1)}{2}$ instantaneous measurements are made. 
+Equation~\ref{eq:5} is, however, a poor reconstruction of the sky brightness distribution as only one Fourier mode is sampled at the time $t$. Strictly speaking, indeed, all the quantities in equation~\ref{eq:4} and \ref{eq:5} are time variable. In most cases, the time dependence of the primary beam and the sky brightness distribution can be neglected, however, this is not the case for the visibility $V$ as the projection of the baseline vector with respect to the source direction changes significantly throughout a long (e.g. a few hours) track. In this way, many measurements of the visibility coherence function $V$ as $(u,v,)$ change with time can be made, allowing for a better reconstruction of the ${\bar I} (l, m, \lambda)$ function. This methods is commonly described as {\it filling the $uv$ plane via Earth rotation synthesis} and was invented by \cite{ryle60}. The other (complementary) way to fill the $uv$ plane is to deploy more antennas on the ground in order to increase the number of instantaneous measurements of independent Fourier modes. If $N$ antennas are connected in an interferometric array, $\frac{N (N - 1)}{2}$ instantaneous measurements are made. 
 
 The combination of a large number of antennas and the Earth rotation synthesis, defines the sampling function $S(u,v,)$ in the $uv$ plane. In any real case, equation~\ref{eq:5} can therefore be re-written as:
 \begin{equation}
@@ -85,20 +85,36 @@ The ultimate goal of 21~cm observations is to image the spatial distribution of 
 \begin{equation}
 %\langle {\tilde T}^* ({\bf k}) {\tilde T}({\bf k'}) \rangle = (2 \pi)^3 P({\bf k}) \delta^3({\bf k} - {\bf k}')
 \langle {\tilde T}^* ({\bf k}) {\tilde T}({\bf k'}) \rangle = (2 \pi)^3 P(k) \delta^3({\bf k} - {\bf k}')
+\label{sec_observables_eq1}
 \end{equation}
-where $\langle \rangle$ indicates the ensamble average, $\bf k$ is the Fourier conjugate of $\bf x$, tilde the Fourier transform, $^*$ the complex conjugate operator and $\delta$ the Dirac delta function. In 21~cm observations, power spectra can be computed directly from interferometric image cubes after deconvolution of ${\bar I}_D (l,m,\lambda)$ from the point spread function (e.g., \cite{pen09}, \cite{harker10}, \cite{beardsley16}, \cite{patil17}). An alternative way to estimate the 21~cm power spectrum that has driven the design and calibration strategies of some of the arrays. Equation~\ref{eq:4} already shows that the interferometer is a ``natural" spatial power spectrum instrument (e.g., \cite{white96}). Visibilities can be further Fourier transformed along the frequency axis (the so-called {\it delay trasform}, \cite{parsons12a}): 
+where $\langle \rangle$ indicates the ensamble average, $\bf k$ is the Fourier conjugate of $\bf x$, tilde the Fourier transform, $^*$ the complex conjugate operator and $\delta$ the Dirac delta function. In 21~cm observations, power spectra can be computed directly from interferometric image cubes after deconvolution of ${\bar I}_D (l,m,\lambda)$ from the point spread function (e.g., \cite{pen09}, \cite{harker10}, \cite{beardsley16}, \cite{patil17}). An alternative way to estimate the 21~cm power spectrum that has driven the design and calibration strategies of some of the arrays. Equation~\ref{eq:4} already shows that the interferometer is a ``natural" spatial power spectrum instrument (e.g., \cite{white99}). Visibilities can be further Fourier transformed along the frequency axis (the so-called {\it delay trasform}, \cite{parsons12a}): 
 \begin{equation}
 {\tilde V}_{ij} (u,v, \tau) = \int_B {\bar I} (l, m, \nu) \, e^{-2 \pi i \nu \tau} d \nu
+\label{sec_observables_eq2}
 \end{equation}
 where $B$ is the observing bandwidth and $\tau$ is the geometrical delay. The delay transform is therefore proportional to the three dimensional power spectrum (\cite{parsons12b}):
 \begin{equation}
 P(k) \propto {\tilde V}_{ij} (|{\bf b}|, \tau),
+\label{sec_observables_eq3}
 \end{equation}
 where the proportionality constant transforms the visibility units into power units (\cite{parsons12b}) and the observer units $({\bf b},\tau)$ map directly in $k$ modes parallele and perpendicular to the line of sight (e.g., \cite{morales04}):
 \begin{equation}
 k_\perp = \frac{2 \pi |{\bf b}|}{D} = \frac{2 \pi \sqrt{u^2 + v^2}}{D}, \,\,\,\,\,\,\,    k_\parallel = \frac{2 \pi f_{21} H_0 E(z)}{c \, *1_z)^2} \, \tau,
+\label{sec_observables_eq4}
 \end{equation}
-where $D$ is the transverse comoving distance, $f_{21} = 1421$~MHz, $H_0$ is the Hubble constant and $E(z) = \sqrt{\Omega)m (1+z)^3 + \Omega_k (1+z)^2 + \Omega_\Lambda}$.
+where $D$ is the transverse comoving distance, $f_{21} = 1421$~MHz, $H_0$ is the Hubble constant and $E(z) = \sqrt{\Omega)m (1+z)^3 + \Omega_k (1+z)^2 + \Omega_\Lambda}$. Due to the dependence of the geometrical delay upon frequency, equation~\ref{sec_observables_eq3} is only valid for short baselines, tyipically shorter than a few hundresd meters, for which the geometrical delay is fairly constant across the bandwidht and lines of constant $k_\parallel$ are practically orthogonal to the $k\perp$ axis (\cite{parsons12b}.
+
+Equation~\ref{sec_observables_eq2} does not only provide a link between visibilities and three dimensional power spectra, but also introduces the concept of ``horizon limit" which is the maximum delay allowed 
+
+\begin{figure}[]
+\begin{center}
+\includegraphics[width=1.\textwidth]{Bernardi/delay_transform}
+\end{center}
+\caption{A standard schematic of the two element interferometer.}
+\label{fig:fig1}
+\end{figure}
+
+
 
 The power spectrum has a very close connection with the visibility measured by an interferometer (include CMB references). A direct relationship between the three dimensional 21~cm distribution and interferometric visibilities can be derived. An interferometric array already operates a two dimensional Fourier transform of the sky brightness distribution, therefore a Fourier transform 
 
@@ -135,8 +151,8 @@ At this point, equation~\ref{eq:3} can be written by including the corruptions r
 {\bf V}^{12} (u,v,\lambda) = {\bf J}^1 \left( \int_\Omega {\bf B}_I (l, m, \lambda) \, e^{-2 \pi i (ul + vm)} dl \, dm  \right) ({\bf J}^2)^H
 \label{eq:sec:3}
 \end{equation} 
-Equation~\ref{eq:sec:3} is known as the measurement equation and is the core of interferometric calibration. For an array with $N$ antennas, equation~\ref{eq:sec:3} can be written for each of the $\frac{N (N - 1)}{2}$ visibilities forming an overdetermined system of equations. The development of calibration algorithms is a very active research line (\cite{mitchell08}, \cite{tasse15}, \cite{smirnov15}) although beyond the scope of this chapter and we mention it here for completeness.
-The solution of the system of calibration equations requires some knowledge of the sky brightness distribution ${\bf B}_I$, or a {\it sky model}. Traditionally this is achieved by observing a calibration source, i.e. a bright, unresolved point source with known spectral and polarization properties. Calibration solutions are then applied to the observed field that, in turn, is then used to improve the sky model ${\bf B}_I$ which, in turn, leads to more accurate calibration solutions $J$ in the loop that is traditionally called {\it self calibration} (\cite{wilkinson82}, \cite{pearson84}). This approach can lead to a high accurate calibration (e.g., \cite{bernardi10}, \cite{smirnov11b}).
+Equation~\ref{eq:sec:3} is known as the measurement equation and is the core of interferometric calibration. For an array with $N$ antennas, equation~\ref{eq:sec:3} can be written for each of the $\frac{N (N - 1)}{2}$ visibilities forming an overdetermined system of equations. The development of calibration algorithms is a very active research line (\cite{mitchell08}, \cite{tasse14}, \cite{smirnov15}) although beyond the scope of this chapter and we mention it here for completeness.
+The solution of the system of calibration equations requires some knowledge of the sky brightness distribution ${\bf B}_I$, or a {\it sky model}. Traditionally this is achieved by observing a calibration source, i.e. a bright, unresolved point source with known spectral and polarization properties. Calibration solutions are then applied to the observed field that, in turn, is then used to improve the sky model ${\bf B}_I$ which, in turn, leads to more accurate calibration solutions $J$ in the loop that is traditionally called {\it self calibration} (\cite{cornwell81}, \cite{pearson84}). This approach can lead to a high accurate calibration (e.g., \cite{bernardi10}, \cite{smirnov11b}).
 
 The advantage of the measurement equation is tha
 t it can factorize different physical terms into different matrices. For example, the frequency response of the electronic filters and its time variations essentially affects only the two polarization response and are modeled with a diagonal Jones matrix $B$:
@@ -169,8 +185,8 @@ and the measurement equation can be written as:
 Retaining only the first order terms, equation~\ref{eq:sec:6} can be written as (\cite{sault96}):
 \begin{eqnarray}
 V_{xx}^{12} (u,v,\lambda) & = & b_x^1 \, b_x^{2,*} [I (l,m,\lambda) - Q (l,m,\lambda)]\\
-V_{xy}^{12} (u,v,\lambda) & = & b_x^1 \, b_y^{2*} [(d_x^1 - d_y^{2*}) I + U + iV]	\\
-V_{yx}^{12} (u,v,\lambda) & = & b_y^1 \, b_x^{2*} [(d_x^2 - d_y^{1*}) I + U - iV]	\\
+V_{xy}^{12} (u,v,\lambda) & = & b_x^1 \, b_y^{2*} [(d_x^1 - d_y^{2*}) I (l,m,\lambda) + U (l,m,\lambda) + iV (l,m,\lambda)]	\\
+V_{yx}^{12} (u,v,\lambda) & = & b_y^1 \, b_x^{2*} [(d_x^2 - d_y^{1*}) I (l,m,\lambda) + U (l,m,\lambda) - iV (l,m,\lambda)]	\\
 V_{yy}^{12} (u,v,\lambda) & = & b_y^1 \, b_y^{2,*} [I (l,m,\lambda) - Q (l,m,\lambda)]
 \end{eqnarray}
 This simplified version of the measurement equation offers an intuitive understanding as to why calibration is so important in 21~cm observations. 
@@ -178,6 +194,8 @@ This simplified version of the measurement equation offers an intuitive understa
 
 The separation of the cosmological signal from the much brighter foreground emission is the key challenge in interferometric observations of the 21~cm signal. As long as foreground emission is smooth in frequency the separation of the 21~cm signal is possible. However, it has been realized already in the early days that there is a strong coupling between foregrounds and interferometric calibration. 
 
+
+\subsection{Redundant calibration}
 
 \section{Array design}
 \label{sec:design}

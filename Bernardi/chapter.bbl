@@ -1,9 +1,58 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{beardsley16}
+A.~P. {Beardsley}, B.~J. {Hazelton}, I.~S. {Sullivan}, P.~{Carroll},
+  N.~{Barry}, M.~{Rahimi}, B.~{Pindor}, C.~M. {Trott}, J.~{Line}, D.~C.
+  {Jacobs}, M.~F. {Morales}, J.~C. {Pober}, G.~{Bernardi}, J.~D. {Bowman},
+  M.~P. {Busch}, F.~{Briggs}, R.~J. {Cappallo}, B.~E. {Corey}, A.~{de
+  Oliveira-Costa}, J.~S. {Dillon}, D.~{Emrich}, A.~{Ewall-Wice}, L.~{Feng},
+  B.~M. {Gaensler}, R.~{Goeke}, L.~J. {Greenhill}, J.~N. {Hewitt},
+  N.~{Hurley-Walker}, M.~{Johnston-Hollitt}, D.~L. {Kaplan}, J.~C. {Kasper},
+  H.~S. {Kim}, E.~{Kratzenberg}, E.~{Lenc}, A.~{Loeb}, C.~J. {Lonsdale}, M.~J.
+  {Lynch}, B.~{McKinley}, S.~R. {McWhirter}, D.~A. {Mitchell}, E.~{Morgan},
+  A.~R. {Neben}, N.~{Thyagarajan}, D.~{Oberoi}, A.~R. {Offringa}, S.~M. {Ord},
+  S.~{Paul}, T.~{Prabu}, P.~{Procopio}, J.~{Riding}, A.~E.~E. {Rogers},
+  A.~{Roshi}, N.~{Udaya Shankar}, S.~K. {Sethi}, K.~S. {Srivani},
+  R.~{Subrahmanyan}, M.~{Tegmark}, S.~J. {Tingay}, M.~{Waterson}, R.~B.
+  {Wayth}, R.~L. {Webster}, A.~R. {Whitney}, A.~{Williams}, C.~L. {Williams},
+  C.~{Wu}, and J.~S.~B. {Wyithe}.
+\newblock {First Season MWA EoR Power spectrum Results at Redshift 7}.
+\newblock {\em \apj}, 833:102, December 2016.
+
+\bibitem{bernardi10}
+G.~{Bernardi}, A.~G. {de Bruyn}, G.~{Harker}, M.~A. {Brentjens}, B.~{Ciardi},
+  V.~{Jeli{\'c}}, L.~V.~E. {Koopmans}, P.~{Labropoulos}, A.~{Offringa}, V.~N.
+  {Pandey}, J.~{Schaye}, R.~M. {Thomas}, S.~{Yatawatta}, and S.~{Zaroubi}.
+\newblock {Foregrounds for observations of the cosmological 21 cm line. II.
+  Westerbork observations of the fields around 3C 196 and the North Celestial
+  Pole}.
+\newblock {\em \aap}, 522:A67, November 2010.
+
+\bibitem{cornwell81}
+T.~J. {Cornwell} and P.~N. {Wilkinson}.
+\newblock {A new method for making maps with unstable radio interferometers}.
+\newblock {\em \mnras}, 196:1067--1086, September 1981.
 
 \bibitem{hamaker96}
 J.~P. {Hamaker}, J.~D. {Bregman}, and R.~J. {Sault}.
 \newblock {Understanding radio polarimetry. I. Mathematical foundations.}
 \newblock {\em \aaps}, 117:137--147, May 1996.
+
+\bibitem{harker10}
+G.~{Harker}, S.~{Zaroubi}, G.~{Bernardi}, M.~A. {Brentjens}, A.~G. {de Bruyn},
+  B.~{Ciardi}, V.~{Jeli{\'c}}, L.~V.~E. {Koopmans}, P.~{Labropoulos},
+  G.~{Mellema}, A.~{Offringa}, V.~N. {Pandey}, A.~H. {Pawlik}, J.~{Schaye},
+  R.~M. {Thomas}, and S.~{Yatawatta}.
+\newblock {Power spectrum extraction for redshifted 21-cm Epoch of Reionization
+  experiments: the LOFAR case}.
+\newblock {\em \mnras}, 405:2492--2504, July 2010.
+
+\bibitem{mitchell08}
+D.~A. {Mitchell}, L.~J. {Greenhill}, R.~B. {Wayth}, R.~J. {Sault}, C.~J.
+  {Lonsdale}, R.~J. {Cappallo}, M.~F. {Morales}, and S.~M. {Ord}.
+\newblock {Real-Time Calibration of the Murchison Widefield Array}.
+\newblock {\em IEEE Journal of Selected Topics in Signal Processing},
+  2:707--717, November 2008.
 
 \bibitem{parsons12b}
 A.~{Parsons}, J.~{Pober}, M.~{McQuinn}, D.~{Jacobs}, and J.~{Aguirre}.
@@ -18,6 +67,35 @@ A.~R. {Parsons}, J.~C. {Pober}, J.~E. {Aguirre}, C.~L. {Carilli}, D.~C.
   Cosmic Reionization Signature}.
 \newblock {\em \apj}, 756:165, September 2012.
 
+\bibitem{patil17}
+A.~H. {Patil}, S.~{Yatawatta}, L.~V.~E. {Koopmans}, A.~G. {de Bruyn}, M.~A.
+  {Brentjens}, S.~{Zaroubi}, K.~M.~B. {Asad}, M.~{Hatef}, V.~{Jeli{\'c}},
+  M.~{Mevius}, A.~R. {Offringa}, V.~N. {Pandey}, H.~{Vedantham}, F.~B.
+  {Abdalla}, W.~N. {Brouw}, E.~{Chapman}, B.~{Ciardi}, B.~K. {Gehlot},
+  A.~{Ghosh}, G.~{Harker}, I.~T. {Iliev}, K.~{Kakiichi}, S.~{Majumdar},
+  G.~{Mellema}, M.~B. {Silva}, J.~{Schaye}, D.~{Vrbanec}, and S.~J.
+  {Wijnholds}.
+\newblock {Upper Limits on the 21 cm Epoch of Reionization Power Spectrum from
+  One Night with LOFAR}.
+\newblock {\em \apj}, 838:65, March 2017.
+
+\bibitem{pearson84}
+T.~J. {Pearson} and A.~C.~S. {Readhead}.
+\newblock {Image Formation by Self-Calibration in Radio Astronomy}.
+\newblock {\em \araa}, 22:97--130, 1984.
+
+\bibitem{pen09}
+U.-L. {Pen}, T.-C. {Chang}, C.~M. {Hirata}, J.~B. {Peterson}, J.~{Roy},
+  Y.~{Gupta}, J.~{Odegova}, and K.~{Sigurdson}.
+\newblock {The GMRT EoR experiment: limits on polarized sky brightness at 150
+  MHz}.
+\newblock {\em \mnras}, 399:181--194, October 2009.
+
+\bibitem{ryle60}
+M.~{Ryle} and A.~{Hewish}.
+\newblock {The synthesis of large radio telescopes}.
+\newblock {\em \mnras}, 120:220, 1960.
+
 \bibitem{sault96}
 R.~J. {Sault}, J.~P. {Hamaker}, and J.~D. {Bregman}.
 \newblock {Understanding radio polarimetry. II. Instrumental calibration of an
@@ -30,9 +108,32 @@ O.~M. {Smirnov}.
   full-sky Jones formalism}.
 \newblock {\em \aap}, 527:A106, March 2011.
 
+\bibitem{smirnov11b}
+O.~M. {Smirnov}.
+\newblock {Revisiting the radio interferometer measurement equation. II.
+  Calibration and direction-dependent effects}.
+\newblock {\em \aap}, 527:A107, March 2011.
+
+\bibitem{smirnov15}
+O.~M. {Smirnov} and C.~{Tasse}.
+\newblock {Radio interferometric gain calibration as a complex optimization
+  problem}.
+\newblock {\em \mnras}, 449:2668--2684, May 2015.
+
+\bibitem{tasse14}
+C.~{Tasse}.
+\newblock {Nonlinear Kalman filters for calibration in radio interferometry}.
+\newblock {\em \aap}, 566:A127, June 2014.
+
 \bibitem{TMS}
 A.~Richard {Thompson}, James~M. {Moran}, and Jr. {Swenson}, George~W.
 \newblock {\em {Interferometry and Synthesis in Radio Astronomy, 3rd Edition}}.
 \newblock 2017.
+
+\bibitem{white99}
+M.~{White}, J.~E. {Carlstrom}, M.~{Dragovan}, and W.~L. {Holzapfel}.
+\newblock {Interferometric Observation of Cosmic Microwave Background
+  Anisotropies}.
+\newblock {\em \apj}, 514:12--24, March 1999.
 
 \end{thebibliography}
