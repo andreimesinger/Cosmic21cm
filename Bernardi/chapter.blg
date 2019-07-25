@@ -1,49 +1,62 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Bernardi/References.bib
 Warning--I didn't find a database entry for "???"
+Warning--I didn't find a database entry for "pen09"
+Warning--I didn't find a database entry for "harker10"
+Warning--I didn't find a database entry for "beardsley16"
+Warning--I didn't find a database entry for "patil17"
+Warning--I didn't find a database entry for "white96"
+Warning--I didn't find a database entry for "morales04"
+Warning--I didn't find a database entry for "mitchell08"
+Warning--I didn't find a database entry for "tasse15"
+Warning--I didn't find a database entry for "smirnov15"
+Warning--I didn't find a database entry for "wilkinson82"
+Warning--I didn't find a database entry for "pearson84"
+Warning--I didn't find a database entry for "bernardi10"
+Warning--I didn't find a database entry for "smirnov11b"
 Warning--empty publisher in TMS
-You've used 1 entry,
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            503 strings with 4173 characters,
-and the built_in function-call counts, 303 in all, are:
-= -- 23
-> -- 18
+            546 strings with 5170 characters,
+and the built_in function-call counts, 2029 in all, are:
+= -- 183
+> -- 122
 < -- 0
-+ -- 7
-- -- 6
-* -- 21
-:= -- 58
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 5
++ -- 48
+- -- 42
+* -- 165
+:= -- 364
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 38
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 12
-empty$ -- 23
-format.name$ -- 6
-if$ -- 58
+cite$ -- 7
+duplicate$ -- 67
+empty$ -- 141
+format.name$ -- 42
+if$ -- 401
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 11
+int.to.str$ -- 6
+missing$ -- 7
+newline$ -- 33
+num.names$ -- 12
+pop$ -- 34
 preamble$ -- 1
-purify$ -- 5
+purify$ -- 33
 quote$ -- 0
-skip$ -- 6
+skip$ -- 41
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
+substring$ -- 99
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 22
 warning$ -- 1
-while$ -- 2
-width$ -- 2
-write$ -- 11
-(There were 2 warnings)
+while$ -- 17
+width$ -- 7
+write$ -- 66
+(There were 15 warnings)

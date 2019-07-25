@@ -1,5 +1,35 @@
 \begin{thebibliography}{1}
 
+\bibitem{hamaker96}
+J.~P. {Hamaker}, J.~D. {Bregman}, and R.~J. {Sault}.
+\newblock {Understanding radio polarimetry. I. Mathematical foundations.}
+\newblock {\em \aaps}, 117:137--147, May 1996.
+
+\bibitem{parsons12b}
+A.~{Parsons}, J.~{Pober}, M.~{McQuinn}, D.~{Jacobs}, and J.~{Aguirre}.
+\newblock {A Sensitivity and Array-configuration Study for Measuring the Power
+  Spectrum of 21 cm Emission from Reionization}.
+\newblock {\em \apj}, 753:81, July 2012.
+
+\bibitem{parsons12a}
+A.~R. {Parsons}, J.~C. {Pober}, J.~E. {Aguirre}, C.~L. {Carilli}, D.~C.
+  {Jacobs}, and D.~F. {Moore}.
+\newblock {A Per-baseline, Delay-spectrum Technique for Accessing the 21 cm
+  Cosmic Reionization Signature}.
+\newblock {\em \apj}, 756:165, September 2012.
+
+\bibitem{sault96}
+R.~J. {Sault}, J.~P. {Hamaker}, and J.~D. {Bregman}.
+\newblock {Understanding radio polarimetry. II. Instrumental calibration of an
+  interferometer array.}
+\newblock {\em \aaps}, 117:149--159, May 1996.
+
+\bibitem{smirnov11}
+O.~M. {Smirnov}.
+\newblock {Revisiting the radio interferometer measurement equation. I. A
+  full-sky Jones formalism}.
+\newblock {\em \aap}, 527:A106, March 2011.
+
 \bibitem{TMS}
 A.~Richard {Thompson}, James~M. {Moran}, and Jr. {Swenson}, George~W.
 \newblock {\em {Interferometry and Synthesis in Radio Astronomy, 3rd Edition}}.

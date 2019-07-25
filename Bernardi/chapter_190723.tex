@@ -23,32 +23,24 @@ This chapter reviews the basics of radio interferometry (van-Citter-Zernike theo
 
 \section{Interferometry overview}
 
-\begin{figure}[]
-\begin{center}
-\includegraphics[width=1.\textwidth]{Bernardi/2_element_interferometer}
-%\includegraphics[trim = 0.2cm 0.6cm 0.2cm 0.2cm, scale = 1.0]{Greig/GlobalSignal}
-\end{center}
-%\caption{A standard schematic of the two element interferometer\footnote{Credit: http://inspirehep.net}.}
-\caption{A standard schematic of the two element interferometer.}
-\label{fig:fig1}
-\end{figure}
-
 The Van Cittert-Zernike theorem expresses the fundamental relationship between the sky spatial brightness (or brightness distribution) $I$ and the quantity measured by an interferometer, i.e. the visibility $V$ (e.g., \cite{TMS}):
 \begin{equation}
 V_{ij} ({\bf b}, \lambda) = \int_\Omega {\bar I} (\hat{\sigma}, \lambda) \, e^{-2 \pi i {\bf b} \cdot {\hat \sigma}} d {\bf \sigma},
 \label{eq:1}
 \end{equation}
-where ${\bf b}$ is the baseline vector that separates between antenna $i$ and $j$ and $\hat{sigma}$ is the observing direction (see Figure~\ref{fig:fig1}). The baseline vector is here specified in wevelengths, i.e. ${\bf b} = \frac{{\bf b_{\rm m}}}{\lambda}$, where ${\bf b_{\rm m}}$ is the baseline vector expressed in meters and $\lambda$ is the observing wavelength. The celestial signal travels an extra path between antenna $i$ and $j$ that correspond to a geometrical time delay $\tau = {\bf b} \cdot {\hat \sigma}$, where the world ``geometrical" refers to the fact that the delay depends upon the source position in the sky and the relative separation between the two antennas.
-The sky brightness distribution does not enter directly in equation~\ref{eq:1}, but filtered by the antenna primary beam response $A$ that depends upon the direction in the sky and the wavelength, i.e. ${\bar I} = A  \, I$. The response of the primary beam attenuates the sky emission away from the pointing direction, effectively reducing the field of view $\theta$ of the instrument. Generally speaking, the size of the field of view is essentially given by the antenna diameter $D$: 
+where ${\bf b}$ is the baseline vector that separates between antenna $i$ and $j$ and $\hat{sigma}$ is the observing direction (see Figure ???). The baseline vector is here specified in wevelengths, i.e. ${\bf b} = \frac{{\bf b_{\rm m}}}{\lambda}$, where ${\bf b_{\rm m}}$ is the baseline vector expressed in meters and $\lambda$ is the observing wavelength.
+The sky brightness distribution does not enter directly in equation~\ref{eq:1}, but filtered by the antenna primary beam response $A$ that depends upon the direction in the sky and the wavelength, i.e. ${\bar I} = A  \, I$. The response of the primary beam attenuates the sky emission away from the pointing direction, effectively reducing the field of view $\theta$ of the instrument. Generally speaking, the size of the field of view is essentially given by the antenna diamater $D$: 
 \begin{equation}
 \theta \approx \frac{\lambda}{D}.
 \label{eq:2}
 \end{equation}
 The integral of equation~\ref{eq:1} is taken over the source size $\Omega$. Equation~\ref{eq:1} is often re-written in a different coordinate system, i.e. the components of the baseline vector $(u,v,w)$ and the reciprocal $(l,m,n)$, where $(l,m)$ are the coordinates in the plane on the sky tangent to the observing direction $n$ (for a detailed discussion on coordinate systems see, for example \cite{TMS}). Using this different coordinate system, equation~\ref{eq:1} becomes (e.g., \cite{TMS}):
 \begin{equation}
-V_{ij} (u,v,w, \lambda) = \int_\Omega {\bar I} (l, m, \lambda) \, e^{-2 \pi i (ul + vm + wn)} \frac {dl \, dm \, dn}{\sqrt{1 - l^2 - m^2}},
+V_{ij} (u,v,w, \lambda) = \int_\Omega {\bar I} (\hat{\sigma}, \lambda) \, e^{-2 \pi i (ul + vm + wn)} dl \, dm \, dn,
 \label{eq:3}
 \end{equation}
+{\bf (GB: fix the above equation)}...
+
 Although low frequency radio observations are intrinsically wide-field, for the purpose of studying the 21~cm observables, we can reduce equation~\ref{eq:3} to a two dimensional Fourier transform:
 \begin{equation}
 V_{ij} (u,v, \lambda) = \int_\Omega {\bar I} (l, m, \lambda) \, e^{-2 \pi i (ul + vm)} dl \, dm.
@@ -63,12 +55,12 @@ Equation~\ref{eq:5} is, however, a poor reconstruction of the sky brightness dis
 
 The combination of a large number of antennas and the Earth rotation synthesis, defines the sampling function $S(u,v,)$ in the $uv$ plane. In any real case, equation~\ref{eq:5} can therefore be re-written as:
 \begin{equation}
-{\bar I}_D (l, m, \lambda) = \int_{- \infty}^{+ \infty} S(u,v,) V (u,v, \lambda) \, e^{2 \pi i (ul + vm)} du \, dv
+{\bar I}_D (u, v, \lambda) = \int_{- \infty}^{+ \infty} S(u,v,) V (u,v, \lambda) \, e^{2 \pi i (ul + vm)} du \, dv
 \label{eq:6}
 \end{equation}
 where ${\tilde I}_D$ indicates the sky brightness distribution sampled at a finite number of $(u,v)$ points (often termed {\it dirty image}) and I dropped the explicit dependence on the antenna pair as redundant at his point. Using the convolution theorem, equation~\ref{eq:6} can be re-written as:
 \begin{equation}
-{\bar I}_D (l, m, \lambda)  =  \tilde{S \, V} =  {\tilde S} \ast {\tilde V} = {\rm PSF} (l, m, \lambda) \ast {\tilde V} (l, m, \lambda),
+{\bar I}_D  =  \tilde{S \, V} =  {\tilde S} \ast {\tilde V} = {\rm PSF} \ast {\tilde V}.
 \label{eq:6}
 \end{equation}
 where the tilde indicates the Fourier transform, $\ast$ the convolution operation and {\rm PSF} is the Point Spread Function, i.e. the response of the interferometric array to a point sources which, in our case, is also the Fourier transform of the $uv$ coverage.
@@ -83,100 +75,17 @@ I will give some examples of sampling functions for different instruments in Sec
 
 The ultimate goal of 21~cm observations is to image the spatial distribution of the 21~cm signal as a function of redshift, also known as {\it 21~cm tomography}. Given the curent theoretical predictions, such observations need to achieve mK sensitivity on a few arcminute angular scales (see Chapter 1 in this book). Most of the current arrays, however, only have the sensitivity to perform a statistical detection of the 21~cm, i.e. to measure its power spectrum. Given an intensity field $T$ function of the three dimensional spatial coordinate $\bf x$, its power spectrum $P(k)$ can be defined as:
 \begin{equation}
-%\langle {\tilde T}^* ({\bf k}) {\tilde T}({\bf k'}) \rangle = (2 \pi)^3 P({\bf k}) \delta^3({\bf k} - {\bf k}')
-\langle {\tilde T}^* ({\bf k}) {\tilde T}({\bf k'}) \rangle = (2 \pi)^3 P(k) \delta^3({\bf k} - {\bf k}')
+\langle {\tilde T}^* ({\bf k}) {\tilde T}({\bf k'}) \rangle = (2 \pi)^3 P({\bf k}) \delta^3({\bf k} - {\bf k}')
 \end{equation}
-where $\langle \rangle$ indicates the ensamble average, $\bf k$ is the Fourier conjugate of $\bf x$, tilde the Fourier transform, $^*$ the complex conjugate operator and $\delta$ the Dirac delta function. In 21~cm observations, power spectra can be computed directly from interferometric image cubes after deconvolution of ${\bar I}_D (l,m,\lambda)$ from the point spread function (e.g., \cite{pen09}, \cite{harker10}, \cite{beardsley16}, \cite{patil17}). An alternative way to estimate the 21~cm power spectrum that has driven the design and calibration strategies of some of the arrays. Equation~\ref{eq:4} already shows that the interferometer is a ``natural" spatial power spectrum instrument (e.g., \cite{white96}). Visibilities can be further Fourier transformed along the frequency axis (the so-called {\it delay trasform}, \cite{parsons12a}): 
-\begin{equation}
-{\tilde V}_{ij} (u,v, \tau) = \int_B {\bar I} (l, m, \nu) \, e^{-2 \pi i \nu \tau} d \nu
-\end{equation}
-where $B$ is the observing bandwidth and $\tau$ is the geometrical delay. The delay transform is therefore proportional to the three dimensional power spectrum (\cite{parsons12b}):
-\begin{equation}
-P(k) \propto {\tilde V}_{ij} (|{\bf b}|, \tau),
-\end{equation}
-where the proportionality constant transforms the visibility units into power units (\cite{parsons12b}) and the observer units $({\bf b},\tau)$ map directly in $k$ modes parallele and perpendicular to the line of sight (e.g., \cite{morales04}):
-\begin{equation}
-k_\perp = \frac{2 \pi |{\bf b}|}{D} = \frac{2 \pi \sqrt{u^2 + v^2}}{D}, \,\,\,\,\,\,\,    k_\parallel = \frac{2 \pi f_{21} H_0 E(z)}{c \, *1_z)^2} \, \tau,
-\end{equation}
-where $D$ is the transverse comoving distance, $f_{21} = 1421$~MHz, $H_0$ is the Hubble constant and $E(z) = \sqrt{\Omega)m (1+z)^3 + \Omega_k (1+z)^2 + \Omega_\Lambda}$.
-
-The power spectrum has a very close connection with the visibility measured by an interferometer (include CMB references). A direct relationship between the three dimensional 21~cm distribution and interferometric visibilities can be derived. An interferometric array already operates a two dimensional Fourier transform of the sky brightness distribution, therefore a Fourier transform 
+where $\langle \rangle$ indicates the ensamble average, $\bf k$ is the Fourier conjugate of $\bf x$, tilde the Fourier transform, $^*$ the complex conjugate operator and $\delta$ the Dirac delta function. The power spectrum has a very close connection with the visibility measured by an interferometer (include CMB references). A direct relationship between the three dimensional 21~cm distribution and interferometric visibilities can be derived. An interferometric array already operates a two dimensional Fourier transform of the sky brightness distribution, therefore a Fourier transform 
 
 %\section{Challenges in 21~cm observations: interferometric calibration in presence of bright foreground emission, wide fields of view, ionosphere}
-\section{Interferometric calibration and 21~cm observations}
+\section{Challenges in 21~cm observations}
 \label{sec:challenges}
 
-Celestial signals always experience a corruption due to the non-ideal instrumental response that needs to be corrected for a posteriori, in a process that is known as interferometric calibration. Calibration relies on the definition of a data model where the corruptions are described by antenna based quantities known as Jones matrices. The data model is known as the interferometric measurement equation (\cite{hamaker96},\cite{smirnov11}) that will be summarized in the following.
+The separation of the cosmological signal from the much brighter foreground emission (see Section ???) is the key challenge in interferometric observations of the 21~cm signal. As long as foreground emission is smooth in frequency (see Section ???) the separation of the 21~cm signal is possible. However, it has been realized already in the early days that there is a strong coupling between foreground and interferometric calibration. 
 
-If antenna $1$ and antenna $2$ measure two orthogonal, linear polarizations $x$ and $y$, the cross-polarization visibility products can be grouped in a $2 \times 2$ matrix ${\bf V}$
-\begin{equation}
-    {\bf V}^{12} (u,v,\lambda) \equiv 
-    \left[ 
-    \begin{array}{cc}
-    V_{xx}^{12} (u,v,\lambda) & V_{xy}^{12} (u,v,\lambda) \\
-    V_{yx}^{12} (u,v,\lambda) & V_{yy}^{12} (u,v,\lambda) \\
-    \end{array}
-    \right].   
-\label{eq:sec:1}
-\end{equation} 
-The sky brightness distribution $I$ can also be written as a $2 \times 2$ matrix ${\bf B}$ using the Stokes parameters as a polarization basis:
-\begin{equation}
-    {\bf B}_I (l,m,\lambda) \equiv 
-    \left[
-    \begin{array}{cc}
-    I (l,m,\lambda) + Q (l,m,\lambda) & U (l,m,\lambda) + iV (l,m,\lambda) \\
-    U (l,m,\lambda) - iV (l,m,\lambda) & I (l,m,\lambda) - Q (l,m,\lambda) \\
-    \end{array}
-    \right].   
-\label{eq:sec:2}
-\end{equation} 
-At this point, equation~\ref{eq:3} can be written by including the corruptions represented by the Jones matrices $J$ (\cite{hamaker96},\cite{smirnov11}):
-\begin{equation}
-{\bf V}^{12} (u,v,\lambda) = {\bf J}^1 \left( \int_\Omega {\bf B}_I (l, m, \lambda) \, e^{-2 \pi i (ul + vm)} dl \, dm  \right) ({\bf J}^2)^H
-\label{eq:sec:3}
-\end{equation} 
-Equation~\ref{eq:sec:3} is known as the measurement equation and is the core of interferometric calibration. For an array with $N$ antennas, equation~\ref{eq:sec:3} can be written for each of the $\frac{N (N - 1)}{2}$ visibilities forming an overdetermined system of equations. The development of calibration algorithms is a very active research line (\cite{mitchell08}, \cite{tasse15}, \cite{smirnov15}) although beyond the scope of this chapter and we mention it here for completeness.
-The solution of the system of calibration equations requires some knowledge of the sky brightness distribution ${\bf B}_I$, or a {\it sky model}. Traditionally this is achieved by observing a calibration source, i.e. a bright, unresolved point source with known spectral and polarization properties. Calibration solutions are then applied to the observed field that, in turn, is then used to improve the sky model ${\bf B}_I$ which, in turn, leads to more accurate calibration solutions $J$ in the loop that is traditionally called {\it self calibration} (\cite{wilkinson82}, \cite{pearson84}). This approach can lead to a high accurate calibration (e.g., \cite{bernardi10}, \cite{smirnov11b}).
-
-The advantage of the measurement equation is tha
-t it can factorize different physical terms into different matrices. For example, the frequency response of the electronic filters and its time variations essentially affects only the two polarization response and are modeled with a diagonal Jones matrix $B$:
-\begin{equation}
-    {\bf B} (t,\lambda) \equiv 
-    \left[
-    \begin{array}{cc}
-    b_x (t,\lambda) 	& 	0 	\\
-    0 		& b_y (t,\lambda) 	\\
-    \end{array}
-    \right],   
-\label{eq:sec:4}
-\end{equation} 
-whereas the undesired instrumental leakage between the two orthogonal polarized is represented by a $D$ Jones matrix of the form:
-\begin{equation}
-    {\bf D} (t,\lambda) \equiv 
-    \left[
-    \begin{array}{cc}
-    1	 		& d_x (t,\lambda)	\\
-    -d_y (t,\nu)	& 1 	\\
-    \end{array}
-    \right],   
-\label{eq:sec:5}
-\end{equation} 
-and the measurement equation can be written as:
-\begin{equation}
-{\bf V}^{12} (u,v,\lambda) = {\bf B}^1 \, {\bf D}^1 \left( \int_\Omega {\bf B}_I (l, m, \lambda) \, e^{-2 \pi i (ul + vm)} dl \, dm  \right) ({\bf D}^2)^H  \, ({\bf B}^2)^H.
-\label{eq:sec:6}
-\end{equation} 
-Retaining only the first order terms, equation~\ref{eq:sec:6} can be written as (\cite{sault96}):
-\begin{eqnarray}
-V_{xx}^{12} (u,v,\lambda) & = & b_x^1 \, b_x^{2,*} [I (l,m,\lambda) - Q (l,m,\lambda)]\\
-V_{xy}^{12} (u,v,\lambda) & = & b_x^1 \, b_y^{2*} [(d_x^1 - d_y^{2*}) I + U + iV]	\\
-V_{yx}^{12} (u,v,\lambda) & = & b_y^1 \, b_x^{2*} [(d_x^2 - d_y^{1*}) I + U - iV]	\\
-V_{yy}^{12} (u,v,\lambda) & = & b_y^1 \, b_y^{2,*} [I (l,m,\lambda) - Q (l,m,\lambda)]
-\end{eqnarray}
-This simplified version of the measurement equation offers an intuitive understanding as to why calibration is so important in 21~cm observations. 
-
-
-The separation of the cosmological signal from the much brighter foreground emission is the key challenge in interferometric observations of the 21~cm signal. As long as foreground emission is smooth in frequency the separation of the 21~cm signal is possible. However, it has been realized already in the early days that there is a strong coupling between foregrounds and interferometric calibration. 
+The celestial signals aways experience a corruption due to the non-ideal instrumental response. 
 
 
 \section{Array design}
