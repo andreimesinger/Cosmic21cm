@@ -9,17 +9,16 @@ This chapter reviews the basics of radio interferometry (van-Citter-Zernike theo
 \end{bf}
 
 
-\section{Chapter layout}
-
-\begin{itemize}
-\item review of basics of interferometry: van-Citter-Zernike theorem, $uv$-coverage, image formation;
-\item from visibilities to power spectra (in particular the delay transform approach - some overlap with Trott's chapter);
-\item interferometric calibration: impact on foreground subtraction, calibration errors redundant calibration;
-\item array design: power spectrum vs imaging, minimmum vs maximum redundancy - some overlap with Trott's chapter?;
-\item impact of calibration errors on power spectra;
-\item ionospheric impact/calibration;
-\item 21-cm image tomography;  
-\end{itemize}
+%\section{Chapter layout}
+%\begin{itemize}
+%\item review of basics of interferometry: van-Citter-Zernike theorem, $uv$-coverage, image formation;
+%\item from visibilities to power spectra (in particular the delay transform approach - some overlap with Trott's chapter);
+%\item interferometric calibration: impact on foreground subtraction, calibration errors redundant calibration;
+%\item array design: power spectrum vs imaging, minimmum vs maximum redundancy - some overlap with Trott's chapter?;
+%\item impact of calibration errors on power spectra;
+%\item ionospheric impact/calibration;
+%\item 21-cm image tomography;  
+%\end{itemize}
 
 \section{Interferometry overview}
 
@@ -66,7 +65,7 @@ The combination of a large number of antennas and the Earth rotation synthesis, 
 {\bar I}_D (l, m, \lambda) = \int_{- \infty}^{+ \infty} S(u,v,) V (u,v, \lambda) \, e^{2 \pi i (ul + vm)} du \, dv
 \label{eq:6}
 \end{equation}
-where ${\tilde I}_D$ indicates the sky brightness distribution sampled at a finite number of $(u,v)$ points (often termed {\it dirty image}) and I dropped the explicit dependence on the antenna pair as redundant at his point. Using the convolution theorem, equation~\ref{eq:6} can be re-written as:
+where ${\tilde I}_D$ indicates the sky brightness distribution sampled at a finite number of $(u,v)$ points (often termed {\it dirty image}) and I dropped the explicit dependence on the antenna pair as redundant at this point. Using the convolution theorem, equation~\ref{eq:6} can be re-written as:
 \begin{equation}
 {\bar I}_D (l, m, \lambda)  =  \tilde{S \, V} =  {\tilde S} \ast {\tilde V} = {\rm PSF} (l, m, \lambda) \ast {\tilde V} (l, m, \lambda),
 \label{eq:6}
@@ -99,24 +98,22 @@ P(k) \propto {\tilde V}_{ij} (|{\bf b}|, \tau),
 \end{equation}
 where the proportionality constant transforms the visibility units into power units (\cite{parsons12b}) and the observer units $({\bf b},\tau)$ map directly in $k$ modes parallele and perpendicular to the line of sight (e.g., \cite{morales04}):
 \begin{equation}
-k_\perp = \frac{2 \pi |{\bf b}|}{D} = \frac{2 \pi \sqrt{u^2 + v^2}}{D}, \,\,\,\,\,\,\,    k_\parallel = \frac{2 \pi f_{21} H_0 E(z)}{c \, *1_z)^2} \, \tau,
+k_\perp = \frac{2 \pi |{\bf b}|}{D} = \frac{2 \pi \sqrt{u^2 + v^2}}{D}, \,\,\,\,\,\,\,    k_\parallel = \frac{2 \pi f_{21} H_0 E(z)}{c \, (1 + z)^2} \, \tau,
 \label{sec_observables_eq4}
 \end{equation}
 where $D$ is the transverse comoving distance, $f_{21} = 1421$~MHz, $H_0$ is the Hubble constant and $E(z) = \sqrt{\Omega)m (1+z)^3 + \Omega_k (1+z)^2 + \Omega_\Lambda}$. Due to the dependence of the geometrical delay upon frequency, equation~\ref{sec_observables_eq3} is only valid for short baselines, tyipically shorter than a few hundresd meters, for which the geometrical delay is fairly constant across the bandwidht and lines of constant $k_\parallel$ are practically orthogonal to the $k\perp$ axis (\cite{parsons12b}.
 
-Equation~\ref{sec_observables_eq2} does not only provide a link between visibilities and three dimensional power spectra, but also introduces the concept of ``horizon limit" which is the maximum delay allowed 
-
+Equation~\ref{sec_observables_eq2} does not only provide a link between visibilities and three dimensional power spectra, but also introduces the concept of ``horizon limit" which is the maximum physical delay allowed $\tau_{\rm max} = \frac{|{\bf b}|}{c}$, where $c$ is the speed of light. The most relevant implication of an horizon limit is the definition of a region in power spectrum space where smooth-spectrum foregrounds are confined leaving the remaining area potentially uncontaminated where to measure the 21~cm signal (``EoR window", Figure~\ref{fig:fig2}). Foregrounds can there fore ``avoided" with no requirements for subtraction (e.g., \cite{morales12}, \cite{vedantham12}, \cite{pober13}, \cite{thyagarajan13}; see also Chapter~{\bf !!!}).
 \begin{figure}[]
 \begin{center}
 \includegraphics[width=1.\textwidth]{Bernardi/delay_transform}
 \end{center}
-\caption{A standard schematic of the two element interferometer.}
-\label{fig:fig1}
+\caption{Amplitude of delay transformed visibilities as a function of time and delay for a 32 (top let), 64 (top right), 128 (bottom left) and 256~m (bottom right) respectively (from \cite{parsons12a}). A number of smooth spectrum point sources are simulated as foregrounds and their tracks are clearly bound within the horizon limit (black dashed line). The cyan emission is a fiducial 21~cm model that has power at high delays regardless of the baseline length.}
+\label{fig:fig2}
 \end{figure}
+The choice of a foreground avoidance strategy versus subtraction plays an important role in planning an experiment, its related observing strategy and the array calibration strategy.
+{\bf (GB: add a paragraph on imaging!!!}
 
-
-
-The power spectrum has a very close connection with the visibility measured by an interferometer (include CMB references). A direct relationship between the three dimensional 21~cm distribution and interferometric visibilities can be derived. An interferometric array already operates a two dimensional Fourier transform of the sky brightness distribution, therefore a Fourier transform 
 
 %\section{Challenges in 21~cm observations: interferometric calibration in presence of bright foreground emission, wide fields of view, ionosphere}
 \section{Interferometric calibration and 21~cm observations}
@@ -151,11 +148,10 @@ At this point, equation~\ref{eq:3} can be written by including the corruptions r
 {\bf V}^{12} (u,v,\lambda) = {\bf J}^1 \left( \int_\Omega {\bf B}_I (l, m, \lambda) \, e^{-2 \pi i (ul + vm)} dl \, dm  \right) ({\bf J}^2)^H
 \label{eq:sec:3}
 \end{equation} 
-Equation~\ref{eq:sec:3} is known as the measurement equation and is the core of interferometric calibration. For an array with $N$ antennas, equation~\ref{eq:sec:3} can be written for each of the $\frac{N (N - 1)}{2}$ visibilities forming an overdetermined system of equations. The development of calibration algorithms is a very active research line (\cite{mitchell08}, \cite{tasse14}, \cite{smirnov15}) although beyond the scope of this chapter and we mention it here for completeness.
-The solution of the system of calibration equations requires some knowledge of the sky brightness distribution ${\bf B}_I$, or a {\it sky model}. Traditionally this is achieved by observing a calibration source, i.e. a bright, unresolved point source with known spectral and polarization properties. Calibration solutions are then applied to the observed field that, in turn, is then used to improve the sky model ${\bf B}_I$ which, in turn, leads to more accurate calibration solutions $J$ in the loop that is traditionally called {\it self calibration} (\cite{cornwell81}, \cite{pearson84}). This approach can lead to a high accurate calibration (e.g., \cite{bernardi10}, \cite{smirnov11b}).
+Equation~\ref{eq:sec:3} is known as the measurement equation and is the core of interferometric calibration. For an array with $N$ antennas, equation~\ref{eq:sec:3} can be written for each of the $\frac{N (N - 1)}{2}$ visibilities forming an overdetermined system of equations. The development of calibration algorithms is a very active research line (\cite{mitchell08}, \cite{kazemi11}, \cite{tasse14}, \cite{yatawatta15}, \cite{smirnov15}) although beyond the scope of this chapter and we mention it here for completeness.
+The solution of the system of calibration equations requires some knowledge of the sky brightness distribution ${\bf B}_I$, or a {\it sky model}. Traditionally this is achieved by observing a calibration source, i.e. a bright, unresolved point source with known spectral and polarization properties. Calibration solutions are then applied to the observed field that, in turn, is then used to improve the sky model ${\bf B}_I$ which, in turn, leads to more accurate calibration solutions $J$ in the loop that is traditionally called {\it self calibration} (\cite{cornwell81}, \cite{pearson84}). This approach can lead to a highly accurate calibration (e.g., \cite{bernardi10}, \cite{smirnov11b}).
 
-The advantage of the measurement equation is tha
-t it can factorize different physical terms into different matrices. For example, the frequency response of the electronic filters and its time variations essentially affects only the two polarization response and are modeled with a diagonal Jones matrix $B$:
+The advantage of the measurement equation is that it can factorize different physical terms into different matrices. For example, the frequency response of the electronic filters and its time variations essentially affects only the two polarization response and are modeled with a diagonal Jones matrix $B$:
 \begin{equation}
     {\bf B} (t,\lambda) \equiv 
     \left[
@@ -181,27 +177,58 @@ and the measurement equation can be written as:
 \begin{equation}
 {\bf V}^{12} (u,v,\lambda) = {\bf B}^1 \, {\bf D}^1 \left( \int_\Omega {\bf B}_I (l, m, \lambda) \, e^{-2 \pi i (ul + vm)} dl \, dm  \right) ({\bf D}^2)^H  \, ({\bf B}^2)^H.
 \label{eq:sec:6}
-\end{equation} 
+\end{equation}
+We note that, in principle, the primary beam response should appear as an additional $2 \times 2$ Jones matrix before the $D$ matrix. For our pedagogical purposes, we assume that it can be incorporated in the $B$ matrix, although we later illustrate an exception to this assumption.
+
 Retaining only the first order terms, equation~\ref{eq:sec:6} can be written as (\cite{sault96}):
 \begin{eqnarray}
 V_{xx}^{12} (u,v,\lambda) & = & b_x^1 \, b_x^{2,*} [I (l,m,\lambda) - Q (l,m,\lambda)]\\
 V_{xy}^{12} (u,v,\lambda) & = & b_x^1 \, b_y^{2*} [(d_x^1 - d_y^{2*}) I (l,m,\lambda) + U (l,m,\lambda) + iV (l,m,\lambda)]	\\
 V_{yx}^{12} (u,v,\lambda) & = & b_y^1 \, b_x^{2*} [(d_x^2 - d_y^{1*}) I (l,m,\lambda) + U (l,m,\lambda) - iV (l,m,\lambda)]	\\
 V_{yy}^{12} (u,v,\lambda) & = & b_y^1 \, b_y^{2,*} [I (l,m,\lambda) - Q (l,m,\lambda)]
+\label{eq:sec:7}
 \end{eqnarray}
-This simplified version of the measurement equation offers an intuitive understanding as to why calibration is so important in 21~cm observations. 
+This form of the measurement equation offers an intuitive understanding as to why calibration is so important in 21~cm observations. The observed visibilities are essentially a measurement of foreground emission and, in the ideal case, their amplitudes would vary smoothly with frequency, enabling  either their avoidance or subtraction. However, the instrumental response inevitably corrupts this smoothness in several ways: because the telescope primary beam is not sufficiently smooth in frequency, because of the filter response or because of reflection along the signal path. Calibration attempts to restore the intrinsic foreground frequency smoothness, however, calibration errors (i.e., deviations from the true $B$ solutions) will corrupt the foreground frequency smoothness. In practice, calibration errors result into foreground power leaking out of the horizon limit and jeopardizing (part of) the EoR window. The corruption of the foreground frequency smoothness will limit the accuracy of any subtraction method (see {\bf Chapter~!!!}). {\it Foreground separation, proven to be possible in ideal cases, depends heavily on interferometric calibration.}
+
+There are a few topics of active research in improving the accuracy of interferometric calibration:
+%
+\begin{itemize}
+\item {\it sky models}. Ideally, the sky brightness model matrix $B_I$ (equation~\ref{eq:sec:6} and \ref{eq:sec:7}) should include the whole sky emission. This is pratically impossible as part of the sky signal is the unknown that we want to discover (the 21~cm signal) and part of the signal has not been observed before or, even if observed, its detailed properties are not know sufficiently well. 
+
+Efforts to achieve the most accurate calibration include in the brightness matrix $B_I$ thousands of compact sources in an aread larger than the telescope field of view (e.g., \cite{yatawatta13}. This sky model may still be insufficient as it does not include sources over the whole sky nor Galactic diffuse emission. Galactic emission contributes to most of the power on  angular scales $\theta > 10-20$~arcmin (\cite{bernardi09}, \cite{choudhuri17}), therefore a compact sources sky model is not adequate for baselines shorter than a few tens of meters. Excluding short baselines from the calibration solutions would prevent the problem but can bias the solution (\cite{patil16}) if the system of calibration equation is not regularized appropriately (\cite{sardabaradi19}).
+
+Another form of sky model incompleteness is related to angular resolution: due its finite resolution, sources that are not completely unresolved are nevertheless treated as point-like and this too biases the calibration solutions, leading to an excess of foreground contamination in the EoR window (\cite{procopio17}). 
+
+\cite{grobler14}, \cite{wijnholds16} and \cite{grobler16} show that effect of sky model incompleteness on calibration eventually leads to artifacts in the form of ghost-like sources in interferometric images, most of the times fainter than the image noise level. They also show that the ghost pattern is stronger for regularly spaced arrays and if the sky model is more incomplete. \cite{barry16} formalize the effect of incomplete sky models on calibration as a leakage of foreground power in the EoR window.
+
+Significant effort is currently ongoing in order to improve the all-sky compact-source model via wider and deeper low frequency surveys (e.g., \cite{hurley-walker17}, \cite{intema17}, \cite{shimwell19}), more accurate low frequency catalogues (\cite{carroll16}) and even improvements of the Galactic diffuse emission observations (\cite{zheng17}, \cite{dowell17}). Some of the calibration strategies described in the next sections may, however, mitigate the requirements of extremely accurate sky models;
+
+\item {\it instrument/primary beam models}. A complete knowledge of a sky model may not be, by itself, sufficient for an accurate calibration of 21~cm observations as the brightness matrix $B_I$ appears in the calibration equation multiplied by the antenna primary beam (equation~\ref{eq:sec:3} and \ref{eq:4}) and the measurement of an intrinsic sky model requires the separation from the primary beam effect. 
+
+Unlike steerable dishes, most of 21~cm interferometers are constituted of dipoles fixed on the ground, in some cases clustered together to form tiles or stations that can digitally pointed in a sky direction via a physical delay (e.g., like the MWA and LOFAR arrays, see {\bf Chapter !!!}). As station beams are formed to track the source on the sky, the station projected area changes with time 
+
+\item {\it polarization leakage calibration}
+\end{itemize}
 
 
-The separation of the cosmological signal from the much brighter foreground emission is the key challenge in interferometric observations of the 21~cm signal. As long as foreground emission is smooth in frequency the separation of the 21~cm signal is possible. However, it has been realized already in the early days that there is a strong coupling between foregrounds and interferometric calibration. 
 
+
+
+
+\subsection{Direction dependent calibration}
 
 \subsection{Redundant calibration}
+
+\subsection{Ionospheric calibration}
 
 \section{Array design}
 \label{sec:design}
 
-
-
+\begin{itemize}
+\item effect of the field of view, calibratability, uv cell, drift scan versus tracking, suppression of sources outside the main lobe ionosphere
+\item uv coverage choices power spectra vs images, redundant vs pseud random (reconstructing sky brightness), minimum/maximum k mode accessible... avoidance (compact) vs subtraction (less compact)
+\item obviously sensitivity
+\end{itemize}
 
 
 %Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu egestas erat. Maecenas tincidunt lacinia tincidunt. Mauris id lectus nec neque feugiat condimentum vitae at diam. In vel orci nunc, non commodo mauris. Vivamus ipsum enim, vulputate quis pharetra non, molestie quis felis. Vivamus porttitor placerat turpis at accumsan. Nunc tortor velit, faucibus a rhoncus nec, blandit non elit. Nam consectetur lectus eu nisi blandit dapibus rhoncus dui tempus. Mauris fermentum dolor vel ipsum vulputate sit amet ultricies tortor lacinia. Donec ut nibh erat. Morbi nec mi ante. Integer nec vestibulum diam. Donec tincidunt pellentesque quam, ut interdum mauris venenatis condimentum. Nam condimentum, augue in aliquet gravida, neque dui elementum eros, id semper eros purus sed felis. Curabitur in justo sit amet sapien ultrices hendrerit at quis nibh. Quisque iaculis pulvinar tincidunt. 

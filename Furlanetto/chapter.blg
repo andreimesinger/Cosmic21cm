@@ -2,45 +2,76 @@ This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Furlanetto/chapter.aux
 The style file: plain.bst
-Database file #1: Furlanetto/References.bib
-You've used 2 entries,
+I couldn't open database file ch2-refs.bib
+---line 116 of file Furlanetto/chapter.aux
+ : \bibdata{ch2-refs
+ :                  }
+I'm skipping whatever remains of this command
+I found no database files---while reading file Furlanetto/chapter.aux
+Warning--I didn't find a database entry for "hirata07"
+Warning--I didn't find a database entry for "field59-obs"
+Warning--I didn't find a database entry for "gunn65"
+Warning--I didn't find a database entry for "scheuer65"
+Warning--I didn't find a database entry for "zygelman05"
+Warning--I didn't find a database entry for "furl07-electron"
+Warning--I didn't find a database entry for "furl07-proton"
+Warning--I didn't find a database entry for "wouthuysen52"
+Warning--I didn't find a database entry for "field58"
+Warning--I didn't find a database entry for "pritchard06"
+Warning--I didn't find a database entry for "hirata06"
+Warning--I didn't find a database entry for "meiksin00"
+Warning--I didn't find a database entry for "field59-ts"
+Warning--I didn't find a database entry for "field59-res"
+Warning--I didn't find a database entry for "chen04"
+Warning--I didn't find a database entry for "furl06-lyheat"
+Warning--I didn't find a database entry for "venumadhav18"
+Warning--I didn't find a database entry for "madau97"
+Warning--I didn't find a database entry for "oh01"
+Warning--I didn't find a database entry for "furl10-xray"
+Warning--I didn't find a database entry for "shull85"
+Warning--I didn't find a database entry for "valdes08"
+Warning--I didn't find a database entry for "ricotti02"
+Warning--I didn't find a database entry for "volonteri09"
+Warning--I didn't find a database entry for "chen04-decay"
+You've used 0 entries,
             2118 wiz_defined-function locations,
-            509 strings with 4388 characters,
-and the built_in function-call counts, 688 in all, are:
-= -- 66
-> -- 26
-< -- 1
-+ -- 10
-- -- 8
-* -- 36
-:= -- 113
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 9
+            522 strings with 4257 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 33
-empty$ -- 61
-format.name$ -- 8
-if$ -- 155
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 16
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 0
 quote$ -- 0
-skip$ -- 24
+skip$ -- 1
 stack$ -- 0
-substring$ -- 30
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 0
 warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 24
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There were 2 error messages)

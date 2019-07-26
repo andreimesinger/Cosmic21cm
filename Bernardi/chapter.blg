@@ -3,47 +3,46 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Bernardi/References.bib
-Warning--I didn't find a database entry for "morales04"
 Warning--empty publisher in TMS
-You've used 19 entries,
+You've used 42 entries,
             2118 wiz_defined-function locations,
-            608 strings with 9324 characters,
-and the built_in function-call counts, 9947 in all, are:
-= -- 827
-> -- 929
+            724 strings with 21657 characters,
+and the built_in function-call counts, 31151 in all, are:
+= -- 2444
+> -- 3482
 < -- 0
-+ -- 369
-- -- 350
-* -- 972
-:= -- 1816
-add.period$ -- 57
-call.type$ -- 19
-change.case$ -- 231
++ -- 1386
+- -- 1344
+* -- 3336
+:= -- 5752
+add.period$ -- 126
+call.type$ -- 42
+change.case$ -- 797
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 210
-empty$ -- 459
-format.name$ -- 350
-if$ -- 1856
+cite$ -- 43
+duplicate$ -- 463
+empty$ -- 1045
+format.name$ -- 1344
+if$ -- 5610
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 20
-newline$ -- 98
-num.names$ -- 38
-pop$ -- 201
+int.to.str$ -- 42
+missing$ -- 43
+newline$ -- 213
+num.names$ -- 84
+pop$ -- 721
 preamble$ -- 1
-purify$ -- 213
+purify$ -- 756
 quote$ -- 0
-skip$ -- 135
+skip$ -- 298
 stack$ -- 0
-substring$ -- 377
-swap$ -- 19
+substring$ -- 939
+swap$ -- 42
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 74
+type$ -- 166
 warning$ -- 1
-while$ -- 56
-width$ -- 21
-write$ -- 209
-(There were 2 warnings)
+while$ -- 125
+width$ -- 44
+write$ -- 462
+(There was 1 warning)
