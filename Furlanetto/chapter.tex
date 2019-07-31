@@ -1,60 +1,12 @@
-\documentclass[a4paper,openany, 12pt]{book}
-
-
-
-\usepackage[text={15.5cm,23cm},centering]{geometry}
-
-\usepackage{mathptmx}
-\usepackage{graphicx}
-\usepackage{chapterbib} %remember to bibtex each chapter before final compilation
-\usepackage{subfigure}
-\usepackage{color}
-\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
-\urlstyle{same}
-
-\usepackage[english]{babel}  %For Vibor's institution characters
-
-\newcommand{\chapterauthor}[1]{\textsc{#1}\section*{}}  % Only needed for edited/contributed books
-
-%defines some roman math characters
-\newcommand{\rmd}{\ensuremath{\mathrm{d}}}
-\newcommand{\rme}{\ensuremath{\mathrm{e}}}
-\newcommand{\rmi}{\ensuremath{\mathrm{i}}}
-
-%Journal names
-\newcommand{\apj}{ApJ}
-\newcommand{\apjl}{ApJ}
-\newcommand{\apjs}{ApJS}
-\newcommand{\aap}{A\&A}
-\newcommand{\aj}{AJ}
-\newcommand{\mnras}{MNRAS}
-\newcommand{\pasj}{PASJ}
-\newcommand{\physrep}{Physics Reports}
-\newcommand{\prd}{PRD}
-\newcommand{\prl}{PRL}
-\newcommand{\nat}{Nature}
-\newcommand{\araa}{ARAA}
-\newcommand{\jcap}{JCAP}
-\newcommand{\pasa}{PASA}
-\newcommand{\pasp}{PASP}
-
-\title{The cosmic 21-cm revolution: charting the first billion years of our Universe}
-\author{Andrei Mesinger}
-
-
-
-
-\begin{document}
-
 \chapter{Theoretical Framework: The Fundamentals of the 21-cm Line}
 
 \begin{bf}
-  \author{Steven R. Furlanetto}
-  
-We review some of the fundamental physics necessary for computing the highly-redshifted spin-flip background. We first discuss the radiative transfer of the 21-cm line and define the crucial quantities of interest. We then review the processes that set the spin temperature of the transition, with a particular focus on Wouthuysen-Field coupling, which is likely to be the most important process during and after the Cosmic Dawn. Finally, we discuss processes that heat the intergalactic medium during the Cosmic Dawn, including the scattering of Lyman-$\alpha$, cosmic microwave background, and X-ray photons.  \\
-\end{bf}
+  \author{Steven R. Furlanetto}\\
 
-Before discussing the astrophysics accessible through the 21-cm line, in this chapter we first review the basic physics required to predict the signal. 
+  Abstract\\
+
+We review some of the fundamental physics necessary for computing the highly-redshifted spin-flip background. We first discuss the radiative transfer of the 21-cm line and define the crucial quantities of interest. We then review the processes that set the spin temperature of the transition, with a particular focus on Wouthuysen-Field coupling, which is likely to be the most important process during and after the Cosmic Dawn. Finally, we discuss processes that heat the intergalactic medium during the Cosmic Dawn, including the scattering of Lyman-$\alpha$, cosmic microwave background, and X-ray photons.
+\end{bf}
 
 \section{Radiative Transfer of the 21-cm Line} \label{rt-21cm}
 
@@ -157,7 +109,7 @@ These rate coefficients can be calculated by the quantum mechanical cross sectio
 %%%%%: FIGURE: Collision rates
 \begin{figure}[]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{figure2-1}
+\includegraphics[width=0.5\textwidth]{Furlanetto/figure2-1}
 \end{center}
 \caption{De-excitation rate coefficients for H-H collisions (dashed
 line), H-e$^-$ collisions (dotted line), and H-p collisions (solid
@@ -185,7 +137,7 @@ Wouthuysen and Harvard astrophysicist George Field who first explored it \cite{w
 %%%%%: FIGURE: W-F levels
 \begin{figure}[]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{figure2-2}
+\includegraphics[width=0.6\textwidth]{Furlanetto/figure2-2}
 \end{center}
 \caption{Level diagram illustrating the Wouthuysen-Field effect.  We show the hyperfine splittings of the $1S$ and $2P$ levels.  The solid lines label transitions that can mix the ground state hyperfine levels, while the dashed lines label complementary allowed transitions that do not participate in mixing.  From \cite{pritchard06}.}
 \label{fig:wf}
@@ -235,7 +187,7 @@ A simple argument shows that $T_c \approx T_K$ \cite{field59-ts}: so long as the
 %%%%%: FIGURE: Radiative cascades
 \begin{figure}[]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{figure2-3}
+\includegraphics[width=0.6\textwidth]{Furlanetto/figure2-3}
 \end{center}
 \caption{Decay chains for Lyman-$\beta$ and Lyman-$\gamma$ excitations.  We show
   Lyman-$n$ transitions by dashed curves, Lyman-$\alpha$ by the dot-dashed
@@ -306,7 +258,7 @@ J)/J_\infty$ \cite{chen04}:\footnote{Here we assume the gas has a sufficiently h
 %%%%%: FIGURE: Lyman-alpha spectral shape
 \begin{figure}[]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{figure2-4}
+\includegraphics[width=0.6\textwidth]{Furlanetto/figure2-4}
 \end{center}
 \caption{Background radiation field near the Lyman-$\alpha$ resonance at $z=10$;
 $x \equiv (\nu-\nu_\alpha)/\Delta \nu_D$ is the normalized deviation
@@ -393,8 +345,8 @@ X-rays heat the IGM gas by first photoionizing a hydrogen or helium atom.  The r
 %%%%%: FIGURE: X-ray heating
 \begin{figure}[]
 \begin{center}
-\includegraphics[width=0.4\textwidth]{figure2-5a} \includegraphics[width=0.4\textwidth]{figure2-5b} \\
-\includegraphics[width=0.4\textwidth]{figure2-5c} \includegraphics[width=0.4\textwidth]{figure2-5d}
+\includegraphics[width=0.4\textwidth]{Furlanetto/figure2-5a} \includegraphics[width=0.4\textwidth]{Furlanetto/figure2-5b} \\
+\includegraphics[width=0.4\textwidth]{Furlanetto/figure2-5c} \includegraphics[width=0.4\textwidth]{Furlanetto/figure2-5d}
 \end{center}
 \caption{Energy deposition from fast electrons. We show the fraction of the initial energy deposited in ionization (upper left), heating (upper right), and collisional excitation (lower left), as a function of electron energy and for several different ionized fractions $x_i$. The lower right shows the fraction of the collisional excitation energy deposited in the HI Lyman-$\alpha$ transition, $f_{\rm Ly\alpha}$.  From \cite{furl10-xray}.}
 \label{fig:xrayheat}
@@ -409,6 +361,5 @@ f_{\rm ion} \sim f_{\rm excite} & \sim & (1-x_i)/3,
 where $x_i$ is the ionized fraction. In highly ionized gas, collisions with free electrons dominate and $f_{\rm heat} \rightarrow 1$; in the opposite limit, the energy is split roughly equally between these three processes. However, the complexity of the behavior at low electron energies -- together with the increasing optical thickness of the IGM in that regime, and the fact that most sources are brighter in this soft X-ray regime -- suggest that a more careful treatment is needed for accurate work. \cite{furl10-xray} recommend interpolating the exact results.
 
 \bibliographystyle{plain}
-\bibliography{ch2-refs}
+\bibliography{Furlanetto/ch2-refs}
 
-\end{document}
