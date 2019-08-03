@@ -3,46 +3,49 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Bernardi/References.bib
+Warning--I didn't find a database entry for "khan16"
+Warning--I didn't find a database entry for "khan17"
+Warning--I didn't find a database entry for "khan18"
 Warning--empty publisher in TMS
-You've used 67 entries,
+You've used 74 entries,
             2118 wiz_defined-function locations,
-            851 strings with 34874 characters,
-and the built_in function-call counts, 53457 in all, are:
-= -- 4134
-> -- 6190
+            890 strings with 39204 characters,
+and the built_in function-call counts, 60724 in all, are:
+= -- 4679
+> -- 7101
 < -- 0
-+ -- 2465
-- -- 2398
-* -- 5820
-:= -- 9916
-add.period$ -- 201
-call.type$ -- 67
-change.case$ -- 1399
++ -- 2828
+- -- 2754
+* -- 6645
+:= -- 11272
+add.period$ -- 222
+call.type$ -- 74
+change.case$ -- 1598
 chr.to.int$ -- 0
-cite$ -- 68
-duplicate$ -- 738
-empty$ -- 1648
-format.name$ -- 2398
-if$ -- 9543
+cite$ -- 75
+duplicate$ -- 815
+empty$ -- 1824
+format.name$ -- 2754
+if$ -- 10818
 int.to.chr$ -- 0
-int.to.str$ -- 67
-missing$ -- 68
-newline$ -- 338
-num.names$ -- 134
-pop$ -- 1273
+int.to.str$ -- 74
+missing$ -- 75
+newline$ -- 373
+num.names$ -- 148
+pop$ -- 1458
 preamble$ -- 1
-purify$ -- 1333
+purify$ -- 1525
 quote$ -- 0
-skip$ -- 473
+skip$ -- 522
 stack$ -- 0
-substring$ -- 1445
-swap$ -- 67
+substring$ -- 1609
+swap$ -- 74
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 266
+type$ -- 294
 warning$ -- 1
-while$ -- 200
-width$ -- 69
-write$ -- 737
-(There was 1 warning)
+while$ -- 221
+width$ -- 76
+write$ -- 814
+(There were 4 warnings)
