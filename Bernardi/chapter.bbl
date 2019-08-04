@@ -1,5 +1,31 @@
 \begin{thebibliography}{10}
 
+\bibitem{asad18}
+K.~M.~B. {Asad}, L.~V.~E. {Koopmans}, V.~{Jeli{\'c}}, A.~G. {de Bruyn}, V.~N.
+  {Pandey}, and B.~K. {Gehlot}.
+\newblock {Polarization leakage in epoch of reionization windows - III.
+  Wide-field effects of narrow-field arrays}.
+\newblock {\em \mnras}, 476:3051--3062, May 2018.
+
+\bibitem{asad16}
+K.~M.~B. {Asad}, L.~V.~E. {Koopmans}, V.~{Jeli{\'c}}, A.~{Ghosh}, F.~B.
+  {Abdalla}, M.~A. {Brentjens}, A.~G. {de Bruyn}, B.~{Ciardi}, B.~K. {Gehlot},
+  I.~T. {Iliev}, M.~{Mevius}, V.~N. {Pandey}, S.~{Yatawatta}, and S.~{Zaroubi}.
+\newblock {Polarization leakage in epoch of reionization windows - II. Primary
+  beam model and direction-dependent calibration}.
+\newblock {\em \mnras}, 462:4482--4494, November 2016.
+
+\bibitem{asad15}
+K.~M.~B. {Asad}, L.~V.~E. {Koopmans}, V.~{Jeli{\'c}}, V.~N. {Pandey},
+  A.~{Ghosh}, F.~B. {Abdalla}, G.~{Bernardi}, M.~A. {Brentjens}, A.~G. {de
+  Bruyn}, S.~{Bus}, B.~{Ciardi}, E.~{Chapman}, S.~{Daiboo}, E.~R. {Fernandez},
+  G.~{Harker}, I.~T. {Iliev}, H.~{Jensen}, O.~{Martinez-Rubi}, G.~{Mellema},
+  M.~{Mevius}, A.~R. {Offringa}, A.~H. {Patil}, J.~{Schaye}, R.~M. {Thomas},
+  S.~{van der Tol}, H.~K. {Vedantham}, S.~{Yatawatta}, and S.~{Zaroubi}.
+\newblock {Polarization leakage in epoch of reionization windows - I. Low
+  Frequency Array observations of the 3C196 field}.
+\newblock {\em \mnras}, 451:3709--3727, August 2015.
+
 \bibitem{barry16}
 N.~{Barry}, B.~{Hazelton}, I.~{Sullivan}, M.~F. {Morales}, and J.~C. {Pober}.
 \newblock {Calibration requirements for detecting the 21 cm epoch of

@@ -173,7 +173,7 @@ The advantage of the measurement equation is that it can factorize different phy
     \right],   
 \label{eq:sec:4}
 \end{equation} 
-whereas the undesired instrumental leakage between the two orthogonal polarized is represented by a ${\bf D}$ Jones matrix of the form:
+where we made it explicit that ${\bf B}$ can vary with time and frequency. The undesired instrumental leakage between the two orthogonal polarized can be written as a ${\bf D}$ Jones matrix of the form:
 \begin{equation}
     {\bf D} (t,\lambda) \equiv 
     \left[
@@ -203,7 +203,14 @@ where we dropped the explicit dependence on time and wavelength from the Jones m
 
 This form of the measurement equation offers an intuitive understanding as to why calibration is of paramount important in 21~cm observations. The observed visibilities are essentially a measurement of foreground emission and, in the ideal case, their amplitudes would vary smoothly with frequency, allowing to avoid or subtract foregrounds. However, the instrumental response inevitably corrupts this smoothness in several ways: because the telescope primary beam is not sufficiently smooth in frequency, because of the electronic response or because of reflections along the signal path. Although calibration will correct for these effects and restore the intrinsic foreground frequency smoothness, calibration errors (i.e., deviations from the true ${\bf B}$ solutions) will still corrupt the foreground spectra. In practice, calibration errors result into foreground power leaking out of the horizon limit and jeopardizing (part of) the EoR window. The corruption of the foreground spectra will limit the accuracy of any subtraction method (see discussion in Chapter~6 in this book). {\it The effectiveness of foreground separation, proven in ideal cases, depends significantly on the accuracy of interferometric calibration.}
 
-Calibration of 21~cm observation is currently a very active research area focusing in a few main topics: 
+The form of the measurement equation written in equations~\ref{eq:sec:6} and \ref{eq:sec:7} is often referred to as a {\it direction independent} calibration as it implicitly assumes that a single Jones matrix is sufficient to describe corruptions across the whole sky area of interest. This assumption is often invalid at low frequencies, mostly because of the changing primary beam response over a wide field of view, frequency, and over the course of the observation, and the position and time dependent corruptions introduced by the Earth's ionosphere. In this case the measurement equation becomes {\it direction dependent}, i.e. a different Jones matrix is written and solved for a certain number of directions in the sky:
+\begin{equation}
+{\bf V}_{12} (u,v,\lambda) = \sum_s \left[ {\bf B}_{1,s} \left( \int_\Omega {\bf B}_{I,s} (l, m, \lambda) \, e^{-2 \pi i (ul + vm)} dl \, dm  \right) {\bf B}_{2,s}^H \right],
+\label{eq:sec:7_added}
+\end{equation}
+where the sum is over the number of directions $s$. We note that we have used here the ${\bf B}$ matrix for pedagogical purposes, regardless of the physical origin of the direction dependent effect.
+ 
+Developments in calibration of 21~cm observations are targeting a few main topics: 
 %
 \begin{itemize}
 \item {\it sky models}. Ideally, the sky brightness model matrix ${\bf B}_I$ (equation~\ref{eq:sec:6} and \ref{eq:sec:7}) would include the whole sky emission. This is pratically impossible as part of the sky signal is the unknown of interest (the 21~cm signal) and the detailed properties of the foreground sky are not known sufficiently well. \begin{figure}[]
@@ -283,7 +290,7 @@ where ${\bf S}$ is the matrix that relates the intrisic Stokes parameters to the
 \end{eqnarray} 
 An example of ${\bf A}$ matrix is shown in Figure~\ref{fig:fig4}. The first raw of the matrix shows how the four intrisinc Stokes parameters contribute to the observed total intensity and, therefore, how polarized foregrounds leak into the 21~cm signal even in absence of any calibration errors: the amgnitude of the contaminating Stokes $Q$ and $U$ foregrounds increases away from the ponting direction. 
 
-Calibration of polarization leakage remains a challenging task. Instruments with marrow fields of view naturally mitigate the leakege (\cite{khan16}, \cite{khan17}, \cite{khan18}). It can also be mitigated by extending the sky model to include polarization (e.g. \cite{geil11}), although modeling the diffuse Galactic foreground - the brightest component - is not straightforward and requires accurate imaging. However, \cite{nunhokee17} show that the magnitude of the Galactic polarization leakage may be below the 21~cm signal at high $k_\parallel$ values ($k > 0.3$~Mpc$^{-1}$) and, therefore, still be ``avoided". A more extensive characterization of the polarized foreground properties is needed in order to extend their results to a general case.
+Calibration of polarization leakage remains a challenging task. Instruments with marrow fields of view naturally mitigate the leakege (\cite{asad15}, \cite{asad16}, \cite{asad18}). It can also be mitigated by extending the sky model to include polarization (e.g. \cite{geil11}), although modeling the diffuse Galactic foreground - the brightest component - is not straightforward and requires accurate imaging. However, \cite{nunhokee17} show that the magnitude of the Galactic polarization leakage may be below the 21~cm signal at high $k_\parallel$ values ($k > 0.3$~Mpc$^{-1}$) and, therefore, still be ``avoided". A more extensive characterization of the polarized foreground properties is needed in order to extend their results to a general case.
 \begin{figure}[]
 \begin{center}
 \includegraphics[width=1.\textwidth]{Bernardi/polarized_beam_leakage}
@@ -294,17 +301,17 @@ Calibration of polarization leakage remains a challenging task. Instruments with
 
 
 
-\item {\it ionospheric distortions}
+\item {\it ionospheric distortions}. The ionosphere is the partially ionized layer situated between $]sim 50$ and 1000 km above the surface of the Earth whose electron density changes with time and position. At low frequencies the ionosphere is no longer transparent to radio waves, and scattering the incoming celestial wavefronts. The scattering magnitude depends upon the 
+\begin{figure}[]
+\begin{center}
+\includegraphics[width=1.\textwidth]{Bernardi/ionospheric_calibration}
+\end{center}
+\caption{aaaaaaaaaaaaa.}
+\label{fig:fig5}
+\end{figure}
 \end{itemize}
 
 
-
-
-
-
-\subsection{Direction dependent calibration}
-
-In the previous section I have summarized the calibration equations and the main effects that lead to calibration errors that, in turn, may jeopardize foreground separation. The calibration formalism describe 
 
 \subsection{Redundant calibration}
 

@@ -1,51 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Bernardi/References.bib
-Warning--I didn't find a database entry for "khan16"
-Warning--I didn't find a database entry for "khan17"
-Warning--I didn't find a database entry for "khan18"
 Warning--empty publisher in TMS
-You've used 74 entries,
+You've used 77 entries,
             2118 wiz_defined-function locations,
-            890 strings with 39204 characters,
-and the built_in function-call counts, 60724 in all, are:
-= -- 4679
-> -- 7101
+            902 strings with 40513 characters,
+and the built_in function-call counts, 63040 in all, are:
+= -- 4865
+> -- 7350
 < -- 0
-+ -- 2828
-- -- 2754
-* -- 6645
-:= -- 11272
-add.period$ -- 222
-call.type$ -- 74
-change.case$ -- 1598
++ -- 2927
+- -- 2850
+* -- 6894
+:= -- 11692
+add.period$ -- 231
+call.type$ -- 77
+change.case$ -- 1655
 chr.to.int$ -- 0
-cite$ -- 75
-duplicate$ -- 815
-empty$ -- 1824
-format.name$ -- 2754
-if$ -- 10818
+cite$ -- 78
+duplicate$ -- 848
+empty$ -- 1908
+format.name$ -- 2850
+if$ -- 11241
 int.to.chr$ -- 0
-int.to.str$ -- 74
-missing$ -- 75
-newline$ -- 373
-num.names$ -- 148
-pop$ -- 1458
+int.to.str$ -- 77
+missing$ -- 78
+newline$ -- 388
+num.names$ -- 154
+pop$ -- 1509
 preamble$ -- 1
-purify$ -- 1525
+purify$ -- 1579
 quote$ -- 0
-skip$ -- 522
+skip$ -- 543
 stack$ -- 0
-substring$ -- 1609
-swap$ -- 74
+substring$ -- 1705
+swap$ -- 77
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 294
+type$ -- 306
 warning$ -- 1
-while$ -- 221
-width$ -- 76
-write$ -- 814
-(There were 4 warnings)
+while$ -- 230
+width$ -- 79
+write$ -- 847
+(There was 1 warning)
