@@ -172,6 +172,14 @@ C.~{Dickinson}, R.~A. {Battye}, P.~{Carreira}, K.~{Cleary}, R.~D. {Davies},
   power spectrum with the extended Very Small Array}.
 \newblock {\em \mnras}, 353:732--746, September 2004.
 
+\bibitem{dillon18}
+J.~S. {Dillon}, S.~A. {Kohn}, A.~R. {Parsons}, J.~E. {Aguirre}, Z.~S. {Ali},
+  G.~{Bernardi}, N.~S. {Kern}, W.~{Li}, A.~{Liu}, C.~D. {Nunhokee}, and J.~C.
+  {Pober}.
+\newblock {Polarized redundant-baseline calibration for 21 cm cosmology without
+  adding spectral structure}.
+\newblock {\em \mnras}, 477:5670--5681, July 2018.
+
 \bibitem{dowell17}
 J.~{Dowell}, G.~B. {Taylor}, F.~K. {Schinzel}, N.~E. {Kassim}, and
   K.~{Stovall}.
@@ -657,6 +665,16 @@ C.~M. {Trott}, E.~{de Lera Acedo}, R.~B. {Wayth}, N.~{Fagnoni}, A.~T.
   Calibration performance}.
 \newblock {\em \mnras}, 470:455--465, September 2017.
 
+\bibitem{trott17b}
+C.~M. {Trott}, C.~H. {Jordan}, S.~G. {Murray}, B.~{Pindor}, D.~A. {Mitchell},
+  R.~B. {Wayth}, J.~{Line}, B.~{McKinley}, A.~{Beardsley}, J.~{Bowman},
+  F.~{Briggs}, B.~J. {Hazelton}, J.~{Hewitt}, D.~{Jacobs}, M.~F. {Morales},
+  J.~C. {Pober}, S.~{Sethi}, U.~{Shankar}, R.~{Subrahmanyan}, M.~{Tegmark},
+  S.~J. {Tingay}, R.~L. {Webster}, and J.~S.~B. {Wyithe}.
+\newblock {Assessment of Ionospheric Activity Tolerances for Epoch of
+  Reionization Science with the Murchison Widefield Array}.
+\newblock {\em \apj}, 867:15, November 2018.
+
 \bibitem{trott16}
 C.~M. {Trott} and R.~B. {Wayth}.
 \newblock {Spectral Calibration Requirements of Radio Interferometers for Epoch
@@ -693,6 +711,12 @@ H.~{Vedantham}, N.~{Udaya Shankar}, and R.~{Subrahmanyan}.
 \newblock {Imaging the Epoch of Reionization: Limitations from Foreground
   Confusion and Imaging Algorithms}.
 \newblock {\em \apj}, 745:176, February 2012.
+
+\bibitem{vedantham16}
+H.~K. {Vedantham} and L.~V.~E. {Koopmans}.
+\newblock {Scintillation noise power spectrum and its impact on high-redshift
+  21-cm observations}.
+\newblock {\em \mnras}, 458:3099--3117, May 2016.
 
 \bibitem{white99}
 M.~{White}, J.~E. {Carlstrom}, M.~{Dragovan}, and W.~L. {Holzapfel}.
