@@ -1,6 +1,6 @@
 \relax 
 \citation{TMS}
-\@writefile{toc}{\contentsline {chapter}{\numberline {1}Observational strategies: power spectra and images}{1}{chapter.1}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}21~cm observations: calibration, strategies, power spectra and images}{1}{chapter.1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}Interferometry overview}{1}{section.1.1}}
@@ -49,6 +49,8 @@
 \newlabel{fig:fig2}{{1.2}{5}{Amplitude of delay transformed visibilities as a function of time and delay for a 32 (top let), 64 (top right), 128 (bottom left) and 256~m (bottom right) baselines respectively (from \cite {parsons12a}). A number of smooth spectrum point sources are simulated as foregrounds and their tracks are clearly bound within the horizon limit (black dashed line). The cyan emission is a fiducial 21~cm model that has power up to high delays regardless of the baseline length}{figure.1.2}{}}
 \citation{hamaker96}
 \citation{smirnov11}
+\citation{smirnov11b}
+\citation{smirnov11c}
 \citation{hamaker96}
 \citation{smirnov11}
 \citation{mitchell08}
@@ -95,6 +97,8 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Example of power spectrum bias introduced by calibration errors due to an incomplete sky model for the Murchison Widefield Array (MWA, left) and the Low Frequency Array (LOFAR, right) cases respectively (from \cite  {ewall-wice17}). Power spectra are shown in their two dimensional $(k_\perp ,k_\parallel )$ form in order to display the foreground dominated region below the horizon limit (grey solid line). Cyan, orange and red lines are the locii where a fiducial 21~cm model power spectrum is one, five and ten times higher than the bias level. In an ideal case with perfectly smooth foregrounds and no calibration errors, the 21~cm power sepctrum should be detectable just outside the horizon limit. The errors introduced by an incomplete sky model leak foreground power in the EoR window at a level that may completely prevent a detection in the MWA case.}}{9}{figure.1.3}}
 \newlabel{fig:fig_added}{{1.3}{9}{Example of power spectrum bias introduced by calibration errors due to an incomplete sky model for the Murchison Widefield Array (MWA, left) and the Low Frequency Array (LOFAR, right) cases respectively (from \cite {ewall-wice17}). Power spectra are shown in their two dimensional $(k_\perp ,k_\parallel )$ form in order to display the foreground dominated region below the horizon limit (grey solid line). Cyan, orange and red lines are the locii where a fiducial 21~cm model power spectrum is one, five and ten times higher than the bias level. In an ideal case with perfectly smooth foregrounds and no calibration errors, the 21~cm power sepctrum should be detectable just outside the horizon limit. The errors introduced by an incomplete sky model leak foreground power in the EoR window at a level that may completely prevent a detection in the MWA case}{figure.1.3}{}}
 \citation{sokolowski17}
+\newlabel{eq:sec:7_added_2}{{1.24}{10}{Interferometric calibration and 21~cm observations\relax }{equation.1.3.24}{}}
+\newlabel{eq:sec:4}{{1.25}{10}{Interferometric calibration and 21~cm observations\relax }{equation.1.3.25}{}}
 \citation{bhatnagar08}
 \citation{sullivan12}
 \citation{tasse13}
@@ -114,10 +118,11 @@
 \citation{jelic10}
 \citation{moore13}
 \citation{nunhokee17}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces Example of primary beam variations as the MWA station points at zenith (top right) and $\sim 30^\circ $ away from zenith (bottom right) at 150~MHz. The left column shows the fractional variation of individual station beam models, with respect to the nominal primary beam (right column, from \cite  {neben16}. It is visibile how different the sidelobe pattern is when pointing towards two different directions. It should also be noticed the $\sim 10\%$ magnitude of the first lobe and the large null regions around the sidelobes. The specific pattern is due to the regular shape of the MWA station, where 16 dipoles are arrange in a square $4 \times 4$ grid.}}{11}{figure.1.4}}
-\newlabel{fig:fig3}{{1.4}{11}{Example of primary beam variations as the MWA station points at zenith (top right) and $\sim 30^\circ $ away from zenith (bottom right) at 150~MHz. The left column shows the fractional variation of individual station beam models, with respect to the nominal primary beam (right column, from \cite {neben16}. It is visibile how different the sidelobe pattern is when pointing towards two different directions. It should also be noticed the $\sim 10\%$ magnitude of the first lobe and the large null regions around the sidelobes. The specific pattern is due to the regular shape of the MWA station, where 16 dipoles are arrange in a square $4 \times 4$ grid}{figure.1.4}{}}
 \citation{nunhokee17}
 \citation{hamaker96}
+\newlabel{eq:sec:8}{{1.26}{11}{Interferometric calibration and 21~cm observations\relax }{equation.1.3.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces Example of primary beam variations as the MWA station points at zenith (top right) and $\sim 30^\circ $ away from zenith (bottom right) at 150~MHz. The left column shows the fractional variation of individual station beam models, with respect to the nominal primary beam (right column, from \cite  {neben16}. It is visibile how different the sidelobe pattern is when pointing towards two different directions. It should also be noticed the $\sim 10\%$ magnitude of the first lobe and the large null regions around the sidelobes. The specific pattern is due to the regular shape of the MWA station, where 16 dipoles are arrange in a square $4 \times 4$ grid.}}{12}{figure.1.4}}
+\newlabel{fig:fig3}{{1.4}{12}{Example of primary beam variations as the MWA station points at zenith (top right) and $\sim 30^\circ $ away from zenith (bottom right) at 150~MHz. The left column shows the fractional variation of individual station beam models, with respect to the nominal primary beam (right column, from \cite {neben16}. It is visibile how different the sidelobe pattern is when pointing towards two different directions. It should also be noticed the $\sim 10\%$ magnitude of the first lobe and the large null regions around the sidelobes. The specific pattern is due to the regular shape of the MWA station, where 16 dipoles are arrange in a square $4 \times 4$ grid}{figure.1.4}{}}
 \citation{asad15}
 \citation{asad16}
 \citation{asad18}
@@ -125,28 +130,27 @@
 \citation{nunhokee17}
 \citation{nunhokee17}
 \citation{nunhokee17}
-\citation{zheng14}
-\citation{parsons12b}
-\newlabel{eq:sec:8}{{1.24}{12}{Interferometric calibration and 21~cm observations\relax }{equation.1.3.24}{}}
-\newlabel{eq:sec:8}{{1.25}{12}{Interferometric calibration and 21~cm observations\relax }{equation.1.3.25}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Examples of ${\bf  A}$ matrices at 130 (left) and 150~MHz respectively (from \cite  {nunhokee17}). The matrix maps the intrinsic Stokes parameters into observed ones: the diagonal terms represent the standard primary beam patterns, whereas the off-diagonal terms are the leakage terms. The second, the third and the fourth element of the first row show how Stokes parameters $Q$, $U$ and $V$ respectively contaminate the total intensity signal.}}{13}{figure.1.5}}
 \newlabel{fig:fig4}{{1.5}{13}{Examples of ${\bf A}$ matrices at 130 (left) and 150~MHz respectively (from \cite {nunhokee17}). The matrix maps the intrinsic Stokes parameters into observed ones: the diagonal terms represent the standard primary beam patterns, whereas the off-diagonal terms are the leakage terms. The second, the third and the fourth element of the first row show how Stokes parameters $Q$, $U$ and $V$ respectively contaminate the total intensity signal}{figure.1.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces aaaaaaaaaaaaa.}}{13}{figure.1.6}}
-\newlabel{fig:fig5}{{1.6}{13}{aaaaaaaaaaaaa}{figure.1.6}{}}
+\newlabel{eq:sec:8}{{1.27}{13}{Interferometric calibration and 21~cm observations\relax }{equation.1.3.27}{}}
+\citation{zheng14}
+\citation{parsons12b}
 \citation{wieringa92}
 \citation{liu10}
 \citation{zheng14}
 \citation{byrne19}
 \citation{byrne19}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces aaaaaaaaaaaaa.}}{14}{figure.1.6}}
+\newlabel{fig:fig5}{{1.6}{14}{aaaaaaaaaaaaa}{figure.1.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}Redundant calibration}{14}{subsection.1.3.1}}
+\newlabel{eq:sec:9}{{1.28}{14}{Redundant calibration\relax }{equation.1.3.28}{}}
 \citation{joseph18}
 \citation{morales05}
 \citation{parsons12b}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}Redundant calibration}{14}{subsection.1.3.1}}
-\newlabel{eq:sec:9}{{1.26}{14}{Redundant calibration\relax }{equation.1.3.26}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}Array design and observing strategies}{14}{section.1.4}}
-\newlabel{sec:design}{{1.4}{14}{Array design and observing strategies\relax }{section.1.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces Cartoon illustration of the $uv$ footprint due to the primary beam.}}{15}{figure.1.7}}
 \newlabel{fig:fig4}{{1.7}{15}{Cartoon illustration of the $uv$ footprint due to the primary beam}{figure.1.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Array design and observing strategies}{15}{section.1.4}}
+\newlabel{sec:design}{{1.4}{15}{Array design and observing strategies\relax }{section.1.4}{}}
 \bibstyle{plain}
 \bibdata{Bernardi/References}
 \bibcite{asad18}{1}
@@ -210,29 +214,30 @@
 \bibcite{shimwell19}{59}
 \bibcite{smirnov11}{60}
 \bibcite{smirnov11b}{61}
-\bibcite{smirnov15}{62}
-\bibcite{sokolowski17}{63}
-\bibcite{sullivan12}{64}
-\bibcite{tasse14}{65}
-\bibcite{tasse13}{66}
-\bibcite{TMS}{67}
-\bibcite{thyagarajan13}{68}
-\bibcite{vaneck18}{69}
-\bibcite{vedantham12}{70}
-\bibcite{white99}{71}
-\bibcite{wieringa92}{72}
-\bibcite{wijnholds16}{73}
-\bibcite{yatawatta15}{74}
-\bibcite{yatawatta13}{75}
-\bibcite{zheng14}{76}
-\bibcite{zheng17}{77}
+\bibcite{smirnov11c}{62}
+\bibcite{smirnov15}{63}
+\bibcite{sokolowski17}{64}
+\bibcite{sullivan12}{65}
+\bibcite{tasse14}{66}
+\bibcite{tasse13}{67}
+\bibcite{TMS}{68}
+\bibcite{thyagarajan13}{69}
+\bibcite{vaneck18}{70}
+\bibcite{vedantham12}{71}
+\bibcite{white99}{72}
+\bibcite{wieringa92}{73}
+\bibcite{wijnholds16}{74}
+\bibcite{yatawatta15}{75}
+\bibcite{yatawatta13}{76}
+\bibcite{zheng14}{77}
+\bibcite{zheng17}{78}
 \@setckpt{Bernardi/chapter}{
 \setcounter{page}{28}
-\setcounter{equation}{27}
+\setcounter{equation}{29}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
-\setcounter{enumiv}{77}
+\setcounter{enumiv}{78}
 \setcounter{footnote}{1}
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
