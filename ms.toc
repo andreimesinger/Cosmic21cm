@@ -6,10 +6,10 @@
 \gdef \the@ipfilectr {@-3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\numberline {1}21~cm observations: calibration, strategies, power spectra and images}{1}{chapter.1}
+\contentsline {chapter}{\numberline {1}21~cm observations: calibration, strategies, observables}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Interferometry overview}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}21~cm observables: power spectra and images}{3}{section.1.2}
 \contentsline {section}{\numberline {1.3}Interferometric calibration and 21~cm observations}{6}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Redundant calibration}{14}{subsection.1.3.1}
-\contentsline {section}{\numberline {1.4}Array design and observing strategies}{15}{section.1.4}
+\contentsline {subsection}{\numberline {1.3.1}Redundant calibration}{15}{subsection.1.3.1}
+\contentsline {section}{\numberline {1.4}Array design and observing strategies}{16}{section.1.4}
 \gdef \the@ipfilectr {}

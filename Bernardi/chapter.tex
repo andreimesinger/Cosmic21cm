@@ -1,4 +1,4 @@
-\chapter{21~cm observations: calibration, strategies, power spectra and images}
+\chapter{21~cm observations: calibration, strategies, observables}
 
 \begin{bf}
   \author{Gianni Bernardi (INAF-IRA \& Rhodes University)}\\
@@ -251,7 +251,7 @@ Time and frequency variable primary beams leads to apparent time variable sky mo
 
 Primary beams are also frequency variable and, at first order, their size scales with wavelength (equation~\ref{eq:2}), i.e. rather smoothly. However, in the sidelobe region, variations become rather abrupt as the source can be located on a sidelobe peak at a certain frequency and in the sidelobe null at another frequency. As a final remark, stations that include several dipoles are not perfectly equal to each other, due to manifacturing reasons or mutual coupling between their elements (e.g., \cite{sokolowski17}), therefore ${\bf E}_1 \neq {\bf E}_2$. As primary beams are different, even visibilities for baselines that have the same length and orientation will be different - rather than identical, as expected. The left panel of Figure~\ref{fig:fig3} shows an example of how much primary beams vary for different stations due to mutual coupling interactions: variations in the sidelobe region can be as large as $\sim 30\%$.
 
-If not accurately modeled and taken into account, primary beam effects can bias the calibration solution and, again, corrupt the foreground frequency smoothness.  \cite{bhatnagar08}, \cite{sullivan12} and \cite{tasse13} have developed methods to incorporate time and frequency variable primary beams in interferometric images, however, the accuracy of the correction is limited by the accuracy of the primary beam model. Increasing effort is therefore being placed in precise modeling and measurements of the  primary beams (e.g., \cite{pupillo15}, \cite{deleraacedo17}, \cite{jacobs17}, \cite{deleraacedo18});
+If not accurately modeled and taken into account, primary beam effects can bias the calibration solution and, again, corrupt the foreground frequency smoothness.  \cite{bhatnagar08}, \cite{bernardi11}, \cite{sullivan12} and \cite{tasse13} have developed methods to incorporate time and frequency variable primary beams in interferometric images, however, the accuracy of the correction is limited by the accuracy of the primary beam model. Increasing effort is therefore being placed in precise modeling and measurements of the  primary beams (e.g., \cite{pupillo15}, \cite{trott16}, \cite{deleraacedo17}, \cite{trott17a}, \cite{jacobs17}, \cite{deleraacedo18});
 \begin{figure}[]
 \begin{center}
 \includegraphics[width=1.\textwidth]{Bernardi/mwa_beams_err}
@@ -304,11 +304,11 @@ where ${\bf S}$ is the matrix that relates the intrisic Stokes parameters to the
     V' \leftarrow I & V' \leftarrow Q & V' \leftarrow U & V' \leftarrow V \\
     \end{array}
     \right).
-\label{eq:sec:8}
+\label{eq:sec:9}
 \end{eqnarray} 
 An example of ${\bf A}$ matrix is shown in Figure~\ref{fig:fig4}. The first raw of the matrix shows how the four intrisinc Stokes parameters contribute to the observed total intensity and, therefore, how polarized foregrounds leak into the 21~cm signal even in absence of any calibration errors: the magnitude of the contaminating Stokes $Q$ and $U$ foregrounds increases away from the ponting direction. Wide-filed polarization is another textbook example of direction dependent calibration problem.
 
-Calibration of polarization leakage remains a challenging task. Instruments with marrow fields of view naturally mitigate the leakege (\cite{asad15}, \cite{asad16}, \cite{asad18}). It can also be mitigated by extending the sky model to include polarization (e.g. \cite{geil11}), although modeling the diffuse Galactic foreground - the brightest component - is not straightforward and requires accurate imaging. However, \cite{nunhokee17} show that the magnitude of the Galactic polarization leakage may be below the 21~cm signal at high $k_\parallel$ values ($k > 0.3$~Mpc$^{-1}$) and, therefore, still be ``avoided". A more extensive characterization of the polarized foreground properties is needed in order to extend their results to a general case.
+Calibration of polarization leakage remains a challenging task. Instruments with marrow fields of view naturally mitigate the leakege (\cite{asad15}, \cite{asad16}, \cite{asad18}). It can also be mitigated by extending the sky model to include polarization (e.g. \cite{geil11}), although modeling the diffuse Galactic foreground - the brightest component - is not straightforward and requires accurate imaging. However, \cite{nunhokee17} show that the magnitude of the Galactic polarization leakage may be below the 21~cm signal at high $k_\parallel$ values ($k_\parallel > 0.3$~Mpc$^{-1}$) and, therefore, still be ``avoided". A more extensive characterization of the polarized foreground properties is needed in order to extend their results to a general case.
 \begin{figure}[]
 \begin{center}
 \includegraphics[width=1.\textwidth]{Bernardi/polarized_beam_leakage}
@@ -319,15 +319,31 @@ Calibration of polarization leakage remains a challenging task. Instruments with
 
 
 
-\item {\it ionospheric distortions}. The ionosphere is the partially ionized layer situated between $\sim 50$ and 1000~km above the surface of the Earth whose electron density changes with time and position. At low frequencies the ionosphere is no longer transparent to radio waves and scatters the incoming celestial wavefronts. The scattering magnitude depends upon the 
 \begin{figure}[]
 \begin{center}
 \includegraphics[width=1.\textwidth]{Bernardi/ionospheric_calibration}
 \end{center}
-\caption{aaaaaaaaaaaaa.}
+\caption{Calibration of ionospheric effects in LOFAR observations using a faceting algorithm (from \cite{vanweeren16}). The image resolution is $8'' \times 6''.5$ and the $120-180$~MHz bandwidth is used. The left column shows zoom in images around sources without direction dependent calibration which is, in turn, applied incrementally towards the right panels. For each of the sources, a sky model and a direction dependent Jones scalar $Z$ is improved at each iteration until an artefact-free image is obtained (right column). Solutions were computed each 10~s. An additional amplitude calibration to account for primary beam variations was determined on scales of 10~minutes. The colour scale is in units of Jy~beam$^{-1}$.}
 \label{fig:fig5}
 \end{figure}
+\item {\it ionospheric distortions}. The ionosphere is the partially ionized layer situated between $\sim 50$ and 1000~km above the surface of the Earth whose electron density changes with time and position. At low frequencies the ionosphere is no longer transparent to radio waves and, to first order, it introduces a delay $\phi$ in the wave propagation proportional to the integral of the electron density along the line of sight (e.g. \cite{TMS}, \cite{intema09}):  
+\begin{equation}
+\phi (t, \nu) \propto \frac{1}{\nu} \int n_e (t) dl;
+\label{eq:sec:11}
+\end{equation}
+where the integral is the total electron content (TEC). When the delay is different for two different antennas, vibilities measure an additional, time variable delay. In the measurement equation formalism, ionospheric delays can be modeled by a scalar term $Z \propto e^{i\phi (t,\nu)}$, however, ionospheric effects are another texbook example of direction dependent calibration as the $Z$ is often different for different directions. Given the size $S$ of a characteristic ionospheric patch where the TEC is constant, direction dependent effects occur when the field of view is much larger than $S$ or the baseline separation is much larger than $S$, i.e. different antennas ``see through" different TEC values (see \cite{intema09} for extensive discussion on the different ionospheric regimes). In this case, the measurement equation takes a form similar to equation~\ref{eq:sec:7_added}: 
+\begin{equation}
+{\bf V}_{12} (u,v,t,\lambda) = \sum_s Z_{1,s} (t, \lambda) \left ( \int_\Omega {\bf B}_{I,s} (l, m, \lambda) \, e^{-2 \pi i (ul + vm)} \,  dl \, dm \right ) Z_{2,s}^H (t, \lambda),
+\label{eq:sec:12}
+\end{equation}
+leading to images where sources are convolved with a position and time dependent PSF. An example of this effect is shown in Figure~\ref{fig:fig5}: the column on the left shows sources after the standard selfcalibration, still surrounded by artifacts due to the ionosphere; moving towards the right,  iterative direction dependent corrections lead to virtually artefact-free images on the right column (see \cite{vanweeren16} for further details). 
+
+
+
+As mentioned above, ionospheric effects are more severe for longer baselines and larger fields of view because they more likely intercepts spatial TEC variations. 
 \end{itemize}
+
+
 
 
 
@@ -338,7 +354,7 @@ An interferometric array where most of the baselines have the same length and or
 One of the advantages of a redundant array is that it enables a different calibration strategy called {\it redundant calibration}. In redundant calibration the form of the measurement equation does not change and can be written, for a single polarization, like equation~\ref{eq:sec:7}:
 \begin{equation}
 V_{12,xx} (u,v,\lambda) = b_{1,x} \, b_{2,x}^* y_{12,xx} (u,v,\lambda),
-\label{eq:sec:9}
+\label{eq:sec:13}
 \end{equation}
 with the difference now that the model visibility $y$ is not tied to a sky model, but it is solved for, simply assuming that it is the same for each group of redundant baselines {\cite{wieringa92}, \cite{liu10}). In other words, redundant calibration is independent on the sky model and, therefore, bypasses entirely the biases related to sky model incompleteness described in Section~\ref{sec:challenges}. However, as redundant calibration is not tied to any physical (i.e. sky-based) spatial or spectral model, its solutions have degeneracies that need to be solved for by using a sky model (e.g., \cite{zheng14}, \cite{byrne19}). In particular, spectral calibration, which is critical for foreground separation, cannot currently be obtained using redundant calibration and requires a sky-based calibration. \cite{byrne19} suggest that sky model incompleteness can bias this calibration step, in a way similar to what happens with a traditional calibration scheme.
 

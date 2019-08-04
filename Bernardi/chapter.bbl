@@ -86,6 +86,13 @@ G.~{Bernardi}, L.~J. {Greenhill}, D.~A. {Mitchell}, S.~M. {Ord}, B.~J.
   Widefield Array 32-element Prototype}.
 \newblock {\em \apj}, 771:105, July 2013.
 
+\bibitem{bernardi11}
+G.~{Bernardi}, D.~A. {Mitchell}, S.~M. {Ord}, L.~J. {Greenhill}, B.~{Pindor},
+  R.~B. {Wayth}, and J.~S.~B. {Wyithe}.
+\newblock {Subtraction of point sources from interferometric radio images
+  through an algebraic forward modelling scheme}.
+\newblock {\em \mnras}, 413:411--422, May 2011.
+
 \bibitem{bhatnagar08}
 S.~{Bhatnagar}, T.~J. {Cornwell}, K.~{Golap}, and J.~M. {Uson}.
 \newblock {Correcting direction-dependent gains in the deconvolution of radio
@@ -263,6 +270,14 @@ H.~T. {Intema}, P.~{Jagannathan}, K.~P. {Mooley}, and D.~A. {Frail}.
 \newblock {The GMRT 150 MHz all-sky radio survey. First alternative data
   release TGSS ADR1}.
 \newblock {\em \aap}, 598:A78, February 2017.
+
+\bibitem{intema09}
+H.~T. {Intema}, S.~{van der Tol}, W.~D. {Cotton}, A.~S. {Cohen}, I.~M. {van
+  Bemmel}, and H.~J.~A. {R{\"o}ttgering}.
+\newblock {Ionospheric calibration of low frequency radio interferometric
+  observations using the peeling scheme. I. Method description and first
+  results}.
+\newblock {\em \aap}, 501:1185--1205, July 2009.
 
 \bibitem{jacobs17}
 D.~C. {Jacobs}, J.~{Burba}, J.~D. {Bowman}, A.~R. {Neben}, B.~{Stinnett},
@@ -635,6 +650,19 @@ N.~{Thyagarajan}, N.~{Udaya Shankar}, R.~{Subrahmanyan}, W.~{Arcus},
   Redshifted H I from the Epoch of Reionization}.
 \newblock {\em \apj}, 776:6, October 2013.
 
+\bibitem{trott17a}
+C.~M. {Trott}, E.~{de Lera Acedo}, R.~B. {Wayth}, N.~{Fagnoni}, A.~T.
+  {Sutinjo}, B.~{Wakley}, and C.~I.~B. {Punzalan}.
+\newblock {Spectral performance of Square Kilometre Array Antennas - II.
+  Calibration performance}.
+\newblock {\em \mnras}, 470:455--465, September 2017.
+
+\bibitem{trott16}
+C.~M. {Trott} and R.~B. {Wayth}.
+\newblock {Spectral Calibration Requirements of Radio Interferometers for Epoch
+  of Reionisation Science with the SKA}.
+\newblock {\em \pasa}, 33:e019, May 2016.
+
 \bibitem{vaneck18}
 C.~L. {Van Eck}, M.~{Haverkorn}, M.~I.~R. {Alves}, R.~{Beck}, P.~{Best},
   E.~{Carretti}, K.~T. {Chy{\.z}y}, J.~S. {Farnes}, K.~{Ferri{\`e}re}, M.~J.
@@ -645,6 +673,20 @@ C.~L. {Van Eck}, M.~{Haverkorn}, M.~I.~R. {Alves}, R.~{Beck}, P.~{Best},
 \newblock {Polarized point sources in the LOFAR Two-meter Sky Survey: A
   preliminary catalog}.
 \newblock {\em \aap}, 613:A58, June 2018.
+
+\bibitem{vanweeren16}
+R.~J. {van Weeren}, W.~L. {Williams}, M.~J. {Hardcastle}, T.~W. {Shimwell},
+  D.~A. {Rafferty}, J.~{Sabater}, G.~{Heald}, S.~S. {Sridhar}, T.~J. {Dijkema},
+  G.~{Brunetti}, M.~{Br{\"u}ggen}, F.~{Andrade-Santos}, G.~A. {Ogrean},
+  H.~J.~A. {R{\"o}ttgering}, W.~A. {Dawson}, W.~R. {Forman}, F.~{de Gasperin},
+  C.~{Jones}, G.~K. {Miley}, L.~{Rudnick}, C.~L. {Sarazin}, A.~{Bonafede},
+  P.~N. {Best}, L.~{B{\^i}rzan}, R.~{Cassano}, K.~T. {Chy{\.z}y}, J.~H.
+  {Croston}, T.~{Ensslin}, C.~{Ferrari}, M.~{Hoeft}, C.~{Horellou}, M.~J.
+  {Jarvis}, R.~P. {Kraft}, M.~{Mevius}, H.~T. {Intema}, S.~S. {Murray},
+  E.~{Orr{\'u}}, R.~{Pizzo}, A.~{Simionescu}, A.~{Stroe}, S.~{van der Tol}, and
+  G.~J. {White}.
+\newblock {LOFAR Facet Calibration}.
+\newblock {\em \apjs}, 223:2, March 2016.
 
 \bibitem{vedantham12}
 H.~{Vedantham}, N.~{Udaya Shankar}, and R.~{Subrahmanyan}.

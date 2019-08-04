@@ -2,50 +2,50 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Bernardi/References.bib
-Repeated entry---line 1360 of file Bernardi/References.bib
+Repeated entry---line 1418 of file Bernardi/References.bib
  : @article{smirnov11b
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in TMS
-You've used 78 entries,
+You've used 83 entries,
             2118 wiz_defined-function locations,
-            905 strings with 40667 characters,
-and the built_in function-call counts, 63294 in all, are:
-= -- 4890
-> -- 7357
+            929 strings with 42501 characters,
+and the built_in function-call counts, 66499 in all, are:
+= -- 5149
+> -- 7692
 < -- 0
-+ -- 2930
-- -- 2852
-* -- 6911
-:= -- 11737
-add.period$ -- 234
-call.type$ -- 78
-change.case$ -- 1659
++ -- 3063
+- -- 2980
+* -- 7244
+:= -- 12324
+add.period$ -- 249
+call.type$ -- 83
+change.case$ -- 1738
 chr.to.int$ -- 0
-cite$ -- 79
-duplicate$ -- 859
-empty$ -- 1931
-format.name$ -- 2852
-if$ -- 11293
+cite$ -- 84
+duplicate$ -- 914
+empty$ -- 2054
+format.name$ -- 2980
+if$ -- 11880
 int.to.chr$ -- 0
-int.to.str$ -- 78
-missing$ -- 79
-newline$ -- 393
-num.names$ -- 156
-pop$ -- 1511
+int.to.str$ -- 83
+missing$ -- 84
+newline$ -- 418
+num.names$ -- 166
+pop$ -- 1580
 preamble$ -- 1
-purify$ -- 1582
+purify$ -- 1656
 quote$ -- 0
-skip$ -- 550
+skip$ -- 586
 stack$ -- 0
-substring$ -- 1722
-swap$ -- 78
+substring$ -- 1831
+swap$ -- 83
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 310
+type$ -- 330
 warning$ -- 1
-while$ -- 233
-width$ -- 80
-write$ -- 858
+while$ -- 248
+width$ -- 85
+write$ -- 913
 (There was 1 error message)
