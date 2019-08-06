@@ -1,3 +1,142 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{chen04-decay}
+X.~{Chen} and M.~{Kamionkowski}.
+\newblock {Particle decays during the cosmic dark ages}.
+\newblock {\em \prd}, 70(4):043502, August 2004.
+
+\bibitem{chen04}
+X.~{Chen} and J.~{Miralda-Escud{\' e}}.
+\newblock {The Spin-Kinetic Temperature Coupling and the Heating Rate due to
+  Ly{$\alpha$} Scattering before Reionization: Predictions for 21 Centimeter
+  Emission and Absorption}.
+\newblock {\em \apj}, 602:1--11, February 2004.
+
+\bibitem{field58}
+G.~B. {Field}.
+\newblock {Excitation of the Hydrogen 21-centimeter Line}.
+\newblock {\em Proceedings of the Institute of Radio Engineers}, 46:240, 1958.
+
+\bibitem{field59-obs}
+G.~B. {Field}.
+\newblock {An Attempt to Observe Neutral Hydrogen Between the Galaxies.}
+\newblock {\em \apj}, 129:525, May 1959.
+
+\bibitem{field59-ts}
+G.~B. {Field}.
+\newblock {The Spin Temperature of Intergalactic Neutral Hydrogen.}
+\newblock {\em \apj}, 129:536, May 1959.
+
+\bibitem{field59-res}
+G.~B. {Field}.
+\newblock {The Time Relaxation of a Resonance-Line Profile.}
+\newblock {\em \apj}, 129:551, May 1959.
+
+\bibitem{furl07-electron}
+S.~R. {Furlanetto} and M.~R. {Furlanetto}.
+\newblock {Spin-exchange rates in electron-hydrogen collisions}.
+\newblock {\em \mnras}, 374:547--555, January 2007.
+
+\bibitem{furl07-proton}
+S.~R. {Furlanetto} and M.~R. {Furlanetto}.
+\newblock {Spin exchange rates in proton-hydrogen collisions}.
+\newblock {\em \mnras}, 379:130--134, July 2007.
+
+\bibitem{furl10-xray}
+S.~R. {Furlanetto} and S.~{Johnson Stoever}.
+\newblock {Secondary ionization and heating by fast electrons}.
+\newblock {\em \mnras}, 404:1869--1878, June 2010.
+
+\bibitem{furl06-lyheat}
+S.~R. {Furlanetto} and J.~R. {Pritchard}.
+\newblock {The scattering of Lyman-series photons in the intergalactic medium}.
+\newblock {\em \mnras}, 372:1093--1103, November 2006.
+
+\bibitem{gunn65}
+J.~E. {Gunn} and B.~A. {Peterson}.
+\newblock {On the Density of Neutral Hydrogen in Intergalactic Space.}
+\newblock {\em \apj}, 142:1633--1636, November 1965.
+
+\bibitem{hirata06}
+C.~M. {Hirata}.
+\newblock {Wouthuysen-Field coupling strength and application to high-redshift
+  21-cm radiation}.
+\newblock {\em \mnras}, 367:259--274, March 2006.
+
+\bibitem{hirata07}
+Christopher~M. {Hirata} and Kris {Sigurdson}.
+\newblock {The spin-resolved atomic velocity distribution and 21-cm line
+  profile of dark-age gas}.
+\newblock {\em \mnras}, 375(4):1241--1264, Mar 2007.
+
+\bibitem{madau97}
+P.~{Madau}, A.~{Meiksin}, and M.~J. {Rees}.
+\newblock {21 Centimeter Tomography of the Intergalactic Medium at High
+  Redshift}.
+\newblock {\em \apj}, 475:429, February 1997.
+
+\bibitem{meiksin00}
+A.~{Meiksin}.
+\newblock {Detecting the Epoch of First Light in 21-CM Radiation}.
+\newblock In {\em Perspectives on Radio Astronomy: Science with Large Antenna
+  Arrays,e. M. P. van Haarlem}, page~37, 2000.
+
+\bibitem{oh01}
+S.~P. {Oh}.
+\newblock {Reionization by Hard Photons. I. X-Rays from the First Star
+  Clusters}.
+\newblock {\em \apj}, 553:499--512, June 2001.
+
+\bibitem{pritchard06}
+J.~R. {Pritchard} and S.~R. {Furlanetto}.
+\newblock {Descending from on high: Lyman-series cascades and spin-kinetic
+  temperature coupling in the 21-cm line}.
+\newblock {\em \mnras}, 367:1057--1066, April 2006.
+
+\bibitem{ricotti02}
+M.~{Ricotti}, N.~Y. {Gnedin}, and J.~M. {Shull}.
+\newblock {The Fate of the First Galaxies. II. Effects of Radiative Feedback}.
+\newblock {\em \apj}, 575:49--67, August 2002.
+
+\bibitem{scheuer65}
+P.~A.~G. {Scheuer}.
+\newblock {A Sensitive Test for the Presence of Atomic Hydrogen in
+  Intergalactic Space}.
+\newblock {\em \nat}, 207:963, August 1965.
+
+\bibitem{shull85}
+J.~M. {Shull} and M.~E. {van Steenberg}.
+\newblock {X-ray secondary heating and ionization in quasar emission-line
+  clouds}.
+\newblock {\em \apj}, 298:268--274, November 1985.
+
+\bibitem{valdes08}
+M.~{Vald{\'e}s} and A.~{Ferrara}.
+\newblock {The energy cascade from warm dark matter decays}.
+\newblock {\em \mnras}, 387:L8--L12, June 2008.
+
+\bibitem{venumadhav18}
+Tejaswi {Venumadhav}, Liang {Dai}, Alexander {Kaurov}, and Matias
+  {Zaldarriaga}.
+\newblock {Heating of the intergalactic medium by the cosmic microwave
+  background during cosmic dawn}.
+\newblock {\em \prd}, 98(10):103513, Nov 2018.
+
+\bibitem{volonteri09}
+M.~{Volonteri} and N.~Y. {Gnedin}.
+\newblock {Relative Role of Stars and Quasars in Cosmic Reionization}.
+\newblock {\em \apj}, 703:2113--2117, October 2009.
+
+\bibitem{wouthuysen52}
+S.~A. {Wouthuysen}.
+\newblock {On the excitation mechanism of the 21-cm (radio-frequency)
+  interstellar hydrogen emission line.}
+\newblock {\em \aj}, 57:31, 1952.
+
+\bibitem{zygelman05}
+B.~{Zygelman}.
+\newblock {Hyperfine Level-changing Collisions of Hydrogen Atoms and Tomography
+  of the Dark Age Universe}.
+\newblock {\em \apj}, 622:1356--1362, April 2005.
 
 \end{thebibliography}
