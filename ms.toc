@@ -14,30 +14,14 @@
 \contentsline {section}{\numberline {1.4}Array design and observing strategies}{16}{section.1.4}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {2}Status of 21~cm interferometric experiments}{30}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{30}{section.2.1}
-\contentsline {section}{\numberline {2.2}Early work}{31}{section.2.2}
-\contentsline {section}{\numberline {2.3}Experimental methodologies and current experiments}{32}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Giant Metrewave Radio Telescope - GMRT}{33}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Murchison Widefield Array - MWA}{35}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Low Frequency Array - LOFAR}{39}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Precision Array for Probing the Epoch of Reionization - PAPER}{42}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Published results}{45}{section.2.4}
-\contentsline {section}{\numberline {2.5}Current challenges}{45}{section.2.5}
-\contentsline {section}{\numberline {2.6}Prospects for the future}{48}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Current instruments}{48}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Future instruments}{48}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Future analyses}{49}{subsection.2.6.3}
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {3}Future prospects}{64}{chapter.3}
-\contentsline {section}{\numberline {3.1}Forthcoming interferometric ground based instruments and upgrades}{64}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}The Hydrogen Epoch of Reionization Array - 1 page}{64}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}The Large aperture Experiment to detect the Dark Ages - 1 page}{65}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}MWA phase II - Bernardi - 1 page}{65}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Forthcoming Global Signal Experiments}{65}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}EDGES - Bernardi - 0.5 page}{65}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}LEDA - Bernardi - 0.5 page}{65}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}A Section}{65}{section.3.3}
-\contentsline {paragraph}{Cras adipiscing}{66}{section*.7}
+\contentsline {chapter}{\numberline {2}Future prospects}{32}{chapter.2}
+\contentsline {section}{\numberline {2.1}Forthcoming interferometric ground based instruments and upgrades}{32}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}The Hydrogen Epoch of Reionization Array - 1 page}{32}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The Large aperture Experiment to detect the Dark Ages - 1 page}{33}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}MWA phase II - Bernardi - 1 page}{33}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Forthcoming Global Signal Experiments}{33}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}EDGES - Bernardi - 0.5 page}{33}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}LEDA - Bernardi - 0.5 page}{33}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}A Section}{33}{section.2.3}
+\contentsline {paragraph}{Cras adipiscing}{34}{section*.6}
 \gdef \the@ipfilectr {}

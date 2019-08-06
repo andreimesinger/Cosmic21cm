@@ -160,7 +160,7 @@ At this point, equation~\ref{eq:3} can be written by including the corruptions r
 \end{equation} 
 Equation~\ref{eq:sec:3} is known as the {\it measurement equation} and is the core of interferometric calibration. For an array with $N$ antennas, equation~\ref{eq:sec:3} can be written for each of the $\frac{N (N - 1)}{2}$ visibilities forming an overdetermined system of equations. The development of  algorithms to solve the calibration system of equations is a very active research line (\cite{mitchell08}, \cite{kazemi11}, \cite{tasse14}, \cite{yatawatta15}, \cite{smirnov15}) although beyond the scope of this chapter and we mention it here for completeness.
 
-The solution of the measurement equation requires some knowledge of the sky brightness distribution ${\bf B}_I$, in other words, a {\it sky model}. Traditionally this is achieved by observing a calibration source, i.e. a bright, unresolved point source with known spectral and polarization properties. Calibration solutions are then applied to the observed field that is then used to improve the sky model ${\bf B}_I$ which, in turn, leads to more accurate calibration solutions ${\bf J}$. This loop that is traditionally called self calibration (\cite{cornwell81}, \cite{pearson84}) and can lead to a highly accurate calibration (e.g., \cite{bernardi10}, \cite{smirnov11b}).
+The solution of the measurement equation requires some knowledge of the sky brightness distribution ${\bf B}_I$, in other words, a {\it sky model}. Traditionally this is achieved by observing a calibration source, i.e. a bright, unresolved point source with known spectral and polarization properties. Calibration solutions are then applied to the observed field that is then used to improve the sky model ${\bf B}_I$ which, in turn, leads to more accurate calibration solutions ${\bf J}$. This loop is traditionally called self calibration (\cite{cornwell81}, \cite{pearson84}) and can lead to a highly accurate calibration (e.g., \cite{bernardi10}, \cite{smirnov11b}).
 
 The advantage of the measurement equation is that it can factorize different physical terms into different matrices. For example, the frequency response of the telescope electronics and its time variations essentially affects only the two polarization response and are modeled with a diagonal Jones matrix ${\bf B}$:
 \begin{equation}
@@ -306,7 +306,7 @@ where ${\bf S}$ is the matrix that relates the intrisic Stokes parameters to the
     \right).
 \label{eq:sec:9}
 \end{eqnarray} 
-An example of ${\bf A}$ matrix is shown in Figure~\ref{fig:fig4}. The first raw of the matrix shows how the four intrisinc Stokes parameters contribute to the observed total intensity and, therefore, how polarized foregrounds leak into the 21~cm signal even in absence of any calibration errors: the magnitude of the contaminating Stokes $Q$ and $U$ foregrounds increases away from the ponting direction. Wide-filed polarization is another textbook example of direction dependent calibration problem.
+An example of ${\bf A}$ matrix is shown in Figure~\ref{fig:fig4}. The first raw of the matrix shows how the four intrisinc Stokes parameters contribute to the observed total intensity and, therefore, how polarized foregrounds leak into the 21~cm signal even in absence of any calibration errors: the magnitude of the contaminating Stokes $Q$ and $U$ foregrounds increases away from the ponting direction. Wide-field polarization is another textbook example of direction dependent calibration problem.
 
 Calibration of polarization leakage remains a challenging task. Instruments with marrow fields of view naturally mitigate the leakege (\cite{asad15}, \cite{asad16}, \cite{asad18}). It can also be mitigated by extending the sky model to include polarization (e.g. \cite{geil11}), although modeling the diffuse Galactic foreground - the brightest component - is not straightforward and requires accurate imaging. However, \cite{nunhokee17} show that the magnitude of the Galactic polarization leakage may be below the 21~cm signal at high $k_\parallel$ values ($k_\parallel > 0.3$~Mpc$^{-1}$) and, therefore, still be ``avoided". A more extensive characterization of the polarized foreground properties is needed in order to extend their results to a general case.
 \begin{figure}[]
@@ -326,7 +326,7 @@ Calibration of polarization leakage remains a challenging task. Instruments with
 \caption{Calibration of ionospheric effects in LOFAR observations using a faceting algorithm (from \cite{vanweeren16}). The image resolution is $8'' \times 6''.5$ and the $120-180$~MHz bandwidth is used. The left column shows zoom in images around sources without direction dependent calibration which is, in turn, applied incrementally towards the right panels. For each of the sources, a sky model and a direction dependent Jones scalar $Z$ is improved at each iteration until an artefact-free image is obtained (right column). Solutions were computed each 10~s. An additional amplitude calibration to account for primary beam variations was determined on scales of 10~minutes. The colour scale is in units of Jy~beam$^{-1}$.}
 \label{fig:fig5}
 \end{figure}
-\item {\it ionospheric distortions}. The ionosphere is the partially ionized layer situated between $\sim 50$ and 1000~km above the surface of the Earth whose electron density changes with time and position. At low frequencies the ionosphere is no longer transparent to radio waves and, to first order, it introduces a delay $\phi$ in the wave propagation proportional to the integral of the electron density along the line of sight (e.g. \cite{TMS}, \cite{intema09}):  
+\item {\it ionospheric distortions}. The ionosphere is the partially ionized layer situated between $\sim 50$ and 1000~km above the surface of the Earth, whose electron density changes with time and position. At low frequencies the ionosphere is no longer transparent to radio waves and, to first order, it introduces a delay $\phi$ in the wave propagation proportional to the integral of the electron density along the line of sight (e.g. \cite{TMS}, \cite{intema09}):  
 \begin{equation}
 \phi (t, \nu) \propto \frac{1}{\nu} \int n_e (t) dl;
 \label{eq:sec:11}
@@ -340,9 +340,9 @@ leading to images where sources are convolved with a position and time dependent
 
 \cite{trott17b} analyzed the effects of ionospheric perturbations on MWA observations, whose maximum baseline is a factor of $\sim 30$ shorter than the LOFAR example displayed in Figure~\ref{fig:fig5}, but with a field of view $\sim 4$ times larger. They found that direction dependent ionospheric distortions can affect the sky coherence up to degree-scales (i.e. scales relevant for 21~cm observations), however, due to the relatively short baselines, these effects occur only in 8\% of the observations and it is relatively straightforward to monitor the ionospheric activity and exclude the most affected observations.
 
-An extensive modeling of the impact of ionospheric errors on the two dimensional $(k_\perp,k_\parallel)$ power spectrum spectrum has been carried out by \cite{vedantham16}. They found that most of the residual effects due to the ionosphere on baselines shorter than a few km are confined within the horizon limit, therefore not impacting foreground avoidance. Morevoer, the frequency coherence of the ionospheric residuals is such that they will likely be removed by foreground subtraction algorithm.
+An extensive modeling of the impact of ionospheric errors on the two dimensional $(k_\perp,k_\parallel)$ power spectrum spectrum has been carried out by \cite{vedantham16}. They found that most of the residual effects due to the ionosphere on baselines shorter than a few km are confined within the horizon limit, therefore not impacting foreground avoidance. Moreover, the frequency coherence of the ionospheric residuals is such that they will likely be removed by foreground subtraction algorithm.
 
-Current investigations seem therfore to suggest that ionospheric effects are not going to be a show stopper in measuring the 21~cm power spectrum and, likely, not even for 21~cm tomography. 
+Current investigations seem therfore to suggest that ionospheric effects are not going to be a show stopper for 21~cm power spectrum observations and, likely, 21~cm tomography. 
 \end{itemize}
 
 
@@ -371,29 +371,31 @@ Finally, redundant calibration is prone to effects that break the assumption of 
 \begin{center}
 \includegraphics[width=1.\textwidth]{Bernardi/uv_footprint}
 \end{center}
-\caption{Cartoon illustration of the $uv$ footprint due to the primary beam.}
-\label{fig:fig4}
+\caption{Cartoon illustration of the $uv$ footprint due to the primary beam (from https://ned.ipac.caltech.edu/level5/March14/Zaroubi/Zaroubi5.html\#5.1). The purple circles are the $uv$ footprints for a large (right panel) and small (left panel) station respectively. The minimum and maximum baselines is the same for both cases, in order to sample the same $uv$ annulus (yellow area).}
+\label{fig:fig6}
 \end{figure}
-I will conclude this chapter by discussing how the various interferometric effects discussed so far impact the choice of array designs and the consequent observing strategies. \cite{morales05} and \cite{parsons12b}, for example, investigate how instrumental choices like the array layout, the antenna size and the bandwidth (do not) affect the 21~cm power spectrum spectrum. Here I would rather like to emphasize the interdependence between instrumental choices and calibration and foreground separation strategies. If the total collecting area is kept fixed, there are two main elements that impact calibration and foreground separation:
+I will conclude this chapter by discussing how the various interferometric effects discussed so far impact the choice of array designs and the consequent observing strategies. \cite{morales05} and \cite{parsons12b}, for example, investigate how instrumental choices like the array layout, the antenna size and the bandwidth (do not) affect the 21~cm power spectrum spectrum. Here I would rather emphasize on the interdependence between instrumental choices, calibration and foreground separation strategies. If the total collecting area is kept fixed, there are two main elements that impact calibration and foreground separation strategies:
 \begin{itemize}
-\item {\it station size}. The choice of station size determines the minimum $k_\perp$ value accessible and the footprint of each $uv$ measurement. Indeed each visibility is not a single point in the $uv$ plane but has a footprint corresponding to the two dimensional Fourier transform of the primary beam. This can be seen using the convolution theorem to re-write equation~\ref{eq:1}: 
-\begin{equation}
+\item {\it station size}. The choice of the station size determines the minimum $k_\perp$ value accessible and the footprint of each $uv$ measurement. Each visibility is not a single point in the $uv$ plane but has a footprint corresponding to the two dimensional Fourier transform of the primary beam. This can be seen using the convolution theorem to re-write equation~\ref{eq:1}: \begin{equation}
 V_{ij} ({\bf b}, \lambda) = \tilde{A} ({\bf b}, \lambda) \ast \tilde{I} ({\bf b}, \lambda).
 \end{equation}
+Smaller stations have smaller footprints in the $uv$ plane (see Figure~\ref{fig:fig6}) and can, therefore, sample the $uv$ more accurately with respect to larger stations. They also allow to probe smaller $k_\perp$ values (as the minimum possible $uv$ length is essentially the station size) for which the avoidance strategy is more effective (see Figure~\ref{fig:fig2}).
+If smaller stations would be preferred for power spectrum measurements, they are generally more challenging in terms of calibration: their wider fields of view require a more accurate sky model for calibration, are more susceptible to ionospheric effects and suffer from a more severe polarization leakge contamination. Given the smaller size, their visibilities have a lower signal-to-noise ratio compared to larger station that can lead to limitations to the calibration of high time variable effects. On the other hand, they do not necessarily require to track sources with a high time cadence but can use drift scan strategies (where they are pointed to a fied direction and the sky drifts overhead) or a mix of drift scan and pointed observations to maximize sensitivity (\cite{trott14}). The advantage of drift scan over pointed observations is that primary beams remain constant in time, avoiding some of the effects described in the Section~\ref{sec:challenges}.
 
-\item {\it array layout} Beyond the obvious sensitivity requirement, decisions need to be taken as to which layout to adopt, which antenna size and these choice are intrinsically related to calibration and foreground separation strategies. For instance a filled $uv$-coverage (between the minimum and the maximum station separation) is highly desirable for imaging, modeling and subtracting foregrounds. It is not a stringent requirement for power spectrum measurement and in the avoidance strategy. 
+\item {\it array layout}. Beyond the obvious sensitivity requirement that prefers compact arrays due to their better brightness sensitivity, layout choices are also intrinsically related to calibration and foreground separation strategies. A pseudo-random station distribution that leads to a filled $uv$-coverage (between the minimum and the maximum station separation) is highly desirable for imaging, modeling and subtracting foregrounds. It is not a stringent requirement for power spectrum measurement and for the avoidance strategy. It is probably necessary for 21~cm tomography, in order to provide recostrunction of the low-brightness neutral Hydrogen regions.
+
+On the opposite side of the spectrum of choices, redundant arrays are the most sensitive power spectrum machines. They obviously leverage on redundant calibration which is precluded to imaging arrays. Their drawbacks are the poor imaging performances that prevent the accurate foreground modeling and essentially only allow foreground avoidance. For the same reason, if redundant calibration is not sufficient, redundant arrays have limited options to improve calibration by recostructing the sky brightness sensitivity.   
 \end{itemize}
-
-
 
 As examples, I will use four existing low frequency arrays that, concidentally, span the range of parameters of interest:
 
 \begin{itemize}
-\item effect of the field of view, calibratability, uv cell, drift scan versus tracking, suppression of sources outside the main lobe ionosphere
-\item uv coverage choices power spectra vs images, redundant vs pseud random (reconstructing sky brightness), minimum/maximum k mode accessible... avoidance (compact) vs subtraction (less compact)
-\item obviously sensitivity
+%\item effect of the field of view, calibratability, uv cell, drift scan versus tracking, suppression of sources outside the main lobe ionosphere
+%\item uv coverage choices power spectra vs images, redundant vs pseud random (reconstructing sky brightness), minimum/maximum k mode accessible... avoidance (compact) vs subtraction (less compact)
+%\item obviously sensitivity
 
-\item {\it Low Frequency Array (LOFAR)}. LOFAR is an array mainly located in The Nerthelands but it include also remote stations acroos Europe. Each station
+\item {\it Low Frequency Array (LOFAR, \cite{vanhaarlem13})}. LOFAR is an array of 40 stations located in The Nerthelands and several remote stations across Europe. Stations are formed by two types of receptors sensitive to the $30-90$ and $110-200$~MHz respectively. The $110-200$~MHz is the most sensitive to 21~cm observations and we will only consider its stations in this brief summary. 
+Larger stations allow to better isolate sky regions where the foreground contamination is fainter (including polarized foregrounds), reduce wide field ionopsheric effects and foreground contamination - 
 
 \item Murchison Widefield Array (MWA)
 
