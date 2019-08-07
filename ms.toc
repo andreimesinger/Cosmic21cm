@@ -12,16 +12,17 @@
 \contentsline {section}{\numberline {1.3}Interferometric calibration and 21~cm observations}{6}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Redundant calibration}{15}{subsection.1.3.1}
 \contentsline {section}{\numberline {1.4}Array design and observing strategies}{16}{section.1.4}
+\contentsline {section}{\numberline {1.5}Conclusions}{19}{section.1.5}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {2}Future prospects}{32}{chapter.2}
-\contentsline {section}{\numberline {2.1}Forthcoming interferometric ground based instruments and upgrades}{32}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}The Hydrogen Epoch of Reionization Array - 1 page}{32}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}The Large aperture Experiment to detect the Dark Ages - 1 page}{33}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}MWA phase II - Bernardi - 1 page}{33}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Forthcoming Global Signal Experiments}{33}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}EDGES - Bernardi - 0.5 page}{33}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}LEDA - Bernardi - 0.5 page}{33}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}A Section}{33}{section.2.3}
-\contentsline {paragraph}{Cras adipiscing}{34}{section*.6}
+\contentsline {chapter}{\numberline {2}Future prospects}{34}{chapter.2}
+\contentsline {section}{\numberline {2.1}Forthcoming interferometric ground based instruments and upgrades}{34}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}The Hydrogen Epoch of Reionization Array - 1 page}{34}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The Large aperture Experiment to detect the Dark Ages - 1 page}{35}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}MWA phase II - Bernardi - 1 page}{38}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Forthcoming Global Signal Experiments}{38}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}EDGES - Bernardi - 0.5 page}{38}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}LEDA - Bernardi - 0.5 page}{38}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}A Section}{38}{section.2.3}
+\contentsline {paragraph}{Cras adipiscing}{39}{section*.6}
 \gdef \the@ipfilectr {}

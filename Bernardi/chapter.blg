@@ -3,50 +3,50 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Bernardi/References.bib
-Repeated entry---line 1438 of file Bernardi/References.bib
+Repeated entry---line 1474 of file Bernardi/References.bib
  : @article{smirnov11b
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in TMS
-You've used 88 entries,
+You've used 93 entries,
             2118 wiz_defined-function locations,
-            954 strings with 47594 characters,
-and the built_in function-call counts, 75072 in all, are:
-= -- 5752
-> -- 8896
+            977 strings with 50430 characters,
+and the built_in function-call counts, 79952 in all, are:
+= -- 6120
+> -- 9501
 < -- 0
-+ -- 3544
-- -- 3456
-* -- 8270
-:= -- 13953
-add.period$ -- 264
-call.type$ -- 88
-change.case$ -- 1991
++ -- 3785
+- -- 3692
+* -- 8819
+:= -- 14864
+add.period$ -- 279
+call.type$ -- 93
+change.case$ -- 2124
 chr.to.int$ -- 0
-cite$ -- 89
-duplicate$ -- 969
-empty$ -- 2175
-format.name$ -- 3456
-if$ -- 13329
+cite$ -- 94
+duplicate$ -- 1023
+empty$ -- 2297
+format.name$ -- 3692
+if$ -- 14186
 int.to.chr$ -- 0
-int.to.str$ -- 88
-missing$ -- 89
-newline$ -- 443
-num.names$ -- 176
-pop$ -- 1823
+int.to.str$ -- 93
+missing$ -- 94
+newline$ -- 468
+num.names$ -- 186
+pop$ -- 1946
 preamble$ -- 1
-purify$ -- 1904
+purify$ -- 2032
 quote$ -- 0
-skip$ -- 622
+skip$ -- 658
 stack$ -- 0
-substring$ -- 1934
-swap$ -- 88
+substring$ -- 2046
+swap$ -- 93
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 350
+type$ -- 370
 warning$ -- 1
-while$ -- 263
-width$ -- 90
-write$ -- 968
+while$ -- 277
+width$ -- 95
+write$ -- 1023
 (There was 1 error message)

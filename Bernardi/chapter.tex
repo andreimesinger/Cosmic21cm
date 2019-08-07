@@ -121,7 +121,7 @@ Equation~\ref{sec_observables_eq2} does not only provide a link between visibili
 \end{figure}
 The choice of a foreground avoidance strategy versus subtraction plays an important role in planning an experiment, its related observing strategy and the array calibration strategy.
 
-The requirements for image tomography are the same as for high brightness sensitivity observations of diffuse emission like the Cosmic Microwave Background (e.g., \cite{halverson02}, \cite{dickinson04}, \cite{readhead04}). The 21~cm spatial distribution throughout cosmic reionization has structures on 5-10 arcminutes up to degree scales (e.g., \cite{datta12}, \cite{mellema13}, \cite{kakiichi17}). In order to image 21~cm fluctuations, a maximum baseline of the order of a few km gives a resolution of a few arcminutes in the $100-200$~MHz range, together with filled $uv$ plane in order to accurately reconstruct their complex spatial structure. A filled $uv$ plane also leads to a PSF with very low sidelobes, making the deconvolution process easier. The most stringent requirements for image tomography remain the accurate foregrond separation and, as I will review in the next section, the related instrumental calibration.
+The requirements for image tomography are the same as for high brightness sensitivity observations of diffuse emission like the Cosmic Microwave Background (e.g., \cite{halverson02}, \cite{dickinson04}, \cite{readhead04}). The 21~cm spatial distribution throughout cosmic reionization has structures on 5-10 arcminutes up to degree scales (e.g., \cite{majumdar12}, \cite{datta12}, \cite{mellema13}, \cite{kakiichi17}). In order to image 21~cm fluctuations, a maximum baseline of the order of a few km gives a resolution of a few arcminutes in the $100-200$~MHz range, together with filled $uv$ plane in order to accurately reconstruct their complex spatial structure. A filled $uv$ plane also leads to a PSF with very low sidelobes, making the deconvolution process easier. The most stringent requirements for image tomography remain the accurate foregrond separation and, as I will review in the next section, the related instrumental calibration.
 
 
 
@@ -360,7 +360,7 @@ V_{12,xx} (u,v,\lambda) = b_{1,x} \, b_{2,x}^* y_{12,xx} (u,v,\lambda),
 \end{equation}
 with the difference now that the model visibility $y$ is not tied to a sky model, but it is solved for, simply assuming that it is the same for each group of redundant baselines {\cite{wieringa92}, \cite{liu10}). In other words, redundant calibration is independent on the sky model and, therefore, bypasses entirely the biases related to sky model incompleteness described in Section~\ref{sec:challenges}. However, as redundant calibration is not tied to any physical (i.e. sky-based) spatial or spectral model, its solutions have degeneracies that need to be solved for by using a sky model (e.g., \cite{zheng14}, \cite{byrne19}). In particular, spectral calibration, which is critical for foreground separation, cannot currently be obtained using redundant calibration and requires a sky-based calibration. \cite{byrne19} suggest that sky model incompleteness can bias this calibration step, in a way similar to what happens with a traditional calibration scheme. Moreover, as redundant calibration is agnostic of the polarization state of the sky brightness distribution, mitigation of polarization leakage remains an open question in the framework of redundant calibration (\cite{dillon18}). 
 
-Finally, redundant calibration is prone to effects that break the assumption of redundancy, the most common being errors in the antenna positions and different primary beams for different antennas. Even if antenna position errors can be reduced to have a negligible impact on redundant calibration \cite{joseph18}, the effect of primary beam variations amongts the different antennas on redundant calibration is still largely unknown. 
+Finally, redundant calibration is prone to effects that break the assumption of redundancy, the most common being errors in the antenna positions and different primary beams for different antennas. Antenna position errors can be reduced to have a negligible impact on redundant calibration \cite{joseph18}. The effect of primary beam variations amongst the different antennas on redundant calibration is likely more severe, although new calibration schemes seem to be able to mitigate it (\cite{orosz19}).
 
 
 
@@ -387,25 +387,43 @@ If smaller stations would be preferred for power spectrum measurements, they are
 On the opposite side of the spectrum of choices, redundant arrays are the most sensitive power spectrum machines. They obviously leverage on redundant calibration which is precluded to imaging arrays. Their drawbacks are the poor imaging performances that prevent the accurate foreground modeling and essentially only allow foreground avoidance. For the same reason, if redundant calibration is not sufficient, redundant arrays have limited options to improve calibration by recostructing the sky brightness sensitivity.   
 \end{itemize}
 
-As examples, I will use four existing low frequency arrays that, concidentally, span the range of parameters of interest:
-
+I will use four existing low frequency arrays as examples of the range of cases of interest:
 \begin{itemize}
 %\item effect of the field of view, calibratability, uv cell, drift scan versus tracking, suppression of sources outside the main lobe ionosphere
 %\item uv coverage choices power spectra vs images, redundant vs pseud random (reconstructing sky brightness), minimum/maximum k mode accessible... avoidance (compact) vs subtraction (less compact)
 %\item obviously sensitivity
 
-\item {\it Low Frequency Array (LOFAR, \cite{vanhaarlem13})}. LOFAR is an array of 40 stations located in The Nerthelands and several remote stations across Europe. Stations are formed by two types of receptors sensitive to the $30-90$ and $110-200$~MHz respectively. The $110-200$~MHz is the most sensitive to 21~cm observations and we will only consider its stations in this brief summary. 
-Larger stations allow to better isolate sky regions where the foreground contamination is fainter (including polarized foregrounds), reduce wide field ionopsheric effects and foreground contamination - 
+\item {\it Low Frequency Array (LOFAR, \cite{vanhaarlem13})}. LOFAR is an array of 40 stations located in The Nerthelands and several remote stations across Europe. 24 stations are located in a 2~km core from the array centre and the remaining stations are distributed in a logarithmic spiral layout up to $\sim 100$~km, providing a very dense $uv$ coverage in a few hours tracked observation (see Chapter~8 of this book for an image of the LOFAR array layout and the other arrays discussed in this Section).
 
-\item Murchison Widefield Array (MWA)
+Stations are formed by two types of receptors sensitive to the $30-90$ and $110-200$~MHz respectively. The $110-200$~MHz stations are the most sensitive to 21~cm observations and we will only consider them in this discussion. They are constituted by 48 clusters of dipoles (each of them being a $4 \times 4$ square) arranged in a regular $\sim 30$~m diameter grid, leading a $\sim 4^\circ$ field of view at 150~MHz.
 
-\item Precision Array to Probe the Epoch of Reionization (PAPER)
+LOFAR is an example of a traditional interferometric array, with excellent point source sensitivity for calibration and very dense $uv$ coverage for high fidelity imaging. Its large station size has a large $uv$ footprint but also a relatively narrow field of view that essentially requires tracking a sky patch. The narrow field of view allows to select sky patches with low foreground  (including polarized foregrounds) contamination and to reject wide field foreground contamination. Unwanted sky emssion far from the pointing direction is further suppressed by rotating each station grid with respect to another, while rotating the dipoles back to a common polarization frame: this operation makes the station primary beams all different but these differences cancel out sidelobe patterns that would otherwise be fairly strong to the regular station grid.
 
-\item Hydrogen Epoch of Reionization Array (HERA)
+The calibration of LOFAR 21~cm observations relies on an accurate sky model where compact sources are modeled using the longest baselines available (i.e. $\sim 100$~km). Direction dependent calibration corrects ionospheric effects that corrupt visibilities on baselines longer than a few km, and the effect of variable primary beams on compact sources. The sky model is then subtracted from the visibilities and residual foregrounds are subtracted in the image domain (see details in Chapter~6 of this book). 
 
-\item Square Kilomtre Array (SKA)
+The design of LOFAR makes it suited to observe 21~cm tomography on large angular scales, providing foregrounds are adequately subtracted (\cite{zaroubi12}).
+
+\item {\it Murchison Widefield Array (MWA, \cite{tingay13}, \cite{wayth18})}. The MWA is an array located in Western Australia and operating between 80 and $\sim 200$~MHz. It shares the same dipole design as LOFAR, although they are assembled in stations of $4 \times 4$ elements arranged in a regular grid. The station size is $sim 6$ times smaller compared to LOFAR, with an equivalent increase in the field of view size. 
+
+After a recent upgrade, the MWA is now constituted of 256 stations (out of which 128 can be simultaneously correlated) in a hybrid configuration: 128 in a pseudo random configuration out to a $\sim 3$~km maximum baseline and 128 reconfigurable station that can be placed in a highly redundant (compact) configuration or in 
+
+\item {\it Precision Array to Probe the Epoch of Reionization (PAPER)}
+
+%\item Hydrogen Epoch of Reionization Array (HERA)
+
+%\item Square Kilomtre Array (SKA)
 
 \end{itemize}
+
+
+\section{Conclusions}
+\label{sec:conclusions}
+
+This chapter presented a summary of interferometry and calibration in the light of 21~cm observations. I started from the basics of interferometry to show how they are related to observations of the 21~cm power spectrum and its tomographic images. I reviewed calibration of 21~cm observations, highlighting how foreground separation - the biggest challenge of 21~cm observations - critically depends various calibration effects (sky models, primary beam modeling and calibration, polarization leakage, the ionosphere). I also attempted to show how the various array designs adopted by current experiments enable different calibration and observational strategies - neither of which is clearly winning, at the present point. The field is rapidly developing and both current and upcoming instruments (see Chapter~9 in this book) will address some of the open questions presented in this chapter.
+
+
+
+
 
 
 %Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu egestas erat. Maecenas tincidunt lacinia tincidunt. Mauris id lectus nec neque feugiat condimentum vitae at diam. In vel orci nunc, non commodo mauris. Vivamus ipsum enim, vulputate quis pharetra non, molestie quis felis. Vivamus porttitor placerat turpis at accumsan. Nunc tortor velit, faucibus a rhoncus nec, blandit non elit. Nam consectetur lectus eu nisi blandit dapibus rhoncus dui tempus. Mauris fermentum dolor vel ipsum vulputate sit amet ultricies tortor lacinia. Donec ut nibh erat. Morbi nec mi ante. Integer nec vestibulum diam. Donec tincidunt pellentesque quam, ut interdum mauris venenatis condimentum. Nam condimentum, augue in aliquet gravida, neque dui elementum eros, id semper eros purus sed felis. Curabitur in justo sit amet sapien ultrices hendrerit at quis nibh. Quisque iaculis pulvinar tincidunt. 
