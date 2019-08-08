@@ -5,7 +5,7 @@
   
 Abstract\\
 
-This chapter reviews the basics of radio interferometry (van-Citter-Zernike theorem, uv-coverage, image formation calibration) and how they are linked to the measurements of the 21-cm power spectrum and its tomography 
+This chapter aims to provide a review of the basics of 21~cm interferometric observations and its methodologies. I begin by summarizing the main concepts of radio interferometry and their connection with the 21~cm observables - power spectra and images. I then provide a review of interferometric calibration and its interplay with foreground separation, including the current open challenges in calibration of 21~cm observations. I conclude with reviewing 21~cm instrument designs in the light of calibration choices and observing strategies.
 \end{bf}
 
 
@@ -28,7 +28,7 @@ This chapter reviews the basics of radio interferometry (van-Citter-Zernike theo
 %\includegraphics[trim = 0.2cm 0.6cm 0.2cm 0.2cm, scale = 1.0]{Greig/GlobalSignal}
 \end{center}
 %\caption{A standard schematic of the two element interferometer\footnote{Credit: http://inspirehep.net}.}
-\caption{A standard schematic of the two element interferometer.}
+\caption{A standard schematic of the two element interferometer (from http://inspirehep.net).}
 \label{fig:fig1}
 \end{figure}
 
@@ -88,7 +88,7 @@ The incomplete sampling of the $uv$ space leads to a PSF that has ``sidelobes", 
 \section{21~cm observables: power spectra and images}
 \label{sec:observables}
 
-The ultimate goal of 21~cm observations is to image the spatial distribution of the 21~cm signal as a function of redshift, also known as {\it 21~cm tomography}. Given the curent theoretical predictions, such observations need to achieve mK sensitivity on a few arcminute angular scales (see Chapter 1 in this book). Most of the current arrays, however, only have the sensitivity to perform a statistical detection of the 21~cm signal, i.e. to measure its power spectrum. Given an intensity field $T$, function of the three dimensional spatial coordinate $\bf x$, its power spectrum $P(k)$ is defined as:
+The ultimate goal of 21~cm observations is to image the spatial distribution of the 21~cm signal as a function of redshift, also known as {\it 21~cm tomography}. Given the curent theoretical predictions, such observations need to achieve mK sensitivity on a few arcminute angular scales (see Chapter~1 in this book). Most of the current arrays, however, only have the sensitivity to perform a statistical detection of the 21~cm signal, i.e. to measure its power spectrum. Given an intensity field $T$, function of the three dimensional spatial coordinate $\bf x$, its power spectrum $P(k)$ is defined as:
 \begin{equation}
 %\langle {\tilde T}^* ({\bf k}) {\tilde T}({\bf k'}) \rangle = (2 \pi)^3 P({\bf k}) \delta^3({\bf k} - {\bf k}')
 \langle {\tilde T}^* ({\bf k}) {\tilde T}({\bf k'}) \rangle = (2 \pi)^3 P(k) \delta^3({\bf k} - {\bf k}')
@@ -393,26 +393,29 @@ I will use four existing low frequency arrays as examples of the range of cases 
 %\item uv coverage choices power spectra vs images, redundant vs pseud random (reconstructing sky brightness), minimum/maximum k mode accessible... avoidance (compact) vs subtraction (less compact)
 %\item obviously sensitivity
 
-\item {\it Low Frequency Array (LOFAR, \cite{vanhaarlem13})}. LOFAR is an array of 40 stations located in The Nerthelands and several remote stations across Europe. 24 stations are located in a 2~km core from the array centre and the remaining stations are distributed in a logarithmic spiral layout up to $\sim 100$~km, providing a very dense $uv$ coverage in a few hours tracked observation (see Chapter~8 of this book for an image of the LOFAR array layout and the other arrays discussed in this Section).
+\item {\it Low Frequency Array (LOFAR, \cite{vanhaarlem13})}. LOFAR is an array of 40 stations located in The Nerthelands and several remote stations across Europe. 24 stations are located in a 2~km core from the array centre and the remaining stations are distributed in a logarithmic spiral layout up to $\sim 100$~km, providing a very dense $uv$ coverage in a few hours tracked observation (see Chapter~8 in this book for an image of the LOFAR array layout and the other arrays discussed in this Section).
 
-Stations are formed by two types of receptors sensitive to the $30-90$ and $110-200$~MHz respectively. The $110-200$~MHz stations are the most sensitive to 21~cm observations and we will only consider them in this discussion. They are constituted by 48 clusters of dipoles (each of them being a $4 \times 4$ square) arranged in a regular $\sim 30$~m diameter grid, leading a $\sim 4^\circ$ field of view at 150~MHz.
+Stations are formed by two types of receptors sensitive to the $30-90$ and $110-200$~MHz respectively. The $110-200$~MHz stations are the most sensitive to 21~cm observations and we will only consider them in this discussion. They are constituted by 48 clusters of dipoles (each of them being a $4 \times 4$ square grid) arranged in a regular $\sim 30$~m diameter grid, leading a $\sim 4^\circ$ field of view at 150~MHz.
 
-LOFAR is an example of a traditional interferometric array, with excellent point source sensitivity for calibration and very dense $uv$ coverage for high fidelity imaging. Its large station size has a large $uv$ footprint but also a relatively narrow field of view that essentially requires tracking a sky patch. The narrow field of view allows to select sky patches with low foreground  (including polarized foregrounds) contamination and to reject wide field foreground contamination. Unwanted sky emssion far from the pointing direction is further suppressed by rotating each station grid with respect to another, while rotating the dipoles back to a common polarization frame: this operation makes the station primary beams all different but these differences cancel out sidelobe patterns that would otherwise be fairly strong to the regular station grid.
+LOFAR is an example of a traditional interferometric array, with excellent point source sensitivity that favours the sky-based calibration and very dense $uv$ coverage for high fidelity imaging. Its large station size has a large $uv$ footprint but also a relatively narrow field of view that essentially requires tracking a sky patch. The narrow field of view allows to select sky patches with low foreground (including polarization) contamination and to reject wide field foreground emission. Unwanted sky emssion far from the pointing direction is further suppressed by rotating each station grid with respect to another, while rotating the dipoles back to a common polarization frame: this operation makes the station primary beams all different and the different sidelobe patterns, that would otherwise be reinforced by the regular station grid, cancel out each others.
 
-The calibration of LOFAR 21~cm observations relies on an accurate sky model where compact sources are modeled using the longest baselines available (i.e. $\sim 100$~km). Direction dependent calibration corrects ionospheric effects that corrupt visibilities on baselines longer than a few km, and the effect of variable primary beams on compact sources. The sky model is then subtracted from the visibilities and residual foregrounds are subtracted in the image domain (see details in Chapter~6 of this book). 
+The calibration of LOFAR 21~cm observations relies on an accurate sky model where compact sources are modeled using the longest baselines available (i.e. $\sim 100$~km). Direction dependent calibration corrects ionospheric effects that corrupt visibilities on baselines longer than a few km, and the effect of variable primary beams on compact sources (\cite{yatawatta13}). The sky model is then subtracted from the visibilities and residual foregrounds are subtracted in the image domain (see details in Chapter~6 in this book). 
 
-The design of LOFAR makes it suited to observe 21~cm tomography on large angular scales, providing foregrounds are adequately subtracted (\cite{zaroubi12}).
+The LOFAR design is suited for 21~cm tomography on large angular scales, providing foregrounds are adequately subtracted (\cite{zaroubi12}).
 
-\item {\it Murchison Widefield Array (MWA, \cite{tingay13}, \cite{wayth18})}. The MWA is an array located in Western Australia and operating between 80 and $\sim 200$~MHz. It shares the same dipole design as LOFAR, although they are assembled in stations of $4 \times 4$ elements arranged in a regular grid. The station size is $sim 6$ times smaller compared to LOFAR, with an equivalent increase in the field of view size. 
+\item {\it Murchison Widefield Array (MWA, \cite{tingay13}, \cite{wayth18})}. The MWA is an array located in Western Australia, operating between 80 and $\sim 200$~MHz. It employs the same LOFAR dipoles, although they are assembled in stations of $4 \times 4$ elements arranged in a regular grid. The station size is therefore $\sim 6$ times smaller compared to LOFAR, with an equivalent increase of the field of view. 
+The MWA underwent a recent upgrade to phase II (to distinguish it from the initial deployment, named phase I) and is now constituted of 256 stations (out of which only 128 can be simultaneously correlated) in a hybrid configuration: 128 stations are deployed in a pseudo random configuration out to a $\sim 3$~km baseline (the phase I telescope), 72 stations in two highly redundant hexagons next to the core of the array and 56 stations to extend the maximum baseline up $\sim 5$~km. 
 
-After a recent upgrade, the MWA is now constituted of 256 stations (out of which 128 can be simultaneously correlated) in a hybrid configuration: 128 in a pseudo random configuration out to a $\sim 3$~km maximum baseline and 128 reconfigurable station that can be placed in a highly redundant (compact) configuration or in 
+MWA phase II is a fairly versatile instrument: in its compact, redundant configuration, it is optimized for power spectrum observations and can leverage redundant calibration (\cite{li18}); its small stations give a good sampling in the $uv$ plane (right panel case in Figure~\ref{fig:fig6}). In its extended configuration it has an exceptionally good instantaneous $uv$ coverage (due to the high number of stations instantaneously correlated) with low sidelobe levels, which is good for imaging and foreground modeling, and a large field of view which allows to survey the sky very quickly. The wide field of view does not allow to isolate low foreground patches, but it allows to opt for drift scan observations or a mix of drift scan and pointed observations (\cite{trott14}), which have the advantage of more time stable primary beams. Wide field ionospheric effects are somewhat mitigated by the array compactness (\cite{jordan17}).
+The MWA can therefore leverage on the strength of both redundant and traditional calibration and can adopt a mixture of foreground subtraction and avoidance strategies.
 
-\item {\it Precision Array to Probe the Epoch of Reionization (PAPER)}
+The MWA approach has, however, limitations too: the regular station grid (without any rotation, unlike LOFAR) generates strong sidelobes (see Figure~\ref{fig:fig3}) which make calibration and foreground separation more challenging; the large field of view requires more comprehensive sky models fore calibration and is more susceptible to polarization leakage; the relatively short maximum baseline may be insufficient to derive accurate sky models (\cite{procopio17}). 
 
-%\item Hydrogen Epoch of Reionization Array (HERA)
+\item {\it Precision Array to Probe the Epoch of Reionization (PAPER, \cite{parsons10})}. PAPER was an array located in the South Africa, operating in the $100-200$~MHz range and now decommissioned in favour of its successor (the Hydrogen Epoch of Reionization Array, see Chapter~9 in this book). It employed custom designed $\sim 2$~m dipoles that were deployed and re-arranged in several configurations up to a 128~element array. Dipoles were always individually correlated with no clustering into larger stations, implying a nearly all-sky field of view instrument. In order to maximize power spectrum sensitivity, dipoles were always deployed in maximally redundant configuration with very short baselines (up to a maximum of 350~m), enabling the advantages of redundant calibration (\cite{parsons14}, \cite{ali15}, \cite{jacobs15}). In the final 128-element deployment, $\sim 20$ dipoles were placed as outriggers out of the regular grid in order to partially improve the $uv$ coverage for foreground characterization and calibration. 
 
-%\item Square Kilomtre Array (SKA)
+In some sense, PAPER represents the choice opposite to the LOFAR case: an almost fully redundant array that works using essentially only foreground avoidance and without any spatial characterization of foregrounds for either calibration or subtraction. PAPER is a full drift scan array with primary beams that are fairly stable with time, but also with an all-sky field of view where no selection of low foreground regions is possible, for which polarization leakage and ionospheric effects are more severe, although the latter are mitigated by the very compact configuration. 
 
+As pointed out earlier in this chapter, a redundat array like PAPER is not suited for 21~cm tomography.
 \end{itemize}
 
 

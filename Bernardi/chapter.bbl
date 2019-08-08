@@ -1,5 +1,15 @@
 \begin{thebibliography}{10}
 
+\bibitem{ali15}
+Z.~S. {Ali}, A.~R. {Parsons}, H.~{Zheng}, J.~C. {Pober}, A.~{Liu}, J.~E.
+  {Aguirre}, R.~F. {Bradley}, G.~{Bernardi}, C.~L. {Carilli}, C.~{Cheng}, D.~R.
+  {DeBoer}, M.~R. {Dexter}, J.~{Grobbelaar}, J.~{Horrell}, D.~C. {Jacobs},
+  P.~{Klima}, D.~H.~E. {MacMahon}, M.~{Maree}, D.~F. {Moore}, N.~{Razavi},
+  I.~I. {Stefan}, W.~P. {Walbrugh}, and A.~{Walker}.
+\newblock {PAPER-64 Constraints on Reionization: The 21 cm Power Spectrum at z
+  = 8.4}.
+\newblock {\em \apj}, 809:61, August 2015.
+
 \bibitem{asad18}
 K.~M.~B. {Asad}, L.~V.~E. {Koopmans}, V.~{Jeli{\'c}}, A.~G. {de Bruyn}, V.~N.
   {Pandey}, and B.~K. {Gehlot}.
@@ -295,6 +305,14 @@ D.~C. {Jacobs}, J.~{Burba}, J.~D. {Bowman}, A.~R. {Neben}, B.~{Stinnett},
   Observatories}.
 \newblock {\em \pasp}, 129(3):035002, March 2017.
 
+\bibitem{jacobs15}
+D.~C. {Jacobs}, J.~C. {Pober}, A.~R. {Parsons}, J.~E. {Aguirre}, Z.~S. {Ali},
+  J.~{Bowman}, R.~F. {Bradley}, C.~L. {Carilli}, D.~R. {DeBoer}, M.~R.
+  {Dexter}, N.~E. {Gugliucci}, P.~{Klima}, A.~{Liu}, D.~H.~E. {MacMahon}, J.~R.
+  {Manley}, D.~F. {Moore}, I.~I. {Stefan}, and W.~P. {Walbrugh}.
+\newblock {Multiredshift Limits on the 21 cm Power Spectrum from PAPER}.
+\newblock {\em \apj}, 801:51, March 2015.
+
 \bibitem{jelic15}
 V.~{Jeli{\'c}}, A.~G. {de Bruyn}, V.~N. {Pandey}, M.~{Mevius}, M.~{Haverkorn},
   M.~A. {Brentjens}, L.~V.~E. {Koopmans}, S.~{Zaroubi}, F.~B. {Abdalla},
@@ -312,6 +330,13 @@ V.~{Jeli{\'c}}, S.~{Zaroubi}, P.~{Labropoulos}, G.~{Bernardi}, A.~G. {de
 \newblock {Realistic simulations of the Galactic polarized foreground:
   consequences for 21-cm reionization detection experiments}.
 \newblock {\em \mnras}, 409:1647--1659, December 2010.
+
+\bibitem{jordan17}
+C.~H. {Jordan}, S.~{Murray}, C.~M. {Trott}, R.~B. {Wayth}, D.~A. {Mitchell},
+  M.~{Rahimi}, B.~{Pindor}, P.~{Procopio}, and J.~{Morgan}.
+\newblock {Characterization of the ionosphere above the Murchison Radio
+  Observatory using the Murchison Widefield Array}.
+\newblock {\em \mnras}, 471:3974--3987, November 2017.
 
 \bibitem{joseph18}
 R.~C. {Joseph}, C.~M. {Trott}, and R.~B. {Wayth}.
@@ -353,6 +378,23 @@ E.~{Lenc}, B.~M. {Gaensler}, X.~H. {Sun}, E.~M. {Sadler}, A.~G. {Willis},
 \newblock {Low-frequency Observations of Linearly Polarized Structures in the
   Interstellar Medium near the South Galactic Pole}.
 \newblock {\em \apj}, 830:38, October 2016.
+
+\bibitem{li18}
+W.~{Li}, J.~C. {Pober}, B.~J. {Hazelton}, N.~{Barry}, M.~F. {Morales},
+  I.~{Sullivan}, A.~R. {Parsons}, Z.~S. {Ali}, J.~S. {Dillon}, A.~P.
+  {Beardsley}, J.~D. {Bowman}, F.~{Briggs}, R.~{Byrne}, P.~{Carroll},
+  B.~{Crosse}, D.~{Emrich}, A.~{Ewall-Wice}, L.~{Feng}, T.~M.~O. {Franzen},
+  J.~N. {Hewitt}, L.~{Horsley}, D.~C. {Jacobs}, M.~{Johnston-Hollitt},
+  C.~{Jordan}, R.~C. {Joseph}, D.~L. {Kaplan}, D.~{Kenney}, H.~{Kim},
+  P.~{Kittiwisit}, A.~{Lanman}, J.~{Line}, B.~{McKinley}, D.~A. {Mitchell},
+  S.~{Murray}, A.~{Neben}, A.~R. {Offringa}, D.~{Pallot}, S.~{Paul},
+  B.~{Pindor}, P.~{Procopio}, M.~{Rahimi}, J.~{Riding}, S.~K. {Sethi},
+  N.~{Udaya Shankar}, K.~{Steele}, R.~{Subrahmanian}, M.~{Tegmark},
+  N.~{Thyagarajan}, S.~J. {Tingay}, C.~{Trott}, M.~{Walker}, R.~B. {Wayth},
+  R.~L. {Webster}, A.~{Williams}, C.~{Wu}, and S.~{Wyithe}.
+\newblock {Comparing Redundant and Sky-model-based Interferometric Calibration:
+  A First Look with Phase II of the MWA}.
+\newblock {\em \apj}, 863:170, August 2018.
 
 \bibitem{liu10}
 A.~{Liu}, M.~{Tegmark}, S.~{Morrison}, A.~{Lutomirski}, and M.~{Zaldarriaga}.
@@ -447,6 +489,24 @@ A.~{Parsons}, J.~{Pober}, M.~{McQuinn}, D.~{Jacobs}, and J.~{Aguirre}.
 \newblock {A Sensitivity and Array-configuration Study for Measuring the Power
   Spectrum of 21 cm Emission from Reionization}.
 \newblock {\em \apj}, 753:81, July 2012.
+
+\bibitem{parsons10}
+A.~R. {Parsons}, D.~C. {Backer}, G.~S. {Foster}, M.~C.~H. {Wright}, R.~F.
+  {Bradley}, N.~E. {Gugliucci}, C.~R. {Parashare}, E.~E. {Benoit}, J.~E.
+  {Aguirre}, D.~C. {Jacobs}, C.~L. {Carilli}, D.~{Herne}, M.~J. {Lynch}, J.~R.
+  {Manley}, and D.~J. {Werthimer}.
+\newblock {The Precision Array for Probing the Epoch of Re-ionization: Eight
+  Station Results}.
+\newblock {\em \aj}, 139:1468--1480, April 2010.
+
+\bibitem{parsons14}
+A.~R. {Parsons}, A.~{Liu}, J.~E. {Aguirre}, Z.~S. {Ali}, R.~F. {Bradley}, C.~L.
+  {Carilli}, D.~R. {DeBoer}, M.~R. {Dexter}, N.~E. {Gugliucci}, D.~C. {Jacobs},
+  P.~{Klima}, D.~H.~E. {MacMahon}, J.~R. {Manley}, D.~F. {Moore}, J.~C.
+  {Pober}, I.~I. {Stefan}, and W.~P. {Walbrugh}.
+\newblock {New Limits on 21 cm Epoch of Reionization from PAPER-32 Consistent
+  with an X-Ray Heated Intergalactic Medium at z = 7.7}.
+\newblock {\em \apj}, 788:106, June 2014.
 
 \bibitem{parsons12a}
 A.~R. {Parsons}, J.~C. {Pober}, J.~E. {Aguirre}, C.~L. {Carilli}, D.~C.
