@@ -1,4 +1,5 @@
 \chapter{Future prospects}
+\label{chapter:koopmans_bernardi}
 
 \begin{bf}
   \author{Leon V. E. Koopmans (Kapteyn Astronomical Institute), Gianni Bernardi (INAF-IRA \& Rhodes University)}\\
@@ -10,29 +11,40 @@ This chapter discusses some important things
 
 \section{Forthcoming interferometric ground based instruments and upgrades}
 
-\subsection{The Hydrogen Epoch of Reionization Array - 1 page}
+\subsection{The Hydrogen Epoch of Reionization Array}
 \begin{figure}[]
 \begin{center}
 \includegraphics[width=1.\textwidth]{Koopmans_Bernardi/hera_layout}
 \end{center}
-\caption{HERA antenna layout}
+\caption{The HERA layout (left panel): 320~dishes are located in the hexagonal core and 30 more outrigger dishes are planned to be deployed out to a maximum baselines of $\sim 800$~m to improve angular resolution and imaging capabilities. The core is split in three sectors that are displaced from each other by a fraction of the dish diameter (see \cite{dillon16} for a detailed discussion. The split core provides a significantly improved instantaneous $uv$ coverage (central panel) whilst retaining high redundancy. The right panel shows the expected relative antenna gain errors after using redundant calibration (from \cite{dillon16}).}
 \label{fig:fig_hera}
 \end{figure}
-The Hydrogen Epoch of Reionization Array (HERA) is an array currently under construction in the Karoo reserve area in South Africa - following the conclusion of the PAPER experiment. HERA is built following the approach used for PAPER: a highly redundant array to maximize the sensitivity on a number of power spectrum modes measured using the avoidance approach. In order to increase the sensitivity with respect to PAPER, it employs 14 m diameter dishes that, in the final configuration, will be densely packed in a highly redundant hexagonal array configuration of $\sim 350$ m diameter. 
-HERA is built with the purpose to provide a complete statistical characterization of cosmic reionization: its high brightness sensitivity configuration leads to a significant ($> 10$) power spectrum detection in the $0.2 < k < 0.4$ Mpc-1 range throughout reionization (i.e., 6 < z < 12; Pober et al., 2014; deBoer et al., 2017), fully constraining the evolution of the IGM neutral Hydrogen fraction. As the avoidance approach does not take advantage of foreground modeling, particular attention was paid to prevent the instrumental frequency response from corrupting intrinsically smooth foregrounds (Ewall-Wice et al., 2015; Patra et al., 2017).
-HERA is currently under construction, with more than 200 dishes deployed and science observations routinely carried out (Carilli et al. 2018, Kohn et al. 2019). New feeds that extend the sensitivity to the 50-250 MHz (i.e. enabling observations of the Cosmic Dawn) are currently deployed for testing.
-In summary, HERA is planned to deliver a complete characterization of cosmic reionization and to attempt the detection of the Cosmic Dawn. Given its redundant configuration, imaging capabilities remain limited and will be the target of a next generation experiment.
+The Hydrogen Epoch of Reionization Array (HERA, \cite{deboer17}) is an array currently under construction in the Karoo reserve area in South Africa - following the decommissioning of the PAPER experiment (see Chapters~\ref{chapter:bernardi} and 8 in this book for an overview of PAPER). HERA is built following the approach used for PAPER: a highly redundant array to maximize the sensitivity on a number of power spectrum modes measured using the avoidance approach. In order to increase the sensitivity with respect to PAPER, it employs 14~m diameter non steerable dishes that, in the final configuration, will be densely packed in a highly redundant hexagonal array configuration of $\sim 350$~m diameter (see Figure~\ref{fig:fig_hera}). 
+HERA main goal is to measure the 21~cm power spectrum in the $6 < z < 12 $ range with high significance in the $0.2 < k < 0.4$~Mpc$^{-1}$ range, providing a full characterization of the evolution of the neutral Hydrogen fraction of the intergalactic medium (\cite{pober14}, \cite{liu16}, \cite{deboer17}).
 
+Given the high redundant configuration, imaging tomography will remain challenging for HERA and likely the goal of a future generation experiment. As foreground modeling and characterization will also be limited because of redundancy and the coarse angular resolution, a significant effort was dedicated to keep the instrumental response from corrupting the intrinsically smooth foreground spectra and to accurately model it (\cite{neben16}, \cite{ewallwice16}, \cite{thyagarajan16}, \cite{patra18}). An alternative approach to redundant calibration is to apply foreground avoidance using closure phase quantities from antenna triads (\cite{thyagarajan18}): closure phase are insensitive to errors in direction independent interferometric calibration and, therefore, directly bypass the requirement of an accurate spectral calibration (see Chapter~\ref{chapter:bernardi} in this book for an overview of calibration of 21~cm observations). A preliminary analysis of HERA closure phases seem to confirm these premises (\cite{carilli18}).
 
-\subsection{The Large aperture Experiment to detect the Dark Ages - 1 page}
+HERA is currently under construction, with more than 200 dishes deployed, and 21~cm observations are currently being analyzed. New feeds that extend the sensitivity to the 50-250~MHz range are currently deployed for testing in order to enable observations in the $12 < z < 35$ range (the Cosmic Dawn) and probe the nature of the first luminous sources and their impact on the thermal history of the intergalacic medium.
+
+\subsection{The Low Frequency Array}
+\label{section:lofar}
+
+\subsection{The Large aperture Experiment to detect the Dark Ages}
+\label{section:leda_pspec}
 \begin{figure}[]
 \begin{center}
 \includegraphics[width=1.\textwidth]{Koopmans_Bernardi/lwa_layout}
 \end{center}
-\caption{LEDA antenna layout}
+\caption{LEDA antenna layout: the dense core is surrounded by 32 dipoles in order to provide an exceptionally good instantaneous $uv$ coverage (from \cite{eastwood18}).}
 \label{fig:fig_leda}
 \end{figure}
-The Large aperture Experiment to detect the Dark Ages (LEDA) is located in Owens Valley, California. It operates in the 30-88 MHz frequency range corresponding to $15 < z < 46$, therefore seeking to detect the 21 cm signal from the Cosmic Dawn. It is equipped to attempt the measurement of both the global signal via individual dipoles equipped with custom-built calibration sources and 21 cm fluctuations via an array of 256 dipoles. Dipoles are pseudo randomly distributed to achieve an essentially filled array within a ~200 m diameter core, providing excellent imaging capabilities to Galactic diffuse emission - the brightest foreground component. The LEDA approach to measure the 21 cm signal can be versatile, allowing to image and subtract foregrounds but also to isolate them in the power spectrum domain without any specific modeling. Current simulations shows that if IGM heating occurs efficiently at z ~ 16, LEDA would be able to detect the 21 cm power spectrum at $k \sim 0.1$ Mpc-1 with a ~10 signal to noise ratio in 3000 hours. First observations have set a 108 (mK)2 upper limits on the 21 cm power spectrum at k = 0.1 Mpc-1 at z = 18.4 (Eastwood et al. 2019)
+The Large aperture Experiment to detect the Dark Ages (LEDA, \cite{bernardi15}, \cite{kocz15}) is located at the Owens Valley Radio Observatory, California. It operates in the 30-88~MHz frequency range, corresponding to $15 < z < 46$, seeking to detect the 21~cm signal from the Cosmic Dawn.   
+The array layout consists of 251 dipoles pseudo randomly deployed within a 200~m diameter core, 23 dipoles are added out to a maximum 1.5~km baseline (see Figure~\ref{fig:fig_leda}). Five additional outrigger dipoles are custom-equipped to measure the global 21~cm signal via individual custom-built dipoles (see Section~\ref{leda_global}).
+
+The very dense core provides exceptional brightness sensitivity and a point spread function with very low sidelobes. The outrigger dipoles improve the angular resolution that helps to identify calibration sources and lower the confusion level. As the dipoles are individually correlated, visibilities have contributions from all-sky emission, particularly from Galactic diffuse emission - given the number of short baselines - and with significant ionospheric-induced refraction and scintillation. Despite these challenges, \cite{eastwood18} generated the first high quality all-sky foreground maps. 
+
+The LEDA approach to measure the 21~cm signal can be versatile, allowing to image and subtract foregrounds (\cite{eastwood18}) but also to avoid them (similar to \cite{beardsley16}). \cite{eastwood19} analyzed 20~hours of LEDA data calibrated using a compact source sky model and filtering foregrounds using their statistical properties in way similar to \cite{dillon14} and \cite{trott16}. They reported an initial $10^8$~mK$^2$ upper limit on the 21~cm power spectrum at $z = 18.4$.
+
 
 
 \subsection{MWA phase II - Bernardi - 1 page}
@@ -53,6 +65,7 @@ The Large aperture Experiment to detect the Dark Ages (LEDA) is located in Owens
 \end{figure}
 
 \subsection{LEDA - Bernardi - 0.5 page}
+\label{leda_global}
 \begin{figure}[]
 \begin{center}
 \includegraphics[width=1.\textwidth]{Koopmans_Bernardi/leda_dipole}

@@ -3,44 +3,46 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Chapman_Jelic/chapter.aux
 The style file: plain.bst
 Database file #1: Chapman_Jelic/References.bib
-You've used 84 entries,
+Warning--empty publisher in longair11
+You've used 154 entries,
             2118 wiz_defined-function locations,
-            1028 strings with 29387 characters,
-and the built_in function-call counts, 41236 in all, are:
-= -- 3557
-> -- 3443
-< -- 4
-+ -- 1362
-- -- 1278
-* -- 4022
-:= -- 7267
-add.period$ -- 253
-call.type$ -- 84
-change.case$ -- 888
+            1358 strings with 44431 characters,
+and the built_in function-call counts, 71646 in all, are:
+= -- 6227
+> -- 5741
+< -- 10
++ -- 2265
+- -- 2111
+* -- 6860
+:= -- 12618
+add.period$ -- 462
+call.type$ -- 154
+change.case$ -- 1509
 chr.to.int$ -- 0
-cite$ -- 84
-duplicate$ -- 1002
-empty$ -- 2169
-format.name$ -- 1278
-if$ -- 7932
+cite$ -- 155
+duplicate$ -- 1809
+empty$ -- 3960
+format.name$ -- 2111
+if$ -- 13864
 int.to.chr$ -- 0
-int.to.str$ -- 84
-missing$ -- 87
-newline$ -- 423
-num.names$ -- 168
-pop$ -- 752
+int.to.str$ -- 154
+missing$ -- 159
+newline$ -- 773
+num.names$ -- 314
+pop$ -- 1262
 preamble$ -- 1
-purify$ -- 807
+purify$ -- 1360
 quote$ -- 0
-skip$ -- 696
+skip$ -- 1226
 stack$ -- 0
-substring$ -- 1841
-swap$ -- 159
-text.length$ -- 4
+substring$ -- 3349
+swap$ -- 261
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 330
-warning$ -- 0
-while$ -- 251
-width$ -- 86
-write$ -- 924
+type$ -- 606
+warning$ -- 1
+while$ -- 464
+width$ -- 157
+write$ -- 1693
+(There was 1 warning)
