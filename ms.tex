@@ -5,6 +5,16 @@
 
 \usepackage[text={15.5cm,23cm},centering]{geometry}
 
+\newcommand\savemathcal[1]{%
+  \expandafter\newsavebox\csname mc#1content\endcsname%
+  \expandafter\savebox\csname mc#1content\endcsname{$\mathcal{#1}$}%
+  \expandafter\newcommand\csname mc#1\endcsname{%
+    \expandafter\usebox\expandafter{\csname mc#1content\endcsname}}%
+}
+\newcommand\altmathcal[1]{\csname mc#1\endcsname}
+\savemathcal{Z}
+\savemathcal{B}
+
 \usepackage{mathptmx}
 \usepackage{graphicx}
 \usepackage{chapterbib} %remember to bibtex each chapter before final compilation
@@ -44,15 +54,15 @@
 
 
 %\include{chapter}
-\include{Furlanetto/chapter}
-\include{Mirocha/chapter}
-\include{Pritchard/chapter}
+%\include{Furlanetto/chapter}
+%\include{Mirocha/chapter}
+%\include{Pritchard/chapter}
 \include{Greig/chapter}
-\include{Bernardi/chapter}
-\include{Chapman_Jelic/chapter}
-\include{Greenhill_Subrahmanyan/chapter}
-\include{Trott_Pober/chapter}
-\include{Koopmans_Bernardi/chapter}
+%\include{Bernardi/chapter}
+%\include{Chapman_Jelic/chapter}
+%\include{Greenhill_Subrahmanyan/chapter}
+%\include{Trott_Pober/chapter}
+%\include{Koopmans_Bernardi/chapter}
 %\part{Theory}
 %\appendix
 
