@@ -1,46 +1,45 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Furlanetto/chapter.aux
 The style file: plain.bst
-Database file #1: Furlanetto/References.bib
-You've used 2 entries,
+Database file #1: Furlanetto/ch2-refs.bib
+You've used 25 entries,
             2118 wiz_defined-function locations,
-            509 strings with 4388 characters,
-and the built_in function-call counts, 688 in all, are:
-= -- 66
-> -- 26
+            641 strings with 7222 characters,
+and the built_in function-call counts, 7575 in all, are:
+= -- 744
+> -- 285
 < -- 1
-+ -- 10
-- -- 8
-* -- 36
-:= -- 113
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 9
++ -- 113
+- -- 88
+* -- 555
+:= -- 1298
+add.period$ -- 75
+call.type$ -- 25
+change.case$ -- 119
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 33
-empty$ -- 61
-format.name$ -- 8
-if$ -- 155
+cite$ -- 25
+duplicate$ -- 283
+empty$ -- 636
+format.name$ -- 88
+if$ -- 1575
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 16
+int.to.str$ -- 25
+missing$ -- 25
+newline$ -- 128
+num.names$ -- 50
+pop$ -- 75
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 94
 quote$ -- 0
-skip$ -- 24
+skip$ -- 192
 stack$ -- 0
-substring$ -- 30
-swap$ -- 10
+substring$ -- 564
+swap$ -- 31
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 100
 warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 24
+while$ -- 75
+width$ -- 27
+write$ -- 277

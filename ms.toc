@@ -6,91 +6,109 @@
 \gdef \the@ipfilectr {@-3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\numberline {1}Chapter title}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}A Section}{1}{section.1.1}
-\contentsline {paragraph}{Cras adipiscing}{2}{section*.5}
+\contentsline {chapter}{\numberline {1}Astrophysics from the 21-cm background}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Properties of the High-$z$ Intergalactic Medium}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}The brightness temperature}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Basics of Non-Equilibrium Ionization Chemistry}{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Ionization and Heating Around Point Sources}{4}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Ionization and Heating on Large Scales}{6}{subsection.1.1.4}
+\contentsline {section}{\numberline {1.2}Techniques for Modeling the IGM}{7}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}The Density Field}{7}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}The Ionization Field}{8}{subsection.1.2.2}
+\contentsline {subsubsection}{Global Evolution}{8}{section*.5}
+\contentsline {subsubsection}{Spatial Structure}{8}{section*.6}
+\contentsline {subsubsection}{Recombinations}{11}{section*.7}
+\contentsline {subsection}{\numberline {1.2.3}The (Kinetic) Temperature Field}{11}{subsection.1.2.3}
+\contentsline {subsubsection}{Global Evolution}{11}{section*.8}
+\contentsline {subsubsection}{Spatial Structure}{12}{section*.9}
+\contentsline {subsection}{\numberline {1.2.4}The Ly-$\alpha $ Background}{12}{subsection.1.2.4}
+\contentsline {subsubsection}{Global Evolution}{12}{section*.10}
+\contentsline {subsubsection}{Spatial Fluctuations in the Ly-$\alpha $ background}{13}{section*.11}
+\contentsline {subsubsection}{$\text {Ly-}\alpha $ Heating}{13}{section*.12}
+\contentsline {subsubsection}{Excitation of $\text {Ly-}\alpha $ via fast photo-electrons}{13}{section*.13}
+\contentsline {section}{\numberline {1.3}Sources of the UV and X-ray Background}{13}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Star Formation}{14}{subsection.1.3.1}
+\contentsline {subsubsection}{Pop~III Star Formation}{14}{section*.14}
+\contentsline {subsection}{\numberline {1.3.2}UV Emission from Stars}{15}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Escape of UV Photons from Galaxies}{17}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}X-rays from Black Holes}{17}{subsection.1.3.4}
+\contentsline {subsubsection}{Super-Massive Black Holes}{18}{section*.15}
+\contentsline {subsection}{\numberline {1.3.5}X-rays from Shocks and Hot Gas}{18}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Escape of X-rays from Galaxies}{19}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {1.3.7}Cosmic Rays from Supernovae}{20}{subsection.1.3.7}
+\contentsline {section}{\numberline {1.4}Predictions for the 21-cm Background}{20}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Generic Series of Events}{20}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Sensitivity to Model Parameters}{21}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Modeling Tools}{22}{subsection.1.4.3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {2}Chapter title}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}A Section}{5}{section.2.1}
-\contentsline {paragraph}{Cras adipiscing}{6}{section*.7}
+\contentsline {chapter}{\numberline {2}Inference from the 21cm signal}{26}{chapter.2}
+\contentsline {section}{\numberline {2.1}What do we actually measure?}{27}{section.2.1}
+\contentsline {section}{\numberline {2.2}Optimal methods for characterising the 21-cm signal}{27}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Global signal}{27}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Power spectrum}{29}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Bispectrum}{33}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Trispectrum}{34}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}One-point statistics}{34}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Wavelets}{36}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Topological measurements of the 21-cm signal}{36}{subsection.2.2.7}
+\contentsline {subsubsection}{Genus or the Euler characteristic}{37}{section*.17}
+\contentsline {subsubsection}{Minkowski functionals}{37}{section*.18}
+\contentsline {subsubsection}{Shape-finders}{38}{section*.19}
+\contentsline {subsubsection}{Persistent homology theory}{39}{section*.20}
+\contentsline {subsubsection}{Fractal dimensions}{40}{section*.21}
+\contentsline {subsubsection}{Contour Minkowski tensor}{40}{section*.22}
+\contentsline {subsection}{\numberline {2.2.8}Bubble size distributions}{41}{subsection.2.2.8}
+\contentsline {subsection}{\numberline {2.2.9}Individual bubbles}{42}{subsection.2.2.9}
+\contentsline {subsection}{\numberline {2.2.10}Stacked images}{42}{subsection.2.2.10}
+\contentsline {subsection}{\numberline {2.2.11}Other statistics}{42}{subsection.2.2.11}
+\contentsline {section}{\numberline {2.3}Efficient methods to model/simulate the 21cm signal}{42}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Numerical simulations}{43}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Semi-numerical/analytic models of the 21cm signal}{43}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Intelligent sampling of the parameter space}{43}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Emulators}{43}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Characterising our ignorance}{44}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Inference methods for 21cm}{44}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Fisher Matrices}{44}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Bayesian MCMC}{44}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Nested sampling and model inference}{45}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Neural Networks}{45}{subsection.2.4.4}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {3}Physical cosmology from the 21-cm line}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Physical cosmology through the 21-cm epoch}{9}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Dark matter}{9}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}PMBH}{9}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Unique signatures of cosmology}{9}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Non-Gaussianity}{10}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}IGM Heating}{10}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Separating cosmology from astrophysics}{10}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Redshift space distortions}{10}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Time evolution}{10}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Summary}{10}{section.3.4}
-\contentsline {paragraph}{Cras adipiscing}{11}{section*.9}
+\contentsline {chapter}{\numberline {3}21~cm observations: calibration, strategies, observables}{50}{chapter.3}
+\contentsline {section}{\numberline {3.1}Interferometry overview}{50}{section.3.1}
+\contentsline {section}{\numberline {3.2}21~cm observables: power spectra and images}{52}{section.3.2}
+\contentsline {section}{\numberline {3.3}Interferometric calibration and 21~cm observations}{55}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Redundant calibration}{64}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Array design and observing strategies}{65}{section.3.4}
+\contentsline {section}{\numberline {3.5}Conclusions}{69}{section.3.5}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\numberline {4}Inference from the 21cm signal}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}What do we actually measure?}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Optimal methods for extracting the astrophysics and cosmology from the 21cm signal}{14}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Minkowski functionals}{14}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Global signal}{14}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Power spectrum}{15}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Skewness/Kurtosis/PDFs etc.}{15}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Bispectrum}{15}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Wavelets}{15}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Individual bubbles}{15}{subsection.4.2.7}
-\contentsline {subsection}{\numberline {4.2.8}Stacked images}{16}{subsection.4.2.8}
-\contentsline {subsection}{\numberline {4.2.9}Bubble size distributions/statistics}{16}{subsection.4.2.9}
-\contentsline {subsection}{\numberline {4.2.10}Other statistics}{16}{subsection.4.2.10}
-\contentsline {section}{\numberline {4.3}Efficient methods to model/simulate the 21cm signal}{16}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Numerical simulations}{16}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Semi-numerical/analytic models of the 21cm signal}{17}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Intelligent sampling of the parameter space}{17}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Emulators}{17}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Characterising our ignorance}{17}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Inference methods for 21cm}{18}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Fisher Matrices}{18}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Bayesian MCMC}{18}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Nested sampling and model inference}{18}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Neural Networks}{19}{subsection.4.4.4}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{\numberline {5}Observational strategies: power spectra and images}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Chapter layout}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Interferometry overview}{22}{section.5.2}
-\contentsline {section}{\numberline {5.3}21~cm observables: power spectra and images}{23}{section.5.3}
-\contentsline {section}{\numberline {5.4}Challenges in 21~cm observations}{24}{section.5.4}
-\contentsline {section}{\numberline {5.5}Array design}{24}{section.5.5}
+\contentsline {chapter}{\numberline {4}Status of 21~cm interferometric experiments}{84}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{84}{section.4.1}
+\contentsline {section}{\numberline {4.2}Early work}{85}{section.4.2}
+\contentsline {section}{\numberline {4.3}Experimental methodologies and current experiments}{86}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Giant Metrewave Radio Telescope - GMRT}{87}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Murchison Widefield Array - MWA}{89}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Low Frequency Array - LOFAR}{93}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Precision Array for Probing the Epoch of Reionization - PAPER}{96}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Published results}{99}{section.4.4}
+\contentsline {section}{\numberline {4.5}Current challenges}{99}{section.4.5}
+\contentsline {section}{\numberline {4.6}Prospects for the future}{102}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Current instruments}{102}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Future instruments}{102}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Future analyses}{103}{subsection.4.6.3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-9}
-\contentsline {chapter}{\numberline {6}Chapter title}{26}{chapter.6}
-\contentsline {section}{\numberline {6.1}A Section}{26}{section.6.1}
-\contentsline {paragraph}{Cras adipiscing}{27}{section*.12}
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-10}
-\contentsline {chapter}{\numberline {7}Chapter title}{30}{chapter.7}
-\contentsline {section}{\numberline {7.1}A Section}{30}{section.7.1}
-\contentsline {paragraph}{Cras adipiscing}{31}{section*.14}
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-11}
-\contentsline {chapter}{\numberline {8}Status of 21~cm interferometric experiments}{34}{chapter.8}
-\contentsline {section}{\numberline {8.1}Introduction}{34}{section.8.1}
-\contentsline {section}{\numberline {8.2}Early work}{35}{section.8.2}
-\contentsline {section}{\numberline {8.3}Experimental methodologies and current experiments}{36}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Giant Metrewave Radio Telescope - GMRT}{37}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Murchison Widefield Array - MWA}{39}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}Low Frequency Array - LOFAR}{43}{subsection.8.3.3}
-\contentsline {subsection}{\numberline {8.3.4}Precision Array for Probing the Epoch of Reionization - PAPER}{46}{subsection.8.3.4}
-\contentsline {section}{\numberline {8.4}Published results}{49}{section.8.4}
-\contentsline {section}{\numberline {8.5}Current challenges}{49}{section.8.5}
-\contentsline {section}{\numberline {8.6}Prospects for the future}{52}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}Current instruments}{52}{subsection.8.6.1}
-\contentsline {subsection}{\numberline {8.6.2}Future instruments}{52}{subsection.8.6.2}
-\contentsline {subsection}{\numberline {8.6.3}Future analyses}{53}{subsection.8.6.3}
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-12}
-\contentsline {chapter}{\numberline {9}Chapter title}{68}{chapter.9}
-\contentsline {section}{\numberline {9.1}A Section}{68}{section.9.1}
-\contentsline {paragraph}{Cras adipiscing}{69}{section*.17}
+\contentsline {chapter}{\numberline {5}Future prospects}{118}{chapter.5}
+\contentsline {section}{\numberline {5.1}Forthcoming interferometric ground based instruments and upgrades}{118}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}The Hydrogen Epoch of Reionization Array}{118}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}The Low Frequency Array}{119}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}The Large aperture Experiment to detect the Dark Ages}{119}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Murchison Widefield Array phase II}{122}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Ongoing Global Signal Experiments}{122}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}The Experiment to Detect the Global EoR Signature}{122}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}LEDA - Bernardi - 0.5 page}{122}{subsection.5.2.2}
 \gdef \the@ipfilectr {}

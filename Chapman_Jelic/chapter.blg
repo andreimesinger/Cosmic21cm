@@ -1,46 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Chapman_Jelic/chapter.aux
 The style file: plain.bst
 Database file #1: Chapman_Jelic/References.bib
-You've used 2 entries,
+Warning--empty publisher in longair11
+You've used 154 entries,
             2118 wiz_defined-function locations,
-            509 strings with 4397 characters,
-and the built_in function-call counts, 688 in all, are:
-= -- 66
-> -- 26
-< -- 1
-+ -- 10
-- -- 8
-* -- 36
-:= -- 113
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 9
+            1358 strings with 44431 characters,
+and the built_in function-call counts, 71646 in all, are:
+= -- 6227
+> -- 5741
+< -- 10
++ -- 2265
+- -- 2111
+* -- 6860
+:= -- 12618
+add.period$ -- 462
+call.type$ -- 154
+change.case$ -- 1509
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 33
-empty$ -- 61
-format.name$ -- 8
-if$ -- 155
+cite$ -- 155
+duplicate$ -- 1809
+empty$ -- 3960
+format.name$ -- 2111
+if$ -- 13864
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 16
+int.to.str$ -- 154
+missing$ -- 159
+newline$ -- 773
+num.names$ -- 314
+pop$ -- 1262
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 1360
 quote$ -- 0
-skip$ -- 24
+skip$ -- 1226
 stack$ -- 0
-substring$ -- 30
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 3349
+swap$ -- 261
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 24
+type$ -- 606
+warning$ -- 1
+while$ -- 464
+width$ -- 157
+write$ -- 1693
+(There was 1 warning)

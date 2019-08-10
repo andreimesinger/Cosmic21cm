@@ -1,0 +1,234 @@
+%%% Title of Document 
+
+\documentclass[letterpaper,titlepage,12pt]{article}
+
+%%% Preamble 
+
+\setlength{\topmargin}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\marginparsep}{0in}
+\setlength{\marginparwidth}{0in}
+
+\usepackage{amsmath, amsthm, amssymb}
+%\numberwithin{equation}{section}
+\usepackage{graphicx}
+\usepackage{pslatex}
+\usepackage{epsfig}
+\usepackage{natbib}
+\usepackage{upgreek}
+%\usepackage[pdfborder={0 0 1}]{hyperref}
+\usepackage[htt]{hyphenat}
+
+
+\usepackage{sectsty}
+\sectionfont{\fontsize{12}{15}\selectfont}
+
+%%% Custom definitions
+\input macros.tex
+
+%%% Beginning of Document
+
+\begin{document}
+	
+%% Title page + TOC
+%\author{Jordan Mirocha}	
+%\title{\Large {\bf Title}}
+%\date{Date}
+%\maketitle
+%\setcounter{tocdepth}{2}
+%\tableofcontents
+%\newpage
+%%
+
+%% Simpler title
+\begin{center}
+\section*{The astrophysics of the first galaxies from the 21-cm line}
+Jordan Mirocha \\
+Last edited: \today
+\end{center}
+\setcounter{equation}{0}
+%%
+
+%%
+% Introduction.
+%%
+\section{Plan} \vspace{-12pt}
+From Andrei: ``A discussion highlighting how the soft UV, ionizing UV, and X-ray properties of the first galaxies are encoded in the patterns and timings of the 21-cm signal. Subtopics could include: the evolution of the IGM ionization and temperature, a discussion of the corresponding sources and sinks, a qualitative discussion how global and interferometric signals can discriminate between different source models, challenges in modelling the cosmic signal and a summary of the available simulation tools.''
+
+My plan for each section (in one bullet):
+\begin{enumerate}
+    \item Introduction to modeling ionization and thermal histories. Be agnostic about sources.
+    \item Introduction to sources. What are their spectra like, and what uncertainties remain?
+    \item Source evolution. How do we model redshift evolution and spatial clustering of sources?
+    \item Methods for coupling sources and IGM properties, from analytic to (semi-)numerical techniques.
+    \item Put it all together. Predictions for global signal and power spectrum, build intuition for how parameter variations lead to changes in observables. (maybe merge with previous section)
+\end{enumerate}
+
+
+%%
+% PHYSICS
+%%
+\section{Modeling the History of Ionization, Heating, and $\Lya$ Coupling (i.e., preliminaries)} \vspace{-12pt}
+The brightness temperature depends on $\xHI$, $\TK$, and $\Ja$ (see Steve's section for derivations, couplings, etc). This section will focus on how to model those things in a (for now) source agnostic way. I'll cover each quantity in turn, in the time-order they are expected to be dominating the evolution of the 21-cm background. 
+
+In this section, define a generic emissivity as $\upepsilon_{\nu}(z; R)$, i.e., the emission at frequency $\nu$, redshift $z$, in some region $R$ (typical units: $\emissivity$). Write down the cosmological RTE for starters (or point to Steve's section if he's got it there). 
+
+\begin{description}
+  %First light
+  \item[The $\Lya$ Background] \hfill
+  \begin{enumerate}
+      \item Qualitative discussion of how this background is generated, i.e., it's (mostly) not rest-frame $\Lya$ emission.
+      \item Introduce the sawtooth modulation and relationship with the LW background. Discuss cascades through $\Lya$, opacity from $H_2$.
+      \item How does one solve for $\Ja$ in practice? Discuss mean background approach in addition to more halo model-like approaches (sawtooth, picket fence, etc.).
+  \end{enumerate}
+
+  % Heating of the IGM
+  \item[X-ray Heating] \hfill
+  \begin{enumerate}
+      \item Write down simple ODE for temperature evolution, highlight source term.
+      \item Write down heating rate as integral over background intensity. Introduce opacity, draw attention to difficulty in X-ray RT. Uncertainties in the intrinsic opacity, X-ray analog of UV escape fraction.
+      \item Secondary ionization and heating. For now just focus on level of ionization as being important in terms of fractional energy deposition in different channels, defer discussion of ionization as intrinsically interesting thing until next section.
+  \end{enumerate}
+
+  % Early Stages of reionization
+  \item[Reionization] \hfill
+  \begin{enumerate}
+      \item Introduce two-zone approximation for reionization and the standard reionization equation.
+      \item Source term: relevant photons have short mean-free paths, so unlike previous two quantities we just basically count photons in Lyman continuum rather than solving RTE (with perhaps some correction for recombinations; see below). 
+      \item Draw attention to escape fraction, include some discussion of what we know about it observationally and what predictions we have for it at high-$z$.
+      \item Discuss clumping/recombinations.
+      \item (Likely) second-order effects like reionization by X-rays, HeII recombination photons.
+  \end{enumerate}
+\end{description}
+
+{\bf Note: a lot of the astrophysics is in $\upepsilon_{\nu}(z; R)$, which is still completely unspecified.} In the next two sections we focus on \textit{what} sources likely dominate the emission and what we know about their spectra, i.e., we focus on the frequency component of $\upepsilon$ in \S\ref{sec:source_spectra}. In \S\ref{sec:source_evol}, we turn our attention to the $z$ and $R$ dependence, and close in \S\ref{sec:methods}-\ref{sec:predictions}. Also be clear that fundamentally $\upepsilon$ encodes galaxies (imagine taking $R\rightarrow 0$.), i.e., there's much more information available than the mean emissivity, or emissivity in some sub-volume.
+
+%%
+% SOURCES   
+%%
+\section{The Sources of Ionization, Heating, and $\Lya$ Emission} \label{sec:source_spectra}  \vspace{-12pt}
+
+\begin{description}
+  \item[Stars] \hfill
+  \begin{enumerate}
+      \item Start with discussion of PopIII stars, models for their spectra.
+      \item Move on to ``normal'' galaxies, variations in spectra due to metallicity, initial mass function, etc.
+      \item Mention potential impact of low-mass stars, e.g., IR feedback on PopIII star formation. 
+  \end{enumerate}
+
+  % Very hard X-ray emission
+  \item[Shockwaves and Hot gas] \hfill
+  \begin{enumerate}
+      \item Inverse Compton in supernova remants.
+      \item Cosmic rays
+      \item Brehmmstrahlung from diffuse ISM.
+  \end{enumerate}
+  
+  % Accretion. Only thing capable of small-scale heating?
+  \item[Accretion onto Compact Objects] \hfill
+  \begin{enumerate}
+      \item Solitary PopIII remnants
+      \item X-ray binaries
+      \item AGNs. Do they matter?
+  \end{enumerate}
+  
+\end{description}
+
+Keep track of all the different parameters relevant to this stuff in a table?
+
+
+%%
+% INTUITION-BUILDING
+%%
+\section{Predictions for Star and Black Hole Formation at High-$z$} \label{sec:source_evol} \vspace{-12pt}
+
+\begin{description}
+  \item[Star Formation] \hfill
+  \begin{enumerate}
+      \item Differences in PopIII star formation, predictions for redshift/mass evolution.
+      \item Prescriptions for the SFE in galaxies.
+      \item The $\fcoll$ approach, i.e., how the SF physics gets buried in our semi-analytic and semi-numeric models.
+  \end{enumerate}
+
+  % Very hard X-ray emission
+  \item[Stellar Remnants] \hfill
+  \begin{enumerate}
+      \item Start with PopIII stellar remnants. Reference merger-tree approaches like Tanaka et al.
+      \item HMXBs. With the exception of Fragos et al., most work doesn't try to forward model these things, instead we just use empirical laws to scale SFRs.
+  \end{enumerate}
+  
+  \item[Proto-SMBHs]
+  \begin{enumerate}
+      \item Talk about problems with growing SMBHs from stellar seeds.
+      \item Introduce the DCBH model.
+      \item Are we actually sensitive to these objects, or are they too rare? A few studies to lean on here.
+  \end{enumerate}
+  
+\end{description}
+      
+
+%%
+% MODELS OUT THERE AND MODELING CHALLENGES
+%%
+\section{Modeling Tools} \label{sec:methods} \vspace{-12pt}
+Once we've got a model for $\upepsilon$, how do we solve the relevant equations? Lots of trade-offs to consider. This section outlines many different approaches in the literature, starting with efficient-but-very-approximate semi-analytic models, to the intermediately-complicated semi-numeric models, all the way to cosmological simulations. 
+
+\begin{description}
+  % Numerical techniques
+  \item[Analytic and Semi-Analytic Models] \hfill
+  \begin{enumerate}
+      \item FZH04 and Jonathan Pritchard's 2007 paper. Barkana papers circa 2005. Excursion set / halo model extensions like Janakee's stuff and my stuff.
+      \item Matt McQuinn's perturbative approach.
+      \item Publicly available codes.
+      \item Limitations
+  \end{enumerate}
+  
+  % Early Stages of reionization
+  \item[Semi-numeric Models] \hfill
+  \begin{enumerate}
+      \item Talk about semi-numeric philosophy. How to operate on density field directly, how to flag cells as ionized, how to do X-ray heating and $\Lya$ emission efficiently.
+      \item Publicly available codes: \textsc{DexM}, \textsc{21cmfast}, \textsc{simfast21}, Anastasia's code (maybe not public?)
+      \item Limitations
+  \end{enumerate}
+
+  % Heating of the IGM
+  \item[Cosmological Simulations] \hfill
+  \begin{enumerate}
+      \item Choices to be made here. Spending resources on galaxies themselves? RT? Large volume? What are the trade-offs and who is doing what?
+      \item Brief rundown of different RT methods (Eulerian v. Lagrangian or moving mesh)
+      \item Current results of big simulation suites. How are things looking?
+      \item Is there a mapping from the parameters of simulations to the parameters of semi-analytic and semi-numeric models?
+	  \item Limitations
+  \end{enumerate}
+  
+\end{description}
+
+%%
+% MODELS OUT THERE AND MODELING CHALLENGES
+%%
+\section{Predictions and Challenges} \label{sec:predictions} \vspace{-12pt}
+
+\begin{itemize}
+    \item What are the generic predictions for the global signal and power spectrum?
+    \item To what extent can we expect to break degeneracies with measurements of both, and/or comparing with galaxy surveys?
+    \item To what extent do different modeling techniques agree?
+\end{itemize}
+
+I might merge this in with the previous section. 
+
+
+
+
+%\bibliography{References}
+%\bibliographystyle{plain}
+
+
+\end{document}
+
+
+
