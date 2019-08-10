@@ -1,4 +1,5 @@
-This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Mirocha/chapter.aux
 The style file: plain.bst
 Database file #1: Mirocha/References.bib
@@ -7,59 +8,102 @@ I was expecting a `,' or a `}'---line 109 of file Mirocha/References.bib
  :        author = {{Mineo}, S. and {Gilfanov}, M. and {Sunyaev}, R.},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 268 of file Mirocha/References.bib
+Repeated entry---line 236 of file Mirocha/References.bib
+ : @article{Mineo2012a
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 491 of file Mirocha/References.bib
+ : @article{Cooray2002
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 531 of file Mirocha/References.bib
+ : @article{Gilfanov2004
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 571 of file Mirocha/References.bib
+ : @article{Mineo2012b
+ :                    ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 591 of file Mirocha/References.bib
  : @article{Scalo1986,
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 619 of file Mirocha/References.bib
+Repeated entry---line 1344 of file Mirocha/References.bib
  : @article{Leitherer1999
  :                       ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "["
+Repeated entry---line 1531 of file Mirocha/References.bib
+ : @article{Mirocha2018
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1604 of file Mirocha/References.bib
+ : @article{Thomas2008
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1661 of file Mirocha/References.bib
+ : @article{Pritchard2006
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1794 of file Mirocha/References.bib
+ : @article{Leitherer1999
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1815 of file Mirocha/References.bib
+ : @article{Eldridge2009
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Iliev2006"
+Warning--I didn't find a database entry for "Knevit2014"
+Warning--I didn't find a database entry for "Fialkov2015"
+Warning--I didn't find a database entry for "Mason2015"
+Warning--I didn't find a database entry for "Robertson2015"
+Warning--I didn't find a database entry for "Finkelstein2018"
+Warning--I didn't find a database entry for "Shapley2003"
+Warning--I didn't find a database entry for "Tseliakovich2010"
 Warning--to sort, need author or key in Mineo2012a
 Warning--empty author in Mineo2012a
 Warning--empty title in Mineo2012a
 Warning--empty journal in Mineo2012a
 Warning--empty year in Mineo2012a
-You've used 38 entries,
+You've used 89 entries,
             2118 wiz_defined-function locations,
-            763 strings with 9983 characters,
-and the built_in function-call counts, 12394 in all, are:
-= -- 1189
-> -- 563
-< -- 2
-+ -- 222
-- -- 184
-* -- 1025
-:= -- 2103
-add.period$ -- 112
-call.type$ -- 38
-change.case$ -- 204
+            1082 strings with 21296 characters,
+and the built_in function-call counts, 33092 in all, are:
+= -- 3089
+> -- 1926
+< -- 4
++ -- 757
+- -- 668
+* -- 2918
+:= -- 5656
+add.period$ -- 265
+call.type$ -- 89
+change.case$ -- 599
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 427
-empty$ -- 977
-format.name$ -- 184
-if$ -- 2535
+cite$ -- 94
+duplicate$ -- 1029
+empty$ -- 2303
+format.name$ -- 668
+if$ -- 6658
 int.to.chr$ -- 0
-int.to.str$ -- 38
-missing$ -- 38
-newline$ -- 191
-num.names$ -- 76
-pop$ -- 145
+int.to.str$ -- 89
+missing$ -- 89
+newline$ -- 446
+num.names$ -- 178
+pop$ -- 446
 preamble$ -- 1
-purify$ -- 167
+purify$ -- 511
 quote$ -- 0
-skip$ -- 287
+skip$ -- 713
 stack$ -- 0
-substring$ -- 869
-swap$ -- 47
-text.length$ -- 2
+substring$ -- 2056
+swap$ -- 140
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 152
+type$ -- 356
 warning$ -- 5
-while$ -- 115
-width$ -- 40
-write$ -- 413
-(There were 3 error messages)
+while$ -- 271
+width$ -- 91
+write$ -- 973
+(There were 12 error messages)
