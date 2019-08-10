@@ -25,6 +25,13 @@ G.~{Bernardi}, M.~{McQuinn}, and L.~J. {Greenhill}.
   of the Sky-averaged {$\lambda$}21 cm Signal at z\~{} 20}.
 \newblock {\em \apj}, 799:90, January 2015.
 
+\bibitem{bernardi16}
+G.~{Bernardi}, J.~T.~L. {Zwart}, D.~{Price}, L.~J. {Greenhill}, A.~{Mesinger},
+  J.~{Dowell}, T.~{Eftekhari}, S.~W. {Ellingson}, J.~{Kocz}, and F.~{Schinzel}.
+\newblock {Bayesian constraints on the global 21-cm signal from the Cosmic
+  Dawn}.
+\newblock {\em \mnras}, 461:2847--2855, September 2016.
+
 \bibitem{bowman08}
 J.~D. {Bowman}, A.~E.~E. {Rogers}, and J.~N. {Hewitt}.
 \newblock {Toward Empirical Constraints on the Global Redshifted 21 cm
@@ -37,6 +44,15 @@ J.~D. {Bowman}, A.~E.~E. {Rogers}, R.~A. {Monsalve}, T.~J. {Mozdzen}, and
 \newblock {An absorption profile centred at 78 megahertz in the sky-averaged
   spectrum}.
 \newblock {\em \nat}, 555:67--70, March 2018.
+
+\bibitem{burns19}
+J.~O. {Burns}, S.~{Bale}, and R.~F. {Bradley}.
+\newblock {Dark Cosmology: Investigating Dark Matter and Exotic Physics using
+  the Redshifted 21-cm Global Signal with the Dark Ages Polarimeter Pathfinder
+  (DAPPER)}.
+\newblock In {\em American Astronomical Society Meeting Abstracts}, volume 234
+  of {\em American Astronomical Society Meeting Abstracts}, page 212.02, June
+  2019.
 
 \bibitem{carilli18}
 C.~L. {Carilli}, B.~{Nikolic}, N.~{Thyagarayan}, and K.~{Gale-Sides}.
@@ -148,6 +164,12 @@ A.~R. {Neben}, R.~F. {Bradley}, J.~N. {Hewitt}, D.~R. {DeBoer}, A.~R.
   Measurements and Science Implications}.
 \newblock {\em \apj}, 826:199, August 2016.
 
+\bibitem{nhan17}
+B.~D. {Nhan}, R.~F. {Bradley}, and J.~O. {Burns}.
+\newblock {A Polarimetric Approach for Constraining the Dynamic Foreground
+  Spectrum for Cosmological Global 21 cm Measurements}.
+\newblock {\em \apj}, 836:90, February 2017.
+
 \bibitem{patra18}
 N.~{Patra}, A.~R. {Parsons}, D.~R. {DeBoer}, N.~{Thyagarajan}, A.~{Ewall-Wice},
   G.~{Hsyu}, T.~K. {Leung}, C.~K. {Day}, E.~{de Lera Acedo}, J.~E. {Aguirre},
@@ -173,6 +195,24 @@ J.~C. {Pober}, A.~{Liu}, J.~S. {Dillon}, J.~E. {Aguirre}, J.~D. {Bowman}, R.~F.
 \newblock {What Next-generation 21 cm Power Spectrum Measurements can Teach us
   About the Epoch of Reionization}.
 \newblock {\em \apj}, 782:66, February 2014.
+
+\bibitem{price18}
+D.~C. {Price}, L.~J. {Greenhill}, A.~{Fialkov}, G.~{Bernardi}, H.~{Garsden},
+  B.~R. {Barsdell}, J.~{Kocz}, M.~M. {Anderson}, S.~A. {Bourke}, J.~{Craig},
+  M.~R. {Dexter}, J.~{Dowell}, M.~W. {Eastwood}, T.~{Eftekhari}, S.~W.
+  {Ellingson}, G.~{Hallinan}, J.~M. {Hartman}, R.~{Kimberk}, T.~J.~W. {Lazio},
+  S.~{Leiker}, D.~{MacMahon}, R.~{Monroe}, F.~{Schinzel}, G.~B. {Taylor},
+  E.~{Tong}, D.~{Werthimer}, and D.~P. {Woody}.
+\newblock {Design and characterization of the Large-aperture Experiment to
+  Detect the Dark Age (LEDA) radiometer systems}.
+\newblock {\em \mnras}, 478:4193--4213, August 2018.
+
+\bibitem{tauscher18}
+K.~{Tauscher}, D.~{Rapetti}, J.~O. {Burns}, and E.~{Switzer}.
+\newblock {Global 21 cm Signal Extraction from Foreground and Instrumental
+  Effects. I. Pattern Recognition Framework for Separation Using Training
+  Sets}.
+\newblock {\em \apj}, 853:187, February 2018.
 
 \bibitem{thyagarajan18}
 N.~{Thyagarajan}, C.~L. {Carilli}, and B.~{Nikolic}.

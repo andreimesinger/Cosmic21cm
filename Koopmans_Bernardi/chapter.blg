@@ -2,44 +2,44 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Koopmans_Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Koopmans_Bernardi/References.bib
-You've used 23 entries,
+You've used 28 entries,
             2118 wiz_defined-function locations,
-            628 strings with 15135 characters,
-and the built_in function-call counts, 19095 in all, are:
-= -- 1449
-> -- 2294
-< -- 0
-+ -- 913
-- -- 890
-* -- 2109
-:= -- 3578
-add.period$ -- 69
-call.type$ -- 23
-change.case$ -- 514
+            653 strings with 16733 characters,
+and the built_in function-call counts, 21903 in all, are:
+= -- 1687
+> -- 2544
+< -- 2
++ -- 1012
+- -- 984
+* -- 2378
+:= -- 4066
+add.period$ -- 84
+call.type$ -- 28
+change.case$ -- 576
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 252
-empty$ -- 532
-format.name$ -- 890
-if$ -- 3368
+cite$ -- 28
+duplicate$ -- 324
+empty$ -- 667
+format.name$ -- 984
+if$ -- 3911
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 23
-newline$ -- 118
-num.names$ -- 46
-pop$ -- 468
+int.to.str$ -- 28
+missing$ -- 28
+newline$ -- 143
+num.names$ -- 56
+pop$ -- 525
 preamble$ -- 1
-purify$ -- 491
+purify$ -- 548
 quote$ -- 0
-skip$ -- 164
+skip$ -- 217
 stack$ -- 0
-substring$ -- 394
-swap$ -- 23
-text.length$ -- 0
+substring$ -- 500
+swap$ -- 44
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 92
+type$ -- 112
 warning$ -- 0
-while$ -- 68
-width$ -- 25
-write$ -- 255
+while$ -- 83
+width$ -- 30
+write$ -- 311

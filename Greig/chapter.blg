@@ -2,54 +2,44 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Greig/chapter.aux
 The style file: plain.bst
 Database file #1: Greig/References.bib
-Repeated entry---line 414 of file Greig/References.bib
- : @article{Fialkov:2018
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 433 of file Greig/References.bib
- : @article{Furlanetto:2006
- :                         ,
-I'm skipping whatever remains of this entry
-Warning--empty title in Furlanetto:2006
-You've used 41 entries,
+You've used 209 entries,
             2118 wiz_defined-function locations,
-            765 strings with 12339 characters,
-and the built_in function-call counts, 16477 in all, are:
-= -- 1571
-> -- 915
-< -- 3
-+ -- 359
-- -- 318
-* -- 1419
-:= -- 2717
-add.period$ -- 122
-call.type$ -- 41
-change.case$ -- 281
+            1726 strings with 49474 characters,
+and the built_in function-call counts, 89774 in all, are:
+= -- 8448
+> -- 5569
+< -- 21
++ -- 2192
+- -- 1981
+* -- 7817
+:= -- 14865
+add.period$ -- 627
+call.type$ -- 209
+change.case$ -- 1615
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 550
-empty$ -- 1136
-format.name$ -- 318
-if$ -- 3397
+cite$ -- 209
+duplicate$ -- 2909
+empty$ -- 5750
+format.name$ -- 1981
+if$ -- 18380
 int.to.chr$ -- 0
-int.to.str$ -- 41
-missing$ -- 41
-newline$ -- 207
-num.names$ -- 82
-pop$ -- 211
+int.to.str$ -- 209
+missing$ -- 209
+newline$ -- 1048
+num.names$ -- 420
+pop$ -- 1260
 preamble$ -- 1
-purify$ -- 241
+purify$ -- 1406
 quote$ -- 0
-skip$ -- 434
+skip$ -- 2365
 stack$ -- 0
-substring$ -- 1105
-swap$ -- 140
-text.length$ -- 3
+substring$ -- 5464
+swap$ -- 819
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 164
-warning$ -- 1
-while$ -- 123
-width$ -- 43
-write$ -- 451
-(There were 2 error messages)
+type$ -- 836
+warning$ -- 0
+while$ -- 630
+width$ -- 212
+write$ -- 2301
