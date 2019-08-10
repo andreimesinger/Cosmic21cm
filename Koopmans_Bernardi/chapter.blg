@@ -1,46 +1,45 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Koopmans_Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Koopmans_Bernardi/References.bib
-You've used 19 entries,
+You've used 23 entries,
             2118 wiz_defined-function locations,
-            607 strings with 13982 characters,
-and the built_in function-call counts, 16939 in all, are:
-= -- 1273
-> -- 2067
-< -- 1
-+ -- 823
-- -- 804
-* -- 1878
-:= -- 3167
-add.period$ -- 58
-call.type$ -- 19
-change.case$ -- 458
+            628 strings with 15135 characters,
+and the built_in function-call counts, 19095 in all, are:
+= -- 1449
+> -- 2294
+< -- 0
++ -- 913
+- -- 890
+* -- 2109
+:= -- 3578
+add.period$ -- 69
+call.type$ -- 23
+change.case$ -- 514
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 220
-empty$ -- 457
-format.name$ -- 804
-if$ -- 2988
+cite$ -- 23
+duplicate$ -- 252
+empty$ -- 532
+format.name$ -- 890
+if$ -- 3368
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 20
-newline$ -- 98
-num.names$ -- 38
-pop$ -- 431
+int.to.str$ -- 23
+missing$ -- 23
+newline$ -- 118
+num.names$ -- 46
+pop$ -- 468
 preamble$ -- 1
-purify$ -- 440
+purify$ -- 491
 quote$ -- 0
-skip$ -- 143
+skip$ -- 164
 stack$ -- 0
-substring$ -- 322
-swap$ -- 27
-text.length$ -- 1
+substring$ -- 394
+swap$ -- 23
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 74
+type$ -- 92
 warning$ -- 0
-while$ -- 57
-width$ -- 21
-write$ -- 211
+while$ -- 68
+width$ -- 25
+write$ -- 255

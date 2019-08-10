@@ -25,6 +25,19 @@ G.~{Bernardi}, M.~{McQuinn}, and L.~J. {Greenhill}.
   of the Sky-averaged {$\lambda$}21 cm Signal at z\~{} 20}.
 \newblock {\em \apj}, 799:90, January 2015.
 
+\bibitem{bowman08}
+J.~D. {Bowman}, A.~E.~E. {Rogers}, and J.~N. {Hewitt}.
+\newblock {Toward Empirical Constraints on the Global Redshifted 21 cm
+  Brightness Temperature During the Epoch of Reionization}.
+\newblock {\em \apj}, 676:1--9, March 2008.
+
+\bibitem{bowman18}
+J.~D. {Bowman}, A.~E.~E. {Rogers}, R.~A. {Monsalve}, T.~J. {Mozdzen}, and
+  N.~{Mahesh}.
+\newblock {An absorption profile centred at 78 megahertz in the sky-averaged
+  spectrum}.
+\newblock {\em \nat}, 555:67--70, March 2018.
+
 \bibitem{carilli18}
 C.~L. {Carilli}, B.~{Nikolic}, N.~{Thyagarayan}, and K.~{Gale-Sides}.
 \newblock {H I 21-cm Cosmology and the Bispectrum: Closure Diagnostics in
@@ -45,11 +58,6 @@ D.~R. {DeBoer}, A.~R. {Parsons}, J.~E. {Aguirre}, P.~{Alexander}, Z.~S. {Ali},
   M.~{Tegmark}, N.~{Thyagarajan}, P.~K.~G. {Williams}, and H.~{Zheng}.
 \newblock {Hydrogen Epoch of Reionization Array (HERA)}.
 \newblock {\em \pasp}, 129(4):045001, April 2017.
-
-\bibitem{diamantaras1996pcn}
-KI~Diamantaras and SY~Kung.
-\newblock {\em {Principal component neural networks: theory and applications}}.
-\newblock John Wiley \& Sons, Inc. New York, NY, USA, 1996.
 
 \bibitem{dillon14}
 J.~S. {Dillon}, A.~{Liu}, C.~L. {Williams}, J.~N. {Hewitt}, M.~{Tegmark}, E.~H.
@@ -96,6 +104,11 @@ A.~{Ewall-Wice}, R.~{Bradley}, D.~{Deboer}, J.~{Hewitt}, A.~{Parsons},
   Implications.}
 \newblock {\em \apj}, 831:196, November 2016.
 
+\bibitem{greig17}
+B.~{Greig} and A.~{Mesinger}.
+\newblock {The global history of reionization}.
+\newblock {\em \mnras}, 465:4838--4852, March 2017.
+
 \bibitem{kocz15}
 J.~{Kocz}, L.~J. {Greenhill}, B.~R. {Barsdell}, D.~{Price}, G.~{Bernardi},
   S.~{Bourke}, M.~A. {Clark}, J.~{Craig}, M.~{Dexter}, J.~{Dowell},
@@ -105,12 +118,24 @@ J.~{Kocz}, L.~J. {Greenhill}, B.~R. {Barsdell}, D.~{Price}, G.~{Bernardi},
   512-Input Broadband Correlator for Radio Astronomy}.
 \newblock {\em Journal of Astronomical Instrumentation}, 4:1550003, June 2015.
 
-\bibitem{liu16}
-A.~{Liu}, J.~R. {Pritchard}, R.~{Allison}, A.~R. {Parsons}, U.~{Seljak}, and
-  B.~D. {Sherwin}.
-\newblock {Eliminating the optical depth nuisance from the CMB with 21 cm
-  cosmology}.
-\newblock {\em \prd}, 93(4):043013, February 2016.
+\bibitem{liu16b}
+A.~{Liu} and A.~R. {Parsons}.
+\newblock {Constraining cosmology and ionization history with combined 21 cm
+  power spectrum and global signal measurements}.
+\newblock {\em \mnras}, 457:1864--1877, April 2016.
+
+\bibitem{monsalve18}
+R.~A. {Monsalve}, B.~{Greig}, J.~D. {Bowman}, A.~{Mesinger}, A.~E.~E. {Rogers},
+  T.~J. {Mozdzen}, N.~S. {Kern}, and N.~{Mahesh}.
+\newblock {Results from EDGES High-band. II. Constraints on Parameters of Early
+  Galaxies}.
+\newblock {\em \apj}, 863:11, August 2018.
+
+\bibitem{monsalve17}
+R.~A. {Monsalve}, A.~E.~E. {Rogers}, J.~D. {Bowman}, and T.~J. {Mozdzen}.
+\newblock {Results from EDGES High-band. I. Constraints on Phenomenological
+  Models for the Global 21 cm Signal}.
+\newblock {\em \apj}, 847:64, September 2017.
 
 \bibitem{neben16}
 A.~R. {Neben}, R.~F. {Bradley}, J.~N. {Hewitt}, D.~R. {DeBoer}, A.~R.
@@ -177,11 +202,15 @@ C.~M. {Trott}, B.~{Pindor}, P.~{Procopio}, R.~B. {Wayth}, D.~A. {Mitchell},
 \newblock {CHIPS: The Cosmological H I Power Spectrum Estimator}.
 \newblock {\em \apj}, 818:139, February 2016.
 
-\bibitem{tulone2006pts}
-D.~Tulone and S.~Madden.
-\newblock {PAQ: Time Series Forecasting for Approximate Query Answering in
-  Sensor Networks}.
-\newblock In {\em Proceedings of the 3rd European Workshop on Wireless Sensor
-  Networks}, pages 21--37. Springer, 2006.
+\bibitem{wayth18}
+R.~B. {Wayth}, S.~J. {Tingay}, C.~M. {Trott}, D.~{Emrich},
+  M.~{Johnston-Hollitt}, B.~{McKinley}, B.~M. {Gaensler}, A.~P. {Beardsley},
+  T.~{Booler}, B.~{Crosse}, T.~M.~O. {Franzen}, L.~{Horsley}, D.~L. {Kaplan},
+  D.~{Kenney}, M.~F. {Morales}, D.~{Pallot}, G.~{Sleap}, K.~{Steele},
+  M.~{Walker}, A.~{Williams}, C.~{Wu}, I.~H. {Cairns}, M.~D. {Filipovic},
+  S.~{Johnston}, T.~{Murphy}, P.~{Quinn}, L.~{Staveley-Smith}, R.~{Webster},
+  and J.~S.~B. {Wyithe}.
+\newblock {The Phase II Murchison Widefield Array: Design overview}.
+\newblock {\em \pasa}, 35, November 2018.
 
 \end{thebibliography}
