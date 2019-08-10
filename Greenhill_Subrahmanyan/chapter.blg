@@ -1,46 +1,48 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Greenhill_Subrahmanyan/chapter.aux
-The style file: plain.bst
-Database file #1: Greenhill_Subrahmanyan/References.bib
-You've used 2 entries,
-            2118 wiz_defined-function locations,
-            509 strings with 4424 characters,
-and the built_in function-call counts, 688 in all, are:
-= -- 66
-> -- 26
-< -- 1
-+ -- 10
-- -- 8
-* -- 36
-:= -- 113
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 9
+I found no \citation commands---while reading file Greenhill_Subrahmanyan/chapter.aux
+I found no \bibdata command---while reading file Greenhill_Subrahmanyan/chapter.aux
+I found no \bibstyle command---while reading file Greenhill_Subrahmanyan/chapter.aux
+You've used 0 entries,
+            0 wiz_defined-function locations,
+            83 strings with 534 characters,
+and the built_in function-call counts, 0 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 0
+:= -- 0
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 33
-empty$ -- 61
-format.name$ -- 8
-if$ -- 155
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 0
+format.name$ -- 0
+if$ -- 0
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 16
-preamble$ -- 1
-purify$ -- 8
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 0
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 0
+purify$ -- 0
 quote$ -- 0
-skip$ -- 24
+skip$ -- 0
 stack$ -- 0
-substring$ -- 30
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 0
 warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 24
+while$ -- 0
+width$ -- 0
+write$ -- 0
+(There were 3 error messages)

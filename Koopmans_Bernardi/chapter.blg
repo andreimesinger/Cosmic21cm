@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Koopmans_Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Koopmans_Bernardi/References.bib
-You've used 2 entries,
+You've used 28 entries,
             2118 wiz_defined-function locations,
-            509 strings with 4409 characters,
-and the built_in function-call counts, 688 in all, are:
-= -- 66
-> -- 26
-< -- 1
-+ -- 10
-- -- 8
-* -- 36
-:= -- 113
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 9
+            653 strings with 16733 characters,
+and the built_in function-call counts, 21903 in all, are:
+= -- 1687
+> -- 2544
+< -- 2
++ -- 1012
+- -- 984
+* -- 2378
+:= -- 4066
+add.period$ -- 84
+call.type$ -- 28
+change.case$ -- 576
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 33
-empty$ -- 61
-format.name$ -- 8
-if$ -- 155
+cite$ -- 28
+duplicate$ -- 324
+empty$ -- 667
+format.name$ -- 984
+if$ -- 3911
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 16
+int.to.str$ -- 28
+missing$ -- 28
+newline$ -- 143
+num.names$ -- 56
+pop$ -- 525
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 548
 quote$ -- 0
-skip$ -- 24
+skip$ -- 217
 stack$ -- 0
-substring$ -- 30
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 500
+swap$ -- 44
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 112
 warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 24
+while$ -- 83
+width$ -- 30
+write$ -- 311

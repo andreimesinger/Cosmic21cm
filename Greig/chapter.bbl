@@ -1,88 +1,484 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
+
+\bibitem{Agarwal:2012}
+Shankar {Agarwal}, Filipe~B. {Abdalla}, Hume~A. {Feldman}, Ofer {Lahav}, and
+  Shaun~A. {Thomas}.
+\newblock {PkANN - I. Non-linear matter power spectrum interpolation through
+  artificial neural networks}.
+\newblock {\em \mnras}, 424(2):1409--1418, Aug 2012.
+
+\bibitem{Alsing:2019}
+Justin {Alsing}, Tom {Charnock}, Stephen {Feeney}, and Benjamin {Wand elt}.
+\newblock {Fast likelihood-free cosmology with neural density estimators and
+  active learning}.
+\newblock {\em \mnras}, page 1888, Jul 2019.
+
+\bibitem{Alvarez:2009}
+Marcelo~A. {Alvarez}, Michael {Busha}, Tom {Abel}, and Risa~H. {Wechsler}.
+\newblock {Connecting Reionization to the Local Universe}.
+\newblock {\em \apjl}, 703(2):L167--L171, Oct 2009.
+
+\bibitem{Baek:2010}
+S.~{Baek}, B.~{Semelin}, P.~{Di Matteo}, Y.~{Revaz}, and F.~{Combes}.
+\newblock {Reionization by UV or X-ray sources}.
+\newblock {\em \aap}, 523:A4, Nov 2010.
 
 \bibitem{Bag:2019}
 Satadru {Bag}, Rajesh {Mondal}, Prakash {Sarkar}, Somnath {Bharadwaj},
   Tirthankar~Roy {Choudhury}, and Varun {Sahni}.
 \newblock {Studying the morphology of H I isodensity surfaces during
   reionization using Shapefinders and percolation analysis}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  485(2):2235--2251, May 2019.
+\newblock {\em \mnras}, 485(2):2235--2251, May 2019.
 
 \bibitem{Bag:2018}
 Satadru {Bag}, Rajesh {Mondal}, Prakash {Sarkar}, Somnath {Bharadwaj}, and
   Varun {Sahni}.
 \newblock {The shape and size distribution of H II regions near the percolation
   transition}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  477(2):1984--1992, Jun 2018.
+\newblock {\em \mnras}, 477(2):1984--1992, Jun 2018.
 
 \bibitem{Bandyopadhyay:2017}
 Bidisha {Bandyopadhyay}, T.~Roy {Choudhury}, and T.~R. {Seshadri}.
 \newblock {Studying neutral hydrogen structures during the epoch of
   reionization using fractal dimensions}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  466(2):2302--2311, Apr 2017.
+\newblock {\em \mnras}, 466(2):2302--2311, Apr 2017.
+
+\bibitem{Barger:2009}
+Vernon {Barger}, Yu~{Gao}, Yi~{Mao}, and Danny {Marfatia}.
+\newblock {Inflationary potential from 21 cm tomography and Planck}.
+\newblock {\em Physics Letters B}, 673(3):173--178, Mar 2009.
+
+\bibitem{Barkana:2007}
+R.~{Barkana}.
+\newblock {On correlated random walks and 21-cm fluctuations during cosmic
+  reionization}.
+\newblock {\em \mnras}, 376(4):1784--1792, Apr 2007.
+
+\bibitem{Barkana:2009}
+Rennan {Barkana}.
+\newblock {Studying the sources of cosmic reionization with 21-cm
+  fluctuations}.
+\newblock {\em \mnras}, 397(3):1454--1463, Aug 2009.
+
+\bibitem{Barkana:2008}
+Rennan {Barkana} and Abraham {Loeb}.
+\newblock {The difference PDF of 21-cm fluctuations: a powerful statistical
+  tool for probing cosmic reionization}.
+\newblock {\em \mnras}, 384(3):1069--1079, Mar 2008.
+
+\bibitem{Battaglia:2013}
+N.~{Battaglia}, H.~{Trac}, R.~{Cen}, and A.~{Loeb}.
+\newblock {Reionization on Large Scales. I. A Parametric Model Constructed from
+  Radiation-hydrodynamic Simulations}.
+\newblock {\em \apj}, 776(2):81, Oct 2013.
+
+\bibitem{Beardsley:2015}
+A.~P. {Beardsley}, M.~F. {Morales}, A.~{Lidz}, M.~{Malloy}, and P.~M. {Sutter}.
+\newblock {Adding Context to James Webb Space Telescope Surveys with Current
+  and Future 21 cm Radio Observations}.
+\newblock {\em \apj}, 800(2):128, Feb 2015.
+
+\bibitem{Bernardi:2016}
+G.~{Bernardi}, J.~T.~L. {Zwart}, D.~{Price}, L.~J. {Greenhill}, A.~{Mesinger},
+  J.~{Dowell}, T.~{Eftekhari}, S.~W. {Ellingson}, J.~{Kocz}, and F.~{Schinzel}.
+\newblock {Bayesian constraints on the global 21-cm signal from the Cosmic
+  Dawn}.
+\newblock {\em \mnras}, 461(3):2847--2855, Sep 2016.
+
+\bibitem{Bharadwaj:2005}
+Somnath {Bharadwaj} and Sanjay~K. {Pandey}.
+\newblock {Probing non-Gaussian features in the HI distribution at the epoch of
+  re-ionization}.
+\newblock {\em \mnras}, 358(3):968--976, Apr 2005.
+
+\bibitem{Binnie:2019}
+T.~{Binnie} and J.~R. {Pritchard}.
+\newblock {Bayesian model selection with future 21cm observations of the epoch
+  of reionization}.
+\newblock {\em \mnras}, 487(1):1160--1177, Jul 2019.
+
+\bibitem{Bouwens:2015}
+R.~J. {Bouwens}, G.~D. {Illingworth}, P.~A. {Oesch}, J.~{Caruana},
+  B.~{Holwerda}, R.~{Smit}, and S.~{Wilkins}.
+\newblock {Reionization After Planck: The Derived Growth of the Cosmic Ionizing
+  Emissivity Now Matches the Growth of the Galaxy UV Luminosity Density}.
+\newblock {\em \apj}, 811(2):140, Oct 2015.
+
+\bibitem{Bowman:2006}
+Judd~D. {Bowman}, Miguel~F. {Morales}, and Jacqueline~N. {Hewitt}.
+\newblock {The Sensitivity of First-Generation Epoch of Reionization
+  Observatories and Their Potential for Differentiating Theoretical Power
+  Spectra}.
+\newblock {\em \apj}, 638(1):20--26, Feb 2006.
+
+\bibitem{Chardin:2019}
+Jonathan {Chardin}, Gr{\'e}goire {Uhlrich}, Dominique {Aubert}, Nicolas
+  {Deparis}, Nicolas {Gillet}, Pierre {Ocvirk}, and Joseph {Lewis}.
+\newblock {A deep learning model to emulate simulations of cosmic
+  reionization}.
+\newblock {\em arXiv e-prints}, page arXiv:1905.06958, May 2019.
 
 \bibitem{Chen:2018}
 Zhaoting {Chen}, Yidong {Xu}, Yougang {Wang}, and Xuelei {Chen}.
 \newblock {Stages of Reionization as revealed by the Minkowski Functionals}.
 \newblock {\em arXiv e-prints}, page arXiv:1812.10333, Dec 2018.
 
+\bibitem{Choudhury:2015}
+T.~R. {Choudhury}, E.~{Puchwein}, M.~G. {Haehnelt}, and J.~S. {Bolton}.
+\newblock {Lyman {$\alpha$} emitters gone missing: evidence for late
+  reionization?}
+\newblock {\em \mnras}, 452:261--277, September 2015.
+
+\bibitem{Choudhury:2005}
+T.~Roy {Choudhury} and A.~{Ferrara}.
+\newblock {Experimental constraints on self-consistent reionization models}.
+\newblock {\em \mnras}, 361(2):577--594, Aug 2005.
+
+\bibitem{Choudhury:2006}
+T.~Roy {Choudhury} and A.~{Ferrara}.
+\newblock {Updating reionization scenarios after recent data}.
+\newblock {\em \mnras}, 371(1):L55--L59, Sep 2006.
+
+\bibitem{Choudhury:2018}
+Tirthankar~Roy {Choudhury} and Aseem {Paranjape}.
+\newblock {Photon number conservation and the large-scale 21 cm power spectrum
+  in seminumerical models of reionization}.
+\newblock {\em \mnras}, 481(3):3821--3837, Dec 2018.
+
+\bibitem{Ciardi:2012}
+B.~{Ciardi}, J.~S. {Bolton}, A.~{Maselli}, and L.~{Graziani}.
+\newblock {The effect of intergalactic helium on hydrogen reionization:
+  implications for the sources of ionizing photons at z\&gt;6}.
+\newblock {\em \mnras}, 423(1):558--574, Jun 2012.
+
+\bibitem{Ciardi:2001}
+B.~{Ciardi}, A.~{Ferrara}, S.~{Marri}, and G.~{Raimondo}.
+\newblock {Cosmological reionization around the first stars: Monte Carlo
+  radiative transfer}.
+\newblock {\em \mnras}, 324(2):381--388, Jun 2001.
+
+\bibitem{Clesse:2012}
+S{\'e}bastien {Clesse}, Laura {Lopez-Honorez}, Christophe {Ringeval}, Hiroyuki
+  {Tashiro}, and Michel H.~G. {Tytgat}.
+\newblock {Background reionization history from omniscopes}.
+\newblock {\em \prd}, 86(12):123506, Dec 2012.
+
+\bibitem{Coe:2009}
+Dan {Coe}.
+\newblock {Fisher Matrices and Confidence Ellipses: A Quick-Start Guide and
+  Software}.
+\newblock {\em arXiv e-prints}, page arXiv:0906.4123, Jun 2009.
+
+\bibitem{Cohen:2018}
+Aviad {Cohen}, Anastasia {Fialkov}, and Rennan {Barkana}.
+\newblock {Charting the parameter space of the 21-cm power spectrum}.
+\newblock {\em \mnras}, 478(2):2193--2217, Aug 2018.
+
 \bibitem{Cohen:2017}
 Aviad {Cohen}, Anastasia {Fialkov}, Rennan {Barkana}, and Matan {Lotem}.
 \newblock {Charting the parameter space of the global 21-cm signal}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  472(2):1915--1931, Dec 2017.
+\newblock {\em \mnras}, 472(2):1915--1931, Dec 2017.
+
+\bibitem{Cooray:2008}
+Asantha {Cooray}, Chao {Li}, and Alessandro {Melchiorri}.
+\newblock {Trispectrum of 21-cm background anisotropies as a probe of
+  primordial non-Gaussianity}.
+\newblock {\em \prd}, 77(10):103506, May 2008.
+
+\bibitem{Datta:2007}
+Kanan~K. {Datta}, Somnath {Bharadwaj}, and T.~Roy {Choudhury}.
+\newblock {Detecting ionized bubbles in redshifted 21-cm maps}.
+\newblock {\em \mnras}, 382(2):809--818, Dec 2007.
+
+\bibitem{Datta:2012}
+Kanan~K. {Datta}, Martina~M. {Friedrich}, Garrelt {Mellema}, Ilian~T. {Iliev},
+  and Paul~R. {Shapiro}.
+\newblock {Prospects of observing a quasar H II region during the epoch of
+  reionization with the redshifted 21-cm signal}.
+\newblock {\em \mnras}, 424(1):762--778, Jul 2012.
+
+\bibitem{Datta:2016}
+Kanan~K. {Datta}, Raghunath {Ghara}, Suman {Majumdar}, T.~Roy {Choudhury},
+  Somnath {Bharadwaj}, Himadri {Roy}, and Abhirup {Datta}.
+\newblock {Probing Individual Sources during Reionization and Cosmic Dawn using
+  Square Kilometre Array HI 21-cm Observations}.
+\newblock {\em Journal of Astrophysics and Astronomy}, 37(4):27, Dec 2016.
+
+\bibitem{Datta:2008}
+Kanan~K. {Datta}, Suman {Majumdar}, Somnath {Bharadwaj}, and T.~Roy
+  {Choudhury}.
+\newblock {Simulating the impact of HI fluctuations on matched filter search
+  for ionized bubbles in redshifted 21-cm maps}.
+\newblock {\em \mnras}, 391(4):1900--1912, Dec 2008.
+
+\bibitem{Dixon:2016}
+Keri~L. {Dixon}, Ilian~T. {Iliev}, Garrelt {Mellema}, Kyungjin {Ahn}, and
+  Paul~R. {Shapiro}.
+\newblock {The large-scale observational signatures of low-mass galaxies during
+  reionization}.
+\newblock {\em \mnras}, 456(3):3011--3029, Mar 2016.
+
+\bibitem{Doussot:2019}
+Aristide {Doussot}, Evan {Eames}, and Benoit {Semelin}.
+\newblock {Improved supervised learning methods for EoR parameters
+  reconstruction}.
+\newblock {\em arXiv e-prints}, page arXiv:1904.04106, Apr 2019.
+
+\bibitem{Eames:2018}
+Evan {Eames}, Aristide {Doussot}, and Beno{\^\i}t {Semelin}.
+\newblock {Working towards an optimal sampling of the 21 cm signal parameter
+  space}.
+\newblock {\em arXiv e-prints}, page arXiv:1811.12198, Nov 2018.
 
 \bibitem{Elbers:2019}
 Willem {Elbers} and Rien van~de {Weygaert}.
 \newblock {Persistent topology of the reionization bubble network - I.
   Formalism and phenomenology}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  486(2):1523--1538, Jun 2019.
+\newblock {\em \mnras}, 486(2):1523--1538, Jun 2019.
+
+\bibitem{Ewall-Wice:2016}
+Aaron {Ewall-Wice}, Jacqueline {Hewitt}, Andrei {Mesinger}, Joshua~S. {Dillon},
+  Adrian {Liu}, and Jonathan {Pober}.
+\newblock {Constraining high-redshift X-ray sources with next generation 21-cm
+  power spectrum measurements}.
+\newblock {\em \mnras}, 458(3):2710--2724, May 2016.
+
+\bibitem{Fialkov:2019b}
+Anastasia {Fialkov} and Rennan {Barkana}.
+\newblock {Signature of excess radio background in the 21-cm global signal and
+  power spectrum}.
+\newblock {\em \mnras}, 486(2):1763--1773, Jun 2019.
 
 \bibitem{Fialkov:2018}
 Anastasia {Fialkov}, Rennan {Barkana}, and Aviad {Cohen}.
 \newblock {Constraining Baryon-Dark-Matter Scattering with the Cosmic Dawn
   21-cm Signal}.
-\newblock {\em Physical Review Letters}, 121(1):011101, Jul 2018.
+\newblock {\em \prl}, 121(1):011101, Jul 2018.
+
+\bibitem{Fialkov:2019a}
+Anastasia {Fialkov}, Rennan {Barkana}, and Matt {Jarvis}.
+\newblock {Extracting the Global Signal from 21-cm Fluctuations: the
+  Multi-Tracer Approach}.
+\newblock {\em arXiv e-prints}, page arXiv:1904.10857, Apr 2019.
+
+\bibitem{Fialkov:2014}
+Anastasia {Fialkov}, Rennan {Barkana}, and Eli {Visbal}.
+\newblock {The observable signature of late heating of the Universe during
+  cosmic reionization}.
+\newblock {\em \nat}, 506(7487):197--199, Feb 2014.
+
+\bibitem{Finkelstein:2019}
+Steven~L. {Finkelstein}, Anson {D'Aloisio}, Jan-Pieter {Paardekooper}, Jr.
+  {Ryan}, Russell, Peter {Behroozi}, Kristian {Finlator}, Rachael {Livermore},
+  Phoebe~R. {Upton Sanderbeck}, Claudio {Dalla Vecchia}, and Sadegh {Khochfar}.
+\newblock {Conditions for Reionizing the Universe with a Low Galaxy Ionizing
+  Photon Escape Fraction}.
+\newblock {\em \apj}, 879(1):36, Jul 2019.
+
+\bibitem{Finlator:2011}
+K.~{Finlator}, R.~{Dav{\'e}}, and F.~{{\"O}zel}.
+\newblock {Galactic Outflows and Photoionization Heating in the Reionization
+  Epoch}.
+\newblock {\em \apj}, 743(2):169, Dec 2011.
+
+\bibitem{Fisher:1935}
+R.~A. Fisher.
+\newblock The logic of inductive inference.
+\newblock {\em Journal of the Royal Statistical Society}, 98(1):39--82, 1935.
 
 \bibitem{Friedrich:2011}
 Martina~M. {Friedrich}, Garrelt {Mellema}, Marcelo~A. {Alvarez}, Paul~R.
   {Shapiro}, and Ilian~T. {Iliev}.
 \newblock {Topology and sizes of H II regions during cosmic reionization}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  413(2):1353--1372, May 2011.
+\newblock {\em \mnras}, 413(2):1353--1372, May 2011.
 
-\bibitem{Furlanetto:2006}
+\bibitem{Furlanetto:2006c}
+Steven~R. {Furlanetto}.
+\newblock {The global 21-centimeter background from high redshifts}.
+\newblock {\em \mnras}, 371(2):867--878, Sep 2006.
+
+\bibitem{Furlanetto:2007}
+Steven~R. {Furlanetto} and Adam {Lidz}.
+\newblock {The Cross-Correlation of High-Redshift 21 cm and Galaxy Surveys}.
+\newblock {\em \apj}, 660(2):1030--1038, May 2007.
+
+\bibitem{Furlanetto:2006b}
 Steven~R Furlanetto, Matthew McQuinn, and Lars Hernquist.
-\newblock {\em Monthly Notices of the Royal Astronomical Society}, 365:115, Jan
-  2006.
+\newblock Characteristic scales during reionization.
+\newblock {\em \mnras}, 365:115, Jan 2006.
 
 \bibitem{Furlanetto:2016}
 Steven~R. {Furlanetto} and S.~Peng {Oh}.
 \newblock {Reionization through the lens of percolation theory}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  457(2):1813--1827, Apr 2016.
+\newblock {\em \mnras}, 457(2):1813--1827, Apr 2016.
+
+\bibitem{Furlanetto:2006a}
+Steven~R. {Furlanetto}, S.~Peng {Oh}, and Frank~H. {Briggs}.
+\newblock {Cosmology at low frequencies: The 21 cm transition and the
+  high-redshift Universe}.
+\newblock {\em Physics Reports}, 433(4-6):181--301, Oct 2006.
+
+\bibitem{Furlanetto:2004}
+Steven~R. {Furlanetto}, Matias {Zaldarriaga}, and Lars {Hernquist}.
+\newblock {The Growth of H II Regions During Reionization}.
+\newblock {\em \apj}, 613(1):1--15, Sep 2004.
+
+\bibitem{Geil:2016}
+Paul~M. {Geil}, Simon~J. {Mutch}, Gregory~B. {Poole}, Paul~W. {Angel}, Alan~R.
+  {Duffy}, Andrei {Mesinger}, and J.~Stuart~B. {Wyithe}.
+\newblock {Dark-ages reionization and galaxy formation simulation V: morphology
+  and statistical signatures of reionization}.
+\newblock {\em \mnras}, 462(1):804--817, Oct 2016.
+
+\bibitem{Geil:2017}
+Paul~M. {Geil}, Simon~J. {Mutch}, Gregory~B. {Poole}, Alan~R. {Duffy}, Andrei
+  {Mesinger}, and J.~Stuart~B. {Wyithe}.
+\newblock {Dark-ages reionization and galaxy formation simulation - XII.
+  Bubbles at dawn}.
+\newblock {\em \mnras}, 472(2):1324--1335, Dec 2017.
+
+\bibitem{Geil:2008}
+Paul~M. {Geil} and J.~Stuart~B. {Wyithe}.
+\newblock {The impact of a percolating IGM on redshifted 21-cm observations of
+  quasar HII regions}.
+\newblock {\em \mnras}, 386(3):1683--1694, May 2008.
+
+\bibitem{Ghara:2015}
+Raghunath {Ghara}, T.~Roy {Choudhury}, and Kanan~K. {Datta}.
+\newblock {21 cm signal from cosmic dawn: imprints of spin temperature
+  fluctuations and peculiar velocities}.
+\newblock {\em \mnras}, 447(2):1806--1825, Feb 2015.
+
+\bibitem{Ghara:2016}
+Raghunath {Ghara}, T.~Roy {Choudhury}, and Kanan~K. {Datta}.
+\newblock {21-cm signature of the first sources in the Universe: prospects of
+  detection with SKA}.
+\newblock {\em \mnras}, 460(1):827--843, Jul 2016.
+
+\bibitem{Ghara:2017}
+Raghunath {Ghara}, T.~Roy {Choudhury}, Kanan~K. {Datta}, and Samir {Choudhuri}.
+\newblock {Imaging the redshifted 21 cm pattern around the first sources during
+  the cosmic dawn using the SKA}.
+\newblock {\em \mnras}, 464(2):2234--2248, Jan 2017.
+
+\bibitem{Ghara:2018}
+Raghunath {Ghara}, Garrelt {Mellema}, Sambit~K. {Giri}, T.~Roy {Choudhury},
+  Kanan~K. {Datta}, and Suman {Majumdar}.
+\newblock {Prediction of the 21-cm signal from reionization: comparison between
+  3D and 1D radiative transfer schemes}.
+\newblock {\em \mnras}, 476(2):1741--1755, May 2018.
+
+\bibitem{Gillet:2019}
+Nicolas {Gillet}, Andrei {Mesinger}, Bradley {Greig}, Adrian {Liu}, and
+  Graziano {Ucci}.
+\newblock {Deep learning from 21-cm tomography of the cosmic dawn and
+  reionization}.
+\newblock {\em \mnras}, 484(1):282--293, Mar 2019.
+
+\bibitem{Giri:2018}
+Sambit~K. {Giri}, Garrelt {Mellema}, and Raghunath {Ghara}.
+\newblock {Optimal identification of H II regions during reionization in 21-cm
+  observations}.
+\newblock {\em \mnras}, 479(4):5596--5611, Oct 2018.
 
 \bibitem{Gleser:2006}
 Liron {Gleser}, Adi {Nusser}, Benedetta {Ciardi}, and Vincent {Desjacques}.
 \newblock {The morphology of cosmological reionization by means of Minkowski
   functionals}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  370(3):1329--1338, Aug 2006.
+\newblock {\em \mnras}, 370(3):1329--1338, Aug 2006.
+
+\bibitem{Gluscevic:2010}
+Vera {Gluscevic} and Rennan {Barkana}.
+\newblock {Statistics of 21-cm fluctuations in cosmic reionization simulations:
+  PDFs and difference PDFs}.
+\newblock {\em \mnras}, 408(4):2373--2380, Nov 2010.
 
 \bibitem{Gnedin:2000}
 Nickolay~Y. {Gnedin}.
 \newblock {Cosmological Reionization by Stellar Sources}.
-\newblock {\em The Astrophysical Journal}, 535(2):530--554, Jun 2000.
+\newblock {\em \apj}, 535(2):530--554, Jun 2000.
+
+\bibitem{Gnedin:2014}
+Nickolay~Y. {Gnedin}.
+\newblock {Cosmic Reionization on Computers. I. Design and Calibration of
+  Simulations}.
+\newblock {\em \apj}, 793(1):29, Sep 2014.
+
+\bibitem{Gnedin:2006}
+Nickolay~Y. {Gnedin} and Xiaohui {Fan}.
+\newblock {Cosmic Reionization Redux}.
+\newblock {\em \apj}, 648(1):1--6, Sep 2006.
+
+\bibitem{Gorce:2018}
+A.~{Gorce}, M.~{Douspis}, N.~{Aghanim}, and M.~{Langer}.
+\newblock {Observational constraints on key-parameters of cosmic reionisation
+  history}.
+\newblock {\em \aap}, 616:A113, Aug 2018.
+
+\bibitem{Gorce:2019}
+Ad{\'e}lie {Gorce} and Jonathan~R. {Pritchard}.
+\newblock {Studying the morphology of reionisation with the triangle
+  correlation function of phases}.
+\newblock {\em arXiv e-prints}, page arXiv:1903.11402, Mar 2019.
 
 \bibitem{Greig:2015}
 Bradley {Greig} and Andrei {Mesinger}.
 \newblock {21CMMC: an MCMC analysis tool enabling astrophysical parameter
   studies of the cosmic 21 cm signal}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  449(4):4246--4263, Jun 2015.
+\newblock {\em \mnras}, 449(4):4246--4263, Jun 2015.
+
+\bibitem{Greig:2017b}
+Bradley {Greig} and Andrei {Mesinger}.
+\newblock {Simultaneously constraining the astrophysics of reionization and the
+  epoch of heating with 21CMMC}.
+\newblock {\em \mnras}, 472(3):2651--2669, Dec 2017.
+
+\bibitem{Greig:2017a}
+Bradley {Greig} and Andrei {Mesinger}.
+\newblock {The global history of reionization}.
+\newblock {\em \mnras}, 465(4):4838--4852, Mar 2017.
+
+\bibitem{Greig:2018}
+Bradley {Greig} and Andrei {Mesinger}.
+\newblock {21CMMC with a 3D light-cone: the impact of the co-evolution
+  approximation on the astrophysics of reionization and cosmic dawn}.
+\newblock {\em \mnras}, 477(3):3217--3229, Jul 2018.
+
+\bibitem{Greig:2019}
+Bradley {Greig}, Andrei {Mesinger}, and L{\'e}on V.~E. {Koopmans}.
+\newblock {Reionisation \&amp; Cosmic Dawn Astrophysics from the Square
+  Kilometre Array: Impact of Observing Strategies}.
+\newblock {\em arXiv e-prints}, page arXiv:1906.07910, Jun 2019.
+
+\bibitem{Haardt:2012}
+Francesco {Haardt} and Piero {Madau}.
+\newblock {Radiative Transfer in a Clumpy Universe. IV. New Synthesis Models of
+  the Cosmic UV/X-Ray Background}.
+\newblock {\em \apj}, 746(2):125, Feb 2012.
+
+\bibitem{Harker:2010}
+Geraint {Harker}, Saleem {Zaroubi}, Gianni {Bernardi}, Michiel~A. {Brentjens},
+  A.~G. {de Bruyn}, Benedetta {Ciardi}, Vibor {Jeli{\'c}}, Leon V.~E.
+  {Koopmans}, Panagiotis {Labropoulos}, Garrelt {Mellema}, Andr{\'e}
+  {Offringa}, V.~N. {Pandey}, Andreas~H. {Pawlik}, Joop {Schaye}, Rajat~M.
+  {Thomas}, and Sarod {Yatawatta}.
+\newblock {Power spectrum extraction for redshifted 21-cm Epoch of Reionization
+  experiments: the LOFAR case}.
+\newblock {\em \mnras}, 405(4):2492--2504, Jul 2010.
+
+\bibitem{Harker:2016}
+Geraint J.~A. {Harker}, Jordan {Mirocha}, Jack~O. {Burns}, and Jonathan~R.
+  {Pritchard}.
+\newblock {Parametrizations of the 21-cm global signal and parameter estimation
+  from single-dipole experiments}.
+\newblock {\em \mnras}, 455(4):3829--3840, Feb 2016.
+
+\bibitem{Harker:2012}
+Geraint J.~A. {Harker}, Jonathan~R. {Pritchard}, Jack~O. {Burns}, and Judd~D.
+  {Bowman}.
+\newblock {An MCMC approach to extracting the global 21-cm signal during the
+  cosmic dawn from sky-averaged radio observations}.
+\newblock {\em \mnras}, 419(2):1070--1084, Jan 2012.
 
 \bibitem{Harker:2009}
 Geraint J.~A. {Harker}, Saleem {Zaroubi}, Rajat~M. {Thomas}, Vibor {Jeli{\'c}},
@@ -90,8 +486,59 @@ Geraint J.~A. {Harker}, Saleem {Zaroubi}, Rajat~M. {Thomas}, Vibor {Jeli{\'c}},
   {Bernardi}, Michiel~A. {Brentjens}, and A.~G. {de Bruyn}.
 \newblock {Detection and extraction of signals from the epoch of reionization
   using higher-order one-point statistics}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  393(4):1449--1458, Mar 2009.
+\newblock {\em \mnras}, 393(4):1449--1458, Mar 2009.
+
+\bibitem{Hassan:2019b}
+Sultan {Hassan}, Sambatra {Andrianomena}, and Caitlin {Doughty}.
+\newblock {Constraining the astrophysics and cosmology from 21cm tomography
+  using deep learning with the SKA}.
+\newblock {\em arXiv e-prints}, page arXiv:1907.07787, Jul 2019.
+
+\bibitem{Hassan:2016}
+Sultan {Hassan}, Romeel {Dav{\'e}}, Kristian {Finlator}, and Mario~G. {Santos}.
+\newblock {Simulating the 21 cm signal from reionization including non-linear
+  ionizations and inhomogeneous recombinations}.
+\newblock {\em \mnras}, 457(2):1550--1567, Apr 2016.
+
+\bibitem{Hassan:2017}
+Sultan {Hassan}, Romeel {Dav{\'e}}, Kristian {Finlator}, and Mario~G. {Santos}.
+\newblock {Epoch of reionization 21 cm forecasting from MCMC-constrained
+  semi-numerical models}.
+\newblock {\em \mnras}, 468(1):122--139, Jun 2017.
+
+\bibitem{Hassan:2019a}
+Sultan {Hassan}, Adrian {Liu}, Saul {Kohn}, and Paul {La Plante}.
+\newblock {Identifying reionization sources from 21 cm maps using Convolutional
+  Neural Networks}.
+\newblock {\em \mnras}, 483(2):2524--2537, Feb 2019.
+
+\bibitem{Heitmann:2016}
+Katrin {Heitmann}, Derek {Bingham}, Earl {Lawrence}, Steven {Bergner}, Salman
+  {Habib}, David {Higdon}, Adrian {Pope}, Rahul {Biswas}, Hal {Finkel},
+  Nicholas {Frontiere}, and Suman {Bhattacharya}.
+\newblock {The Mira-Titan Universe: Precision Predictions for Dark Energy
+  Surveys}.
+\newblock {\em \apj}, 820(2):108, Apr 2016.
+
+\bibitem{Heitmann:2009}
+Katrin {Heitmann}, David {Higdon}, Martin {White}, Salman {Habib}, Brian~J.
+  {Williams}, Earl {Lawrence}, and Christian {Wagner}.
+\newblock {The Coyote Universe. II. Cosmological Models and Precision Emulation
+  of the Nonlinear Matter Power Spectrum}.
+\newblock {\em \apj}, 705(1):156--174, Nov 2009.
+
+\bibitem{Heitmann:2014}
+Katrin {Heitmann}, Earl {Lawrence}, Juliana {Kwan}, Salman {Habib}, and David
+  {Higdon}.
+\newblock {The Coyote Universe Extended: Precision Emulation of the Matter
+  Power Spectrum}.
+\newblock {\em \apj}, 780(1):111, Jan 2014.
+
+\bibitem{Heneka:2017}
+Caroline {Heneka}, Asantha {Cooray}, and Chang {Feng}.
+\newblock {Probing the Intergalactic Medium with Ly{\ensuremath{\alpha}} and 21
+  cm Fluctuations}.
+\newblock {\em \apj}, 848(1):52, Oct 2017.
 
 \bibitem{Hong:2014}
 Sungwook~E. {Hong}, Kyungjin {Ahn}, Changbom {Park}, Juhan {Kim}, Ilian~T.
@@ -99,6 +546,69 @@ Sungwook~E. {Hong}, Kyungjin {Ahn}, Changbom {Park}, Juhan {Kim}, Ilian~T.
 \newblock {2D Genus Topology of 21-cm Differential Brightness Temperature
   During Cosmic Reionization}.
 \newblock {\em Journal of Korean Astronomical Society}, 47(2):49--67, Apr 2014.
+
+\bibitem{Hutter:2018b}
+Anne {Hutter}.
+\newblock {The accuracy of seminumerical reionization models in comparison with
+  radiative transfer simulations}.
+\newblock {\em \mnras}, 477(2):1549--1566, Jun 2018.
+
+\bibitem{Hutter:2017}
+Anne {Hutter}, Pratika {Dayal}, Volker {M{\"u}ller}, and Cathryn~M. {Trott}.
+\newblock {Exploring 21cm-Lyman Alpha Emitter Synergies for SKA}.
+\newblock {\em \apj}, 836(2):176, Feb 2017.
+
+\bibitem{Hutter:2018a}
+Anne {Hutter}, Cathryn~M. {Trott}, and Pratika {Dayal}.
+\newblock {Survey parameters for detecting 21-cm-Ly {\ensuremath{\alpha}}
+  emitter cross-correlations with the Square Kilometre Array}.
+\newblock {\em \mnras}, 479(1):L129--L133, Sep 2018.
+
+\bibitem{Hutter:2019}
+Anne {Hutter}, Catherine~A. {Watkinson}, Jacob {Seiler}, Pratika {Dayal},
+  Manodeep {Sinha}, and Darren~J. {Croton}.
+\newblock {The 21cm bispectrum during reionization: a tracer of the ionization
+  topology}.
+\newblock {\em arXiv e-prints}, page arXiv:1907.04342, Jul 2019.
+
+\bibitem{Ichikawa:2010}
+Kazuhide {Ichikawa}, Rennan {Barkana}, Ilian~T. {Iliev}, Garrelt {Mellema}, and
+  Paul~R. {Shapiro}.
+\newblock {Measuring the history of cosmic reionization using the 21-cm
+  probability distribution function from simulations}.
+\newblock {\em \mnras}, 406(4):2521--2532, Aug 2010.
+
+\bibitem{Iliev:2006}
+I.~T. {Iliev}, G.~{Mellema}, U.~L. {Pen}, H.~{Merz}, P.~R. {Shapiro}, and M.~A.
+  {Alvarez}.
+\newblock {Simulating cosmic reionization at large scales - I. The geometry of
+  reionization}.
+\newblock {\em \mnras}, 369(4):1625--1638, Jul 2006.
+
+\bibitem{Iliev:2014}
+Ilian~T. {Iliev}, Garrelt {Mellema}, Kyungjin {Ahn}, Paul~R. {Shapiro},
+  Yi~{Mao}, and Ue-Li {Pen}.
+\newblock {Simulating cosmic reionization: how large a volume is large enough?}
+\newblock {\em \mnras}, 439(1):725--743, Mar 2014.
+
+\bibitem{Jeffreys:1946}
+Harold {Jeffreys}.
+\newblock {An Invariant Form for the Prior Probability in Estimation Problems}.
+\newblock {\em Proceedings of the Royal Society of London Series A},
+  186(1007):453--461, Sep 1946.
+
+\bibitem{Jennings:2019}
+W.~D. {Jennings}, C.~A. {Watkinson}, F.~B. {Abdalla}, and J.~D. {McEwen}.
+\newblock {Evaluating machine learning techniques for predicting power spectra
+  from reionization simulations}.
+\newblock {\em \mnras}, 483(3):2907--2922, Mar 2019.
+
+\bibitem{Kakiichi:2017}
+Koki {Kakiichi}, Suman {Majumdar}, Garrelt {Mellema}, Benedetta {Ciardi},
+  Keri~L. {Dixon}, Ilian~T. {Iliev}, Vibor {Jeli{\'c}}, L{\'e}on V.~E.
+  {Koopmans}, Saleem {Zaroubi}, and Philipp {Busch}.
+\newblock {Recovering the H II region size statistics from 21-cm tomography}.
+\newblock {\em \mnras}, 471(2):1936--1954, Oct 2017.
 
 \bibitem{Kapahtia:2019}
 Akanksha {Kapahtia}, Pravabati {Chingangbam}, and Stephen {Appleby}.
@@ -111,8 +621,35 @@ Akanksha {Kapahtia}, Pravabati {Chingangbam}, Stephen {Appleby}, and Changbom
   {Park}.
 \newblock {A novel probe of ionized bubble shape and size statistics of the
   epoch of reionization using the contour Minkowski Tensor}.
-\newblock {\em Journal of Cosmology and Astroparticle Physics}, 2018(10):011,
-  Oct 2018.
+\newblock {\em \jcap}, 2018(10):011, Oct 2018.
+
+\bibitem{Kern:2017}
+Nicholas~S. {Kern}, Adrian {Liu}, Aaron~R. {Parsons}, Andrei {Mesinger}, and
+  Bradley {Greig}.
+\newblock {Emulating Simulations of Cosmic Dawn for 21 cm Power Spectrum
+  Constraints on Cosmology, Reionization, and X-Ray Heating}.
+\newblock {\em \apj}, 848(1):23, Oct 2017.
+
+\bibitem{Khaire:2016}
+Vikram {Khaire}, Raghunathan {Srianand}, Tirthankar~Roy {Choudhury}, and
+  Prakash {Gaikwad}.
+\newblock {The redshift evolution of escape fraction of hydrogen ionizing
+  photons from galaxies}.
+\newblock {\em \mnras}, 457(4):4051--4062, Apr 2016.
+
+\bibitem{Kim:2016}
+Han-Seek {Kim}, J.~Stuart~B. {Wyithe}, Jaehong {Park}, Gregory~B. {Poole},
+  C.~G. {Lacey}, and C.~M. {Baugh}.
+\newblock {A hybrid multiresolution scheme to efficiently model the structure
+  of reionization on the largest scales}.
+\newblock {\em \mnras}, 455(4):4498--4511, Feb 2016.
+
+\bibitem{Kim:2013}
+Han-Seek {Kim}, J.~Stuart~B. {Wyithe}, Sudhir {Raskutti}, C.~G. {Lacey}, and
+  J.~C. {Helly}.
+\newblock {The structure of reionization in hierarchical galaxy formation
+  models}.
+\newblock {\em \mnras}, 428(3):2467--2479, Jan 2013.
 
 \bibitem{Kittiwisit:2016}
 Piyanat {Kittiwisit}, Judd~D. {Bowman}, Daniel~C. {Jacobs}, Nithyanandan
@@ -126,46 +663,331 @@ Kenji {Kubota}, Shintaro {Yoshiura}, Hayato {Shimabukuro}, and Keitaro
   {Takahashi}.
 \newblock {Expected constraints on models of the epoch of reionization with the
   variance and skewness in redshifted 21 cm-line fluctuations}.
-\newblock {\em Publications of the Astronomical Society of Japan}, 68(4):61,
-  Aug 2016.
+\newblock {\em \pasj}, 68(4):61, Aug 2016.
+
+\bibitem{Kubota:2018}
+Kenji {Kubota}, Shintaro {Yoshiura}, Keitaro {Takahashi}, Kenji {Hasegawa},
+  Hidenobu {Yajima}, Masami {Ouchi}, B.~{Pindor}, and R.~L. {Webster}.
+\newblock {Detectability of the 21-cm signal during the epoch of reionization
+  with 21-cm Lyman {\ensuremath{\alpha}} emitter cross-correlation - I}.
+\newblock {\em \mnras}, 479(2):2754--2766, Sep 2018.
+
+\bibitem{Kuhlen:2012}
+Michael {Kuhlen} and Claude-Andr{\'e} {Faucher-Gigu{\`e}re}.
+\newblock {Concordance models of reionization: implications for faint galaxies
+  and escape fraction evolution}.
+\newblock {\em \mnras}, 423(1):862--876, Jun 2012.
+
+\bibitem{Kulkarni:2016}
+G.~{Kulkarni}, T.~R. {Choudhury}, E.~{Puchwein}, and M.~G. {Haehnelt}.
+\newblock {Models of the cosmological 21 cm signal from the epoch of
+  reionization calibrated with Ly {$\alpha$} and CMB data}.
+\newblock {\em \mnras}, 463:2583--2599, December 2016.
+
+\bibitem{LaPlante:2018}
+Paul {La Plante} and Michelle {Ntampaka}.
+\newblock {Machine Learning Applied to the Reionization History of the
+  Universe}.
+\newblock {\em arXiv e-prints}, page arXiv:1810.08211, Oct 2018.
 
 \bibitem{Lee:2008}
 Khee-Gan {Lee}, Renyue {Cen}, III {Gott}, J.~Richard, and Hy~{Trac}.
 \newblock {The Topology of Cosmological Reionization}.
-\newblock {\em The Astrophysical Journal}, 675(1):8--15, Mar 2008.
+\newblock {\em \apj}, 675(1):8--15, Mar 2008.
 
 \bibitem{Lewis:2011}
 Antony {Lewis}.
 \newblock {The real shape of non-Gaussianities}.
-\newblock {\em Journal of Cosmology and Astroparticle Physics}, 2011(10):026,
-  Oct 2011.
+\newblock {\em \jcap}, 2011(10):026, Oct 2011.
+
+\bibitem{Lidz:2009}
+Adam {Lidz}, Oliver {Zahn}, Steven~R. {Furlanetto}, Matthew {McQuinn}, Lars
+  {Hernquist}, and Matias {Zaldarriaga}.
+\newblock {Probing Reionization with the 21 cm Galaxy Cross-Power Spectrum}.
+\newblock {\em \apj}, 690(1):252--266, Jan 2009.
+
+\bibitem{Lidz:2008}
+Adam {Lidz}, Oliver {Zahn}, Matthew {McQuinn}, Matias {Zaldarriaga}, and Lars
+  {Hernquist}.
+\newblock {Detecting the Rise and Fall of 21 cm Fluctuations with the Murchison
+  Widefield Array}.
+\newblock {\em \apj}, 680(2):962--974, Jun 2008.
+
+\bibitem{Lin:2016}
+Yin {Lin}, S.~Peng {Oh}, Steven~R. {Furlanetto}, and P.~M. {Sutter}.
+\newblock {The distribution of bubble sizes during reionization}.
+\newblock {\em \mnras}, 461(3):3361--3374, Sep 2016.
+
+\bibitem{Liu:2016b}
+Adrian {Liu}, Jonathan~R. {Pritchard}, Rupert {Allison}, Aaron~R. {Parsons},
+  Uro{\v{s}} {Seljak}, and Blake~D. {Sherwin}.
+\newblock {Eliminating the optical depth nuisance from the CMB with 21 cm
+  cosmology}.
+\newblock {\em \prd}, 93(4):043013, Feb 2016.
+
+\bibitem{Madau:2017}
+Piero {Madau}.
+\newblock {Cosmic Reionization after Planck and before JWST: An Analytic
+  Approach}.
+\newblock {\em \apj}, 851(1):50, Dec 2017.
+
+\bibitem{Majumdar:2012}
+Suman {Majumdar}, Somnath {Bharadwaj}, and T.~Roy {Choudhury}.
+\newblock {Constrainingquasar and intergalactic medium properties through
+  bubble detection in redshifted 21-cm maps}.
+\newblock {\em \mnras}, 426(4):3178--3194, Nov 2012.
+
+\bibitem{Majumdar:2014}
+Suman {Majumdar}, Garrelt {Mellema}, Kanan~K. {Datta}, Hannes {Jensen}, T.~Roy
+  {Choudhury}, Somnath {Bharadwaj}, and Martina~M. {Friedrich}.
+\newblock {On the use of seminumerical simulations in predicting the 21-cm
+  signal from the epoch of reionization}.
+\newblock {\em \mnras}, 443(4):2843--2861, Oct 2014.
 
 \bibitem{Majumdar:2018}
 Suman {Majumdar}, Jonathan~R. {Pritchard}, Rajesh {Mondal}, Catherine~A.
   {Watkinson}, Somnath {Bharadwaj}, and Garrelt {Mellema}.
 \newblock {Quantifying the non-Gaussianity in the EoR 21-cm signal through
   bispectrum}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  476(3):4007--4024, May 2018.
+\newblock {\em \mnras}, 476(3):4007--4024, May 2018.
+
+\bibitem{Malloy:2013}
+Matthew {Malloy} and Adam {Lidz}.
+\newblock {Identifying Ionized Regions in Noisy Redshifted 21 cm Data Sets}.
+\newblock {\em \apj}, 767(1):68, Apr 2013.
+
+\bibitem{Mao:2008}
+Yi~{Mao}, Max {Tegmark}, Matthew {McQuinn}, Matias {Zaldarriaga}, and Oliver
+  {Zahn}.
+\newblock {How accurately can 21cm tomography constrain cosmology?}
+\newblock {\em \prd}, 78(2):023529, Jul 2008.
+
+\bibitem{Mason:2019}
+Charlotte~A. {Mason}, Rohan~P. {Naidu}, Sandro {Tacchella}, and Joel {Leja}.
+\newblock {Model-independent constraints on the hydrogen-ionizing emissivity at
+  z>6}.
+\newblock {\em arXiv e-prints}, page arXiv:1907.11332, Jul 2019.
+
+\bibitem{McKay:1979}
+M.~D. McKay, R.~J. Beckman, and W.~J. Conover.
+\newblock A comparison of three methods for selecting values of input variables
+  in the analysis of output from a computer code.
+\newblock {\em Technometrics}, 21(2):239--245, 1979.
+
+\bibitem{McQuinn:2005}
+Matthew {McQuinn}, Steven~R. {Furlanetto}, Lars {Hernquist}, Oliver {Zahn}, and
+  Matias {Zaldarriaga}.
+\newblock {The Kinetic Sunyaev-Zel'dovich Effect from Reionization}.
+\newblock {\em \apj}, 630(2):643--656, Sep 2005.
+
+\bibitem{McQuinn:2007}
+Matthew {McQuinn}, Adam {Lidz}, Oliver {Zahn}, Suvendra {Dutta}, Lars
+  {Hernquist}, and Matias {Zaldarriaga}.
+\newblock {The morphology of HII regions during reionization}.
+\newblock {\em \mnras}, 377(3):1043--1063, May 2007.
+
+\bibitem{McQuinn:2006}
+Matthew {McQuinn}, Oliver {Zahn}, Matias {Zaldarriaga}, Lars {Hernquist}, and
+  Steven~R. {Furlanetto}.
+\newblock {Cosmological Parameter Estimation Using 21 cm Radiation from the
+  Epoch of Reionization}.
+\newblock {\em \apj}, 653(2):815--834, Dec 2006.
+
+\bibitem{Mesinger:2013}
+Andrei {Mesinger}, Andrea {Ferrara}, and David~S. {Spiegel}.
+\newblock {Signatures of X-rays in the early Universe}.
+\newblock {\em \mnras}, 431(1):621--637, May 2013.
+
+\bibitem{Mesinger:2007}
+Andrei {Mesinger} and Steven {Furlanetto}.
+\newblock {Efficient Simulations of Early Structure Formation and
+  Reionization}.
+\newblock {\em \apj}, 669(2):663--675, Nov 2007.
+
+\bibitem{Mesinger:2011}
+Andrei {Mesinger}, Steven {Furlanetto}, and Renyue {Cen}.
+\newblock {21CMFAST: a fast, seminumerical simulation of the high-redshift
+  21-cm signal}.
+\newblock {\em \mnras}, 411(2):955--972, Feb 2011.
 
 \bibitem{Mesinger:2016}
 Andrei {Mesinger}, Bradley {Greig}, and Emanuele {Sobacchi}.
 \newblock {The Evolution Of 21 cm Structure (EOS): public, large-scale
   simulations of Cosmic Dawn and reionization}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  459(3):2342--2353, Jul 2016.
+\newblock {\em \mnras}, 459(3):2342--2353, Jul 2016.
+
+\bibitem{Mesinger:2012}
+Andrei {Mesinger}, Matthew {McQuinn}, and David~N. {Spergel}.
+\newblock {The kinetic Sunyaev-Zel'dovich signal from inhomogeneous
+  reionization: a parameter space study}.
+\newblock {\em \mnras}, 422(2):1403--1417, May 2012.
+
+\bibitem{MiraldaEscude:2000}
+Jordi {Miralda-Escud{\'e}}, Martin {Haehnelt}, and Martin~J. {Rees}.
+\newblock {Reionization of the Inhomogeneous Universe}.
+\newblock {\em \apj}, 530(1):1--16, Feb 2000.
+
+\bibitem{Mirocha:2014}
+Jordan {Mirocha}.
+\newblock {Decoding the X-ray properties of pre-reionization era sources}.
+\newblock {\em \mnras}, 443(2):1211--1223, Sep 2014.
+
+\bibitem{Mirocha:2017}
+Jordan {Mirocha}, Steven~R. {Furlanetto}, and Guochao {Sun}.
+\newblock {The global 21-cm signal in the context of the high- z galaxy
+  luminosity function}.
+\newblock {\em \mnras}, 464(2):1365--1379, Jan 2017.
 
 \bibitem{Mirocha:2013}
 Jordan {Mirocha}, Geraint J.~A. {Harker}, and Jack~O. {Burns}.
 \newblock {Interpreting the Global 21 cm Signal from High Redshifts. I.
   Model-independent constraints}.
-\newblock {\em The Astrophysical Journal}, 777(2):118, Nov 2013.
+\newblock {\em \apj}, 777(2):118, Nov 2013.
+
+\bibitem{Mirocha:2015}
+Jordan {Mirocha}, Geraint J.~A. {Harker}, and Jack~O. {Burns}.
+\newblock {Interpreting the Global 21-cm Signal from High Redshifts. II.
+  Parameter Estimation for Models of Galaxy Formation}.
+\newblock {\em \apj}, 813(1):11, Nov 2015.
+
+\bibitem{Mirocha:2018}
+Jordan {Mirocha}, Richard~H. {Mebane}, Steven~R. {Furlanetto}, Krishma
+  {Singal}, and Donald {Trinh}.
+\newblock {Unique signatures of Population III stars in the global 21-cm
+  signal}.
+\newblock {\em \mnras}, 478(4):5591--5606, Aug 2018.
+
+\bibitem{Mitra:2015}
+S.~{Mitra}, T.~R. {Choudhury}, and A.~{Ferrara}.
+\newblock {Cosmic reionization after Planck.}
+\newblock {\em \mnras}, 454:L76--L80, Nov 2015.
+
+\bibitem{Mitra:2018}
+Sourav {Mitra}, Tirthankar~Roy {Choudhury}, and Bharat {Ratra}.
+\newblock {First study of reionization in the Planck 2015 normalized closed
+  {\ensuremath{\Lambda}}CDM inflation model}.
+\newblock {\em \mnras}, 479(4):4566--4576, Oct 2018.
+
+\bibitem{Molaro:2019}
+Margherita {Molaro}, Romeel {Dav{\'e}}, Sultan {Hassan}, Mario~G. {Santos}, and
+  Kristian {Finlator}.
+\newblock {ARTIST: Fast radiative transfer for large-scale simulations of the
+  epoch of reionisation}.
+\newblock {\em arXiv e-prints}, page arXiv:1901.03340, Jan 2019.
+
+\bibitem{Monsalve:2019}
+Raul~A. {Monsalve}, Anastasia {Fialkov}, Judd~D. {Bowman}, Alan E.~E. {Rogers},
+  Thomas~J. {Mozdzen}, Aviad {Cohen}, Rennan {Barkana}, and Nivedita {Mahesh}.
+\newblock {Results from EDGES High-Band. III. New Constraints on Parameters of
+  the Early Universe}.
+\newblock {\em \apj}, 875(1):67, Apr 2019.
+
+\bibitem{Monsalve:2018}
+Raul~A. {Monsalve}, Bradley {Greig}, Judd~D. {Bowman}, Andrei {Mesinger}, Alan
+  E.~E. {Rogers}, Thomas~J. {Mozdzen}, Nicholas~S. {Kern}, and Nivedita
+  {Mahesh}.
+\newblock {Results from EDGES High-band. II. Constraints on Parameters of Early
+  Galaxies}.
+\newblock {\em \apj}, 863(1):11, Aug 2018.
+
+\bibitem{Monsalve:2017}
+Raul~A. {Monsalve}, Alan E.~E. {Rogers}, Judd~D. {Bowman}, and Thomas~J.
+  {Mozdzen}.
+\newblock {Results from EDGES High-band. I. Constraints on Phenomenological
+  Models for the Global 21 cm Signal}.
+\newblock {\em \apj}, 847(1):64, Sep 2017.
+
+\bibitem{Morandi:2012}
+Andrea {Morandi} and Rennan {Barkana}.
+\newblock {Studying cosmic reionization with observations of the global 21-cm
+  signal}.
+\newblock {\em \mnras}, 424(4):2551--2561, Aug 2012.
 
 \bibitem{Munoz:2015}
 Julian~B. {Mu{\~n}oz}, Ely~D. {Kovetz}, and Yacine {Ali-Ha{\"\i}moud}.
 \newblock {Heating of baryons due to scattering with dark matter during the
   dark ages}.
-\newblock {\em Physical Review D}, 92(8):083528, Oct 2015.
+\newblock {\em \prd}, 92(8):083528, Oct 2015.
+
+\bibitem{Mutch:2016}
+Simon~J. {Mutch}, Paul~M. {Geil}, Gregory~B. {Poole}, Paul~W. {Angel}, Alan~R.
+  {Duffy}, Andrei {Mesinger}, and J.~Stuart~B. {Wyithe}.
+\newblock {Dark-ages reionization and galaxy formation simulation - III.
+  Modelling galaxy formation and the epoch of reionization}.
+\newblock {\em \mnras}, 462(1):250--276, Oct 2016.
+
+\bibitem{Naidu:2019}
+Rohan~P. {Naidu}, Sandro {Tacchella}, Charlotte~A. {Mason}, Sownak {Bose},
+  Pascal~A. {Oesch}, and Charlie {Conroy}.
+\newblock {Rapid Reionization by the Oligarchs: The Case for Massive,
+  UV-Bright, Star-Forming Galaxies with High Escape Fractions}.
+\newblock {\em arXiv e-prints}, page arXiv:1907.13130, Jul 2019.
+
+\bibitem{Norman:2015}
+Michael~L. {Norman}, Daniel~R. {Reynolds}, Geoffrey~C. {So}, Robert~P.
+  {Harkness}, and John~H. {Wise}.
+\newblock {Fully Coupled Simulation of Cosmic Reionization. I. Numerical
+  Methods and Tests}.
+\newblock {\em \apjs}, 216(1):16, Jan 2015.
+
+\bibitem{Obreschkow:2013}
+D.~{Obreschkow}, C.~{Power}, M.~{Bruderer}, and C.~{Bonvin}.
+\newblock {A Robust Measure of Cosmic Structure beyond the Power Spectrum:
+  Cosmic Filaments and the Temperature of Dark Matter}.
+\newblock {\em \apj}, 762(2):115, Jan 2013.
+
+\bibitem{Ocvirk:2018}
+Pierre {Ocvirk}, Dominique {Aubert}, Jenny~G. {Sorce}, Paul~R. {Shapiro},
+  Nicolas {Deparis}, Taha {Dawoodbhoy}, Joseph {Lewis}, Romain {Teyssier},
+  Gustavo {Yepes}, Stefan {Gottl{\"o}ber}, Kyungjin {Ahn}, Ilian~T. {Iliev},
+  and Yehuda {Hoffman}.
+\newblock {Cosmic Dawn II (CoDa II): a new radiation-hydrodynamics simulation
+  of the self-consistent coupling of galaxy formation and reionization}.
+\newblock {\em arXiv e-prints}, page arXiv:1811.11192, Nov 2018.
+
+\bibitem{Ocvirk:2016}
+Pierre {Ocvirk}, Nicolas {Gillet}, Paul~R. {Shapiro}, Dominique {Aubert},
+  Ilian~T. {Iliev}, Romain {Teyssier}, Gustavo {Yepes}, Jun-Hwan {Choi}, David
+  {Sullivan}, Alexander {Knebe}, Stefan {Gottl{\"o}ber}, Anson {D'Aloisio},
+  Hyunbae {Park}, Yehuda {Hoffman}, and Timothy {Stranex}.
+\newblock {Cosmic Dawn (CoDa): the First Radiation-Hydrodynamics Simulation of
+  Reionization and Galaxy Formation in the Local Universe}.
+\newblock {\em \mnras}, 463(2):1462--1485, Dec 2016.
+
+\bibitem{OShea:2015}
+Brian~W. {O'Shea}, John~H. {Wise}, Hao {Xu}, and Michael~L. {Norman}.
+\newblock {Probing the Ultraviolet Luminosity Function of the Earliest Galaxies
+  with the Renaissance Simulations}.
+\newblock {\em \apjl}, 807(1):L12, Jul 2015.
+
+\bibitem{Pan:2012}
+Tony {Pan} and Rennan {Barkana}.
+\newblock {Measuring the History of Cosmic Reionization using the 21-cm
+  Difference PDF}.
+\newblock {\em arXiv e-prints}, page arXiv:1209.5751, Sep 2012.
+
+\bibitem{Paranjape:2014}
+Aseem {Paranjape} and T.~Roy {Choudhury}.
+\newblock {An improved model of H II bubbles during the epoch of reionization}.
+\newblock {\em \mnras}, 442(2):1470--1482, Aug 2014.
+
+\bibitem{Paranjape:2016}
+Aseem {Paranjape}, T.~Roy {Choudhury}, and Hamsa {Padmanabhan}.
+\newblock {Photon number conserving models of H II bubbles during
+  reionization}.
+\newblock {\em \mnras}, 460(2):1801--1810, Aug 2016.
+
+\bibitem{Park:2014}
+Jaehong {Park}, Han-Seek {Kim}, J.~Stuart~B. {Wyithe}, and C.~G. {Lacey}.
+\newblock {The cross-power spectrum between 21 cm emission and galaxies in
+  hierarchical galaxy formation models}.
+\newblock {\em \mnras}, 438(3):2474--2482, Mar 2014.
+
+\bibitem{Park:2019}
+Jaehong {Park}, Andrei {Mesinger}, Bradley {Greig}, and Nicolas {Gillet}.
+\newblock {Inferring the astrophysics of reionization and cosmic dawn from
+  galaxy luminosity functions and the 21-cm signal}.
+\newblock {\em \mnras}, 484(1):933--949, Mar 2019.
 
 \bibitem{Patil:2014}
 Ajinkya~H. {Patil}, Saleem {Zaroubi}, Emma {Chapman}, Vibor {Jeli{\'c}},
@@ -173,108 +995,340 @@ Ajinkya~H. {Patil}, Saleem {Zaroubi}, Emma {Chapman}, Vibor {Jeli{\'c}},
   Michiel~A. {Brentjens}, and A.~G. {de Bruyn}.
 \newblock {Constraining the epoch of reionization with the variance statistic:
   simulations of the LOFAR case}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  443(2):1113--1124, Sep 2014.
+\newblock {\em \mnras}, 443(2):1113--1124, Sep 2014.
 
-\bibitem{Pritchard:2010}
+\bibitem{Pawlik:2017}
+Andreas~H. {Pawlik}, Alireza {Rahmati}, Joop {Schaye}, Myoungwon {Jeon}, and
+  Claudio {Dalla Vecchia}.
+\newblock {The Aurora radiation-hydrodynamical simulations of reionization:
+  calibration and first results}.
+\newblock {\em \mnras}, 466(1):960--973, Apr 2017.
+
+\bibitem{Pillepich:2007}
+Annalisa {Pillepich}, Cristiano {Porciani}, and Sabino {Matarrese}.
+\newblock {The Bispectrum of Redshifted 21 Centimeter Fluctuations from the
+  Dark Ages}.
+\newblock {\em \apj}, 662(1):1--14, Jun 2007.
+
+\bibitem{Pober:2014}
+Jonathan~C. {Pober}, Adrian {Liu}, Joshua~S. {Dillon}, James~E. {Aguirre},
+  Judd~D. {Bowman}, Richard~F. {Bradley}, Chris~L. {Carilli}, David~R.
+  {DeBoer}, Jacqueline~N. {Hewitt}, Daniel~C. {Jacobs}, Matthew {McQuinn},
+  Miguel~F. {Morales}, Aaron~R. {Parsons}, Max {Tegmark}, and Dan~J.
+  {Werthimer}.
+\newblock {What Next-generation 21 cm Power Spectrum Measurements can Teach us
+  About the Epoch of Reionization}.
+\newblock {\em \apj}, 782(2):66, Feb 2014.
+
+\bibitem{Pritchard:2007}
+Jonathan~R. {Pritchard} and Steven~R. {Furlanetto}.
+\newblock {21-cm fluctuations from inhomogeneous X-ray heating before
+  reionization}.
+\newblock {\em \mnras}, 376(4):1680--1694, Apr 2007.
+
+\bibitem{Pritchard:2010a}
 Jonathan~R. {Pritchard} and Abraham {Loeb}.
 \newblock {Constraining the unexplored period between the dark ages and
   reionization with observations of the global 21 cm signal}.
-\newblock {\em Physical Review D}, 82(2):023006, Jul 2010.
+\newblock {\em \prd}, 82(2):023006, Jul 2010.
 
 \bibitem{Pritchard:2012}
 Jonathan~R. {Pritchard} and Abraham {Loeb}.
 \newblock {21 cm cosmology in the 21st century}.
 \newblock {\em Reports on Progress in Physics}, 75(8):086901, Aug 2012.
 
+\bibitem{Pritchard:2010b}
+Jonathan~R. {Pritchard}, Abraham {Loeb}, and J.~Stuart~B. {Wyithe}.
+\newblock {Constraining reionization using 21-cm observations in combination
+  with CMB and Ly{\ensuremath{\alpha}} forest data}.
+\newblock {\em \mnras}, 408(1):57--70, Oct 2010.
+
+\bibitem{Robertson:2015}
+Brant~E. {Robertson}, Richard~S. {Ellis}, Steven~R. {Furlanetto}, and James~S.
+  {Dunlop}.
+\newblock {Cosmic Reionization and Early Star-forming Galaxies: A Joint
+  Analysis of New Constraints from Planck and the Hubble Space Telescope}.
+\newblock {\em \apjl}, 802(2):L19, Apr 2015.
+
+\bibitem{Rosdahl:2018}
+Joakim {Rosdahl}, Harley {Katz}, J{\'e}r{\'e}my {Blaizot}, Taysun {Kimm},
+  L{\'e}o {Michel-Dansac}, Thibault {Garel}, Martin {Haehnelt}, Pierre
+  {Ocvirk}, and Romain {Teyssier}.
+\newblock {The SPHINX cosmological simulations of the first billion years: the
+  impact of binary stars on reionization}.
+\newblock {\em \mnras}, 479(1):994--1016, Sep 2018.
+
 \bibitem{Ross:2017}
 Hannah~E. {Ross}, Keri~L. {Dixon}, Ilian~T. {Iliev}, and Garrelt {Mellema}.
 \newblock {Simulating the impact of X-ray heating during the cosmic dawn}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  468(4):3785--3797, Jul 2017.
+\newblock {\em \mnras}, 468(4):3785--3797, Jul 2017.
+
+\bibitem{Santos:2010}
+M.~G. {Santos}, L.~{Ferramacho}, M.~B. {Silva}, A.~{Amblard}, and A.~{Cooray}.
+\newblock {Fast large volume simulations of the 21-cm signal from the
+  reionization and pre-reionization epochs}.
+\newblock {\em \mnras}, 406(4):2421--2432, Aug 2010.
+
+\bibitem{Santos:2008}
+M{\'a}rio~G. {Santos}, Alexandre {Amblard}, Jonathan {Pritchard}, Hy~{Trac},
+  Renyue {Cen}, and Asantha {Cooray}.
+\newblock {Cosmic Reionization and the 21 cm Signal: Comparison between an
+  Analytical Model and a Simulation}.
+\newblock {\em \apj}, 689(1):1--16, Dec 2008.
+
+\bibitem{Schmit:2018}
+C.~J. {Schmit} and J.~R. {Pritchard}.
+\newblock {Emulation of reionization simulations for Bayesian inference of
+  astrophysics parameters using neural networks}.
+\newblock {\em \mnras}, 475(1):1213--1223, Mar 2018.
+
+\bibitem{Schneider:2011}
+Michael~D. {Schneider}, {\'O}skar {Holm}, and Lloyd {Knox}.
+\newblock {Intelligent Design: On the Emulation of Cosmological Simulations}.
+\newblock {\em \apj}, 728(2):137, Feb 2011.
+
+\bibitem{Shimabukuro:2017b}
+Hayato {Shimabukuro} and Benoit {Semelin}.
+\newblock {Analysing the 21 cm signal from the epoch of reionization with
+  artificial neural networks}.
+\newblock {\em \mnras}, 468(4):3869--3877, Jul 2017.
 
 \bibitem{Shimabukuro:2015}
 Hayato {Shimabukuro}, Shintaro {Yoshiura}, Keitaro {Takahashi}, Shuichiro
   {Yokoyama}, and Kiyotomo {Ichiki}.
 \newblock {Studying 21cm power spectrum with one-point statistics}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  451(1):467--474, Jul 2015.
+\newblock {\em \mnras}, 451(1):467--474, Jul 2015.
 
 \bibitem{Shimabukuro:2016}
 Hayato {Shimabukuro}, Shintaro {Yoshiura}, Keitaro {Takahashi}, Shuichiro
   {Yokoyama}, and Kiyotomo {Ichiki}.
 \newblock {21 cm line bispectrum as a method to probe cosmic dawn and epoch of
   reionization}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  458(3):3003--3011, May 2016.
+\newblock {\em \mnras}, 458(3):3003--3011, May 2016.
 
 \bibitem{Shimabukuro:2017}
 Hayato {Shimabukuro}, Shintaro {Yoshiura}, Keitaro {Takahashi}, Shuichiro
   {Yokoyama}, and Kiyotomo {Ichiki}.
 \newblock {Constraining the epoch-of-reionization model parameters with the
   21-cm bispectrum}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  468(2):1542--1550, Jun 2017.
+\newblock {\em \mnras}, 468(2):1542--1550, Jun 2017.
+
+\bibitem{Skilling:2004}
+John {Skilling}.
+\newblock {Nested Sampling}.
+\newblock In Rainer {Fischer}, Roland {Preuss}, and Udo~Von {Toussaint},
+  editors, {\em American Institute of Physics Conference Series}, volume 735,
+  pages 395--405, Nov 2004.
+
+\bibitem{So:2014}
+Geoffrey~C. {So}, Michael~L. {Norman}, Daniel~R. {Reynolds}, and John~H.
+  {Wise}.
+\newblock {Fully Coupled Simulation of Cosmic Reionization. II. Recombinations,
+  Clumping Factors, and the Photon Budget for Reionization}.
+\newblock {\em \apj}, 789(2):149, Jul 2014.
+
+\bibitem{Sobacchi:2016}
+Emanuele {Sobacchi}, Andrei {Mesinger}, and Bradley {Greig}.
+\newblock {Cross-correlation of the cosmic 21-cm signal and Lyman
+  {\ensuremath{\alpha}} emitters during reionization}.
+\newblock {\em \mnras}, 459(3):2741--2750, Jul 2016.
 
 \bibitem{Tashiro:2014}
 Hiroyuki {Tashiro}, Kenji {Kadota}, and Joseph {Silk}.
 \newblock {Effects of dark matter-baryon scattering on redshifted 21 cm
   signals}.
-\newblock {\em Physical Review D}, 90(8):083522, Oct 2014.
+\newblock {\em \prd}, 90(8):083522, Oct 2014.
+
+\bibitem{Tegmark:1997}
+Max {Tegmark}, Andy~N. {Taylor}, and Alan~F. {Heavens}.
+\newblock {Karhunen-Lo{\`e}ve Eigenvalue Problems in Cosmology: How Should We
+  Tackle Large Data Sets?}
+\newblock {\em \apj}, 480(1):22--35, May 1997.
+
+\bibitem{Thomas:2009}
+Rajat~M. {Thomas}, Saleem {Zaroubi}, Benedetta {Ciardi}, Andreas~H. {Pawlik},
+  Panagiotis {Labropoulos}, Vibor {Jeli{\'c}}, Gianni {Bernardi}, Michiel~A.
+  {Brentjens}, A.~G. {de Bruyn}, Geraint J.~A. {Harker}, Leon V.~E. {Koopmans},
+  Garrelt {Mellema}, V.~N. {Pandey}, Joop {Schaye}, and Sarod {Yatawatta}.
+\newblock {Fast large-scale reionization simulations}.
+\newblock {\em \mnras}, 393(1):32--48, Feb 2009.
+
+\bibitem{Trac:2007}
+Hy~{Trac} and Renyue {Cen}.
+\newblock {Radiative Transfer Simulations of Cosmic Reionization. I.
+  Methodology and Initial Results}.
+\newblock {\em \apj}, 671(1):1--13, Dec 2007.
 
 \bibitem{Trott:2016}
 Cathryn~M. {Trott}.
 \newblock {Exploring the evolution of reionization using a wavelet transform
   and the light cone effect}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  461(1):126--135, Sep 2016.
+\newblock {\em \mnras}, 461(1):126--135, Sep 2016.
+
+\bibitem{Trott:2019}
+Cathryn~M. {Trott}, Catherine~A. {Watkinson}, Christopher~H. {Jordan}, Shintaro
+  {Yoshiura}, Suman {Majumdar}, N.~{Barry}, R.~{Byrne}, B.~J. {Hazelton},
+  K.~{Hasegawa}, R.~{Joseph}, T.~{Kaneuji}, K.~{Kubota}, W.~{Li}, J.~{Line},
+  C.~{Lynch}, B.~{McKinley}, D.~A. {Mitchell}, M.~F. {Morales}, S.~{Murray},
+  B.~{Pindor}, J.~C. {Pober}, M.~{Rahimi}, J.~{Riding}, K.~{Takahashi}, S.~J.
+  {Tingay}, R.~B. {Wayth}, R.~L. {Webster}, M.~{Wilensky}, J.~S.~B. {Wyithe},
+  Q.~{Zheng}, David {Emrich}, A.~P. {Beardsley}, T.~{Booler}, B.~{Crosse},
+  T.~M.~O. {Franzen}, L.~{Horsley}, M.~{Johnston-Hollitt}, D.~L. {Kaplan},
+  D.~{Kenney}, D.~{Pallot}, G.~{Sleap}, K.~{Steele}, M.~{Walker},
+  A.~{Williams}, and C.~{Wu}.
+\newblock {Gridded and direct Epoch of Reionisation bispectrum estimates using
+  the Murchison Widefield Array}.
+\newblock {\em \pasa}, 36:e023, Jan 2019.
 
 \bibitem{Tseliakhovich:2010}
 Dmitriy {Tseliakhovich} and Christopher {Hirata}.
 \newblock {Relative velocity of dark matter and baryonic fluids and the
   formation of the first structures}.
-\newblock {\em Physical Review D}, 82(8):083520, Oct 2010.
+\newblock {\em \prd}, 82(8):083520, Oct 2010.
+
+\bibitem{vanderVelden:2019}
+Ellert {van der Velden}, Alan~R. {Duffy}, Darren {Croton}, Simon~J. {Mutch},
+  and Manodeep {Sinha}.
+\newblock {Model Dispersion with PRISM: An Alternative to MCMC for Rapid
+  Analysis of Models}.
+\newblock {\em \apjs}, 242(2):22, Jun 2019.
+
+\bibitem{Visbal:2012}
+Eli {Visbal}, Rennan {Barkana}, Anastasia {Fialkov}, Dmitriy {Tseliakhovich},
+  and Christopher~M. {Hirata}.
+\newblock {The signature of the first stars in atomic hydrogen at redshift 20}.
+\newblock {\em \nat}, 487(7405):70--73, Jul 2012.
+
+\bibitem{Visbal:2009}
+Eli {Visbal}, Abraham {Loeb}, and Stuart {Wyithe}.
+\newblock {Cosmological constraints from 21cm surveys after reionization}.
+\newblock {\em \jcap}, 2009(10):030, Oct 2009.
+
+\bibitem{Vrbanec:2016}
+Dijana {Vrbanec}, Benedetta {Ciardi}, Vibor {Jeli{\'c}}, Hannes {Jensen},
+  Saleem {Zaroubi}, Elizabeth~R. {Fernandez}, Abhik {Ghosh}, Ilian~T. {Iliev},
+  Koki {Kakiichi}, L{\'e}on V.~E. {Koopmans}, and Garrelt {Mellema}.
+\newblock {Predictions for the 21 cm-galaxy cross-power spectrum observable
+  with LOFAR and Subaru}.
+\newblock {\em \mnras}, 457(1):666--675, Mar 2016.
 
 \bibitem{Wang:2015}
 Yougang {Wang}, Changbom {Park}, Yidong {Xu}, Xuelei {Chen}, and Juhan {Kim}.
 \newblock {Two-dimensional Topology of Cosmological Reionization}.
-\newblock {\em The Astrophysical Journal}, 814(1):6, Nov 2015.
+\newblock {\em \apj}, 814(1):6, Nov 2015.
+
+\bibitem{Watkinson:2019inprep}
+C.~A. {Watkinson} et~al.
+\newblock {}.
+\newblock {\em \mnras \, in prep}, 2019.
+
+\bibitem{Watkinson:2015b}
+C.~A. {Watkinson}, A.~{Mesinger}, J.~R. {Pritchard}, and E.~{Sobacchi}.
+\newblock {21-cm signatures of residual H I inside cosmic H II regions during
+  reionization}.
+\newblock {\em \mnras}, 449(3):3202--3211, May 2015.
 
 \bibitem{Watkinson:2014}
 C.~A. {Watkinson} and J.~R. {Pritchard}.
 \newblock {Distinguishing models of reionization using future radio
   observations of 21-cm 1-point statistics}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  443(4):3090--3106, Oct 2014.
+\newblock {\em \mnras}, 443(4):3090--3106, Oct 2014.
 
 \bibitem{Watkinson:2015}
 C.~A. {Watkinson} and J.~R. {Pritchard}.
 \newblock {The impact of spin-temperature fluctuations on the 21-cm moments}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  454(2):1416--1431, Dec 2015.
+\newblock {\em \mnras}, 454(2):1416--1431, Dec 2015.
 
 \bibitem{Watkinson:2019}
 Catherine~A. {Watkinson}, Sambit~K. {Giri}, Hannah~E. {Ross}, Keri~L. {Dixon},
   Ilian~T. {Iliev}, Garrelt {Mellema}, and Jonathan~R. {Pritchard}.
 \newblock {The 21-cm bispectrum as a probe of non-Gaussianities due to X-ray
   heating}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  482(2):2653--2669, Jan 2019.
+\newblock {\em \mnras}, 482(2):2653--2669, Jan 2019.
 
 \bibitem{Watkinson:2017}
 Catherine~A. {Watkinson}, Suman {Majumdar}, Jonathan~R. {Pritchard}, and Rajesh
   {Mondal}.
 \newblock {A fast estimator for the bispectrum and beyond - a practical method
   for measuring non-Gaussianity in 21-cm maps}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  472(2):2436--2446, Dec 2017.
+\newblock {\em \mnras}, 472(2):2436--2446, Dec 2017.
+
+\bibitem{Wiersma:2013}
+R.~P.~C. {Wiersma}, B.~{Ciardi}, R.~M. {Thomas}, G.~J.~A. {Harker},
+  S.~{Zaroubi}, G.~{Bernardi}, M.~{Brentjens}, A.~G. {de Bruyn}, S.~{Daiboo},
+  V.~{Jelic}, S.~{Kazemi}, L.~V.~E. {Koopmans}, P.~{Labropoulos},
+  O.~{Martinez}, G.~{Mellema}, A.~{Offringa}, V.~N. {Pand ey}, J.~{Schaye},
+  V.~{Veligatla}, H.~{Vedantham}, and S.~{Yatawatta}.
+\newblock {LOFAR insights into the epoch of reionization from the cross-power
+  spectrum of 21 cm emission and galaxies}.
+\newblock {\em \mnras}, 432(3):2615--2624, Jul 2013.
+
+\bibitem{Wise:2014}
+John~H. {Wise}, Vasiliy~G. {Demchenko}, Martin~T. {Halicek}, Michael~L.
+  {Norman}, Matthew~J. {Turk}, Tom {Abel}, and Britton~D. {Smith}.
+\newblock {The birth of a galaxy - III. Propelling reionization with the
+  faintest galaxies}.
+\newblock {\em \mnras}, 442(3):2560--2579, Aug 2014.
+
+\bibitem{Wu:2019}
+Xiaohan {Wu}, Rahul {Kannan}, Federico {Marinacci}, Mark {Vogelsberger}, and
+  Lars {Hernquist}.
+\newblock {Simulating the effect of photoheating feedback during reionization}.
+\newblock {\em \mnras}, 488(1):419--437, Sep 2019.
+
+\bibitem{Wyithe:2007}
+J.~Stuart~B. {Wyithe} and Abraham {Loeb}.
+\newblock {The correlation between the distribution of galaxies and 21-cm
+  emission at high redshifts}.
+\newblock {\em \mnras}, 375(3):1034--1042, Mar 2007.
+
+\bibitem{Wyithe:2007b}
+J.~Stuart~B. {Wyithe} and Miguel~F. {Morales}.
+\newblock {Biased reionization and non-Gaussianity in redshifted 21-cm
+  intensity maps of the reionization epoch}.
+\newblock {\em \mnras}, 379(4):1647--1657, Aug 2007.
 
 \bibitem{Yoshiura:2017}
 Shintaro {Yoshiura}, Hayato {Shimabukuro}, Keitaro {Takahashi}, and Takahiko
   {Matsubara}.
 \newblock {Studying topological structure of 21-cm line fluctuations with 3D
   Minkowski functionals before reionization}.
-\newblock {\em Monthly Notices of the Royal Astronomical Society},
-  465(1):394--402, Feb 2017.
+\newblock {\em \mnras}, 465(1):394--402, Feb 2017.
+
+\bibitem{Yoshiura:2015}
+Shintaro {Yoshiura}, Hayato {Shimabukuro}, Keitaro {Takahashi}, Rieko {Momose},
+  Hiroyuki {Nakanishi}, and Hiroshi {Imai}.
+\newblock {Sensitivity for 21 cm bispectrum from Epoch of Reionization}.
+\newblock {\em \mnras}, 451(1):266--274, Jul 2015.
+
+\bibitem{Zahn:2012}
+O.~{Zahn}, C.~L. {Reichardt}, L.~{Shaw}, A.~{Lidz}, K.~A. {Aird}, B.~A.
+  {Benson}, L.~E. {Bleem}, J.~E. {Carlstrom}, C.~L. {Chang}, H.~M. {Cho}, T.~M.
+  {Crawford}, A.~T. {Crites}, T.~{de Haan}, M.~A. {Dobbs}, O.~{Dor{\'e}},
+  J.~{Dudley}, E.~M. {George}, N.~W. {Halverson}, G.~P. {Holder}, W.~L.
+  {Holzapfel}, S.~{Hoover}, Z.~{Hou}, J.~D. {Hrubes}, M.~{Joy}, R.~{Keisler},
+  L.~{Knox}, A.~T. {Lee}, E.~M. {Leitch}, M.~{Lueker}, D.~{Luong-Van}, J.~J.
+  {McMahon}, J.~{Mehl}, S.~S. {Meyer}, M.~{Millea}, J.~J. {Mohr}, T.~E.
+  {Montroy}, T.~{Natoli}, S.~{Padin}, T.~{Plagge}, C.~{Pryke}, J.~E. {Ruhl},
+  K.~K. {Schaffer}, E.~{Shirokoff}, H.~G. {Spieler}, Z.~{Staniszewski}, A.~A.
+  {Stark}, K.~{Story}, A.~{van Engelen}, K.~{Vanderlinde}, J.~D. {Vieira}, and
+  R.~{Williamson}.
+\newblock {Cosmic Microwave Background Constraints on the Duration and Timing
+  of Reionization from the South Pole Telescope}.
+\newblock {\em \apj}, 756(1):65, Sep 2012.
+
+\bibitem{Zahn:2007}
+Oliver {Zahn}, Adam {Lidz}, Matthew {McQuinn}, Suvendra {Dutta}, Lars
+  {Hernquist}, Matias {Zaldarriaga}, and Steven~R. {Furlanetto}.
+\newblock {Simulations and Analytic Calculations of Bubble Growth during
+  Hydrogen Reionization}.
+\newblock {\em \apj}, 654(1):12--26, Jan 2007.
+
+\bibitem{Zahn:2011}
+Oliver {Zahn}, Andrei {Mesinger}, Matthew {McQuinn}, Hy~{Trac}, Renyue {Cen},
+  and Lars~E. {Hernquist}.
+\newblock {Comparison of reionization models: radiative transfer simulations
+  and approximate, seminumeric models}.
+\newblock {\em \mnras}, 414(1):727--738, Jun 2011.
 
 \end{thebibliography}
