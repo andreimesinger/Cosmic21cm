@@ -103,12 +103,14 @@ The following subsections examine in detail the design considerations specific t
 \begin{itemize}
 
 \item
-  Antenna design for detection of the zero-mode CD/EoR signal
+Antenna design for detection of the zero-mode CD/EoR signal
   
-   This collecting area in radio telescopes is often increased by arraying sensor elements and combining their terminal voltages in phase, or by using shaped reflectors to concentrate the incident field in a small area where the sensor elements might be placed to transduce the coherently integrated cosmic noise into a voltage waveform.  The antenna beam has a main lobe whose solid angle is inversely proportional to the effective collecting area and increasing the area in an attempt to enhance faint cosmic noise reduces the main lobe solid angle.  This strategy that is appropriately adopted for 
-  
-  ****collecting area is unimportant****
-
+   This collecting area in radio telescopes is often increased by arraying sensor elements and combining their terminal voltages in phase, or by using shaped reflectors to concentrate the incident field in a small area where the sensor elements might be placed to transduce the coherently integrated cosmic noise into a voltage waveform.  The antenna beam has a main lobe whose solid angle is inversely proportional to the effective collecting area and increasing the area in an attempt to enhance the received faint cosmic noise reduces the main lobe solid angle.  This strategy that is appropriately adopted for detection of weak celestial sources is pertinent for sources that are unresolved by the telescope beam.  
+   
+   Viewed as a transformer, the antenna presents at its terminals an equivalent noise power corresponding to the mean brightness temperature of the celestial radio sky weighted by the telescope beam.  Once the source extent on the sky exceeds the telescope beam, the antenna temperature (or the power in the cosmic noise as measured at the antenna terminals) will simply saturate to the brightness temperature of the source.  Since the zero-mode of the 21-cm signal is of extent $4\pi$ steradians, which will always exceed the telescope beam, the antenna terminals will always present equivalent noise corresponding to the zero-mode regardless of the telescope beam and hence the effective collecting area.  In other words, the antenna for the zero-mode may be of any arbitrary collecting area and increasing this area does not facilitate detection.
+ 
+   A key design goal for the antenna is avoidance of what is termed "mode coupling".  The radio sky has spatial structures on various angular scales.  The largest features on the sky are of the Galaxy, the Galactic plane and loops and spurs.  H-${\sc ii}$ regions and supernova remnants form intermediate scale structures.  Compact sources in the Galaxy are more numerous in the Galactic plane. Extragalactic sources have an isotropic distribution, with some clustering, and with distributions in angular scales, in flux density and spectral indices.  If the zero-mode telescope antenna beam is achromatic, and has identical beam patterns including main lobe profile and all sidelobe structure across all frequencies in the observing band, then the same celestial sources are averaged with same weighting at all frequencies.  In this case the frequency spectrum of the antenna temperature will be the spectrum of the beam weighted sky and sources therein.  
+   
 \end{itemize}
 
 \textbf{Architectures for zero-mode signal detection (RS)}
