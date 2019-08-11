@@ -88,7 +88,7 @@ Karl Jansky discovered in August 1931 that any sensor of the electromagnetic fie
 
 \end{itemize}
 
-\textbf{Design considerations for special purpose radiometers for CD/EoR}
+\textbf{Design considerations for special purpose radiometers for the zero-mode 21-cm signal}
 
 Following cosmological recombination of the primeval plasma, the primordial gas is almost completely neutral and a significant fraction is hydrogen.  Hydrogen has a hyperfine spin flip transition with rest frequency 1420.4 MHz and rest wavelength 21.106 cm.  The ratio of populations in the upper triplet state and lower siglet state of this transition is described by the hydrogen spin temperature.  The cosmic microwave background (CMB) streams freely through the gas following recombination because the free electron density is extremely small; thus we observe the CMB as it propagates to us through the neutral gas.   If the spin temperature of the neutral hydrogen at any redshift exceeds the CMB temperature at that redshift, then the 21-cm emission from the gas adds to the CMB and will be observed at the present epoch at the corresponding redshifted frequency to have a positive distortion.  On the other hand, if the spin temperature of the neutral hydrogen at any redshift is lower than the CMB temperature at that redshift, then 21-cm absorption by the gas decrements the CMB and will be observed at the present epoch at the corresponding redshifted frequency to have a negative distortion.
 
@@ -153,6 +153,8 @@ The following subsections examine in detail the design considerations specific t
    
    If the zero-mode 21-cm antenna is lossless, has no resistive elements, then when viewed as a transmitter all of the power fed to the antenna, and not reflected back along the transmission line at the antenna terminals, will emerge as radiation.  However, for an antenna on the ground part of the radiated power may be absorbed by the ground and only a part will go to the sky.  For antennas that are on ground covered by a conducting ground plane, all of the radiated power goes to sky either directly or on reflection off the ground plane. Ground planes are ideally continuous metal planes.  In practice, the ground plane may be a welded mesh, which would allow for some transmission and hence loss to ground.  The ground plane may also be in the form of sheets joined along edges, where there may be leakage across the plane via the slot gaps.  Passive reciprocal antennas may be viewed conversely as receiveres where the loss in resistive elements of the antenna and loss in ground results in limited antenna radiation efficiency, and also emission from these resistive elements adding to the cosmic noise.  
    
+   The additive component of ground emission has an imprint of the antenna radiation efficiency in a complex manner, making it difficult to separate from zero-mode 21-cm signals unless the radiation efficiency itself is designed to have characteristics orthogonal to the expectations for zero-mode signals.  It is preferred to avoid the ground, and also to design the radiation efficiency to be a smooth function, as is also the design goal for the reflection efficiency.
+   
    Thus a design goal is to avoid resistive elements and also ground loss.  The ground loss does depend on the ground characteristics, conductivity and dielectric constant, which depend on soil characteristics and moisture content.  Structure in the soil beneath the antenna; for example, a rock bed some distance beneath the soil surface, may also result in reflections at impedance discontinuities and hence multi-path propagation.  Long wavelength electromagnetic waves in the frequency range of interest here does penetrate soil to substantial depths, which may be several metres in dry soil conditions typical of remote sites, and the soil may not be homogeneous at these depths.
    
    The antenna efficiency is also influenced by the environment of the antenna, not only the ground beneath but also feature above like, for example, trees and other man-made structures.  Conducting cables that may supply power to the radiometer and conduct signals to receivers located some distance away might also influence the total efficiency.  In measurements of the reflection efficiency as a transmitting antenna, power transmitted by the antenna reflect and scatter off trees and structures in the environment and return to the antenna, as in a radar. Thus measurements of $\Gamma$ sample the environment out to several tens of metres and beyond.  Conversely, these environmental features will influence the receipt of cosmic radiation in reverse, which will also scatter off these objects and appear with spectral structure that is an imprint of the environment.  Thus is it essential to have a clear space above ground and clear homogeneous soil below, to the extent at which the influence reduces below the zero-mode signal strength.
@@ -160,23 +162,26 @@ The following subsections examine in detail the design considerations specific t
   \item
   Internal reflections of receiver and cosmic noise
   
+  Impedance discontinuities in the receiver path cause internal reflections of the system noise, which includes the cosmic noise component and also the receiver noise.  Reflections of wideband noise over a physical length $l$ result in interference that cause spectral structure with frequency scale $v/2l$, where v is the propagation speed of electromagnetic waves in the physical medium.  For example, internal reflection within a cable of length 2 metres between the antenna and low-noise amplifier, with velocity factor 0.7, will result in spectral ripples with period 52.5 MHz. These structures would be a modulation of the receiver gain, and hence calibrated out, if the calibration includes these sections in their entirety.  However, if the receiver calibration is internal, then reflections from the antenna terminal and also reflections of receiver noise from environment are omitted from the calibration.  Ideally, receiver gain calibration using celestial sources, such as the passage of the Galactic plane across the radiometer beam, would best calibrate the signal path.  In any case, it is desirable that the signal path have isolators that prevent backflow of signal path components to the antenna.  Improved isoltaion also comes from use of amplifiers in which the forward gain is substantially greater than the reverse isolation, so that the net loss on propagation back and forth is substantial.
   
-
-*** bandpass stability and gain calibration ***
-
-*** additive spurious and its component separation ***
-
-*** linearity ***
-
-\item
-
-*** number of bits in the sampler ***
-
-*** linearity ***
-
-*** spurious free dynamic range ***
-
-*** RFI headroom ***
+  \item 
+  Dynamic range
+  
+  The cosmic signal is expected to be of peak amplitude in the range a few tens to a few hundred mK, and the foreground is expected to between a few hundred to a few thousand Kelvin brightness temperature.  This requires a dynamic range of at least $10^4$, clean signal detection requires aiming for dynamic range of $10^5$.  Because the algorithms for components separation, which depend on orthogonality between the zero-mode 21-cm signal and other unwanted additives and foreground, are usually limited and the models for the unwanted components would subsume a significant part of the 21-cm signal; therefore, the design goal for the 21-cm radiometers is typically to achieve a spurious free spectrum of about 1 mK sensitivity, which is about $10^6$ below the dominant foreground.
+  
+  Thus the analog system components are nessessarily required to be chosen to have operating points wherein inter-modulation distortion products between signal components are 60~dB below the total spectral power.
+  
+  \item 
+  Analog to digital conversion
+ 
+ A key component in the signal processing in a zero-mode 21-cm radiometer is the conversion from continuous to discrete data.  Random and systematic errors in the representation of the analog signal leads to performance limitations.  An important design consideration is the number of bits in the analog to digital converter.  Larger effective number of bits is essential for greater spurious free dynamic range.  A design goal of $10^6$ for dynamic range requires 10 effective bits, which implies analog to digital converters of 12 bits or greater.  The quality in the transfer function of the converter is also required to be accurate so that the spurious free dynamic range is $10^6$.
+ 
+  \item 
+  Radio Frequency Interference (RFI)
+  
+  Radio frequency interference (RFI), if present at the observing site, would naturally require improved performance of the radiometer to avoid spurious spectral structure that might confuse the zero-mode signal.  In good sites, it is expected that the total power in RFI would be well below the total band power from cosmic noise.  This is facilitated by adopting small antenna designs that have low gain, low effective collecting area, so that the cosmic noise is received without compromise but response to RFI is reduced. 
+ 
+ Presence of radio frequency interference may drive the design to lower the power in the cosmic noise going to the analog to digital converter, so that the signal is not clipped in the sampling, which would lead to non-linear products spread across the band.  Lowering the power in the cosmic noise, to provide greater headroom for the RFI components when they might occur, reduces the effective number of bits operating on the cosmic noise, thus requiring greater performance of the analog to digital converter.
    
 \end{itemize}
 
