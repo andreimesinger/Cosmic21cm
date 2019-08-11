@@ -1,0 +1,400 @@
+%
+% Incomplete latex outline translated from three.docx.  That outline is official.
+%
+\chapter{Instrumentation for Zero-mode Signal Detection and Experiments}
+
+\begin{bf}
+\author{L. J. Greenhill (Center for Astrophysics), R. Subrahmanyan (Raman Research Institute)}  
+  
+Abstract\\
+Lorem Ipsum...
+\emph{19aug06 01:16EDT~~~Lincoln}
+
+\end{bf}
+
+
+\section{Introduction to zero-mode experiments--(LJG)}
+
+\begin{itemize}
+\item
+  names, locations, citations
+\item
+  very concise / statement of what above citations focus on
+\end{itemize}
+
+\textbf{Radiometer basics}
+
+Karl Jansky discovered in August 1931 that any sensor of the electromagnetic field placed in an open field will provide a sample of cosmic radio noise at its terminals, along with other local and terrestrial radio frequency interference.  Electrical engineers call electromagnetic sensors antennas, and the simplest form of a system that may detect the zero mode of the radio sky is a single element antenna placed in an open field and followed by a detector of the received power. Such a basic radio telescope is often referred to as a radiometer, and usually has an antenna element followed by a low-noise amplifier, filters that define the bandwidth, and a detector that provides a measure of the power receiver by the antenna.  Of course, the received power in an Earth-bound radiometer will have unwanted additives from terrestrial man-made interference, radio emission from the ground in the vicinity of the antenna, additive radio power from elements of the radiometer signal path, which are all detected along with the cosmic radio power and the accuracy in the detection of the sky radio emission will depend on the accuracy of the component separation and also the gain calibration that provides meaningful units to the received power in terms of the sky radio brightness.
+
+\begin(itemize}
+\item
+  The Electromagnetic sensor or antenna
+  
+  The sensor in any radiometer is in its simplest form usually a pair of conducting elements ending in a pair of terminals.  When placed above ground, and considered as a receiving antenna, the incident electromagnetic waves from the sky above as well as from the ground beneath induce currents in the pair of conducting elements, which result in a voltage across the terminals.  Across frequencies in the radio window there is a changing intensity in the sky brightness and also of the ground emission and hence the currents and voltage at the antenna terminals would have a spectral characteristic that represents the spectra of the incident fields and also the transfer function of the antenna.  The spatial arrangement of the conducting elements are usually purpose designed to tailor the transfer function and efficiency of the coupling to sky and also to make the coupling to ground inefficient. Considered as a radiator, voltages impressed upon the antenna terminals drive currents in the conducting elements, which result in the energy propagating away as electromagnetic waves.  Alternately, the antenna may be viewed as a transformer that attempts to provide a matching between the impedance of free space on one side to the impedance of the transmission line connected to the antenna terminals.
+  
+  A pair of quarter wavelength conducting elements adjecent to each other and in line forms what is commonly referred to as a dipole antenna; this is tuned to most efficiently transduce electromagnetic waves with wavelength twice the total length of the dipole.  Linear dipoles receive a single linear polarization mode oriented along the dipole.  Helical conducting elements of helical antennas efficiently transduce electromagnetic waves with wavelength the circumference of the helix, and these receive a single circular polarizaton mode.  Any antenna can indeed receive or radiate in only a single polarization mode, linear, circular or elliptic, represented by a point on the Poincare sphere.  Thus sensing of the total incident electromagnetic field, which may be decomposed into a pair or orthogonal polarization modes, would necessarily require a pair of radiometers with antennas designed to transduce orthogonal polarizations.  
+  
+  Linear dipoles and helical antennas are tuned to specific frequencies and are hence intrinsically narrow band sensors with performance degrading substantially away from the design frequency. CD/EoR signals are, however, wideband signals, requiring at lease an octave bandwidth sensor to capture spectral structure that is sufficiently complex relative to the relatively smoother foregrounds, so that appropriate signal processing algorithms may be able to separate the components mixed in at the antenna terminals.  Thus antenna design for CD/EoR arranges the conducting elements so that the antenna performs efficently and usefully over at least an octave band.  Dipole antenna elements are often made in 2D flat shapes and even 3D fat dipoles of shapes such as conical elements or more complex structures. Circularly polarized antenna elements are often planar spirals.  These design evolutions from simple linear dipoles and helices attempt to encompass a range of wavelengths within the structures thus widening the structural bandwidth and hence including a significant part of the total global CD/EoR spectrum in its terminal voltage signal.
+  
+  Arrangement of the conducting elements in a horizontal plane above ground, either as planar dipoles or planar spirals, even if the elements are fat, yields antenna designs that receive equally efficiently the radiation incident from the sky above and also from the ground below. The conductors are often designed to deviate from such symmetry, by drooping the arms of the dipole, or by extending the spiral structures into conical spirals, with a design goal of reducing efficiency to ground while enhancing that to the sky. Of course, in such antenna placed on or above real ground, the ground radiation is indeed incident on the elements along with the sky radiation and the preference is attained by by designing the element shapes to have a variation in distance to ground so that the net ground induced voltage at the antenna terminals is preferentially canceled and simultaneouly the sky induced signal is constructively enhanced. Such structural deformations enhance directivity of the antenna towards sky or, in other words, limit the field of view of the antenna to the sky.
+  
+  Sensitivity to ground emission may be substantially reduced by covering the earth beneath the antenna by a conducting plane.  Such a ground screen would then act as a reflector and hence the antenna would "see" the sky directly and also reflected on the ground screen.  Thus every sky point would have two paths to the antenna and the net response towards any sky direction would be the vector sum of the fields induced via the two paths.  Ground screens may be soldered or welded wire meshes, with mesh size a small fraction of the wavelengths of interest, so that the transparency of the ground screen and hence leakage of ground radiation through the ground screen would be small. If the antenna is of single linear polarization, it is sufficient for the ground screen to be made of wires with orientation along the antenna polarization as projected on the ground.  Ground screens can be large but usually of finite size, and then there may be additional paths between antenna and sky via scattering off the edges of the ground screen.  With the aim of randomizing this scattered component, the edges of the ground screen are often constructed to be serrated, with the dimensions of the serrations significant compared to the wavelengths of operation. 
+  
+  As aspect of antennas is that there is a space around that is referred to as the "near field" region, where the antenna stores reactive energy when viewed as a radiator, and beyond which the field is radiative "far field".
+  
+  Just as antennas are frequency selective, so also are antenna selective in their direction sensitivity.  I know of no practical antenna that is isotropic.  The relative sensitivity of an antenna across sky directions is referred to as the far-field antenna radiation pattern or beam pattern.  Any antenna is directional and is selective is receiving radiation. A quaterwave dipole antenna is insensitive to radiation incident along its length: after all, radiation incident along that direction would have fields orthogonal to the dipole arms and hence cannot possibly induce currents.  The quaterwave dipole antenna efficiently transduces signals in directions orthogonal to its orientation: quaterwave dipole antennas have toroidal beam patterns; dipole antennas are omni-directional. The larger an antenna is in its electrical size, the more directional is its response to sky radiation.  Antennas with electrical size exceeding unity would naturally have beam patterns that have a main lobe that defines a sky solid angle where sensitivity is maximum, and sidelobes of lower sensitivity.  Electrically small antennas would have a single main lobe without sidelobes.
+  
+  Antennas are usually passive systems, hence reciprocal, and may be viewed as radiators or sensors, transforming incident power to signal power at its terminals or transforming power fed at the terminals to free-space radiation.  The antenna as a transformer provides a transformed free-space impedance at its terminals, which is often referred to as antenna impedance. Viewed as a radiator, power fed to the antenna via a transmission line connected to the antenna terminals is only partly available for radiation, because depending on the impedance mis-match between the transmission line and the antenna a part of the power fed to the antenna is reflected back. Of the power available for radiation, a part of the power flows to sky via the main and side lobes of the radiation pattern, a part to ground via what might be considered to be back lobes and a part might be lost as ohmic loss that heats the antenna, if the conducting antenna elements are resistive.  Reflection Efficiency of the antenna defines the fractional power available, and Radiation Efficiency defines what fraction of the available power is radiated into free space.  The antenna views the sky multiplied by the radiation pattern; the weighted average brightness of the sky, with a weighting defined by the radiation pattern, is the sky noise temperature in so far as the antenna is concerned. The radiation efficiency times this temperature is the sky noise temperature component at the antenna terminals, and the reflection efficiency times that terminal noise temperature is the sky noise power propagating down the transmission line.  
+  
+  In the context of radiation efficiency, it may also be noted here that if the antenna elements are resistive and there is loss of cosmic signal as ohmic loss in the antenna, not only is there a loss of desired signal but the resistive elements also add their own thermal radio noise to the sky signal. 
+  
+\item
+  Analog Signal Processor or Receiver
+  
+  A radio astronomy antenna receiving incident sky radiation provides a voltage waveform at its terminals that is a selective sampling of the electromagnetic field incident at the location of the antenna.  The field arises from a multitude of independent atomic processes or radiation mechanisms in the sky and on the ground.  The electric field is not a constant in time, it is time varying, the field is a random variable with zero mean, Central Limit theorem argues for the field having a normal (Gaussian) probability distribution. Man-made radio communication and collateral damage to the radio frequency environment from inadequate shielding of electrical and electronic equipment most often result in non-Gaussian signals; however, sensitive radio astronomy receivers are usually deployed in extremely radio quiet sites where the total radio power at the antenna terminals from such unwanted components is sub-dominant to the total radio power received from the celestial sphere.
+  
+  The fluctuating electric field results in fluctuating currents in the antenna elements and hence a fluctuating voltage at its terminals, which propagates down the transmission line connected to the antenna. The voltage in the transmission line, due to cosmic radio noise power, is extremely small and hence needs to be amplified before any detector or sampler may make a useful measurement of the spectral power.  Any analog amplifier inevitably adds its own noise to the incoming signal, apart from amplifying the signal.  The degradation in the signal to noise, due to this additional noise originating in amplifiers, will obviously be less if the signal levels are larger.  Therefore, most of the degradation in signal to noise occurs in the first amplifier encountered by the cosmic signal, and it is desirable that this first amplifier in the signal path be a low-noise amplifier: an amplifier specially designed to add less noise.  
+  
+   Just as resistive elements in the antenna add their own thermal noise to the signal, so also do all resistive elements that appear in the signal path in the receiver chain add their thermal noise contribution to the signal, thus degrading the signal to noise.  The equivalent noise temperature of the signal progressively increases down the signal path with amplification and the equivalent noise temperature of the thermal noise added by resistive attenuations is a fraction of its physical temperature; therefore, the degradation in signal to noise is of less significance as the signal is amplified.  
+   
+   In the analog receiver chain the cosmic signal, which is essentially a voltage of Gaussian random noise form, is amplified.  The amplification most often is done in stages.  The total gain is selected so that the amplitude at the end of the chain is sufficient for the analog to digital converter that samples the signal. If the equivalent noise temperature of the cosmic noise at the terminals of the antenna is less than the equivalent noise added by the first stage low-noise amlifier, then the signal to noise in the voltage waveform in the signal path will be less than unity.  In this case the power in the voltage waveform as it arrives at the end of the amplification stages will be dominated by noise power added within the receiver.  Advances in technology and developments towards making low-noise amplifiers that add lower and lower equivalent noise aim towards ensuring that in radiometers the cosmic radio noise dominates at all stages within the signal path.
+   
+   It may be also noted here that amplifier noise as also the thermal noise from attenuations in the signal path propagate downstream and also upstream.  The noise wave components propagating in the two directions are partially correlated.  These components, as also the cosmic noise, are partially reflected and partially transmitted at every impedance discontinuity they encounter.  The design of analog receiver chains attempts to minimize impedance discontinuities and to attenuate or cancel any signals that suffer back reflection and provide isolation and prevent back propagation. Attenuators are passive and reciprocal and provide equal attenuation to signals propagating both ways.  Amplifiers provide voltage gain for signals propagating in the forward direction; for signals arriving at their outputs, they provide a gain loss or reverse isolation and a diminished version of the voltage waveforms at the amplifier output appear at the input and propagating in the reverse direction.  Amplifier reverse isolation are almost always greater than the forward gain, so that any reverse propagating signal always suffers a net loss on going across the amplifier backwards and forwards again.  Any chain of amplifiers and attenuators in a radiometer will have multipath propagation of the input cosmic noise and noise added in amplifier and attenuator devices between their source and the final output of the receiver chain.  Vector addition of wideband coherent signal components that arrive at the output of the receiver chain, with multipath propagation within the chain, will result in net voltages that vary with frequency since the path differences between adding components would cause different frequency components to suffer different phase shifts.
+   
+   An important function of the analog receiver, apart from voltage amplification, is to limit the band. There is inevitably a limiting of the band by the antenna, which usually has a design frequency, and is optimized in structure and in matching of its impedance to free space and to the connecting transmission line over a bandwidth.  Amplifiers are also designed to have voltage gain over a certain bandwidth, and their gains fall off on either side thus limiting the band in the signal path.  Apart from these, radiometers usually have filters in their analog signal paths. Most spectral radiometers have digital spectrometers to measure the spectrum of the cosmic noise, and digital spectrometers act on digital signals, hence requiring an analog to digital converter.  Digital signals are a sequence of samples, and for sampling without loss of information it is essential that the samples are at Nyquist rate, which is twice the maximum frequency present in the signal presented to the sampler. This requires that the analog signal is band limited and that signal components beyond the upper limit of the low-pass or band-pass filter and adequately rejected, depending on the science requirement. This is done by the analog filters.  The cosmic noise is often also high-pass filtered, so that the total band is defined in a bandpass for the science.  The signals may be band limited by bandpass filters.  Filter designs are usually either of Butterworth approximations, which have a maximally flat pass band shape, or of Chebyshev type, which provide sharper transitions from pass band to stop band by allowing for ripples in the pass or stop bands, or of Elliptic function aproximations that allow for ripples in the pass and stop bands and provide the performance meeting a design goal of pass band ripple and stop band rejection with an approximation of lowest order.  Often a combination of filters is used - one to provide excellent rejection in the stop band but with relatively slower rolloff in response, and others with sharp transitions at the design edges of the pass band.  
+   
+  \item
+  Digital Spectrometer
+  
+  Digital signal processing has replaced analog filter banks and analog signal processing methods in most spectral radiometers. 
+  
+  Digital signal processing requires that the continuous or analog signal voltage waveform be converted into a digital signal, which is essentially a stream of numbers.  The analog signal is sampled at a sampling rate, and converted to numbers in a quantizer.  Improving technology provides devices with higher sampling rates and with ability to represent the samples with greater precision using larger word lengths.  Often there is a trade off in that the fastest samplers available are those with fewer bits representing the samples.  In other words, devices with the highest sampling rates have greater quantization errors. 
+  
+  Quantization with finite word length results in a non-linear distortion of the signal and hence a limit to the dynamic range of the measured spectrum.  Additionally, quantization results in addition of what is called quantization noise with amplitude depending on the magnitude of the least significant bit.  Analog to digital converters with larger numbers of bits are always preferred when higher dynamic range is required; in particular, when cosmic noise is sampled along with man-made radio frequency interference that is almost always non-Gaussian.  However, quantisers also suffer from subtle errors arising from inaccuracies in its transfer function; therefore, simply having larger word lengths is not sufficient, limitations also come from inaccuracies in the representation.
+  
+  The analog band is usually sampled at the Nyquist rate, which is twice the analog bandwidth.  Higher sampling rates are sometimes adopted, referred to as oversampling, in an attempt to improve dynamic range. To some extent, oversampling compensates for finite word length in representation of sampled data.
+  
+  Digital spectrometers in spectral radiometers are implemented following essentially two possible paths.  The power spectrum of a signal may be computed by first Fourier transforming the time sequence and then squaring the complex coefficiencts of the discrete Fourier transform.  Alternately, an auto-correlation of the time sequence may be computed for a range of time delays and then the discrete auto-correlation estimates may be Fourier transformed to get the power spectrum. The first method is often called the FX approach and the second is called the XF approach. 
+  
+  In the FX approach, the length of time sequence that is discrete Fourier transformed decides the spacing between Fourier components in the tranform domain.  If we assume that the analog signal has bandwidth $B$, and is sampled at Nyquist rate $2B$, and that blocks of $N$ samples are discrete Fourier transformed, then in the transform domain there will be $N/2$ samples of the spectrum over the band with a spacing $2B/N$.  Similarly, in the XF approach, if $N$ samples of the auto-correlation function are evaluated and these are discrete Fourier transformed, once again there will be $N/2$ samples of the spectrum over the band with a spacing $2B/N$.
+  
+  Let the total length of the time-domain sequence be $T$, where $T = N/(2B)$.  If all of the $N$ time domain measurements are used with equal or uniform weights, then in the transform domain the point spread function that defines the resolution in the spectrum is defined as the discrete Fourier transform of a rectangular function with time-domain extent $T$.  This point spread function has a main lobe with width twice the channel spacing.  Additionally, since the transforms of rectangular functions have large sidelobes, there will be significant leakage of spectral power across spectral channels. Windowing or multiplying the time domain by an appropriate window function or, in other words, apodising the time domain sequence, is a method of reducing the sidelobes of the frequency-domian point spread function.  However, this results in a widening of the main lobe and hence the spectral resolution.  
+  
+  In FX type digital spectrometers that employ windowed discrete Fourier transforms for channellisation, the design usually provides for significant overlap between successive time segments so that the sensitivity loss due to windowing is compensated.  Loss in spectral resolution due to windowing is compensated by corresponding increase in the length of the time sequence processed in each transform.  Another method that is being adopted in digital spectrometers is adoption of what is called poly-phase filter banks; this is an algorithm that processes longer time sequences in its internal memory to obtain point spread functions with low sidelobes.
+  
+  Most FX digital spectrometers, which were a few decades ago implemented using discrete high-speed digital integrated circuits, are implemented today in Field programmable gate arrays, or FPGAs.  The algorithms are now implemented in FPGAs as firmware, which allows for reconfiguration.  With recent substantial increase in processing speeds of graphics processing units, or GPUs, there are implementations in which radio astronomy signals are routed into GPUs for digital signal processing and channellisation.  Often the processing is today split between an FPGA followed by GPUs, with divisions optimized for processing accuracy and power consumption.  
+  
+  At the highest bandwidths that are beyond the sampling speeds of available analog to digital converters, signal processing for channellisation is even today done in analog domain.  Filter banks may be implemented as an array of analog filters.  Alternately the discrete auto-correlation function may be computed in real time over a range of time lags using a delay line with multiple taps and the correlations computed in Gilbert cell multipliers followed by analog power measurement.  In such an implementation, as in the case of the XF spectrometer, the discrete Fourier transform is usually computed offline in a general purpose machine.
+
+\end{itemize}
+
+\textbf{Design considerations for special purpose radiometers for CD/EoR}
+
+Following cosmological recombination of the primeval plasma, the primordial gas is almost completely neutral and a significant fraction is hydrogen.  Hydrogen has a hyperfine spin flip transition with rest frequency 1420.4 MHz and rest wavelength 21.106 cm.  The ratio of populations in the upper triplet state and lower siglet state of this transition is described by the hydrogen spin temperature.  The cosmic microwave background (CMB) streams freely through the gas following recombination because the free electron density is extremely small; thus we observe the CMB as it propagates to us through the neutral gas.   If the spin temperature of the neutral hydrogen at any redshift exceeds the CMB temperature at that redshift, then the 21-cm emission from the gas adds to the CMB and will be observed at the present epoch at the corresponding redshifted frequency to have a positive distortion.  On the other hand, if the spin temperature of the neutral hydrogen at any redshift is lower than the CMB temperature at that redshift, then 21-cm absorption by the gas decrements the CMB and will be observed at the present epoch at the corresponding redshifted frequency to have a negative distortion.
+
+The Dark Ages signal in redshifted 21-cm zero-mode in standard cosmology is well defined by the cosmological parameters and the matter power spectrum to be a broad absoption feature between about redshift of 30 to 300, corresponding to observing frequencies of about 5 to 45 MHz. This absorption is expected to be at peak about 40 mK.  Cosmic Dawn and the light from the first stars competes in coupling the spin temperature to the cold gas kinetic temperature and also in heating the kinetic temperature to be raised above the ambient CMB temperature.  The uncertain thermal history at Cosmic Dawn leads to a family of possible 21-cm distortion signals: efficient coupling to cold gas might result in absorption as deep as a few hundred mK, and efficient heating might result in a positive CMB distortion of magnitude at most about 30 mK.  The 21-cm CMB distortions would almost certainly be absent at redshifts below 6, corresponding to observing frequencies above 200 MHz, since the intergalactic gas is almost certainly reionized by that epoch.  
+
+Thus a radiometer for detecting interesting physics during the formation of the first stars might have a focus on redshifted 21-cm during Cosmic Dawn and subsequent Epoch of Reionization that result in CMB distortions over the observing frequency band of 40 to 200 MHz, which are relatively uncertain.  Having said that, the 21-cm absorption of the CMB during the Dark Ages is also a signal worth pursuing, at least to confirm the standard models and rule out several exotic physics that might cause the thermal evolution to deviate from standard expectations. 
+
+Detection of the 21-cm zero-mode CMB distortions from Dark Ages, Cosmic Dawn and Reionization requires a radiometer that ideally coveres the entire band of 5 to 200 MHz with a single sensor and associated radiometer receiver.  A single wide-band spectral observation of the all-sky averaged cosmic radio noise, calibrated for the transfer function of the antenna and receiver electronics, would provide the best separation between foregrounds and any cosmological 21-cm signal.  As the radiometer band is reduced, it becomes increasingly difficult to separate between foregrounds and at least the 21-cm signal predictions from standard cosmology that does not admit exotic physics.  The confusion results in reduced sensitivity to the 21-cm signals; therefore, radiometers with reduced bandwidths would require observing the sky spectrum with lower measurement noise and hence their associated calibration tolerance is also correspondingly tighter.
+
+The following subsections examine in detail the design considerations specific to the various components of the radiometer.
+
+\begin{itemize}
+
+\item
+  Antenna design for detection of the zero-mode CD/EoR signal
+  
+   This collecting area in radio telescopes is often increased by arraying sensor elements and combining their terminal voltages in phase, or by using shaped reflectors to concentrate the incident field in a small area where the sensor elements might be placed to transduce the coherently integrated cosmic noise into a voltage waveform.  The antenna beam has a main lobe whose solid angle is inversely proportional to the effective collecting area and increasing the area in an attempt to enhance faint cosmic noise reduces the main lobe solid angle.  This strategy that is appropriately adopted for 
+  
+  ****collecting area is unimportant****
+
+\end{itemize}
+
+\textbf{Architectures for zero-mode signal detection (RS)}
+
+\begin{itemize}
+%\tightlist
+\item
+  Single EM sensor
+  
+  
+  
+\item
+  Outriggers to Fourier synthesis telescopes
+\item
+  Interferometer methods
+\item
+  Moon block
+\end{itemize}
+
+\textbf{Signal path primer (RS)}
+
+antenna geometries
+
+basics
+
+\begin{itemize}
+%\tightlist
+\item
+  dimensions
+\item
+  feed points
+\item
+  ground screens
+\item
+  gain patterns
+\end{itemize}
+
+broadband dipoles
+
+\begin{itemize}
+%\tightlist
+\item
+  rule of thumb - octave limitation
+\end{itemize}
+
+other forms (as in SARAS)
+
+switched receiver
+
+switching to defeat 1/f noise
+
+basics
+
+\begin{itemize}
+%\tightlist
+\item
+  gain
+\item
+  isolation
+\item
+  linearity
+\item
+  bandpass and out of band effects
+\item
+  additive noise at output
+\item
+  radiated noise at input
+\item
+  impedance match
+\item
+  temperature sensitivity
+\end{itemize}
+
+signal transport and supply of power
+
+\begin{itemize}
+%\tightlist
+\item
+  digitization away from antennas
+\item
+  buried coax and fiber cables
+\item
+  potential cable interactions with antennas
+\item
+  shielding by ground screens and soil conductivity
+\end{itemize}
+
+analog-digital converters
+
+\begin{itemize}
+%\tightlist
+\item
+  ????
+\end{itemize}
+
+spectrometers and correlators
+
+\begin{itemize}
+%\tightlist
+\item
+  ????
+\end{itemize}
+
+\textbf{Common design drivers (RS)}
+
+frequency structure
+
+gain pattern{~}
+
+\begin{itemize}
+%\tightlist
+\item
+  low gain is OK; the sky is bright
+\item
+  shape
+\item
+  variation with frequency
+\end{itemize}
+
+ground screens.{~ }???
+
+\begin{itemize}
+%\tightlist
+\item
+  basic and shaped
+\item
+  effects of ground permittivity and conductivity
+\end{itemize}
+
+impedance mismatches
+
+\begin{itemize}
+%\tightlist
+\item
+  at antenna terminals
+\item
+  along the receiver signal path -- multipath propagation to the
+  detector
+\item
+  Isolation{~}
+\item
+  filters
+\item
+  differentials among signal paths
+\end{itemize}
+
+long and short paths
+
+1/f ``noise''
+
+noise characteristics
+
+\textbf{Calibration approaches{~ }(LJG)}
+
+Bandpass calibration
+
+Calibration of additives
+
+some sub-units can be cal'd in the lab, others only in the field.
+
+Ideal goal: flat spectral baseline to 1:10\textsuperscript{6}{~}
+
+Compromise to admit spectral baselines that are at least partially
+orthogonal to 21-cm signals
+
+Switching
+
+\begin{itemize}
+%\tightlist
+\item
+  Dicke switching
+\item
+  ways in which to separate what is up and downstream from frontend
+  switch
+\item
+  inbuilt noise and calibration sources
+\end{itemize}
+
+correlation spectrometers -- phase switching
+
+when all else fails, fit a model to the spectral baseline
+
+\begin{itemize}
+%\tightlist
+\item
+  physically motivated
+\item
+  empirical
+\item
+  dangers
+\end{itemize}
+
+\textbf{Experimental Challenges (RS)}
+
+Foregrounds
+
+\begin{itemize}
+%\tightlist
+\item
+  origins and characteristics
+\item
+  discrimination btw. 21cm and foreground signals
+\end{itemize}
+
+RFI
+
+Antenna
+
+Reflection efficiency
+
+Radiation efficiency
+
+interaction with ground
+
+accurate calibration
+
+\begin{itemize}
+%\tightlist
+\item
+  gain pattern
+\item
+  sensitivity{~}
+\end{itemize}
+
+receiver
+
+\begin{itemize}
+%\tightlist
+\item
+  self-noise (noise parameters)
+\item
+  reflections
+\item
+  isolation
+\item
+  linearity
+\item
+  temperature stability
+\end{itemize}
+
+performance trade-offs, pros/cons
+
+\begin{itemize}
+%\tightlist
+\item
+  electrically small antennas
+\item
+  antenna geometry and simulation
+\item
+  \emph{etc.}
+\end{itemize}
+
+\emph{}\\
+
+\textbf{LEDA, SARAS, and EDGES (LJG)}
+
+\begin{itemize}
+%\tightlist
+\item
+  discussion of design considerations emphasized in each project
+\item
+  status
+\end{itemize}
+
+\begin{itemize}
+%\tightlist
+\item
+  \textbf{First detection? EDGES. (LJG)}
+\end{itemize}
+
+\textbf{}\\
+
+\textbf{Outlook (LJG)}
+
+\begin{itemize}
+%\tightlist
+\item
+  Testing the claim
+\item
+  Is there more to do after the first detection with reasonable S/N?
+\end{itemize}
+
+%=============================================
+
+\bibliographystyle{plain}
+\bibliography{Greenhill_Subrahmanyan/References}
+
+%=============================================
+
