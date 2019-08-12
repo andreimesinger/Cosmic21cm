@@ -1,3 +1,33 @@
+\documentclass[a4paper,openany, 12pt]{book}
+\include{defns_journals}
+
+
+
+\usepackage[text={15.5cm,23cm},centering]{geometry}
+
+\usepackage{mathptmx}
+\usepackage{graphicx}
+\usepackage{chapterbib} %remember to bibtex each chapter before final compilation
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{amsmath}
+%%%%%%%%%
+% ALERT - the following two commented lines stymie LJG's Mac Latex installation.
+%%%%%%%%% They are however required parts of the base ms.tex 
+%%%%%%%%%
+
+%\urlstyle{same}
+%\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
+
+\usepackage[english]{babel}  %For Vibor's institution characters
+
+\newcommand{\chapterauthor}[1]{\textsc{#1}\section*{}}  % Only needed for edited/contributed books
+
+%defines some roman math characters
+\newcommand{\rmd}{\ensuremath{\mathrm{d}}}
+\newcommand{\rme}{\ensuremath{\mathrm{e}}}
+\newcommand{\rmi}{\ensuremath{\mathrm{i}}}
+
 %
 % Incomplete latex outline translated from three.docx.  That outline is official.
 %
