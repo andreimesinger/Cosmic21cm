@@ -214,61 +214,40 @@ Radio Frequency Interference (RFI)
 
 A significant part of the radio spectrum in which the zero-mode 21-cm signal is expected is allocated to terrestrial and space communications and transmitters at these wavelengths exist in most parts of the populated world.  Radio quiet remote sites exist on Earth; however, transmissions do propagate across the world in normal as well as anomalous episodic modes and these have the potential to corrupt even data acquired in radio quiet sites and result in weak artefacts, which may be erroneously attributed to zero-mode 21-cm.  
 
+RFI is expected to be present even in Earth orbit and even at Earth Moon distances.  Avoidance of terrestrial RFI may be best achieved by locating the radiometers for zero-mode 21-cm on the far side of the Moon, either in orbit or on the surface.
+
 \item
 Antenna design challenge
+
+A critical component of zero-mode 21-cm radiometers is the antenna, which requires extremely careful design and development. Most available electromagnetic simulation packages are incapable of providing solutions with the precision necessary to qualify the antenna element; hence the design path necessarily requires iterations to achieve the exacting performance tolerances.  There are no standard antennas in the communications engineering world that may be directly adopted for this science goal; detection of the zero-mode 21-cm requires purpose design.  
+
+For antennas located on ground, modeling the soil to the depths needed to achieve accuracy in solutions, which may be validated via measurements of the antenna beam patterns and reflection efficiencies, is an engineering challenge, particularly since several metres of soil beneath the antenna could have significant influence on the performance.  In the case of antennas covered with ground screens, effects of finite screen, scattering at the edges of the screen,  effect of ground beyond the screen, effect of propagation through the screen and through slot gaps between screen segments are all issues that limit usefullness of the modeling.
+
+For antennas in space, where the ground is avoided, the antenna model needs to be inclusive of the satellite bus structure and all its conductive and dielectric materials.
+
+Since mode-coupling may be a fundamental limitation to detection, because correcting measurement data for mode coupling requires accurate knowledge of the frequency dependent foregrounds and also a frequency dependent beam pattern, designing the antenna to be frequency-independent is essential.  It is then necessary to be able to calibrate for the total efficiency, which includes reflection and radiation efficiences, and calibrate for additives from resistive losses in antenna elements.
 
 \item 
 Receiver design challenge
 
+The receiver modifies the cosmic radio spectrum in its bandpass, and adds receiver noise; these require bandpass calibration and correction of the measurement data for additives.  Most receiver designs adopt methods for cancellation of additives, via switching schemes.  However, there may be additives that suffer multi-path propagation that includes reflection off the antenna impedance, which may not be canceled.  In such cases, receiver designs often incorporate isolators and also minimize physical lengths of multi-path propagation, so that the unsubtracted additives are restricted to be of low order and hence largely orthogonal to the 21-cm signals.
+
 \end{itemize}
 
-RFI
-
-Antenna
-
-Reflection efficiency
-
-Radiation efficiency
-
-interaction with ground
-
-accurate calibration
+\textbf{Architectures for zero-mode signal detection}
 
 \begin{itemize}
 %\tightlist
 \item
-  gain pattern
+  Single EM sensor
 \item
-  sensitivity{~}
+  Outriggers to Fourier synthesis telescopes
+\item
+  Interferometer methods
+\item
+  Moon block
 \end{itemize}
 
-receiver
-
-\begin{itemize}
-%\tightlist
-\item
-  self-noise (noise parameters)
-\item
-  reflections
-\item
-  isolation
-\item
-  linearity
-\item
-  temperature stability
-\end{itemize}
-
-performance trade-offs, pros/cons
-
-\begin{itemize}
-%\tightlist
-\item
-  electrically small antennas
-\item
-  antenna geometry and simulation
-\item
-  \emph{etc.}
-\end{itemize}
 
 \textbf{Calibration approaches{~ }(LJG)}
 
@@ -310,20 +289,6 @@ when all else fails, fit a model to the spectral baseline
   empirical
 \item
   dangers
-\end{itemize}
-
-\textbf{Architectures for zero-mode signal detection (RS)}
-
-\begin{itemize}
-%\tightlist
-\item
-  Single EM sensor
-\item
-  Outriggers to Fourier synthesis telescopes
-\item
-  Interferometer methods
-\item
-  Moon block
 \end{itemize}
 
 \emph{}\\
