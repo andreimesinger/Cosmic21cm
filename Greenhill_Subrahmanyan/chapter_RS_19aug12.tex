@@ -144,7 +144,7 @@ The following subsections examine in detail the design considerations specific t
    
    A design goal for zero-mode 21 cm is an antenna that has high reflection efficiency over the full observing band.  However, since the foreground Galactic sky has a brightness temperature that is significantly greater than the noise temperatures of modern low noise amplifiers operating in the 10-200 MHz band, it is sufficient that the total efficiency of the antenna provide an antenna temperature that well exceeds the receiver noise.  In that case, the system temperature and hence the measurement noise for any integration time would be independent of the receiver noise and improving the total efficiency would not improve detection sensitivity or reduce the required observing time.
    
-   What is probably of greater importance is that the reflection efficiency be a smooth function of low order so that the product of the relatively bright foreground sky with the reflection efficiency, to give the dominant unwanted component of the observed spectrum, does not confuse the desired zero-mode 21 cm signal, and is separable from the 21-cm signal.
+   What is probably of greater importance is that the reflection efficiency be a smooth function of low order so that the product of the relatively bright foreground sky with the reflection efficiency, to give the dominant unwanted component of the observed spectrum, does not confuse the desired zero-mode 21 cm signal, and is separable from the 21-cm signal.  If the antenna structure is electrically long, as would be the case, for example, in frequency independent spiral antennas with large structural bandwidth, the reflection efficiency would have fine structure in frequency.  Therefore, from the viewpoint of designing the antenna element to have reflection efficiency that is exclusively of low order, it is advantageous to have electrically small antennas.
    
    If the antenna does not have resistive elements, and the radiation efficiency is unity, then a measurement of the antenna reflection efficiency $\Gamma$ would be a useful method for correcting the data for antenna efficiency and translating the measured spectrum to a sky spectrum. In this case, it is desirable and useful to provide a switch at the antenna terminals, which might allow a 1-port network analyser to access the antenna terminals and make an accurate measurement of $\Gamma$.  This is best done at the observing site, where the antenna environment is the same as for the zero-mode observing.  Deriving the reflection efficiency and total eficiency requires also a measurement of $\Gamma$ for the low-noise amplifier, but that may be done in the laboratory provided that the amplifier temperature and operating conditions are the same.
    
@@ -185,60 +185,39 @@ The following subsections examine in detail the design considerations specific t
    
 \end{itemize}
 
-\textbf{Calibration approaches{~ }(LJG)}
-
-Bandpass calibration
-
-Calibration of additives
-
-some sub-units can be cal'd in the lab, others only in the field.
-
-Ideal goal: flat spectral baseline to 1:10\textsuperscript{6}{~}
-
-Compromise to admit spectral baselines that are at least partially
-orthogonal to 21-cm signals
-
-Switching
-
-\begin{itemize}
-%\tightlist
-\item
-  Dicke switching
-\item
-  ways in which to separate what is up and downstream from frontend
-  switch
-\item
-  inbuilt noise and calibration sources
-\end{itemize}
-
-correlation spectrometers -- phase switching
-
-when all else fails, fit a model to the spectral baseline
-
-\begin{itemize}
-%\tightlist
-\item
-  physically motivated
-\item
-  empirical
-\item
-  dangers
-\end{itemize}
-
-\textbf{Experimental Challenges (RS)}
+\textbf{Experimental Challenges}
 
 CMB anisotropy and its spectrum has been measured with incredible precision; both measurements have been sufficient to explore theoretical models for the power spectrum and distortions with fractional accuracy comparable to or even exceeding that required for detection of the zero-mode 21-cm signal. 
 
-The key difference is that the wavelengths at which zero-mode 21-cm spectral distortions are expected are orders of magnitude larger, metres instead of millimeters.  Scaling of physical sensors by factor 1000 is impractical.  The COBE-FIRAS sensor was 2 metres long and scaling this to the redshifted 21-cm window would require a 200 metre long sensor.  Therefore the 
-
-Foregrounds
+The key difference is that the wavelengths at which zero-mode 21-cm spectral distortions are expected are orders of magnitude larger, metres instead of millimeters.  Scaling of physical sensors by factor 1000 is impractical: the COBE-FIRAS sensor was 2 metres long and scaling this to the redshifted 21-cm window would require a 200 metre long sensor.  The new sensor designs required for radiometers at the longer wavelengths has also required new methods of calibration.  Additionally, at the significantly longer wavelength, the radio sky is qualitatively different and that poses new challenges.  We discuss these aspects below.
 
 \begin{itemize}
-%\tightlist
+
 \item
-  origins and characteristics
+Foregrounds
+
+At millimeter wavelengths where the CMB peaks the sky is dominated by the CMB and the Galactic emission as well as extragalactic background is sub-dominant. Thus, in the case of mm-wavelength CMB spectral distortions, the dominant foreground spectrum is the CMB itself and the attempt is to detect distortions from Planck form in this dominant sky emission.
+
+However, at metre wavelengths the Galaxy dominates the radio sky.  The Galactic plane is the most prominent feature and structures like loops and spurs form the dominant structures.  The sky brightness owing to extragalactic sources also completely dominates the CMB. Therefore, in the attempt to detect zero-mode 21-cm distortions, the dominant foreground is the Galactic and extragalactic sources, whose spectral form and intensity is only known with precision of 1-10\% in the redshifted 21-cm band.   To detect distortions that are expected to be a fraction $10^{-5}$ of the foreground, when the foreground is only known with precision $10^{-2}$ or worse, appears to be an impossible task!  Moreover, the foreground varies across the sky.
+
 \item
-  discrimination btw. 21cm and foreground signals
+Ionosphere
+
+The ionosphere has a time varying electron density and may be characterized by a time varying total electron content (TEC) along any line of sight.  The ionosphere modifies the cosmic radio spectrum as seen from Earth in several ways. The ionosphere refracts rays, bending rays so that sky sources appear at higher elevations.  The ionosphere partially absorbs the cosmic radio signal and also adds an ionospheric emission component to the sky spectrum. These effects of the ionosphere are strongly wavelength dependent and predominantly modifies the relatively longer wavelength radiation.  
+
+The TEC is measured and monitored with limited accuracy; however, the accuracy is inadequate for attempting a time-varying correction of measured sky spectra.  TEC data is primarily of use in deciding the relative severity and rough magnitude with which data might be modified by the prevailing ionosphere.  
+
+The analysis of mesurements from spectral radiometers must, therefore include models for ionosphere effects, whose parameters would require marginalisation while solving for the zero-mode 21-cm signal.  Space missions that operate beyond the ionosphere avoid this problem.
+
+\item
+Radio Frequency Interference (RFI)
+
+\item
+Antenna design challenge
+
+\item 
+Receiver design challenge
+
 \end{itemize}
 
 RFI
@@ -287,6 +266,48 @@ performance trade-offs, pros/cons
   antenna geometry and simulation
 \item
   \emph{etc.}
+\end{itemize}
+
+\textbf{Calibration approaches{~ }(LJG)}
+
+Bandpass calibration
+
+Calibration of additives
+
+some sub-units can be cal'd in the lab, others only in the field.
+
+Ideal goal: flat spectral baseline to 1:10\textsuperscript{6}{~}
+
+discrimination btw. 21cm and foreground signals
+
+Compromise to admit spectral baselines that are at least partially
+orthogonal to 21-cm signals
+
+Switching
+
+\begin{itemize}
+%\tightlist
+\item
+  Dicke switching
+\item
+  ways in which to separate what is up and downstream from frontend
+  switch
+\item
+  inbuilt noise and calibration sources
+\end{itemize}
+
+correlation spectrometers -- phase switching
+
+when all else fails, fit a model to the spectral baseline
+
+\begin{itemize}
+%\tightlist
+\item
+  physically motivated
+\item
+  empirical
+\item
+  dangers
 \end{itemize}
 
 \textbf{Architectures for zero-mode signal detection (RS)}
