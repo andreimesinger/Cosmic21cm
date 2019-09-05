@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{ali15}
 Z.~S. {Ali}, A.~R. {Parsons}, H.~{Zheng}, J.~C. {Pober}, A.~{Liu}, J.~E.
@@ -296,6 +296,13 @@ H.~T. {Intema}, S.~{van der Tol}, W.~D. {Cotton}, A.~S. {Cohen}, I.~M. {van
   observations using the peeling scheme. I. Method description and first
   results}.
 \newblock {\em \aap}, 501:1185--1205, July 2009.
+
+\bibitem{jacobs11}
+D.~C. {Jacobs}, J.~E. {Aguirre}, A.~R. {Parsons}, J.~C. {Pober}, R.~F.
+  {Bradley}, C.~L. {Carilli}, N.~E. {Gugliucci}, J.~R. {Manley}, C.~{van der
+  Merwe}, D.~F. {Moore}, and C.~R. {Parashare}.
+\newblock {New 145 MHz Source Measurements by PAPER in the Southern Sky}.
+\newblock {\em \apjl}, 734:L34, June 2011.
 
 \bibitem{jacobs17}
 D.~C. {Jacobs}, J.~{Burba}, J.~D. {Bowman}, A.~R. {Neben}, B.~{Stinnett},
