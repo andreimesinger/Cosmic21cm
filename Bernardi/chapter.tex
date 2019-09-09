@@ -10,26 +10,18 @@ This chapter aims to provide a review of the basics of 21~cm interferometric obs
 \end{bf}
 
 
-%\section{Chapter layout}
-%\begin{itemize}
-%\item review of basics of interferometry: van-Citter-Zernike theorem, $uv$-coverage, image formation;
-%\item from visibilities to power spectra (in particular the delay transform approach - some overlap with Trott's chapter);
-%\item interferometric calibration: impact on foreground subtraction, calibration errors redundant calibration;
-%\item array design: power spectrum vs imaging, minimmum vs maximum redundancy - some overlap with Trott's chapter?;
-%\item impact of calibration errors on power spectra;
-%\item ionospheric impact/calibration;
-%\item 21-cm image tomography;  
-%\end{itemize}
+
+
 
 \section{Interferometry overview}
 
 \begin{figure}[]
 \begin{center}
-\includegraphics[width=1.\textwidth]{Bernardi/2_element_interferometer_1}
+\includegraphics[width=1.\textwidth]{Bernardi/2_element_interferometer_2}
 %\includegraphics[trim = 0.2cm 0.6cm 0.2cm 0.2cm, scale = 1.0]{Greig/GlobalSignal}
 \end{center}
 %\caption{A standard schematic of the two element interferometer\footnote{Credit: http://inspirehep.net}.}
-\caption{A standard schematic of the two element interferometer (adapted from http://inspirehep.net).}
+\caption{A standard schematic of the two element interferometer.}
 \label{fig:fig1}
 \end{figure}
 
@@ -39,21 +31,21 @@ V_{ij} ({\bf b}, \nu) = \int_\Omega {\bar I} (\hat{\bf \sigma}, \nu) \, e^{-2 \p
 \label{eq:1}
 \end{equation}
 where ${\bf b}$ is the baseline vector that separates antenna~$i$ and antenna~$j$, $\nu$ is the observing frequency, $\hat{\sigma}$ is the observing direction (see Figure~\ref{fig:fig1}), $c$ the speed of light and the integral is taken over the source size $\Omega$. 
-%The baseline vector is here specified in wavelengths, i.e. ${\bf b} = \frac{{\bf b_{\rm m}}}{\lambda}$, where ${\bf b_{\rm m}}$ is the baseline vector expressed in meters and $\lambda$ is the observing wavelength. 
 It can be seen in Figure~\ref{fig:fig1} that the celestial signal travels an extra path between the two antennas, and that length corresponds to a geometrical time delay $\tau = \frac{{\bf b} \cdot {\hat {\bf \sigma}}}{c}$, where the word ``geometrical" refers to the fact that the delay depends upon the source position in the sky and the relative separation between the two antennas. Equation~\ref{eq:1} can be derived as the correlator output. The voltage induced by a celestial source at any antenna can be written in a generic form as $(v \cos{2\pi \nu t})$, and the correlator will output the time average product of the voltages $r$ measured by antenna $i$ and $j$ respectively:
 \begin{eqnarray}
-r & = & \langle v_i(t)v_j(t) \rangle = \langle v^2 \cos{(2\pi \nu t)} \cos{[2\pi \nu (t - \tau)]} \nonumber \\
+r & = & \langle v_i(t)v_j(t) \rangle = \langle v^2 \cos{(2\pi \nu t)} \cos{[2\pi \nu (t - \tau)]} \rangle \nonumber \\
 			     & = & \langle v^2 \frac{\cos{(2\pi \nu \tau)} + \cos{(4\pi \nu t - 2\pi \nu \tau)}}{2} \rangle. 	
 \label{eq:1.1}
 \end{eqnarray}
 While the first term of the right hand side of equation~\ref{eq:1.1} varies slowly with the Earth rotation, the second oscillates rapidly for any typical radio observations ($\nu > 10$~MHz) and averages to zero, leading to:  
 \begin{equation}
-r(\tau) = \frac{v^2}{2} \cos{2\pi \nu \tau}.
+r(\tau) \approx \frac{v^2}{2} \cos{2\pi \nu \tau},
 \label{eq:1.2}
 \end{equation}
-Equation~\ref{eq:1.2} actually represents the contribution to the fringe from the pointing direction. We can obtained the contribution from the whole source by integrating over the source size and adding the odd (sine) to the even (cosine) fringe component: 
+which is a sinusoidal pattern termed ``fringe".
+Equation~\ref{eq:1.2} actually represents the contribution to the fringe from the pointing direction. We can obtained the contribution from the whole source by integrating over the source size and adding the odd (sine) to the even (cosine) fringe component to form a general, complex-valued fring $R$: 
 \begin{equation}
-R ({\bf b}, \nu) = \int r(\tau) d\tau = \int_\Omega \frac{v^2}{2} \cos{2\pi \nu \tau} - i\sin{2\pi \nu \tau}) = \int_\Omega \frac{v^2}{2} e^{-2 \pi i \nu \frac{{\bf b} \cdot {\hat {\bf \sigma}}}{c}} d \hat{\bf \sigma},
+R ({\bf b}, \nu) = \int_\Omega r(\tau) d\tau = \int_\Omega \frac{v^2}{2} (\cos{2\pi \nu \tau} - i\sin{2\pi \nu \tau}) = \int_\Omega \frac{v^2}{2} e^{-2 \pi i \nu \frac{{\bf b} \cdot {\hat {\bf \sigma}}}{c}} d \hat{\bf \sigma},
 \label{eq:1.3}
 \end{equation}
 where I have substituted the definition of geometrical delay in the last step. If we note that the $\frac{v^2}{2}$ voltage square term depends upon the direction in the sky as it is proportional to the source brightness, equation~\ref{eq:1.3} is essentially equivalent to equation~\ref{eq:1} and shows how the correlator outputs directly the spatial coherence function of the sky emission, i.e. the visibility.  
@@ -80,7 +72,7 @@ V_{ij} (u,v,w, \nu) = \int_\Omega {\bar I} (l, m, \nu) \, e^{-2 \pi i (ul + vm +
 %
 \begin{figure}[]
 \begin{center}
-\includegraphics[width=1.\textwidth]{Bernardi/coordinates_imaging}
+\includegraphics[width=1.\textwidth]{Bernardi/coordinates_imaging_1}
 \end{center}
 \caption{Cartoon representation of the coordinate system used for interferometric imaging. The $(l,m)$ plane is tangent to the sky.}
 \label{fig:fig1b}
@@ -111,7 +103,6 @@ where ${\bar I}_D$ indicates the sky brightness distribution sampled at a finite
 \end{equation}
 where the tilde indicates the Fourier transform, $\ast$ the convolution operation and PSF is the Point Spread Function, i.e. the response of the interferometric array to a point sources which, in our case, is also the Fourier transform of the $uv$ coverage.
 
-%I will give some examples of sampling functions for different instruments in Section~\ref{sec:design}, however, 
 The sampling function always effectively reduces the integral over a finite (often not contiguous) area of the $uv$ plane. In particular, the sampled $uv$ plane is restricted to a minimum $uv$ distance that cannot be shorter than the antenna\footnote{In this chapter I use the words ``antenna" and ``station" interchangeably to indicate the correlated elements even if, in the literature, they are normally used to indicate a dish and a dipole, or a cluster of dipoles, respectively.} size and the largest separation between antennas, i.e. the maximum baseline ${\bf b}_{\rm max}$. The maximum baseline also sets the maximum angular resolution $\theta_b$:
 \begin{equation}
 \theta_b \approx \frac{\lambda}{|{\bf b}_{\rm max}|}.
@@ -119,14 +110,14 @@ The sampling function always effectively reduces the integral over a finite (oft
 \end{equation}
 The incomplete sampling of the $uv$ space leads to a PSF that has ``sidelobes", i.e. nulls and secondary lobes that can often contaminate fainter true sky emission. The best reconstruction of the sky brightness distribution ${\bar I}$ requires deconvolution of the dirty image from the PSF. 
 
-Figure~\ref{fig:fig1c} and \ref{fig:fig1d} provide an example of the sampling $S(u,v,)$ and corresponding point spread function. A single baseline essentially imprints a (sinusoidal) fringe pattern on the sky, whose period and phase depend upon the baseline length and orientation respectively (equation~\ref{eq:1}). The combination of more baselines of different lengths and orientations improves the sampling function until a good quality point spread function is obtained.
+Figure~\ref{fig:fig1c} and \ref{fig:fig1d} provide an example of the sampling $S(u,v)$ and the corresponding point spread function. A single baseline essentially imprints a (sinusoidal) fringe pattern on the sky, whose period and phase depend upon the baseline length and orientation respectively (equation~\ref{eq:1}). The combination of more baselines of different lengths and orientations improves the sampling function until a good quality point spread function is obtained.
 %
 \begin{figure}[]
 \begin{center}
 \includegraphics[width=1.\textwidth]{Bernardi/fringe_bl_11_18}
 \includegraphics[width=1.\textwidth]{Bernardi/fringe_bl_17_15}
 \end{center}
-\caption{Left panel: one baseline selected (indicated with a red line) from 32 antennas distributed within a 350~m circle (taken from \cite{jacobs11}). Right panel: corresponding point spread function. For a single baseline case the point spread function is essentially a sinusoidal fringe pattern whose period is inversely proportional to the baseline length, i.e. the pattern correponding to $\sim 50$~m baseline (top) oscillates approximately seven times slower than a $\sim 350$~m baseline (bottom). The fringe phase (i.e. the pattern orientation) is given by the baseline orientation.}
+\caption{Left panel: one baseline selected (indicated with a red line) from 32 antennas distributed within a 350~m circle (taken from \cite{jacobs11}). Right panel: corresponding point spread function. For a single baseline case, the point spread function is essentially a sinusoidal fringe pattern whose period is inversely proportional to the baseline length, i.e. the pattern correponding to $\sim 50$~m baseline (top) oscillates approximately seven times slower than a $\sim 350$~m baseline (bottom). The fringe phase (i.e. the pattern orientation) is given by the baseline orientation.}
 \label{fig:fig1c}
 \end{figure}
 %
@@ -146,7 +137,7 @@ Figure~\ref{fig:fig1c} and \ref{fig:fig1d} provide an example of the sampling $S
 \section{21~cm observables: power spectra and images}
 \label{sec:observables}
 
-The ultimate goal of 21~cm observations is to image the spatial distribution of the 21~cm signal as a function of redshift, also known as {\it 21~cm tomography}. Given the curent theoretical predictions, such observations need to achieve mK sensitivity on a few arcminute angular scales (see Chapter~1 in this book). Most of the current arrays, however, only have the sensitivity to perform a statistical detection of the 21~cm signal, i.e. to measure its power spectrum. Given an intensity field $T$, function of the three dimensional spatial coordinate $\bf x$, its power spectrum $P(k)$ is defined as:
+The ultimate goal of 21~cm observations is to image the spatial distribution of the 21~cm signal as a function of redshift, also known as {\it 21~cm tomography}. Given the curent theoretical predictions, such observations need to achieve mK sensitivity on a few arcminute angular scales (see Chapter~1,3 and 3 in this book). Most of the current arrays, however, only have the sensitivity to perform a statistical detection of the 21~cm signal, i.e. to measure its power spectrum. Given an intensity field $T$, function of the three dimensional spatial coordinate $\bf x$, its power spectrum $P(k)$ is defined as:
 \begin{equation}
 %\langle {\tilde T}^* ({\bf k}) {\tilde T}({\bf k'}) \rangle = (2 \pi)^3 P({\bf k}) \delta^3({\bf k} - {\bf k}')
 \langle {\tilde T}^* ({\bf k}) {\tilde T}({\bf k'}) \rangle = (2 \pi)^3 P(k) \delta^3({\bf k} - {\bf k}')
@@ -157,7 +148,7 @@ where $\langle \rangle$ indicates the ensamble average, $\bf k$ is the Fourier c
 {\tilde V}_{ij} (u,v, \tau) = \int_B V (u,v, \nu) \, e^{-2 \pi i \nu \tau} d \nu
 \label{sec_observables_eq2}
 \end{equation}
-where $B$ is the observing bandwidth and $\tau$ is the geometrical delay. The delay transform is therefore proportional to the three dimensional power spectrum (\cite{parsons12b}):
+where $B$ is the observing bandwidth and $\tau$ is the Fouier conjugate of $\nu$, i.e. a delay\footnote{We intentionally }. The delay transform is therefore proportional to the three dimensional power spectrum (\cite{parsons12b}):
 \begin{equation}
 P(k) \propto {\tilde V}_{ij} (|{\bf b}|, \tau),
 \label{sec_observables_eq3}
@@ -167,7 +158,7 @@ where the proportionality constant transforms the visibility units into power un
 k_\perp = \frac{2 \pi |{\bf b}|}{D_c} = \frac{2 \pi \sqrt{u^2 + v^2}}{D_c}, \,\,\,\,\,\,\,    k_\parallel = \frac{2 \pi f_{21} H_0 E(z)}{c \, (1 + z)^2} \, \tau,
 \label{sec_observables_eq4}
 \end{equation}
-where $D_c$ is the transverse comoving distance, $f_{21} = 1421$~MHz, $H_0$ is the Hubble constant and $E(z) = \sqrt{\Omega)m (1+z)^3 + \Omega_k (1+z)^2 + \Omega_\Lambda}$. Due to the dependence of the geometrical delay upon frequency, equation~\ref{sec_observables_eq3} is only valid for short baselines, typically shorter than a few hundresd meters, for which the geometrical delay is fairly constant across the bandwidth and lines of constant $k_\parallel$ are essentially orthogonal to the $k_\perp$ axis (\cite{parsons12b}).
+where $D_c$ is the transverse comoving distance, $f_{21} = 1421$~MHz, $H_0$ is the Hubble constant and $E(z) = \sqrt{\Omega)m (1+z)^3 + \Omega_k (1+z)^2 + \Omega_\Lambda}$. Due to the dependence of the baseline length upon frequency, equation~\ref{sec_observables_eq3} is only valid for short baselines, typically shorter than a few hundresd meters, for which the baseline length can be considered constant across the bandwidth and lines of constant $k_\parallel$ are essentially orthogonal to the $k_\perp$ axis (\cite{parsons12b}).
 
 Equation~\ref{sec_observables_eq2} does not only provide a link between visibilities and three dimensional power spectra, but also introduces the concept of ``horizon limit", i.e. the maximum physical delay allowed $\tau_{\rm max} = \frac{|{\bf b}|}{c}$, where $c$ is the speed of light. The most relevant implication of the existence of a horizon limit is the definition of a region in the two dimensional $(k_\parallel,k_\perp)$ power spectrum space where smooth-spectrum foregrounds are confined, leaving the remaining area  uncontaminated in order to measure the 21~cm signal (the so-called ``Epoch of Reionization (EoR) window", Figure~\ref{fig:fig2}). Foregrounds can therefore be ``avoided" with no requirements for subtraction (e.g., \cite{morales12}, \cite{vedantham12}, \cite{pober13}, \cite{thyagarajan13}; see also Chapter~6 in this book).
 \begin{figure}[]
@@ -179,7 +170,7 @@ Equation~\ref{sec_observables_eq2} does not only provide a link between visibili
 \end{figure}
 The choice of a foreground avoidance strategy versus subtraction plays an important role in planning an experiment, its related observing strategy and the array calibration strategy.
 
-The requirements for image tomography are the same as for high brightness sensitivity observations of diffuse emission like the Cosmic Microwave Background (e.g., \cite{halverson02}, \cite{dickinson04}, \cite{readhead04}). The 21~cm spatial distribution throughout cosmic reionization has structures on 5-10 arcminutes up to degree scales (e.g., \cite{majumdar12}, \cite{datta12}, \cite{mellema13}, \cite{kakiichi17}). In order to image 21~cm fluctuations, a maximum baseline of the order of a few km gives a resolution of a few arcminutes in the $100-200$~MHz range, together with filled $uv$ plane in order to accurately reconstruct their complex spatial structure. A filled $uv$ plane also leads to a point spread function with very low sidelobes, making the deconvolution process easier (see the bottom right panel of Figure~\ref{fig:fig1d} for an example of densely sampled $uv$ plane that leads to a good quality point spread function). The most stringent requirements for image tomography remain the accurate foreground separation and, as I will review in the next section, the related instrumental calibration.
+The requirements for image tomography are the same as for high brightness sensitivity observations of diffuse emission like the Cosmic Microwave Background (e.g., \cite{halverson02}, \cite{dickinson04}, \cite{readhead04}). The 21~cm spatial distribution throughout cosmic reionization has structures on 5-10 arcminutes up to degree scales (e.g., \cite{majumdar12}, \cite{datta12}, \cite{mellema13}, \cite{kakiichi17}). In order to image 21~cm fluctuations, a maximum baseline of the order of a few km is required to obtain a resolution of a few arcminutes in the $100-200$~MHz range, together with filled $uv$ plane in order to accurately reconstruct their complex spatial structure. A filled $uv$ plane also leads to a point spread function with very low sidelobes, making the deconvolution process easier (see the bottom right panel of Figure~\ref{fig:fig1d} for an example of densely sampled $uv$ plane that leads to a good quality point spread function). The most stringent requirements for image tomography remain the accurate foreground separation and, as I will review in the next section, the related instrumental calibration.
 
 
 
@@ -429,9 +420,9 @@ Finally, redundant calibration is prone to effects that break the assumption of 
 
 \begin{figure}[]
 \begin{center}
-\includegraphics[width=1.\textwidth]{Bernardi/uv_footprint}
+\includegraphics[width=1.\textwidth]{Bernardi/uv_footprint_1}
 \end{center}
-\caption{Cartoon illustration of the $uv$ footprint due to the primary beam (from https://ned.ipac.caltech.edu/level5/March14/Zaroubi/Zaroubi5.html\#5.1). The purple circles are the $uv$ footprints for a large (left panel) and small (right panel) station respectively. The minimum and maximum baselines is the same for both cases, in order to sample the same $uv$ annulus (yellow area).}
+\caption{Cartoon illustration of the $uv$ footprint due to the primary beam. The purple circles are the $uv$ footprints for a large (left panel) and small (right panel) station respectively. The minimum and maximum baselines is the same for both cases, in order to sample the same $uv$ annulus (yellow area).}
 \label{fig:fig6}
 \end{figure}
 I will conclude this chapter by discussing how the various interferometric effects discussed so far impact the choice of array designs and the consequent observing strategies. \cite{morales05} and \cite{parsons12b}, for example, investigate how instrumental choices like the array layout, the antenna size and the bandwidth (do not) affect the 21~cm power spectrum spectrum. Here I would rather emphasize the interdependence between instrumental choices, calibration and foreground separation strategies. If the total collecting area is kept fixed, there are two main elements that impact calibration and foreground separation strategies:
