@@ -3,39 +3,39 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Bernardi/References.bib
-Repeated entry---line 1621 of file Bernardi/References.bib
+Repeated entry---line 1644 of file Bernardi/References.bib
  : @article{smirnov11b
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--empty publisher in TMS
 You've used 100 entries,
             2118 wiz_defined-function locations,
-            1011 strings with 54001 characters,
-and the built_in function-call counts, 86202 in all, are:
-= -- 6591
-> -- 10267
+            1010 strings with 54121 characters,
+and the built_in function-call counts, 86388 in all, are:
+= -- 6603
+> -- 10297
 < -- 0
-+ -- 4090
-- -- 3990
-* -- 9516
-:= -- 16036
++ -- 4102
+- -- 4002
+* -- 9540
+:= -- 16072
 add.period$ -- 300
 call.type$ -- 100
-change.case$ -- 2294
+change.case$ -- 2300
 chr.to.int$ -- 0
 cite$ -- 101
 duplicate$ -- 1100
 empty$ -- 2461
-format.name$ -- 3990
-if$ -- 15284
+format.name$ -- 4002
+if$ -- 15314
 int.to.chr$ -- 0
 int.to.str$ -- 100
 missing$ -- 101
 newline$ -- 503
 num.names$ -- 200
-pop$ -- 2102
+pop$ -- 2108
 preamble$ -- 1
-purify$ -- 2195
+purify$ -- 2201
 quote$ -- 0
 skip$ -- 706
 stack$ -- 0
