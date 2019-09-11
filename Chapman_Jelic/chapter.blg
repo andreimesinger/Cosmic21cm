@@ -1,48 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: Chapman_Jelic/chapter.aux
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: chapter.aux
 The style file: plain.bst
-Database file #1: Chapman_Jelic/References.bib
-Warning--empty publisher in longair11
-You've used 154 entries,
+Database file #1: References.bib
+You've used 164 entries,
             2118 wiz_defined-function locations,
-            1358 strings with 44431 characters,
-and the built_in function-call counts, 71646 in all, are:
-= -- 6227
-> -- 5741
+            1396 strings with 46375 characters,
+and the built_in function-call counts, 76417 in all, are:
+= -- 6641
+> -- 6131
 < -- 10
-+ -- 2265
-- -- 2111
-* -- 6860
-:= -- 12618
-add.period$ -- 462
-call.type$ -- 154
-change.case$ -- 1509
++ -- 2419
+- -- 2255
+* -- 7328
+:= -- 13464
+add.period$ -- 492
+call.type$ -- 164
+change.case$ -- 1611
 chr.to.int$ -- 0
-cite$ -- 155
-duplicate$ -- 1809
-empty$ -- 3960
-format.name$ -- 2111
-if$ -- 13864
+cite$ -- 164
+duplicate$ -- 1919
+empty$ -- 4220
+format.name$ -- 2255
+if$ -- 14780
 int.to.chr$ -- 0
-int.to.str$ -- 154
-missing$ -- 159
-newline$ -- 773
-num.names$ -- 314
-pop$ -- 1262
+int.to.str$ -- 164
+missing$ -- 169
+newline$ -- 823
+num.names$ -- 334
+pop$ -- 1343
 preamble$ -- 1
-purify$ -- 1360
+purify$ -- 1452
 quote$ -- 0
-skip$ -- 1226
+skip$ -- 1298
 stack$ -- 0
-substring$ -- 3349
-swap$ -- 261
+substring$ -- 3588
+swap$ -- 271
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 606
-warning$ -- 1
-while$ -- 464
-width$ -- 157
-write$ -- 1693
-(There was 1 warning)
+type$ -- 646
+warning$ -- 0
+while$ -- 494
+width$ -- 167
+write$ -- 1804
