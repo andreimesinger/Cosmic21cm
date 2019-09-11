@@ -161,7 +161,7 @@ The Murchison Widefield Array (MWA) has two separate pipelines which differ in t
 \begin{center}
     \includegraphics[width=0.9\textwidth]{Chapman_Jelic/Images/apjaa3b64f9_hr.png}
 \end{center}
-\caption{Left: MWA foreground model without diffuse foregrounds (i.e. just point sources) and with diffuse foregrounds. Adding diffuse foregrounds into the model produces leakage far up into the EoR window and instrumental contamination can be seen in the horizontal lines throughout the EoR window. Right: the difference between the power spectrum of the residuals when only the point sources have been subtracted as described above, and the power spectrum of the residuals where the diffuse foregrounds have also been subtracted. There is a clear reduction in foreground residuals all along the wedge and the EoR window is noise-like, suggesting a lack of foreground contamination there. There is a 70$\%$ reduction in residual power of the foregrounds using this method. \textit{Reproduced from Beardsley, Hazelton, Sullivan et al. (2016), ApJ, 833(1):102}.}
+\caption{Left: The difference between the MWA foreground model without diffuse foregrounds (i.e. just point sources) and with diffuse foregrounds. Adding diffuse foregrounds into the model produces leakage far up into the EoR window and instrumental contamination can be seen in the horizontal lines throughout the EoR window. Right: the difference between the power spectrum of the residuals when only the point sources have been subtracted as described above, and the power spectrum of the residuals where the diffuse foregrounds have also been subtracted. There is a clear reduction in foreground residuals all along the wedge and the EoR window is noise-like, suggesting a lack of foreground contamination there. There is a 70$\%$ reduction in residual power of the foregrounds using this method. \textit{Reproduced from Beardsley, Hazelton, Sullivan et al. (2016), ApJ, 833(1):102}.}
     \label{fig:beardsley_fg_sub}
 \end{figure}
 
@@ -269,7 +269,7 @@ The concern that the instrument might introduce complex spectral structure into 
     \label{fig:mertens_comp}
 \end{figure}
 
- BSS methods have been used in Cosmic Microwave Background experiments \cite{PlanckI2018arXiv180706205P,PlanckIV2018} and their application to EoR data is a natural evolution. BSS methods are used across a wide range of fields in order to separate mixed signals into independent components. The data can be expressed in terms of the mixing model:
+ Blind Source Separation (BSS) methods have been used in Cosmic Microwave Background experiments \cite{PlanckI2018arXiv180706205P,PlanckIV2018} and their application to EoR data is a natural evolution. BSS methods are used across a wide range of fields in order to separate mixed signals into independent components. The data can be expressed in terms of the mixing model:
 
 \begin{equation}
 \mathbf{X} = \mathbf{A}\mathbf{S} + \mathbf{N}
