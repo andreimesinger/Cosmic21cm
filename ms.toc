@@ -23,41 +23,26 @@
 \contentsline {subsection}{\numberline {2.1.2}Basics of Non-Equilibrium Ionization Chemistry}{20}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Ionization and Heating Around Point Sources}{22}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Ionization and Heating on Large Scales}{25}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Techniques for Modeling the IGM}{26}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The Density Field}{27}{subsection.2.2.1}
-\contentsline {subsubsection}{Global Evolution}{27}{section*.6}
-\contentsline {subsubsection}{Spatial Structure}{27}{section*.7}
-\contentsline {subsection}{\numberline {2.2.2}The Ionization Field}{27}{subsection.2.2.2}
-\contentsline {subsubsection}{Global Evolution}{27}{section*.8}
-\contentsline {subsubsection}{Spatial Structure}{28}{section*.9}
-\contentsline {subsubsection}{Recombinations}{30}{section*.10}
-\contentsline {subsection}{\numberline {2.2.3}The (Kinetic) Temperature Field}{31}{subsection.2.2.3}
-\contentsline {subsubsection}{Global Evolution}{31}{section*.11}
-\contentsline {subsubsection}{Spatial Structure}{32}{section*.12}
-\contentsline {subsection}{\numberline {2.2.4}The Ly-$\alpha $ Background}{33}{subsection.2.2.4}
-\contentsline {subsubsection}{Global Evolution}{33}{section*.13}
-\contentsline {subsubsection}{Spatial Fluctuations in the Ly-$\alpha $ background}{34}{section*.14}
-\contentsline {section}{\numberline {2.3}Sources of the UV and X-ray Background}{36}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Star Formation}{37}{subsection.2.3.1}
-\contentsline {subsubsection}{Pop~III Star Formation}{39}{section*.15}
-\contentsline {subsection}{\numberline {2.3.2}UV Emission from Stars}{40}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Escape of UV Photons from Galaxies}{41}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}X-rays from Black Holes}{42}{subsection.2.3.4}
-\contentsline {subsubsection}{Super-Massive Black Holes}{43}{section*.16}
-\contentsline {subsection}{\numberline {2.3.5}X-rays from Shocks and Hot Gas}{44}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Escape of X-rays from Galaxies}{44}{subsection.2.3.6}
-\contentsline {subsection}{\numberline {2.3.7}Cosmic Rays from Supernovae}{45}{subsection.2.3.7}
-\contentsline {section}{\numberline {2.4}Predictions for the 21-cm Background}{45}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Generic Series of Events}{46}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Sensitivity to Model Parameters}{47}{subsection.2.4.2}
-\contentsline {subsubsection}{The Minimum Mass}{48}{section*.17}
-\contentsline {subsubsection}{The Ionizing Efficiency}{48}{section*.18}
-\contentsline {subsubsection}{The X-ray Efficiency and Spectrum}{48}{section*.19}
-\contentsline {subsubsection}{The Ly-$\alpha $ Efficiency}{50}{section*.20}
-\contentsline {subsubsection}{Synthesis Models}{50}{section*.21}
-\contentsline {subsubsection}{Feedback Effects}{50}{section*.22}
-\contentsline {subsubsection}{Pop~III v. Pop~II}{50}{section*.23}
-\contentsline {subsection}{\numberline {2.4.3}Modeling Tools}{52}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.1.5}Ly-$\alpha $ Coupling}{26}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}Sources of the UV and X-ray Background}{26}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Star Formation}{27}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Physical arguments for inferred behavior of $f_{\ast }$}{29}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Pop~III star formation}{30}{subsubsection.2.2.1.2}
+\contentsline {subsection}{\numberline {2.2.2}UV Emission from Stars}{33}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Attenuation of Stellar UV Emission by Dust}{34}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Escape of Lyman-Continuum Photons from Galaxies}{35}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}X-rays from Stellar-Mass Black Holes}{36}{subsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.5.1}X-rays from Super-Massive Black Holes}{37}{subsubsection.2.2.5.1}
+\contentsline {subsection}{\numberline {2.2.6}X-rays from Shocks and Hot Gas}{38}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Escape of X-rays from Galaxies}{39}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.8}Cosmic Rays from Supernovae}{39}{subsection.2.2.8}
+\contentsline {section}{\numberline {2.3}Predictions for the 21-cm Background}{39}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}The Ionizing Efficiency}{42}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}The X-ray Efficiency and Spectrum}{44}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}The Ly-$\alpha $ Efficiency}{45}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Stellar Metallicity}{46}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}The Minimum Mass}{47}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Summary}{50}{section.2.4}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
 \contentsline {chapter}{\numberline {3}Physical cosmology from the 21-cm line}{60}{chapter.3}
@@ -71,7 +56,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Redshift space distortions}{61}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Time evolution}{61}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Summary}{61}{section.3.4}
-\contentsline {paragraph}{Cras adipiscing}{62}{section*.25}
+\contentsline {paragraph}{\numberline {3.4.0.0.1}Cras adipiscing}{62}{paragraph.3.4.0.0.1}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
 \contentsline {chapter}{\numberline {4}Inference from the 21cm signal}{64}{chapter.4}
@@ -84,12 +69,12 @@
 \contentsline {subsection}{\numberline {4.2.5}One-point statistics}{73}{subsection.4.2.5}
 \contentsline {subsection}{\numberline {4.2.6}Wavelets}{74}{subsection.4.2.6}
 \contentsline {subsection}{\numberline {4.2.7}Topological measurements of the 21-cm signal}{75}{subsection.4.2.7}
-\contentsline {subsubsection}{Genus or the Euler characteristic}{76}{section*.26}
-\contentsline {subsubsection}{Minkowski functionals}{76}{section*.27}
-\contentsline {subsubsection}{Shape-finders}{78}{section*.28}
-\contentsline {subsubsection}{Persistent homology theory}{78}{section*.29}
-\contentsline {subsubsection}{Fractal dimensions}{79}{section*.30}
-\contentsline {subsubsection}{Contour Minkowski tensor}{79}{section*.31}
+\contentsline {subsubsection}{\numberline {4.2.7.1}Genus or the Euler characteristic}{76}{subsubsection.4.2.7.1}
+\contentsline {subsubsection}{\numberline {4.2.7.2}Minkowski functionals}{76}{subsubsection.4.2.7.2}
+\contentsline {subsubsection}{\numberline {4.2.7.3}Shape-finders}{78}{subsubsection.4.2.7.3}
+\contentsline {subsubsection}{\numberline {4.2.7.4}Persistent homology theory}{78}{subsubsection.4.2.7.4}
+\contentsline {subsubsection}{\numberline {4.2.7.5}Fractal dimensions}{79}{subsubsection.4.2.7.5}
+\contentsline {subsubsection}{\numberline {4.2.7.6}Contour Minkowski tensor}{79}{subsubsection.4.2.7.6}
 \contentsline {subsection}{\numberline {4.2.8}Bubble size distributions}{79}{subsection.4.2.8}
 \contentsline {subsection}{\numberline {4.2.9}Individual images}{80}{subsection.4.2.9}
 \contentsline {subsection}{\numberline {4.2.10}Stacked images}{82}{subsection.4.2.10}
@@ -125,13 +110,13 @@
 \contentsline {subsection}{\numberline {6.1.3}Polarized foregrounds}{153}{subsection.6.1.3}
 \contentsline {section}{\numberline {6.2}Foreground Mitigation}{155}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Foreground Mitigation in the Data Analysis Pipeline}{155}{subsection.6.2.1}
-\contentsline {subsubsection}{Bright Source Removal}{155}{section*.34}
-\contentsline {subsubsection}{The EoR Window}{156}{section*.35}
+\contentsline {subsubsection}{\numberline {6.2.1.1}Bright Source Removal}{155}{subsubsection.6.2.1.1}
+\contentsline {subsubsection}{\numberline {6.2.1.2}The EoR Window}{156}{subsubsection.6.2.1.2}
 \contentsline {subsection}{\numberline {6.2.2}Foreground Avoidance and Suppression}{158}{subsection.6.2.2}
-\contentsline {subsubsection}{Delay Space Filtering}{159}{section*.36}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Delay Space Filtering}{159}{subsubsection.6.2.2.1}
 \contentsline {subsection}{\numberline {6.2.3}Foreground Subtraction}{163}{subsection.6.2.3}
-\contentsline {subsubsection}{Polynomial Fitting and Global Experiments}{163}{section*.37}
-\contentsline {subsubsection}{Non-parametric foreground removal}{165}{section*.38}
+\contentsline {subsubsection}{\numberline {6.2.3.1}Polynomial Fitting and Global Experiments}{163}{subsubsection.6.2.3.1}
+\contentsline {subsubsection}{\numberline {6.2.3.2}Non-parametric foreground removal}{165}{subsubsection.6.2.3.2}
 \contentsline {subsection}{\numberline {6.2.4}Residual Error Subtraction}{169}{subsection.6.2.4}
 \contentsline {subsection}{\numberline {6.2.5}Polarisation leakage}{169}{subsection.6.2.5}
 \contentsline {section}{\numberline {6.3}Conclusions}{170}{section.6.3}
