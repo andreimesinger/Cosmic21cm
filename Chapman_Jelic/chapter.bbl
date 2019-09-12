@@ -403,10 +403,32 @@ G.~{Helou}, B.~T. {Soifer}, and M.~{Rowan-Robinson}.
   disks of galaxies.}
 \newblock {\em \apjl}, 298:L7--L11, Nov 1985.
 
+\bibitem{heywood16}
+I.~{Heywood}, K.~W. {Bannister}, J.~{Marvil}, J.~R. {Allison}, L.~{Ball}, M.~E.
+  {Bell}, D.~C.~J. {Bock}, M.~{Brothers}, J.~D. {Bunton}, A.~P. {Chippendale},
+  F.~{Cooray}, T.~J. {Cornwell}, D.~{De Boer}, P.~{Edwards}, R.~{Gough},
+  N.~{Gupta}, L.~{Harvey-Smith}, S.~{Hay}, A.~W. {Hotan}, B.~{Indermuehle},
+  C.~{Jacka}, C.~A. {Jackson}, S.~{Johnston}, A.~E. {Kimball}, B.~S.
+  {Koribalski}, E.~{Lenc}, A.~{Macleod}, N.~{McClure-Griffiths},
+  D.~{McConnell}, P.~{Mirtschin}, T.~{Murphy}, S.~{Neuhold}, R.~P. {Norris},
+  S.~{Pearce}, A.~{Popping}, R.~Y. {Qiao}, J.~E. {Reynolds}, E.~M. {Sadler},
+  R.~J. {Sault}, A.~E.~T. {Schinckel}, P.~{Serra}, T.~W. {Shimwell},
+  J.~{Stevens}, J.~{Tuthill}, A.~{Tzioumis}, M.~A. {Voronkov}, T.~{Westmeier},
+  and M.~T. {Whiting}.
+\newblock {Wide-field broad-band radio imaging with phased array feeds: a pilot
+  multi-epoch continuum survey with ASKAP-BETA}.
+\newblock {\em \mnras}, 457(4):4160--4178, Apr 2016.
+
 \bibitem{Hills2018Natur.564E..32H}
 Richard {Hills}, Girish {Kulkarni}, P.~Daniel {Meerburg}, and Ewald {Puchwein}.
 \newblock {Concerns about modelling of the EDGES data}.
 \newblock {\em \nat}, 564(7736):E32--E34, Dec 2018.
+
+\bibitem{hopkins03}
+A.~M. {Hopkins}, J.~{Afonso}, B.~{Chan}, L.~E. {Cram}, A.~{Georgakakis}, and
+  B.~{Mobasher}.
+\newblock {The Phoenix Deep Survey: The 1.4 GHz Microjansky Catalog}.
+\newblock {\em \aj}, 125(2):465--477, Feb 2003.
 
 \bibitem{hurleywalker17}
 N.~{Hurley-Walker}, J.~R. {Callingham}, P.~J. {Hancock}, T.~M.~O. {Franzen},
@@ -577,6 +599,13 @@ Adrian {Liu}, Max {Tegmark}, and Matias {Zaldarriaga}.
 Malcolm~S. {Longair}.
 \newblock {\em {High Energy Astrophysics}}.
 \newblock Cambridge University Press, 2011.
+
+\bibitem{mancuso17}
+C.~{Mancuso}, A.~{Lapi}, I.~{Prandoni}, I.~{Obi}, J.~{Gonzalez-Nuevo},
+  F.~{Perrotta}, A.~{Bressan}, A.~{Celotti}, and L.~{Danese}.
+\newblock {Galaxy Evolution in the Radio Band: The Role of Star-forming
+  Galaxies and Active Galactic Nuclei}.
+\newblock {\em \apj}, 842(2):95, Jun 2017.
 
 \bibitem{Mcquinn2006ApJ...653..815M}
 Matthew {McQuinn}, Oliver {Zahn}, Matias {Zaldarriaga}, Lars {Hernquist}, and
@@ -841,6 +870,19 @@ Jonathan~C. {Pober}, Aaron~R. {Parsons}, James~E. {Aguirre}, Zaki {Ali},
   Foreground Isolation with PAPER}.
 \newblock {\em \apj}, 768(2):L36, May 2013.
 
+\bibitem{prandoni01}
+I.~{Prandoni}, L.~{Gregorini}, P.~{Parma}, H.~R. {de Ruiter}, G.~{Vettolani},
+  M.~H. {Wieringa}, and R.~D. {Ekers}.
+\newblock {The ATESP radio survey. III. Source counts}.
+\newblock {\em \aap}, 365:392--399, Jan 2001.
+
+\bibitem{prandoni18}
+I.~{Prandoni}, G.~{Guglielmino}, R.~{Morganti}, M.~{Vaccari}, A.~{Maini},
+  H.~J.~A. {R{\"o}ttgering}, M.~J. {Jarvis}, and M.~A. {Garrett}.
+\newblock {The Lockman Hole Project: new constraints on the sub-mJy source
+  counts from a wide-area 1.4 GHz mosaic}.
+\newblock {\em \mnras}, 481(4):4548--4565, Dec 2018.
+
 \bibitem{prandoniIAUS333}
 Isabella {Prandoni}.
 \newblock {EoR Foregrounds: the Faint Extragalactic Radio Sky}.
@@ -1079,6 +1121,12 @@ Xiaomin {Wang}, Max {Tegmark}, M{\'a}rio~G. {Santos}, and Lloyd {Knox}.
 Xiaomin {Wang}, Max {Tegmark}, M{\'a}rio~G. {Santos}, and Lloyd {Knox}.
 \newblock {21 cm Tomography with Foregrounds}.
 \newblock {\em \apj}, 650(2):529--537, Oct 2006.
+
+\bibitem{white97}
+Richard~L. {White}, Robert~H. {Becker}, David~J. {Helfand}, and Michael~D.
+  {Gregg}.
+\newblock {A Catalog of 1.4 GHz Radio Sources from the FIRST Survey}.
+\newblock {\em \apj}, 475(2):479--493, Feb 1997.
 
 \bibitem{Wieringa1992ExA.....2..203W}
 Mark~H. {Wieringa}.
