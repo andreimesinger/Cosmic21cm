@@ -124,47 +124,58 @@
 \contentsline {subsection}{\numberline {6.1.1}Galactic foregrounds in total intensity}{153}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Extragalactic foregrounds in total intensity}{156}{subsection.6.1.2}
 \contentsline {subsection}{\numberline {6.1.3}Polarized foregrounds}{157}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Radio Frequency Interference}{159}{subsection.6.1.4}
 \contentsline {section}{\numberline {6.2}Foreground Mitigation}{159}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Foreground Mitigation in the Data Analysis Pipeline}{159}{subsection.6.2.1}
-\contentsline {subsubsection}{Bright Source Removal}{159}{section*.34}
+\contentsline {subsection}{\numberline {6.2.1}Foreground Mitigation in the Data Analysis Pipeline}{160}{subsection.6.2.1}
+\contentsline {subsubsection}{Bright Source Removal}{160}{section*.34}
 \contentsline {subsubsection}{The EoR Window}{160}{section*.35}
 \contentsline {subsection}{\numberline {6.2.2}Foreground Avoidance and Suppression}{162}{subsection.6.2.2}
-\contentsline {subsubsection}{Delay Space Filtering}{163}{section*.36}
+\contentsline {subsubsection}{Delay Space Filtering}{164}{section*.36}
 \contentsline {subsection}{\numberline {6.2.3}Foreground Subtraction}{167}{subsection.6.2.3}
-\contentsline {subsubsection}{Polynomial Fitting and Global Experiments}{167}{section*.37}
+\contentsline {subsubsection}{Polynomial Fitting and Global Experiments}{168}{section*.37}
 \contentsline {subsubsection}{Non-parametric foreground removal}{169}{section*.38}
 \contentsline {subsection}{\numberline {6.2.4}Residual Error Subtraction}{173}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Polarisation leakage}{173}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.5}Polarization leakage}{173}{subsection.6.2.5}
 \contentsline {section}{\numberline {6.3}Conclusions}{174}{section.6.3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-10}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-11}
-\contentsline {chapter}{\numberline {7}Status of 21~cm interferometric experiments}{190}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{190}{section.7.1}
-\contentsline {section}{\numberline {7.2}Early work}{191}{section.7.2}
-\contentsline {section}{\numberline {7.3}Experimental methodologies and current experiments}{192}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Giant Metrewave Radio Telescope - GMRT}{193}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Murchison Widefield Array - MWA}{195}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Low Frequency Array - LOFAR}{199}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Precision Array for Probing the Epoch of Reionization - PAPER}{203}{subsection.7.3.4}
-\contentsline {section}{\numberline {7.4}Published results}{205}{section.7.4}
-\contentsline {section}{\numberline {7.5}Current challenges}{205}{section.7.5}
-\contentsline {section}{\numberline {7.6}Prospects for the future}{208}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}Current instruments}{208}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}Future instruments}{208}{subsection.7.6.2}
-\contentsline {subsection}{\numberline {7.6.3}Future analyses}{209}{subsection.7.6.3}
+\contentsline {chapter}{\numberline {7}Status of 21~cm interferometric experiments}{177}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{177}{section.7.1}
+\contentsline {section}{\numberline {7.2}Early work}{178}{section.7.2}
+\contentsline {section}{\numberline {7.3}Experimental methodologies and current experiments}{179}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Giant Metrewave Radio Telescope - GMRT}{180}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Murchison Widefield Array - MWA}{182}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Low Frequency Array - LOFAR}{186}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Precision Array for Probing the Epoch of Reionization - PAPER}{190}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Published results}{192}{section.7.4}
+\contentsline {section}{\numberline {7.5}Current challenges}{192}{section.7.5}
+\contentsline {section}{\numberline {7.6}Prospects for the future}{195}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Current instruments}{195}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Future instruments}{195}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.3}Future analyses}{196}{subsection.7.6.3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-12}
-\contentsline {chapter}{\numberline {8}Future prospects}{224}{chapter.8}
-\contentsline {section}{\numberline {8.1}Forthcoming interferometric ground based instruments and upgrades}{224}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}The Hydrogen Epoch of Reionization Array}{224}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}The Large aperture Experiment to detect the Dark Ages}{225}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}The Low Frequency Array}{228}{subsection.8.1.3}
-\contentsline {subsection}{\numberline {8.1.4}The Murchison Widefield Array phase II}{228}{subsection.8.1.4}
-\contentsline {section}{\numberline {8.2}Forthcoming Global Signal Experiments}{228}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}The Experiment to Detect the Global EoR Signature}{228}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}The Large aperture Experiment to detect the Dark Ages: status and perspectives of global signal measurements}{230}{subsection.8.2.2}
-\contentsline {section}{\numberline {8.3}Current and planned space based instruments}{230}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}The Dark Ages Polarimetry Pathfinder}{230}{subsection.8.3.1}
+\contentsline {chapter}{\numberline {8}Future prospects}{211}{chapter.8}
+\contentsline {section}{\numberline {8.1}What drives future 21-cm signal experiment?}{211}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Limits of current 21-cm signal observations}{212}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}What will drive future 21-cm experiments}{214}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Ground-based interferometers}{215}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}The Square Kilometre Array -- SKA1\&2}{216}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}The Hydrogen Epoch of Reionization Array -- HERA}{218}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}The Large aperture Experiment to detect the Dark Ages -- LEDA}{219}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}The Low Frequency Array 2.0 -- LOFAR2.0}{220}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}The Murchison Widefield Array phase II}{222}{subsection.8.2.5}
+\contentsline {subsection}{\numberline {8.2.6}New Extension in Nancay Upgrading LOFAR -- NenuFAR}{222}{subsection.8.2.6}
+\contentsline {section}{\numberline {8.3}Global Signal Experiments}{223}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}The Experiment to Detect the Global EoR Signature -- EDGES}{224}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}The Large aperture Experiment to detect the Dark Ages -- LEDA}{224}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Shaped Antennas to measure the background RAdio Spectrum -- SARAS}{225}{subsection.8.3.3}
+\contentsline {section}{\numberline {8.4}Space-based instruments}{225}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}The Dark Ages Polarimetry Pathfinder -- DAPPER}{225}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Discovering the Sky at the Longest Wavelengths -- DSL}{226}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Farside Array for Radio Science Investigations of the Dark ages and Exoplanets -- FARSIDE}{226}{subsection.8.4.3}
+\contentsline {subsection}{\numberline {8.4.4}Netherlands-China Low frequency Explorer -- NCLE}{226}{subsection.8.4.4}
+\contentsline {section}{\numberline {8.5}The far future of 21-cm cosmology}{227}{section.8.5}
 \gdef \the@ipfilectr {}

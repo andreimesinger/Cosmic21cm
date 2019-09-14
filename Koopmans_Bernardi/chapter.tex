@@ -55,63 +55,79 @@ Below we summarize some of the issues that are currently considered as limiting 
 \item (h) Signal processing: One final difficulty is inherent to the data processing. Since processing affects the data via RFI excision, gain calibration, foreground-removal, etc.; it can both remove and enhance signals of interest from the data, including the 21-cm signal itself. Processing, if not done very precisely and accurately, can thus lead to a severe 21-cm signal bias (in general suppression).  
 \end{itemize} 
 
-\noindent Besides these limiting factors, mostly instrument-related, two crucial factors are harder to control and will ultimately drive the designs of large-scale future low frequency instruments towards space. {\bf (GB: ARRIVED HERE WITH MY REVISION SO FAR. Leon, if you are leaving and need to push to github, I'll continue to polish up later tonight and make a final submission tomorrow)}\\
+\noindent Besides these limiting factors, mostly instrument-related, two crucial factors are harder to control and will ultimately drive the designs of large-scale future low frequency instruments towards space.\\
 
-\noindent {\bf (1) Radio Frequency Interference:} Radio frequency interference (RFI) is becoming an increasingly more critical problem for low-frequency telescopes, as human-made signals from, e.g., transmitters, vehicles, mobile phones, satellites, aeroplanes, are now occupying many of the frequency bands previously clean [refs to Offringa maybe for RFI papers on LOFAR (2012) and MWA (2015?)]. This increasing RFI occupancy motivates the next generation of instruments to be built in remote desert environments such as the Karroo in South Africa and Western Australia. Going to space is another, albeit expensive option. Just above the Earth, however, any receiver would see a much larger number of transmitters, making the problem worse. Even at a distance of the moon, an RFI suppression of eight orders of magnitude in power would be needed to mitigate it to a level that the 21-cm signal from the CD can be observed. In a lunar orbit, the moon would shield the receivers from Earth and also from solar radiation for a fraction of the time, creating an "RFI-free" cone. Recent activity on the lunar far-side (i.e.\ Chang-e'4), however, might also jeopardize this as well. A receiver on the fare-side of the moon itself might be shielded even more (if far removed from surface activities), although charged particles on the lunar surface might impact such an instrument as well. Despite this, future low-frequency instruments will likely be in space to at least partly mitigate the worsening RFI situation on Earth. \\
+\noindent {\bf (1) Radio Frequency Interference:} Radio frequency interference (RFI) is becoming an increasingly more critical problem for low-frequency telescopes, as human-made signals from, e.g., transmitters, vehicles, mobile phones, satellites, aeroplanes, are now occupying many of the frequency bands previously clean (\cite{offringa13}, \cite{offringa15}). This increasing RFI occupancy motivates the next generation of instruments to be built in remote desert environments such as the Karroo in South Africa and Western Australia. Going to space is another, albeit expensive option. Just above the Earth, however, any receiver would see a much larger number of transmitters, making the problem worse. Even at a distance of the moon, an RFI suppression of eight orders of magnitude in power would be needed to mitigate it to a level that the 21-cm signal from the CD can be observed. In a lunar orbit, the moon would shield the receivers from Earth and also from solar radiation for a fraction of the time, creating an "RFI-free" cone.
+%. Recent activity on the lunar far-side (see Section~\ref{sec:space_base_instruments}), however, might also jeopardize this as well. 
+A receiver on the fare-side of the moon itself might be shielded even more. 
+%(if far removed from surface activities), although charged particles on the lunar surface might impact such an instrument as well. Despite this, 
+Future low-frequency instruments will likely be in space to at least partly mitigate the worsening RFI situation on Earth. \\
 
-\noindent {\bf (2) Ionosphere:} The ionosphere causes both phase and amplitude fluctuations in the received electro-magnetic signal, which increase in strength toward lower frequencies, and maximal near the plasma frequency cutoff of the ionosphere (around 5-10MHz). The ionosphere has restricted most instruments to frequencies of 30 or even 50MHz and above. The equivalent redshift ranges cover the EoR and CD, but reaching the Dark Ages will be extremely hard, especially in the presence of very bright foreground that couple to the ionosphere [refs to Vedantham \& Koopmans 2015, 2016; Also paper by Datta et al. 2016]. Reaching the Dark Age 21-cm signal, therefore, requires space-based instruments. Even the early Cosmic Dawn around $z\sim 30$ is effectively out of reach because the ionosphere even forthcoming instrument (e.g. HERA and SKA) would cover those frequency bands.\\
+\noindent {\bf (2) Ionosphere:} The ionosphere causes both phase and amplitude fluctuations in the received electro-magnetic signal, which increase in strength toward lower frequencies, and maximal near the plasma frequency cutoff of the ionosphere (around $5-10$~MHz). The ionosphere has restricted most instruments to frequencies above $30-50$~MHz, up to the Cosmic Dawn. Observations of the Dark Ages will be extremely hard, especially in the presence of very bright foreground that couple to the ionosphere (\cite{vedantham15}, \cite{vedantham16}). Reaching the Dark Age 21-cm signal, therefore, requires space-based instruments. \\
+%Even the early Cosmic Dawn around $z \sim 30$ is effectively out of reach because of the ionosphere even forthcoming instrument (see Section~\ref{sec_ground_base_interferometers}) may be cover those frequency bands.\\
 
-\noindent Whereas these technical and environmental reasons will ultimately drive instruments to becomes ever larger and be built on remote places, or even in space, what do we hope such future instrument will tell us?
+\noindent Whereas these technical and environmental reasons will ultimately drive instruments to become ever larger and be built on remote places, or even in space, what do we hope such future instruments will tell us?
 
 
 \subsection{What will drive future 21-cm experiments}
 
-Future experiments will primarily be driven by increasing sensitivity in 21-cm signal regimes already explored, but also by exploring new regimes in redshift and spatial scales. The former has fundamentally driven the development of the high-sensitivity SKA and HERA telescopes, although each with their distinct strategy of increasing sensitivity in various parts of parameter space. These two instruments will be discussed later in the Chapter. Below we will shortly discuss where future instruments can gain the most over current instrument (assuming current instrument will detect the 21-cm signal in the coming years). 
+Future experiments will primarily be driven by increasing sensitivity in 21-cm signal regimes already explored, but also by exploring new regimes in redshift and spatial scales. The former has fundamentally driven the development of the high-sensitivity SKA and HERA telescopes, with their distinct approach in sensitivity increase in different parameter space regions (see Section~\ref{sec_ground_base_interferometers}). Below we will shortly discuss where future instruments will represent a leap forward with respect to current instruments (assuming the latter will detect the 21-cm signal in the coming years). 
 
 \begin{itemize}
   
-\item {\bf Smaller spatial scales:} Most current instruments are limited to rather a small range $k$-modes ($<1$dex) in the power-spectrum where sufficient signal-to-noise can be reached for a detection. The reason is that shorter baselines add coherently for a more extended integration time per $uv$-cell and these are most sensitive to the larger spatial cases (except in the frequency direction). To reach larger $k$-modes or smaller 3D-spatial scales, the instrument in general needs much more collecting area, one of the drivers for SKA-low. HERA tries to reach higher sensitivity by not only increasing collecting area, but also by increasing its field of view, its the filling factor, but at the cost of having redundant $uv$-sampling. The latter makes direct imaging much harder, especially on smaller spatial scales, and possibly might lead to a harder to calibrate the instrument. However, small spatial scales can also be probed via the power spectrum since they are sampled both in the spatial domain as well as in the frequency domain (since frequency corresponds to redshift and hence to comoving distance). SKA aim for minimum redundancy and henced needs 
-more collecting area than HERA, but its imaging capabilities are far superior.
+\item {\bf Smaller spatial scales:} Most current instruments are limited to rather a small range (less than one decade) power spectrum $k$-modes where sufficient signal-to-noise can be reached for a detection. The reason is that shorter baselines add coherently for a more extended integration time per $uv$-cell and these are most sensitive to the larger spatial cases (except in the frequency direction). To observe larger $k$-modes (or smaller three dimensional spatial scales), instruments in general need much more collecting area, one of the SKA drivers. HERA aims to reach higher sensitivity by  increasing collecting area, its field of view and its the filling factor, but at the cost of having redundant $uv$-sampling. The latter makes direct imaging much harder, especially on smaller spatial scales, also posing limitation to calibration strategies. 
+%However, small spatial scales can also be probed via the power spectrum since they are sampled both in the spatial domain as well as in the frequency domain (since frequency corresponds to redshift and hence to comoving distance). SKA aim for minimum redundancy and henced needs more collecting area than HERA, but its imaging capabilities are far superior.
     
-\item {\bf Direct imaging:} More collecting area and sensitivity on all spatial scales, also opens up an avenue for direct imaging of the 21-cm signal. One of the highest-priority science drivers for the SKA is, therefore, the direct imaging on scales of about ten arcminutes and larger of the 21-cm signal during the EoR. Ionized bubbles can be imaged on even smaller scales since their contrast to the globally-averaged 21-cm signal is very large (about 30 mK versus fluctuations of only a few mK around the bubbles). 
+\item {\bf Direct imaging:} Direct imaging of the 21-cm signal becomes possible with larger collecting area and sensitivity on all spatial scales. One of the highest-priority science drivers for the SKA is, therefore, the direct imaging  of the 21-cm signal throughout the EoR on scales larger than ten arcminute (see Section\ref{sub_sec:ska}). Ionized bubbles can be imaged on even smaller scales since their contrast to the globally-averaged 21-cm signal is very large (about 30~mK versus fluctuations of only a few mK around the bubbles). 
 
-\item {\bf Higher redshifts:} A third driver of increasing sensitivity is that it enables even higher redshifts to be observed, e.g., those of the Comic Dawn or even the Dark Ages. At higher redshift, the foregrounds are much brighter, increasing the overall system temperature and hence the thermal noise. Integration times therefore rapidly increases with redshift, and nominally only the SKA and HERA can reach the 21-cm signal from the Cosmic Dawn, although the new NenuFAR system might also be sensitive enough. The latter instrument will be short discussed further in this Chapter.
+\item {\bf Higher redshifts:} A third driver behind the sensitivity increase is that it enables observations at even higher redshifts, e.g., in the Comic Dawn or even the Dark Ages. At higher redshift, the foregrounds are much brighter, increasing the overall system temperature and hence the thermal noise. Integration times therefore rapidly increases with redshift, and observations of the Cosmic Dawn are the territory of the upcoming interferometric arrays.
 \end{itemize}
 
 \noindent In short, whereas present-day instruments aim for the first detection at several (lower) redshifts and over a limited range of spatial scales, the next generation of instruments will aim to expand these parameter-spaces, but also do direct imaging rather than summarising the signal in some statistics (e.g. the power-spectrum). In Section X, these next-generation instruments will be discussed, where we not only limit ourselves to SKA and HERA but also shortly touch upon extensions to current instruments and their main science drivers.   
 
+
+
+
+
 \section{Ground-based interferometers}
+\label{sec_ground_base_interferometers}
 
 In this section, we review the status of those 21~cm ground-based interferometers that are under construction, have been upgraded or will be constructed shortly.
 
 \subsection{The Square Kilometre Array -- SKA1\&2}
 \label{sub_sec:ska}
 
-The Square Kilometre Array (SKA hereafter) is a global effort by a consortium of member-state countries (refs). SKA will consist of at least two entirely different arrays, with SKA-mid to be built in the Karroo desert of South Africa, and SKA-low to be built in Western Australia, each being relatively radio-quiet zones where human-made RFI is limited (although not absent). The site of SKA-mid currently hosts MEERKAT, which will become part of the SKA, and HERA, whereas the site in Western Australia hosts both the MWA and ASKAP. Since only SKA-low will cover the redshifts of the Cosmic Dawn and Epoch of reionization (50-350MHz, or $z=3.1-27.4$), here, we focus only on this instrument. 
+The Square Kilometre Array (SKA hereafter) is a global effort by a consortium of member-state countries\footnote{www.skatelescope.org} that will consist of at least two entirely different arrays: a mid-frequency array  (SKA-mid) to be built in the Karoo desert of South Africa, and a low frequency array (SKA-low) to be built in Western Australia, both located in radio-quiet zones where human-made RFI is very limited. 
+%The site of SKA-mid currently hosts MEERKAT, which will become part of the SKA, and HERA, whereas the site in Western Australia hosts both the MWA and ASKAP. 
+Since only SKA-low will cover the redshifts of the Cosmic Dawn and Epoch of reionization ($50-200$~MHz, or $6 < z < 27.4$), here, we focus only on this instrument. 
 %
 \begin{figure}[]
 \begin{center}
 \includegraphics[width=0.6\textwidth]{Koopmans_Bernardi/SKA-layout.png}
 \end{center}
-\caption{SKA1-low core layout, showing the station positions in the inner few km, which are most sensitive to the 21-cm signal. [Labate et al. 2017; 10.23919/EuCAP.2017.7928622]}
+\caption{SKA1-low core layout, showing the station positions in the inner few km, which are most sensitive to the 21-cm signal (from \cite{waterson16}).}
 \label{fig:fig_ska_layout}
 \end{figure}
 %
-SKA-low is very similar in design to LOFAR [Mellema et al. 2013; Koopmans et al. 2015], but has some distinct differences as well, primarily related to the receiver design. SKA-low aims to have 512 stations in Phase 1 (denoted by SKA1-low), having 256 log-periodic cross-dipoles receivers that cover the full frequency band and are semi-randomly spread inside a 40\,m diameter circle. The requirement of a high-gain receiver of the full spectral band limits SKA-low's field of view to a cone with an opening angle of about 90 degrees centred on the zenith, but one that maximizes forward gain. The current receiver design also aims for a spectrally smooth band-pass, something rather difficult to realize for a wide-field and wide-band receiver (refs).
+SKA-low has a design similar to LOFAR (\cite{mellema13}, \cite{koopmans15}), but has some distinct differences as well, primarily related to the receiver design. SKA-low aims to have 512 stations in Phase 1 (denoted here by SKA1-low), having 256 log-periodic cross-dipole receivers that cover the full frequency band and are semi-randomly spread inside a 40~m diameter circle. The requirement of a high-gain receiver over the full spectral band limits the field of view to a cone with an opening angle of about 90 degrees centred on the zenith, but one that maximizes forward gain. The current receiver design also aims for a spectrally smooth bandpass, something rather difficult to realize for a wide-field and wide-band receiver (refs).
 %
-About 212 stations will be placed inside a central core of about 600\,m (Fig.~\ref{fig:fig_ska_layout}), making it about eight times as sensitive in raw collecting areas as LOFAR-HBA, and significantly more than LOFAR-LBA, which currently is unable to reach standard 21-cm signals from the Comic dawn in any reasonable time. The remaining stations will be distributed along three arms that "spiral" outward up to about 65\,km, in the current design.  The long baselines do not go out as far as those of LOFAR but will yield much better $uv$-coverage in short snapshot observations, and enable proper direction-dependent gain calibration of the system. Hence SKA's observational and calibration strategy is very different from that of  HERA (see below). Whereas SKA aims for minimal redundancy to reduce PSF side-lobes and improve imaging and on-sky calibration capabilities, HERA aims for maximum redundancy which enables more rapidly to reach very low thermal-noise errors on a selected set of $uv$-points, but at the cost of its imaging and on-sky calibration capabilities. It remains to be seen which strategy is the most optimal, although one should keep in mind that SKA-low is also built for other science cases, whereas HERA is a pure 21-cm signal experiment and does not have to cater to other science interests. 
+About 212 stations will be placed inside a central core of about 600~m (Figure~\ref{fig:fig_ska_layout}), making it about eight times more sensitive than LOFAR. The remaining stations will be distributed along three arms that "spiral" outward up to about 65~km, in the current design.  The long baselines will enable proper direction-dependent gain calibration of the system. The SKA observational and calibration strategy leverages on minimal redundancy to reduce the point spread function side-lobes, improve imaging fidelity and sky-based calibration capabilities. 
+%It remains to be seen which strategy is the most optimal, although one should keep in mind that SKA-low is also built for other science cases, whereas HERA is a pure 21-cm signal experiment and does not have to cater to other science interests. 
 %
 \begin{figure}[]
 \begin{center}
 \includegraphics[width=\textwidth]{Koopmans_Bernardi/SKA-astrophysics.png}
 \end{center}
-\caption{Astrophysical parameter recovery of a standard 21-cm signal model using 1000h of observations with SKA1-low. [Greig, Mesinger & Koopmans 2019]}
+\caption{Astrophysical parameter constraints for a standard 21-cm signal model using 1000~h of observations with SKA1-low (\cite{greig19}).}
 \label{fig:fig_ska_astroph}
 \end{figure}
+
+The sheer collecting area (0.4~km$^2$) and instantaneous (300~MHz, or 150~MHz when split in dual-beam mode) bandwidth make SKA1-low the premier instrument in the late 2020s to directly image the 21-cm signal during the EoR from $6 < z < 12$, covering the 21-cm signal power-spectrum in the range of roughly $ 0.02 < k < 1 $~cMpc$^{-1}$ (depending on redshift), and push power-spectrum measurements over more limited $k$-ranges deep in to the Cosmic Dawn, up to $z \sim 20$ (or even more). 
+%In particular the former will make this a transformational instrument. For example, observing 
+Observations of individual ionized structures will enable cross-correlations with many other instruments that aim to look for the sources of reionization (e.g., JWST, ALMA, SPICA). Figure~\ref{fig:fig_ska_astroph} shows an example of how well SKA-low will constrain reionization parameters (\cite{greig19}). Currently, SKA is planned to be operational around 2028, although early science is foreseen several years before that.
 %
-The sheer collecting area (0.4 \,km$^2$) and instantaneous bandwidth of 300\,MHz (or 150\,MHz when split in dual-beam mode) make SKA1-low the premier instrument in the late 2020s to directly image the 21-cm signal during the EoR from $z\sim 6-12$, covering the 21-cm signal power-spectrum in the range of roughly $ 0.02 < k < 1 $\,cMpc$^{-1}$ (depending on redshift), and push power-spectrum measurements over more limited $k$-ranges deep in to the Cosmic Dawn, as far as $z\sim 20$ or even above. In particular the former will make this a transformational instrument. For example, observing individual ionized structures enables cross-correlations with many other instruments that aim to look for the sources of reionization (e.g. JWST, ALMA, SPICA). Currently, SKA is planned to be operational around 2028, although early science is foreseen several years before that. Fig.~\ref{fig:fig_ska_astrop} shows an example of how well SKA-low will perfom in recovering the astrophysical parameters of a standard model [Greig, Mesinger \& Koopmans 2019].
-%
-Finally, ideas for a far-future ($\gg$2030) upgrade to SKA2-low have already been developed [e.g. Koopmans et al. 2015], which nominally foresees an increase in collecting area by a factor of about four. This could not only allow more detailed imaging due to lower thermal noise, but also lower PSF side-lobes, and hence improved image fidelity. Longer baselines also help to remove foreground sources and calibration and enable even higher redshifts and broader ranges of $k-$ modes to be investigated in terms of 21-cm power spectrum measurements.
+Finally, ideas for a far-future ($\gg 2030$) upgrade to SKA2-low have already been developed (e.g., \cite{koopmans15}), which nominally foresees an increase in collecting area by a factor of about four. This could allow more detailed imaging due to lower thermal noise, and increase angular resolution also at higher redshifts.
+%but also lower point spread function side-lobes, and hence improved image fidelity. Longer baselines also help calibration, foreground subtraction and enable even higher redshifts and broader ranges of $k-$ modes to be investigated in terms of 21-cm power spectrum measurements.
 
 
 
@@ -158,34 +174,37 @@ The very dense core provides exceptional brightness sensitivity and a point spre
 The LEDA approach to measure the 21~cm signal can be versatile, allowing to image and subtract foregrounds (\cite{eastwood18}) but also to avoid them (similar to \cite{beardsley16}). \cite{eastwood19} analyzed 20~hours of LEDA data calibrated using a compact source sky model and filtering foregrounds by using their statistical properties in way similar to \cite{dillon14} and \cite{trott16}. They reported an initial $10^8$~mK$^2$ upper limit on the 21~cm power spectrum at $z = 18.4$. Several hundreds of hours of observations have been collected now and will be the focus of future analysis towards the detection of the power spectrum from the Cosmic Dawn and an independent confirmation of the reported detection by \cite{bowman18}.
 
 
+\subsection{The Low Frequency Array 2.0 -- LOFAR2.0}
+\label{section:lofar}
+
 \begin{figure}[t]
 \begin{center}
 \includegraphics[width=0.8\textwidth]{Koopmans_Bernardi/AARTFAAC=LBA-12-all-sky.png}
 \end{center}
-\caption{The first all-sky image of the Northern sky taken with the AARTFAAC-LBA system, using 576 dipoles on the inner 12 LOFAR-LBA stations. Figure credit: B. Gehlot.}
+%\caption{The first all-sky image of the Northern sky taken with the AARTFAAC-LBA system, using 576 dipoles on the inner 12 LOFAR-LBA stations. Figure credit: B. Gehlot.}
+\caption{The first all-sky image of the Northern sky taken with the AARTFAAC-LBA system, using 576 dipoles on the inner 12 LOFAR-LBA stations.}
 \label{fig:fig_AARTFAAC}
 \end{figure}
+%
+LOFAR (\cite{vanhaarlem13}) is already one of the most sensitive arrays to detect the 21-cm signal during the EoR, although its sensitivity is still limited in the Cosmic Dawn redshift/frequency-range. This is due to the limited effective Low-Band Antenna (LBA) collecting area, and the system temperature at low frequencies being much larger. Furthermore, the LBA dipoles are rather narrow-band, and the gains sharply peak around 60~MHz, dropping rapidly at frequencies away from the resonance. 
+%Similarly, at low frequencies,  ionospheric phase fluctuations increase rapidly making these data harder to calibrate and harder to reach the thermal noise. To mitigate both problems, 
+LOFAR will undergo upgrade in the coming years in order to improve its sensitivity and capability to calibrate the ionospheric distortions. Sensitivity will be increased by connecting the 48 dipoles in each LBA station that are not connected to the acquisition system because of budget limitations.
 
-\subsection{The Low Frequency Array 2.0 -- LOFAR2.0}
-\label{section:lofar}
+%Firstly, half of the 96 dipoles currently in each LBA station is not connected for cost reasons (the cost of an LBA dipole is an order of magnitude lower than the electronics needed to connect it to the overall system), despite being in the field. During the upgrade of LOFAR to LOFAR2 [https://www.astron.nl/lofar-20-newsletters-home], these 48 LBA-dipoles per station will be connected to the beam-former, effectively doubling the LOFAR-LBA collecting area. This increases LOFAR's sensitivity but also its ability to calibrate on more (fainter) sources, thereby improving ionospheric corrections. Connected to this, currently, only observations can be done in either HBA or LBA mode. 
 
-Although LOFAR [ref to van Haarlem et al. 2013] is already one of the most sensitive arrays for detecting the 21-cm signal during the EoR, its sensitivity is still limited in the redshift/frequency-range of the Cosmic Dawn. This is due to its effective Low-Band Antenna (LBA) collecting area being somewhat limited, and the system temperature at low frequencies being much larger. Furthermore, the LBA dipoles are rather narrow-band, and the gains sharply peak around 60\,MHz, dropping rapidly at frequencies away from the resonance. Similarly, at low frequencies,  ionospheric phase fluctuations increase rapidly making these data harder to calibrate and harder to reach the thermal noise. To mitigate both problems, LOFAR will be upgraded in the coming years. Firstly, half of the 96 dipoles currently in each LBA station is not connected for cost reasons (the cost of an LBA dipole is an order of magnitude lower than the electronics needed to connect it to the overall system), despite being in the field. During the upgrade of LOFAR to LOFAR2 [https://www.astron.nl/lofar-20-newsletters-home], these 48 LBA-dipoles per station will be connected to the beam-former, effectively doubling the LOFAR-LBA collecting area. This increases LOFAR's sensitivity but also its ability to calibrate on more (fainter) sources, thereby improving ionospheric corrections. Connected to this, currently, only observations can be done in either HBA or LBA mode. LOFAR2 will enable simultaneous observations with the HBA and LBA system, such that the more sensitive HBA system can be used to gain-calibrate the system, including (direction-dependent) ionospheric corrections. Finally, LOFAR2 will in a later stage also enable HBA observations with a dual analogue tile-beam formation, enabling multiple target fields anywhere on the visible sky (not just limited to multiple beams inside the HBA-tile beam, as is currently the case). Each of these improvement enables LOFAR's ability to improve not only the thermal-noise sensitivity to the 21-cm signal but also one's ability to calibrate the system. The first step in this process buy upgrading LOFAR's GPU-based correlator, COBALT, to COBALT2, was recently taken.  
+Moreover, LOFAR2 will enable simultaneous observations with the HBA and LBA systems, such that the more sensitive HBA system can be used to gain-calibrate the system, including (direction-dependent) ionospheric corrections. Finally, LOFAR2 will in a later stage also enable HBA observations with a dual analogue tile-beam formation, enabling multiple target fields anywhere on the visible sky (not just limited to multiple beams inside the HBA-tile beam, as is currently the case). Each of these upgrades improves the thermal-noise sensitivity to the 21-cm signal and the system calibratability. The first step in this process 
+%GPU-based correlator, COBALT, to COBALT2, 
+was recently taken with the installation of a GPU-based correlator.  
 
-\subsubsection{Amsterdam-ASTRON Radio Transients Facility And Analysis Center -- AARTFAAC}
+%\subsubsection{Amsterdam-ASTRON Radio Transients Facility And Analysis Center -- AARTFAAC}
 
-Whereas LOFAR mainly operates in beam-formed mode, where dipoles or tiles are phased-up in a given direction, the AARTFAAC system [http://aartfaac.org/] initially build for transient observations currently enables all 576 LBA or HBA dipoles/tiles of the inner 12 stations to be cross-correlated, using two physical correlators, although currently only over a very limited 3.1-MHz bandwidth with 60-kHz resolution. This increase LOFAR's FoV by a factor of about 25 for the HBA system and to all-sky for the LBA system (Fig.\ref{fig:fig_AARTFAAC}), and increasing the power-spectrum sensitivity by a factor of about 5 or more per unity bandwidth (since both the collecting area and filling factor remain similar and long baselines do not add sensitivity to the 21-cm signal). AARTFAAC is currently already being used to target, for example, the 21-cm signal in the Cosmic dawn as predicted from the EDGES results [Bowman et al. 2018]. An update to AARTWOLF is being planned, where the full correlation of all dipoles/tiles for 24 stations is envisioned over the full LBA and/or HBA bandwidth. This upgrade is closely connected to LOFAR2.0.  
+\begin{itemize}
+%
+\item {\bf Amsterdam-ASTRON Radio Transients Facility And Analysis Center -- AARTFAAC}.\\
+Whereas LOFAR mainly operates in beam-formed mode, where dipoles or tiles are phased-up in a given direction, the AARTFAAC system\footnote{www.aartfaac.org} currently enables all 576 LBA or HBA dipoles/tiles of the inner 12 stations to be cross-correlated, using two physical correlators, although currently only over a very limited 3.1-MHz bandwidth with 60-kHz resolution. This operational mode increases the field of view by a factor of about 25 for the HBA system and to all-sky for the LBA system (Figure~\ref{fig:fig_AARTFAAC}), improving the power-spectrum sensitivity by a factor of about five or more per unity bandwidth (since both the collecting area and filling factor remain similar and long baselines do not add sensitivity to the 21-cm signal). AARTFAAC is currently already being used to target, for example, the 21-cm signal in the Cosmic Dawn with the goal to interferometrically confirm the recently reported global signal detection (\cite{bowman18}). A system upgrade where all dipoles/tiles are fully correlated for 24 stations is envisioned over the full LBA and/or HBA bandwidth. 
+\end{itemize}
 
-\subsection{New Extension in Nancay Upgrading LOFAR -- NenuFAR}
 
-Another novel array currently in its roll-out and early-science phase is NenuFAR (formerly known as the LOFAR Super Station, LSS; Fig.~\ref{fig:fig_NenuFAR}; https://nenufar.obs-nancay.fr/en/homepage-en/). Whereas initially envisioned as an extremely sensitive system between (10)30-85\,MHz in beam-formed mode only, the development of cheap GPU-based correlators for LOFAR (i.e. COBALT) enables NenuFAR in late 2019 to correlate all envisioned 96 mini-arrays, each consisting of 19 LWA-like dipoles, over the full frequency band if high spectral resolution (64 channels of $\sim$3\,kHz each per sub-band of 195\,kHz). The field of view of NenuFAR is about 20 degrees at 60\,MHz, and inside the 400\,m core the filling factor reaches order unity at 35\,MHz, or about $\sim$0.25 at 60\,MHz, which makes it extremely sensitive to low-surface brightness structures. Currently, 56 stations are in place inside a core of about 400\,m diameter, which can be correlated only over 3.1\,MHz of 16 sub-bands (each of 195\,kHz). By late 2019, however, 80 stations will be in place, of which six will be placed further out over an are of about 2.5\,km in diameter. The correlator is already being installed and will also be operational by late 2019. The final goal is to have 96 mini-arrays in place, enabling maximum use of the system. This will make NenuFAR in 2020 one of the most sensitive 21-cm signal arrays in the world, in principle able to reach standard predicted 21-cm signal strengths in the Comic Dawn redshift range [Mesinger et al. 2016]. A large observational (key-science) program has started in 2019 to enable this over the coming years.     
-
-\begin{figure}[]
-\begin{center}
-\includegraphics[width=0.8\textwidth]{Koopmans_Bernardi/NenuFAR.png}
-\end{center}
-\caption{The current and planned layout of NenuFAR in Nancay, France. By late 2019, around 80 mini-arrays (stations) will be in place and operating, to be expanded to the ful 96 in 2020 and beyond. A GPU-based correlator designed after the LOFAR-correlator COBALT will also be installed. [https://nenufar.obs-nancay.fr/en/astronomer/] Figure credit: P. Zarka.}
-\label{fig:fig_NenuFAR}
-\end{figure}
 
 \subsection{The Murchison Widefield Array phase II}
 
@@ -197,12 +216,33 @@ In its extended configuration it has an exceptionally good instantaneous $uv$ co
 %
 \begin{figure}[t]
 \begin{center}
-\includegraphics[width=0.8.\textwidth]{Koopmans_Bernardi/mwa_phaseII_pspec.png}
+\includegraphics[width=0.8\textwidth]{Koopmans_Bernardi/mwa_phaseII_pspec.png}
 \end{center}
 \caption{Fiducial 21~cm power spectrum model at $z = 8.5$ with associated noise levels from Phase I and Phase II arrays with a 1000~hour observation. ``Phase II 256" shows the result from a future MWA upgrade where all 256 tiles are correlated simultaneously (from \cite{wayth18}).}
 \label{fig:fig_mwa_phaseII_pspec}
 \end{figure}
 
+
+
+
+\subsection{New Extension in Nancay Upgrading LOFAR -- NenuFAR}
+
+Another novel array currently in its roll-out and early-science phase is NenuFAR (Figure~\ref{fig:fig_NenuFAR}; \cite{french_ska_white_book}). Whereas initially envisioned as an extremely sensitive beam-formed system operating in  the $(10)30-85$~MHz, the development of a relatively cheap GPU-based correlator for LOFAR will enable NenuFAR to correlate all envisioned 96 mini-arrays, each consisting of 19 LEDA-like dipoles, over the full frequency band. 
+%if high spectral resolution (64 channels of $\sim$3\,kHz each per sub-band of 195\,kHz). 
+The field of view of NenuFAR is about 20 degrees at 60~MHz, and, inside the 400~m core, the filling factor reaches order unity at 35~MHz, and $\sim 0.25$ at 60~MHz, which makes it extremely sensitive to low-surface brightness structures. Currently, 56 stations are in place inside a core of about 400~m diameter.
+%, which can be correlated only over 3.1\,MHz of 16 sub-bands (each of 195\,kHz). 
+By late 2019, however, 80 stations will be in place, six of which  will be placed further out over an $\sim 2.5$~km diameter area. The correlator is already being installed and will also be operational by late 2019. The final goal is to have 96 mini-arrays in place, enabling maximum use of the system. This will make NenuFAR one of the most sensitive 21-cm signal arrays in the world, in principle able to reach the standard predicted 21-cm signal in the Cosmic Dawn redshift range (\cite{mesinger16}). 
+%A large observational (key-science) program has started in 2019 to enable this over the coming years.     
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Koopmans_Bernardi/NenuFAR.png}
+\end{center}
+\caption{The current and planned layout of NenuFAR in Nancay, France. By late 2019, around 80 mini-arrays (stations) will be in place and operating, to be expanded to the full 96 stations in 2020 (and beyond). A new GPU-based correlator will also be installed (\cite{french_ska_white_book}).}
+\label{fig:fig_NenuFAR}
+\end{figure}
+
+{\bf (GB: ARRIVED HERE!!!!)}
 
 
 
@@ -253,7 +293,12 @@ The SARAS antennas have been designed to provide nearly frequency independent be
 Initially, SARAS featured a fat-dipole antenna (\cite{patra13}) that was later replaced by a shaped monopole antenna (SARAS~2, \cite{singh18a}). SARAS~2 was deployed in the radio-quiet Timbaktu Collective in Southern India, observing in the $110-200$~MHz. SARAS~2 results disfavoured models with inefficient heating of the intergalactic medium and rapid reionization (\cite{singh17}, \cite{singh18b}). 
 A new generation experiment, SARAS~3, exploit a refined design to further reject spurious foreground structures and control over systematics in order to target the 21~cm signal in the $50-100$~MHz band.
 
+
+
+
+
 \section{Space-based instruments}
+\label{sec:space_base_instruments}
 
 Whereas tremendous progress is being made from the ground to detect the globally-averaged and spatially-fluctuating 21-cm signal during the EoR and CD, as discussed earlier, the stability of the system, RFI, the ionosphere, and even multi-path propagation effects, make ground-based observations hard and in some cases, such as a detection of the Dark Ages, even impossible. For this space-based instrument are needed. 
 %Are view of some of these can be founds in [Koopmans et al. (2019)]
@@ -285,16 +330,18 @@ A NASA-funded design study, focused on the instrument, a deployment rover, the l
 
 \subsection{Netherlands-China Low frequency Explorer -- NCLE}
 
-The Netherlands-China Low frequency Explorer (NCLE) is a radio instrument payload on board on the Chinese Queqiao relay satellite that orbits behind the Moon (Fig.~\ref{fig:fig_NCLE}; https://www.ru.nl/astrophysics/radboud-radio-lab/projects/netherlands-china-low-frequency-explorer-ncle/). NCLE is designed, built and tested by a Dutch consortium comprised of the Radboud University, ASTRON and ISIS, in close collaboration with the National Astronomical Observatories of the Chinese Academy of Sciences. It is composed of three 5~m long carbon-fibre monopole antenna units that can be switched into dipole mode to observe in the $0.08-80$~MHz range. Its main target is therefore the global 21~cm signal from the Darks Ages and Cosmis Dawn although it will also provide accurate, degree-scale foreground maps below 10~MHz and provide an extensive characterization of the radio frequency interference environment in the lunar far side.
+The Netherlands-China Low frequency Explorer (NCLE) is a radio instrument payload on board on the Chinese Queqiao relay satellite that orbits behind the Moon. 
+%(Fig.~\ref{fig:fig_NCLE}; https://www.ru.nl/astrophysics/radboud-radio-lab/projects/netherlands-china-low-frequency-explorer-ncle/). 
+NCLE is designed, built and tested by a Dutch consortium comprised of the Radboud University, ASTRON and ISIS, in close collaboration with the National Astronomical Observatories of the Chinese Academy of Sciences. It is composed of three 5~m long carbon-fibre monopole antenna units that can be switched into dipole mode to observe in the $0.08-80$~MHz range. Its main target is therefore the global 21~cm signal from the Darks Ages and Cosmis Dawn although it will also provide accurate, degree-scale foreground maps below 10~MHz and provide an extensive characterization of the radio frequency interference environment in the lunar far side.
 %
 The Queqiao satellite was launched on May 21st, 2018, and is currently behind the Moon, in the Earth-Moon second Lagrange point. NCLE is currently being commissioned, with first observations starting before the end of 2019.
-\begin{figure}[]
-\begin{center}
-\includegraphics[width=0.6\textwidth]{Koopmans_Bernardi/NCLE_AJDI_edited.jpg}
-\end{center}
-\caption{A rendering of the Netherlands-China Low-frequency Explorer (NCLE), currently in lunar L2. [ASTRON-JIVE Daily Image]}
-\label{fig:fig_NCLE}
-\end{figure}
+%\begin{figure}[]
+%\begin{center}
+%\includegraphics[width=0.6\textwidth]{Koopmans_Bernardi/NCLE_AJDI_edited.jpg}
+%\end{center}
+%\caption{A rendering of the Netherlands-China Low-frequency Explorer (NCLE), currently in lunar L2. [ASTRON-JIVE Daily Image]}
+%\label{fig:fig_NCLE}
+%\end{figure}
 
 
 \section{The far future of 21-cm cosmology}
