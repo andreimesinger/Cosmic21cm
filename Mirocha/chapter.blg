@@ -8,70 +8,81 @@ I was expecting a `,' or a `}'---line 109 of file Mirocha/References.bib
  :        author = {{Mineo}, S. and {Gilfanov}, M. and {Sunyaev}, R.},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 225 of file Mirocha/References.bib
+I was expecting a `,' or a `}'---line 379 of file Mirocha/References.bib
  :        
  :        author = {{Schauer}, Anna T.~P. and {Whalen}, Daniel J. and {Glover}, Simon C.~O. and
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 257 of file Mirocha/References.bib
+Repeated entry---line 552 of file Mirocha/References.bib
  : @article{Mineo2012a
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 666 of file Mirocha/References.bib
+Repeated entry---line 961 of file Mirocha/References.bib
  : @article{Gilfanov2004
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 706 of file Mirocha/References.bib
+Repeated entry---line 1001 of file Mirocha/References.bib
  : @article{Mineo2012b
  :                    ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 726 of file Mirocha/References.bib
+You're missing a field name---line 1021 of file Mirocha/References.bib
  : @article{Scalo1986,
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1661 of file Mirocha/References.bib
+Repeated entry---line 1512 of file Mirocha/References.bib
+ : @article{Madau2015
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2477 of file Mirocha/References.bib
+ : @article{Yoshida2003
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2488 of file Mirocha/References.bib
  : @article{Bromm1999
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1786 of file Mirocha/References.bib
+Repeated entry---line 2613 of file Mirocha/References.bib
  : @article{Leitherer1999
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1808 of file Mirocha/References.bib
+Repeated entry---line 2635 of file Mirocha/References.bib
  : @article{Conroy2009
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2041 of file Mirocha/References.bib
+Repeated entry---line 2728 of file Mirocha/References.bib
+ : @article{Ma2015
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2773 of file Mirocha/References.bib
+ : @article{Kimm2014
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3015 of file Mirocha/References.bib
  : @article{Mirocha2018
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2114 of file Mirocha/References.bib
+Repeated entry---line 3088 of file Mirocha/References.bib
  : @article{Thomas2008
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2132 of file Mirocha/References.bib
+Repeated entry---line 3106 of file Mirocha/References.bib
  : @article{Thomas2009
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2304 of file Mirocha/References.bib
+Repeated entry---line 3145 of file Mirocha/References.bib
+ : @article{Pritchard2006
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3278 of file Mirocha/References.bib
  : @article{Leitherer1999
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2325 of file Mirocha/References.bib
+Repeated entry---line 3299 of file Mirocha/References.bib
  : @article{Eldridge2009
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Iliev2006"
-Warning--I didn't find a database entry for "Meurer1999"
-Warning--I didn't find a database entry for "Mason2015"
-Warning--I didn't find a database entry for "Abel"
-Warning--I didn't find a database entry for "Turk"
-Warning--I didn't find a database entry for "OShea"
-Warning--I didn't find a database entry for "Yoshida"
-Warning--I didn't find a database entry for "Robertson2015"
-Warning--I didn't find a database entry for "Finkelstein2018"
-Warning--I didn't find a database entry for "Ahn2009"
-Warning--I didn't find a database entry for "Belcynski2010"
+Warning--I didn't find a database entry for "Venumadhav"
+Warning--I didn't find a database entry for "Mirocha2015"
 Warning--I didn't find a database entry for "Tseliakovich2010"
 Warning--to sort, need author or key in Mineo2012a
 Warning--to sort, need author or key in Schauer2015
@@ -83,45 +94,45 @@ Warning--empty author in Schauer2015
 Warning--empty title in Schauer2015
 Warning--empty journal in Schauer2015
 Warning--empty year in Schauer2015
-You've used 114 entries,
+You've used 156 entries,
             2118 wiz_defined-function locations,
-            1238 strings with 26562 characters,
-and the built_in function-call counts, 43113 in all, are:
-= -- 4007
-> -- 2592
-< -- 4
-+ -- 1020
-- -- 906
-* -- 3853
-:= -- 7384
-add.period$ -- 338
-call.type$ -- 114
-change.case$ -- 792
+            1451 strings with 38651 characters,
+and the built_in function-call counts, 64732 in all, are:
+= -- 5855
+> -- 4483
+< -- 5
++ -- 1768
+- -- 1612
+* -- 6022
+:= -- 11211
+add.period$ -- 464
+call.type$ -- 156
+change.case$ -- 1271
 chr.to.int$ -- 0
-cite$ -- 124
-duplicate$ -- 1301
-empty$ -- 2945
-format.name$ -- 906
-if$ -- 8616
+cite$ -- 166
+duplicate$ -- 1796
+empty$ -- 4019
+format.name$ -- 1612
+if$ -- 12729
 int.to.chr$ -- 0
-int.to.str$ -- 114
-missing$ -- 114
-newline$ -- 569
-num.names$ -- 226
-pop$ -- 603
+int.to.str$ -- 156
+missing$ -- 156
+newline$ -- 779
+num.names$ -- 310
+pop$ -- 1001
 preamble$ -- 1
-purify$ -- 680
+purify$ -- 1117
 quote$ -- 0
-skip$ -- 893
+skip$ -- 1242
 stack$ -- 0
-substring$ -- 2672
-swap$ -- 164
-text.length$ -- 4
+substring$ -- 3584
+swap$ -- 239
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 456
+type$ -- 624
 warning$ -- 10
-while$ -- 349
-width$ -- 117
-write$ -- 1239
-(There were 14 error messages)
+while$ -- 479
+width$ -- 159
+write$ -- 1701
+(There were 19 error messages)

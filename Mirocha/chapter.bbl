@@ -17,6 +17,12 @@ Tom {Abel}, Greg~L. {Bryan}, and Michael~L. {Norman}.
 \newblock {The Formation and Fragmentation of Primordial Molecular Clouds}.
 \newblock {\em \apj}, 540(1):39--44, Sep 2000.
 
+\bibitem{Ahn2009}
+Kyungjin Ahn, Paul~R Shapiro, Ilian~T Iliev, Garrelt Mellema, and Ue-Li Pen.
+\newblock {THE INHOMOGENEOUS BACKGROUND OF H 2-DISSOCIATING RADIATION DURING
+  COSMIC REIONIZATION}.
+\newblock {\em The Astrophysical Journal}, 695(2):1430--1445, April 2009.
+
 \bibitem{Barkana2005}
 Rennan {Barkana} and Abraham {Loeb}.
 \newblock {Detecting the Earliest Galaxies through Two New Sources of 21
@@ -29,6 +35,32 @@ Peter {Behroozi}, Risa~H. {Wechsler}, Andrew~P. {Hearin}, and Charlie {Conroy}.
   Matter Halo Assembly from z = 0 - 10}.
 \newblock {\em \mnras}, page 1134, May 2019.
 
+\bibitem{Behroozi2013}
+Peter~S Behroozi, Risa~H Wechsler, and Charlie Conroy.
+\newblock {On the Lack of Evolution in Galaxy Star Formation Efficiency}.
+\newblock {\em The Astrophysical Journal Letters}, 762(2):L31, January 2013.
+
+\bibitem{Belczynski2002}
+Krzysztof {Belczynski}, Vassiliki {Kalogera}, and Tomasz {Bulik}.
+\newblock {A Comprehensive Study of Binary Compact Objects as Gravitational
+  Wave Sources: Evolutionary Channels, Rates, and Physical Properties}.
+\newblock {\em \apj}, 572(1):407--431, Jun 2002.
+
+\bibitem{Bouche2010}
+N.~{Bouch{\'e}}, A.~{Dekel}, R.~{Genzel}, S.~{Genel}, G.~{Cresci}, N.~M.
+  {F{\"o}rster Schreiber}, K.~L. {Shapiro}, R.~I. {Davies}, and L.~{Tacconi}.
+\newblock {The Impact of Cold Gas Accretion Above a Mass Floor on Galaxy
+  Scaling Relations}.
+\newblock {\em \apj}, 718(2):1001--1018, Aug 2010.
+
+\bibitem{Bouwens2014}
+R.~J. {Bouwens}, G.~D. {Illingworth}, P.~A. {Oesch}, I.~{Labb{\'e}}, P.~G. {van
+  Dokkum}, M.~{Trenti}, M.~{Franx}, R.~{Smit}, V.~{Gonzalez}, and D.~{Magee}.
+\newblock {UV-continuum Slopes of \&gt;4000 z \raisebox{-0.5ex}\textasciitilde
+  4-8 Galaxies from the HUDF/XDF, HUDF09, ERS, CANDELS-South, and CANDELS-North
+  Fields}.
+\newblock {\em \apj}, 793(2):115, Oct 2014.
+
 \bibitem{Bouwens2015}
 R.~J. {Bouwens}, G.~D. {Illingworth}, P.~A. {Oesch}, M.~{Trenti},
   I.~{Labb{\'e}}, L.~{Bradley}, M.~{Carollo}, P.~G. {van Dokkum},
@@ -37,6 +69,19 @@ R.~J. {Bouwens}, G.~D. {Illingworth}, P.~A. {Oesch}, M.~{Trenti},
 \newblock {UV Luminosity Functions at Redshifts $z\sim 4$ to $z\sim 10$: 10,000
   Galaxies from HST Legacy Fields}.
 \newblock {\em \apj}, 803(1):34, Apr 2015.
+
+\bibitem{Bouwens2016}
+Rychard~J. {Bouwens}, Manuel {Aravena}, Roberto {Decarli}, Fabian {Walter},
+  Elisabete {da Cunha}, Ivo {Labb{\'e}}, Franz~E. {Bauer}, Frank {Bertoldi},
+  Chris {Carilli}, Scott {Chapman}, Emanuele {Daddi}, Jacqueline {Hodge},
+  Rob~J. {Ivison}, Alex {Karim}, Olivier {Le Fevre}, Benjamin {Magnelli},
+  Kazuaki {Ota}, Dominik {Riechers}, Ian~R. {Smail}, Paul {van der Werf}, Axel
+  {Weiss}, Pierre {Cox}, David {Elbaz}, Jorge {Gonzalez-Lopez}, Leopoldo
+  {Infante}, Pascal {Oesch}, Jeff {Wagg}, and Steve {Wilkins}.
+\newblock {ALMA Spectroscopic Survey in the Hubble Ultra Deep Field: The
+  Infrared Excess of UV-Selected z = 2-10 Galaxies as a Function of
+  UV-Continuum Slope and Stellar Mass}.
+\newblock {\em \apj}, 833(1):72, Dec 2016.
 
 \bibitem{Bowman2018}
 Judd~D. {Bowman}, Alan E.~E. {Rogers}, Raul~A. {Monsalve}, Thomas~J. {Mozdzen},
@@ -69,6 +114,14 @@ G.~{Bruzual} and S.~{Charlot}.
 \newblock {Stellar population synthesis at the resolution of 2003}.
 \newblock {\em \mnras}, 344:1000--1028, October 2003.
 
+\bibitem{Capak2015}
+P.~L. {Capak}, C.~{Carilli}, G.~{Jones}, C.~M. {Casey}, D.~{Riechers},
+  K.~{Sheth}, C.~M. {Carollo}, O.~{Ilbert}, A.~{Karim}, O.~{Lefevre},
+  S.~{Lilly}, N.~{Scoville}, V.~{Smolcic}, and L.~{Yan}.
+\newblock {Galaxies at redshifts 5 to 6 with systematically low dust content
+  and high [C II] emission}.
+\newblock {\em \nat}, 522(7557):455--458, Jun 2015.
+
 \bibitem{Chabrier2003}
 Gilles {Chabrier}.
 \newblock {Galactic Stellar and Substellar Initial Mass Function}.
@@ -80,6 +133,17 @@ X.~{Chen} and J.~{Miralda-Escud{\'e}}.
   Ly{$\alpha$} Scattering before Reionization: Predictions for 21 Centimeter
   Emission and Absorption}.
 \newblock {\em \apj}, 602:1--11, February 2004.
+
+\bibitem{Cheng2018}
+Carina {Cheng}, Aaron~R. {Parsons}, Matthew {Kolopanis}, Daniel~C. {Jacobs},
+  Adrian {Liu}, Saul~A. {Kohn}, James~E. {Aguirre}, Jonathan~C. {Pober},
+  Zaki~S. {Ali}, Gianni {Bernardi}, Richard~F. {Bradley}, Chris~L. {Carilli},
+  David~R. {DeBoer}, Matthew~R. {Dexter}, Joshua~S. {Dillon}, Pat {Klima},
+  David H.~E. {MacMahon}, David~F. {Moore}, Chuneeta~D. {Nunhokee}, William~P.
+  {Walbrugh}, and Andre {Walker}.
+\newblock {Characterizing Signal Loss in the 21 cm Reionization Power Spectrum:
+  A Revised Study of PAPER-64}.
+\newblock {\em \apj}, 868(1):26, Nov 2018.
 
 \bibitem{Conroy2009}
 C.~{Conroy}, J.~E. {Gunn}, and M.~{White}.
@@ -95,6 +159,14 @@ Brian~D Crosby, Brian~W O'Shea, Britton~D Smith, Matthew~J Turk, and Oliver
   Temporal and Physical Environment}.
 \newblock {\em The Astrophysical Journal}, 773(2):108, August 2013.
 
+\bibitem{Croton2006}
+Darren~J. {Croton}, Volker {Springel}, Simon D.~M. {White}, G.~{De Lucia},
+  C.~S. {Frenk}, L.~{Gao}, A.~{Jenkins}, G.~{Kauffmann}, J.~F. {Navarro}, and
+  N.~{Yoshida}.
+\newblock {The many lives of active galactic nuclei: cooling flows, black holes
+  and the luminosities and colours of galaxies}.
+\newblock {\em \mnras}, 365(1):11--28, Jan 2006.
+
 \bibitem{daSilva2012}
 Robert~L. da~Silva, Michele Fumagalli, and Mark Krumholz.
 \newblock {SLUG}{\textemdash}{STOCHASTICALLY} {LIGHTING} {UP} {GALAXIES}. i.
@@ -108,10 +180,22 @@ Arpan {Das}, Andrei {Mesinger}, Andrea {Pallottini}, Andrea {Ferrara}, and
   galaxy absorption}.
 \newblock {\em \mnras}, 469(1):1166--1174, Jul 2017.
 
+\bibitem{Dave2012}
+Romeel {Dav{\'e}}, Kristian {Finlator}, and Benjamin~D. {Oppenheimer}.
+\newblock {An analytic model for the evolution of the stellar, gas and metal
+  content of galaxies}.
+\newblock {\em \mnras}, 421(1):98--107, Mar 2012.
+
 \bibitem{Dayal2014}
 Pratika {Dayal}, Andrea {Ferrara}, James~S. {Dunlop}, and Fabio {Pacucci}.
 \newblock {Essential physics of early galaxy formation}.
 \newblock {\em \mnras}, 445(3):2545--2557, Dec 2014.
+
+\bibitem{Dekel2014}
+Avishai {Dekel} and Nir {Mandelker}.
+\newblock {An analytic solution for the minimal bathtub toy model: challenges
+  in the star formation history of high-z galaxies}.
+\newblock {\em \mnras}, 444(3):2071--2084, Nov 2014.
 
 \bibitem{Eldridge2009}
 John~J. {Eldridge} and Elizabeth~R. {Stanway}.
@@ -129,6 +213,12 @@ A.~{Ewall-Wice}, T.~C. {Chang}, J.~{Lazio}, O.~{Dor{\'e}}, M.~{Seiffert}, and
 G.~{Fabbiano}.
 \newblock {Populations of X-Ray Sources in Galaxies}.
 \newblock {\em \araa}, 44(1):323--366, Sep 2006.
+
+\bibitem{FG2011}
+Claude-Andr{\'e} {Faucher-Gigu{\`e}re}, Du{\v{s}}an {Kere{\v{s}}}, and
+  Chung-Pei {Ma}.
+\newblock {The baryonic assembly of dark matter haloes}.
+\newblock {\em \mnras}, 417(4):2982--2999, Nov 2011.
 
 \bibitem{Feng2018}
 C.~{Feng} and G.~{Holder}.
@@ -168,6 +258,25 @@ Anastasia {Fialkov}, Aviad {Cohen}, Rennan {Barkana}, and Joseph {Silk}.
   X-ray background}.
 \newblock {\em \mnras}, 464(3):3498--3508, Jan 2017.
 
+\bibitem{Finkelstein2019}
+Steven~L. {Finkelstein}, Anson {D'Aloisio}, Jan-Pieter {Paardekooper}, Jr.
+  {Ryan}, Russell, Peter {Behroozi}, Kristian {Finlator}, Rachael {Livermore},
+  Phoebe~R. {Upton Sanderbeck}, Claudio {Dalla Vecchia}, and Sadegh {Khochfar}.
+\newblock {Conditions for Reionizing the Universe with a Low Galaxy Ionizing
+  Photon Escape Fraction}.
+\newblock {\em \apj}, 879(1):36, Jul 2019.
+
+\bibitem{Finkelstein2012}
+Steven~L. {Finkelstein}, Casey {Papovich}, Brett {Salmon}, Kristian {Finlator},
+  Mark {Dickinson}, Henry~C. {Ferguson}, Mauro {Giavalisco}, Anton~M.
+  {Koekemoer}, Naveen~A. {Reddy}, Robert {Bassett}, Christopher~J. {Conselice},
+  James~S. {Dunlop}, S.~M. {Faber}, Norman~A. {Grogin}, Nimish~P. {Hathi},
+  Dale~D. {Kocevski}, Kamson {Lai}, Kyoung-Soo {Lee}, Ross~J. {McLure}, Bahram
+  {Mobasher}, and Jeffrey~A. {Newman}.
+\newblock {Candels: The Evolution of Galaxy Rest-frame Ultraviolet Colors from
+  z = 8 to 4}.
+\newblock {\em \apj}, 756(2):164, Sep 2012.
+
 \bibitem{Finkelstein2015}
 Steven~L. {Finkelstein}, Jr. {Ryan}, Russell~E., Casey {Papovich}, Mark
   {Dickinson}, Mimi {Song}, Rachel~S. {Somerville}, Henry~C. {Ferguson}, Brett
@@ -186,6 +295,11 @@ D.~J. {Fixsen}, A.~{Kogut}, S.~{Levin}, M.~{Limon}, P.~{Lubin}, P.~{Mirel},
   M.~{Seiffert}, J.~{Singal}, E.~{Wollack}, T.~{Villela}, and C.~A. {Wuensche}.
 \newblock {ARCADE 2 Measurement of the Absolute Sky Brightness at 3-90 GHz}.
 \newblock {\em \apj}, 734:5, June 2011.
+
+\bibitem{Fragos2013}
+T.~{Fragos}, B.~D. {Lehmer}, S.~{Naoz}, A.~{Zezas}, and A.~{Basu-Zych}.
+\newblock {Energy Feedback from X-Ray Binaries in the Early Universe}.
+\newblock {\em \apjl}, 776(2):L31, Oct 2013.
 
 \bibitem{Fukugita1994}
 M.~{Fukugita} and M.~{Kawasaki}.
@@ -267,6 +381,13 @@ Zolt{\'a}n {Haiman}, Martin~J. {Rees}, and Abraham {Loeb}.
 \newblock {Destruction of Molecular Hydrogen during Cosmological Reionization}.
 \newblock {\em \apj}, 476(2):458--463, Feb 1997.
 
+\bibitem{Hassan2018}
+Sultan {Hassan}, Romeel {Dav{\'e}}, Sourav {Mitra}, Kristian {Finlator},
+  Benedetta {Ciardi}, and Mario~G. {Santos}.
+\newblock {Constraining the contribution of active galactic nuclei to
+  reionization}.
+\newblock {\em \mnras}, 473(1):227--240, Jan 2018.
+
 \bibitem{Hirata2006}
 Christopher~M Hirata.
 \newblock {Wouthuysen-Field coupling strength and application to high-redshift
@@ -278,6 +399,14 @@ Lauren~N. {Holzbauer} and Steven~R. {Furlanetto}.
 \newblock {Fluctuations in the high-redshift Lyman-Werner and
   Ly{\ensuremath{\alpha}} radiation backgrounds}.
 \newblock {\em \mnras}, 419(1):718--731, Jan 2012.
+
+\bibitem{Hopkins2014}
+Philip~F. {Hopkins}, Du{\v{s}}an {Kere{\v{s}}}, Jos{\'e} {O{\~n}orbe},
+  Claude-Andr{\'e} {Faucher-Gigu{\`e}re}, Eliot {Quataert}, Norman {Murray},
+  and James~S. {Bullock}.
+\newblock {Galaxies on FIRE (Feedback In Realistic Environments): stellar
+  feedback explains cosmologically inefficient star formation}.
+\newblock {\em \mnras}, 445(1):581--603, Nov 2014.
 
 \bibitem{Hui1997}
 Lam {Hui} and Nickolay~Y. {Gnedin}.
@@ -303,10 +432,27 @@ G.~{Knevitt}, G.~A. {Wynn}, C.~{Power}, and J.~S. {Bolton}.
   high-mass X-ray binaries}.
 \newblock {\em \mnras}, 445(2):2034--2048, Dec 2014.
 
+\bibitem{Kolopanis2019}
+Matthew {Kolopanis}, Daniel~C. {Jacobs}, Carina {Cheng}, Aaron~R. {Parsons},
+  Saul~A. {Kohn}, Jonathan~C. {Pober}, James~E. {Aguirre}, Zaki~S. {Ali},
+  Gianni {Bernardi}, Richard~F. {Bradley}, Christopher~L. {Carilli}, David~R.
+  {DeBoer}, Matthew {Dexter}, Joshua~S. {Dillon}, Joshua {Kerrigan}, Patricia
+  {Klima}, Adrian {Liu}, Dave {MacMahon}, David~F. {Moore}, Nithyanandan
+  {Thyagarajan}, Chuneeta {Devi Nunhokee}, William {Walbrughp}, and Andre
+  {Walker}.
+\newblock {A simplified, lossless re-analysis of PAPER-64}.
+\newblock {\em arXiv e-prints}, page arXiv:1909.02085, Sep 2019.
+
 \bibitem{Kroupa2001}
 Pavel {Kroupa}.
 \newblock {On the variation of the initial mass function}.
 \newblock {\em \mnras}, 322(2):231--246, Apr 2001.
+
+\bibitem{Leite2017}
+N.~{Leite}, C.~{Evoli}, M.~{D'Angelo}, B.~{Ciardi}, G.~{Sigl}, and
+  A.~{Ferrara}.
+\newblock {Do cosmic rays heat the early intergalactic medium?}
+\newblock {\em \mnras}, 469(1):416--424, Jul 2017.
 
 \bibitem{Leitherer1999}
 Claus {Leitherer}, Daniel {Schaerer}, Jeffrey~D. {Goldader}, Rosa
@@ -337,16 +483,41 @@ Marie~E. {Machacek}, Greg~L. {Bryan}, and Tom {Abel}.
   Feedback}.
 \newblock {\em \apj}, 548(2):509--521, Feb 2001.
 
+\bibitem{Madau2017}
+Piero {Madau} and Tassos {Fragos}.
+\newblock {Radiation Backgrounds at Cosmic Dawn: X-Rays from Compact Binaries}.
+\newblock {\em \apj}, 840(1):39, May 2017.
+
 \bibitem{Madau2015}
 Piero {Madau} and Francesco {Haardt}.
 \newblock {Cosmic Reionization after Planck: Could Quasars Do It All?}
 \newblock {\em \apjl}, 813(1):L8, Nov 2015.
+
+\bibitem{Maio2010}
+Umberto {Maio}, Benedetta {Ciardi}, Klaus {Dolag}, Luca {Tornatore}, and Sadegh
+  {Khochfar}.
+\newblock {The transition from population III to population II-I star
+  formation}.
+\newblock {\em \mnras}, 407(2):1003--1015, Sep 2010.
 
 \bibitem{Mashian2016}
 Natalie {Mashian}, Pascal~A. {Oesch}, and Abraham {Loeb}.
 \newblock {An empirical model for the galaxy luminosity and star formation rate
   function at high redshift}.
 \newblock {\em \mnras}, 455(2):2101--2109, Jan 2016.
+
+\bibitem{Mason2015}
+Charlotte~A Mason, Michele Trenti, and Tommaso Treu.
+\newblock {The Galaxy UV Luminosity Function before the Epoch of Reionization}.
+\newblock {\em The Astrophysical Journal}, 813(1):21, November 2015.
+
+\bibitem{Mason2018}
+Charlotte~A. {Mason}, Tommaso {Treu}, Mark {Dijkstra}, Andrei {Mesinger},
+  Michele {Trenti}, Laura {Pentericci}, Stephane {de Barros}, and Eros
+  {Vanzella}.
+\newblock {The Universe Is Reionizing at z~7: Bayesian Inference of the IGM
+  Neutral Fraction Using Ly{\ensuremath{\alpha}} Emission from Galaxies}.
+\newblock {\em \apj}, 856(1):2, Mar 2018.
 
 \bibitem{McBride2009}
 James {McBride}, Onsi {Fakhouri}, and Chung-Pei {Ma}.
@@ -386,6 +557,13 @@ Andrei {Mesinger}, Bradley {Greig}, and Emanuele {Sobacchi}.
 \newblock {The Evolution Of 21 cm Structure (EOS): public, large-scale
   simulations of Cosmic Dawn and reionization}.
 \newblock {\em \mnras}, 459(3):2342--2353, Jul 2016.
+
+\bibitem{Meurer1999}
+Gerhardt~R. {Meurer}, Timothy~M. {Heckman}, and Daniela {Calzetti}.
+\newblock {Dust Absorption and the Ultraviolet Luminosity Density at z
+  \raisebox{-0.5ex}\textasciitilde 3 as Calibrated by Local Starburst
+  Galaxies}.
+\newblock {\em \apj}, 521(1):64--80, Aug 1999.
 
 \bibitem{Mineo2012b}
 S.~{Mineo}, M.~{Gilfanov}, and R.~{Sunyaev}.
@@ -436,12 +614,30 @@ K.~{Mitsuda}, H.~{Inoue}, K.~{Koyama}, K.~{Makishima}, M.~{Matsuoka},
   Tenma.}
 \newblock {\em \pasj}, 36:741--759, Jan 1984.
 
+\bibitem{Moster2010}
+Benjamin~P. {Moster}, Rachel~S. {Somerville}, Christian {Maulbetsch}, Frank~C.
+  {van den Bosch}, Andrea~V. {Macci{\`o}}, Thorsten {Naab}, and Ludwig {Oser}.
+\newblock {Constraints on the Relationship between Stellar Mass and Halo Mass
+  at Low and High Redshift}.
+\newblock {\em \apj}, 710(2):903--923, Feb 2010.
+
 \bibitem{Mutch2016}
 Simon~J. {Mutch}, Paul~M. {Geil}, Gregory~B. {Poole}, Paul~W. {Angel}, Alan~R.
   {Duffy}, Andrei {Mesinger}, and J.~Stuart~B. {Wyithe}.
 \newblock {Dark-ages reionization and galaxy formation simulation - III.
   Modelling galaxy formation and the epoch of reionization}.
 \newblock {\em \mnras}, 462(1):250--276, Oct 2016.
+
+\bibitem{Narayanan2018}
+Desika {Narayanan}, Charlie {Conroy}, Romeel {Dav{\'e}}, Benjamin~D. {Johnson},
+  and Gerg{\"o} {Popping}.
+\newblock {A Theory for the Variation of Dust Attenuation Laws in Galaxies}.
+\newblock {\em \apj}, 869(1):70, Dec 2018.
+
+\bibitem{Nath1993}
+B.~B. {Nath} and P.~L. {Biermann}.
+\newblock {Did cosmic rays reionize the intergalactic medium?}
+\newblock {\em \mnras}, 265:241--249, Nov 1993.
 
 \bibitem{Noh2014}
 Yookyung Noh and Matthew Mcquinn.
@@ -464,6 +660,12 @@ S.~Peng {Oh}.
   Clusters}.
 \newblock {\em \apj}, 553(2):499--512, Jun 2001.
 
+\bibitem{OShea2007}
+Brian~W O'Shea and Michael~L Norman.
+\newblock {Population III Star Formation in a $\Lambda$CDM Universe. I. The
+  Effect of Formation Redshift and Environment on Protostellar Accretion Rate}.
+\newblock {\em The Astrophysical Journal}, 654(1):66--92, January 2007.
+
 \bibitem{OShea2015}
 Brian~W. {O'Shea}, John~H. {Wise}, Hao {Xu}, and Michael~L. {Norman}.
 \newblock {Probing the Ultraviolet Luminosity Function of the Earliest Galaxies
@@ -481,11 +683,53 @@ Jaehong {Park}, Andrei {Mesinger}, Bradley {Greig}, and Nicolas {Gillet}.
   galaxy luminosity functions and the 21-cm signal}.
 \newblock {\em \mnras}, 484(1):933--949, Mar 2019.
 
+\bibitem{Parsons2014}
+Aaron~R. {Parsons}, Adrian {Liu}, James~E. {Aguirre}, Zaki~S. {Ali}, Richard~F.
+  {Bradley}, Chris~L. {Carilli}, David~R. {DeBoer}, Matthew~R. {Dexter},
+  Nicole~E. {Gugliucci}, Daniel~C. {Jacobs}, Pat {Klima}, David H.~E.
+  {MacMahon}, Jason~R. {Manley}, David~F. {Moore}, Jonathan~C. {Pober},
+  Irina~I. {Stefan}, and William~P. {Walbrugh}.
+\newblock {New Limits on 21 cm Epoch of Reionization from PAPER-32 Consistent
+  with an X-Ray Heated Intergalactic Medium at z = 7.7}.
+\newblock {\em \apj}, 788(2):106, Jun 2014.
+
+\bibitem{Pober2015}
+Jonathan~C. {Pober}, Zaki~S. {Ali}, Aaron~R. {Parsons}, Matthew {McQuinn},
+  James~E. {Aguirre}, Gianni {Bernardi}, Richard~F. {Bradley}, Chris~L.
+  {Carilli}, Carina {Cheng}, David~R. {DeBoer}, Matthew~R. {Dexter}, Steven~R.
+  {Furlanetto}, Jasper {Grobbelaar}, Jasper {Horrell}, Daniel~C. {Jacobs},
+  Patricia~J. {Klima}, Saul~A. {Kohn}, Adrian {Liu}, David H.~E. {MacMahon},
+  Matthys {Maree}, Andrei {Mesinger}, David~F. {Moore}, Nima {Razavi-Ghods},
+  Irina~I. {Stefan}, William~P. {Walbrugh}, Andre {Walker}, and Haoxuan
+  {Zheng}.
+\newblock {PAPER-64 Constraints On Reionization. II. The Temperature of the z
+  =8.4 Intergalactic Medium}.
+\newblock {\em \apj}, 809(1):62, Aug 2015.
+
+\bibitem{Ali2015}
+Jonathan~C. {Pober}, Zaki~S. {Ali}, Aaron~R. {Parsons}, Matthew {McQuinn},
+  James~E. {Aguirre}, Gianni {Bernardi}, Richard~F. {Bradley}, Chris~L.
+  {Carilli}, Carina {Cheng}, David~R. {DeBoer}, Matthew~R. {Dexter}, Steven~R.
+  {Furlanetto}, Jasper {Grobbelaar}, Jasper {Horrell}, Daniel~C. {Jacobs},
+  Patricia~J. {Klima}, Saul~A. {Kohn}, Adrian {Liu}, David H.~E. {MacMahon},
+  Matthys {Maree}, Andrei {Mesinger}, David~F. {Moore}, Nima {Razavi-Ghods},
+  Irina~I. {Stefan}, William~P. {Walbrugh}, Andre {Walker}, and Haoxuan
+  {Zheng}.
+\newblock {PAPER-64 Constraints On Reionization. II. The Temperature of the z
+  =8.4 Intergalactic Medium}.
+\newblock {\em \apj}, 809(1):62, Aug 2015.
+
 \bibitem{PS1974}
 William~H. {Press} and Paul {Schechter}.
 \newblock {Formation of Galaxies and Clusters of Galaxies by Self-Similar
   Gravitational Condensation}.
 \newblock {\em \apj}, 187:425--438, Feb 1974.
+
+\bibitem{Pritchard2006}
+Jonathan~R Pritchard and Steven~R Furlanetto.
+\newblock {Descending from on high: Lyman-series cascades and spin-kinetic
+  temperature coupling in the 21-cm line}.
+\newblock {\em \mnras}, 367(3):1057--1066, April 2006.
 
 \bibitem{Pritchard2007}
 Jonathan~R Pritchard and Steven~R Furlanetto.
@@ -494,10 +738,10 @@ Jonathan~R Pritchard and Steven~R Furlanetto.
 \newblock {\em \mnras}, 376(4):1680--1694, April 2007.
 
 \bibitem{Pritchard2010}
-Jonathan~R Pritchard and Abraham Loeb.
-\newblock {Constraining the unexplored period between reionization and the dark
-  ages with observations of the global 21 cm signal}.
-\newblock {\em eprint arXiv}, 1005:4057, May 2010.
+Jonathan~R. {Pritchard} and Abraham {Loeb}.
+\newblock {Constraining the unexplored period between the dark ages and
+  reionization with observations of the global 21 cm signal}.
+\newblock {\em \prd}, 82(2):023006, Jul 2010.
 
 \bibitem{Raste2018}
 Janakee {Raste} and Shiv {Sethi}.
@@ -510,6 +754,25 @@ Ronald~A. Remillard and Jeffrey~E. McClintock.
 \newblock X-ray properties of black-hole binaries.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 44(1):49--92,
   2006.
+
+\bibitem{Ripamonti2008}
+E.~{Ripamonti}, M.~{Mapelli}, and S.~{Zaroubi}.
+\newblock {Radiation from early black holes - I. Effects on the neutral
+  intergalactic medium}.
+\newblock {\em \mnras}, 387(1):158--172, Jun 2008.
+
+\bibitem{Robertson2015}
+Brant~E. {Robertson}, Richard~S. {Ellis}, Steven~R. {Furlanetto}, and James~S.
+  {Dunlop}.
+\newblock {Cosmic Reionization and Early Star-forming Galaxies: A Joint
+  Analysis of New Constraints from Planck and the Hubble Space Telescope}.
+\newblock {\em \apjl}, 802(2):L19, Apr 2015.
+
+\bibitem{Salim2019}
+Samir {Salim} and M{\'e}d{\'e}ric {Boquien}.
+\newblock {Diversity of Galaxy Dust Attenuation Curves Drives the Scatter in
+  the IRX-{\ensuremath{\beta}} Relation}.
+\newblock {\em \apj}, 872(1):23, Feb 2019.
 
 \bibitem{Salpeter1955}
 Edwin~E. {Salpeter}.
@@ -528,6 +791,13 @@ Richard Sarmento, Evan Scannapieco, and Seth Cohen.
   Pop III-bright Galaxies}.
 \newblock {\em The Astrophysical Journal}, 854(1):75, February 2018.
 
+\bibitem{Sazonov2015}
+S~Sazonov and R~Sunyaev.
+\newblock {Preheating of the Universe by cosmic rays from primordial supernovae
+  at the beginning of cosmic reionization}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  454(4):3464--3471, December 2015.
+
 \bibitem{Scalo1998}
 John {Scalo}.
 \newblock {The IMF Revisited: A Case for Variations}.
@@ -540,6 +810,17 @@ D~Schaerer.
 \newblock {On the properties of massive Population III stars and metal-free
   stellar populations}.
 \newblock {\em Astronomy and Astrophysics}, 382(1):28--42, January 2002.
+
+\bibitem{Schaye2015}
+Joop {Schaye}, Robert~A. {Crain}, Richard~G. {Bower}, Michelle {Furlong},
+  Matthieu {Schaller}, Tom {Theuns}, Claudio {Dalla Vecchia}, Carlos~S.
+  {Frenk}, I.~G. {McCarthy}, John~C. {Helly}, Adrian {Jenkins}, Y.~M.
+  {Rosas-Guevara}, Simon D.~M. {White}, Maarten {Baes}, C.~M. {Booth}, Peter
+  {Camps}, Julio~F. {Navarro}, Yan {Qu}, Alireza {Rahmati}, Till {Sawala},
+  Peter~A. {Thomas}, and James {Trayford}.
+\newblock {The EAGLE project: simulating the evolution and assembly of galaxies
+  and their environments}.
+\newblock {\em \mnras}, 446(1):521--554, Jan 2015.
 
 \bibitem{Shapley2006}
 Alice~E Shapley, Charles~C Steidel, Max Pettini, Kurt~L Adelberger, and Dawn~K
@@ -575,6 +856,13 @@ Britton~D. {Smith}, John~H. {Wise}, Brian~W. {O'Shea}, Michael~L. {Norman}, and
 \newblock {The first Population II stars formed in externally enriched
   mini-haloes}.
 \newblock {\em \mnras}, 452(3):2822--2836, Sep 2015.
+
+\bibitem{Somerville2008}
+Rachel~S. {Somerville}, Philip~F. {Hopkins}, Thomas~J. {Cox}, Brant~E.
+  {Robertson}, and Lars {Hernquist}.
+\newblock {A semi-analytic model for the co-evolution of galaxies, black holes
+  and active galactic nuclei}.
+\newblock {\em \mnras}, 391(2):481--506, Dec 2008.
 
 \bibitem{Stanway2016}
 Elizabeth~R. {Stanway}, J.~J. {Eldridge}, and George~D. {Becker}.
@@ -635,12 +923,6 @@ Hy~Trac, Renyue Cen, and Philip Mansfield.
 \newblock {SCORCH I: The Galaxy-Halo Connection in the First Billion Years}.
 \newblock {\em The Astrophysical Journal}, 813(1):54, November 2015.
 
-\bibitem{Trenti2010}
-M~Trenti, M~Stiavelli, R~J Bouwens, P~Oesch, J~M Shull, G~D Illingworth, L~D
-  Bradley, and C~M Carollo.
-\newblock {THE GALAXY LUMINOSITY FUNCTION DURING THE REIONIZATION EPOCH}.
-\newblock {\em The Astrophysical Journal}, 714(2):L202--L207, April 2010.
-
 \bibitem{Trenti2009}
 Michele Trenti and Massimo Stiavelli.
 \newblock {Formation Rates of Population III Stars and Chemical Enrichment of
@@ -683,16 +965,46 @@ Eli {Visbal}, Zolt{\'a}n {Haiman}, Bryan {Terrazas}, Greg~L. {Bryan}, and
   background}.
 \newblock {\em \mnras}, 445(1):107--114, Nov 2014.
 
+\bibitem{Vogelsberger2014}
+Mark {Vogelsberger}, Shy {Genel}, Volker {Springel}, Paul {Torrey}, Debora
+  {Sijacki}, Dandan {Xu}, Greg {Snyder}, Dylan {Nelson}, and Lars {Hernquist}.
+\newblock {Introducing the Illustris Project: simulating the coevolution of
+  dark and visible matter in the Universe}.
+\newblock {\em \mnras}, 444(2):1518--1547, Oct 2014.
+
+\bibitem{Weingartner2001}
+Joseph~C Weingartner and B~T Draine.
+\newblock {Dust Grain-Size Distributions and Extinction in the Milky Way, Large
+  Magellanic Cloud, and Small Magellanic Cloud}.
+\newblock {\em The Astrophysical Journal}, 548(1):296--309, February 2001.
+
 \bibitem{WolcottGreen2012}
 J.~{Wolcott-Green} and Z.~{Haiman}.
 \newblock {Feedback from the infrared background in the early Universe}.
 \newblock {\em \mnras}, 425(1):L51--L55, Sep 2012.
+
+\bibitem{Xu2016}
+Hao {Xu}, John~H. {Wise}, Michael~L. {Norman}, Kyungjin {Ahn}, and Brian~W.
+  {O'Shea}.
+\newblock {Galaxy Properties and UV Escape Fractions during the Epoch of
+  Reionization: Results from the Renaissance Simulations}.
+\newblock {\em \apj}, 833(1):84, Dec 2016.
+
+\bibitem{Yoshida2003}
+Naoki {Yoshida}, Tom {Abel}, Lars {Hernquist}, and Naoshi {Sugiyama}.
+\newblock {Simulations of Early Structure Formation: Primordial Gas Clouds}.
+\newblock {\em \apj}, 592(2):645--663, Aug 2003.
 
 \bibitem{Yue2016}
 Bin Yue, Andrea Ferrara, and Yidong Xu.
 \newblock {On the faint-end of the high-z galaxy luminosity function}.
 \newblock {\em Monthly Notices of the Royal Astronomical Society},
   463(2):1968--1979, December 2016.
+
+\bibitem{Zaroubi2007}
+Saleem {Zaroubi}, Rajat~M. {Thomas}, Naoshi {Sugiyama}, and Joseph {Silk}.
+\newblock {Heating of the intergalactic medium by primordial miniquasars}.
+\newblock {\em \mnras}, 375(4):1269--1279, Mar 2007.
 
 \bibitem{Zygelman2005}
 B~Zygelman.
