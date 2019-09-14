@@ -3,49 +3,49 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Koopmans_Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Koopmans_Bernardi/References.bib
-Repeated entry---line 617 of file Koopmans_Bernardi/References.bib
+Repeated entry---line 679 of file Koopmans_Bernardi/References.bib
  : @article{mesinger16
  :                    ,
 I'm skipping whatever remains of this entry
-You've used 51 entries,
+You've used 56 entries,
             2118 wiz_defined-function locations,
-            758 strings with 35149 characters,
-and the built_in function-call counts, 55106 in all, are:
-= -- 4074
-> -- 7068
+            789 strings with 35906 characters,
+and the built_in function-call counts, 56803 in all, are:
+= -- 4238
+> -- 7152
 < -- 6
-+ -- 2817
-- -- 2766
-* -- 6235
-:= -- 10303
-add.period$ -- 153
-call.type$ -- 51
-change.case$ -- 1536
++ -- 2850
+- -- 2794
+* -- 6377
+:= -- 10594
+add.period$ -- 168
+call.type$ -- 56
+change.case$ -- 1565
 chr.to.int$ -- 0
-cite$ -- 51
-duplicate$ -- 627
-empty$ -- 1208
-format.name$ -- 2766
-if$ -- 9617
+cite$ -- 56
+duplicate$ -- 682
+empty$ -- 1336
+format.name$ -- 2794
+if$ -- 9960
 int.to.chr$ -- 0
-int.to.str$ -- 51
-missing$ -- 51
-newline$ -- 258
-num.names$ -- 102
-pop$ -- 1465
+int.to.str$ -- 56
+missing$ -- 56
+newline$ -- 283
+num.names$ -- 112
+pop$ -- 1484
 preamble$ -- 1
-purify$ -- 1485
+purify$ -- 1509
 quote$ -- 0
-skip$ -- 449
+skip$ -- 485
 stack$ -- 0
-substring$ -- 876
-swap$ -- 120
+substring$ -- 998
+swap$ -- 125
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 204
+type$ -- 224
 warning$ -- 0
-while$ -- 148
-width$ -- 53
-write$ -- 559
+while$ -- 164
+width$ -- 58
+write$ -- 614
 (There was 1 error message)

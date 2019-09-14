@@ -167,15 +167,15 @@
 \contentsline {subsection}{\numberline {8.2.3}The Large aperture Experiment to detect the Dark Ages -- LEDA}{219}{subsection.8.2.3}
 \contentsline {subsection}{\numberline {8.2.4}The Low Frequency Array 2.0 -- LOFAR2.0}{220}{subsection.8.2.4}
 \contentsline {subsection}{\numberline {8.2.5}The Murchison Widefield Array phase II}{222}{subsection.8.2.5}
-\contentsline {subsection}{\numberline {8.2.6}New Extension in Nancay Upgrading LOFAR -- NenuFAR}{222}{subsection.8.2.6}
-\contentsline {section}{\numberline {8.3}Global Signal Experiments}{223}{section.8.3}
+\contentsline {subsection}{\numberline {8.2.6}New Extension in Nancay Upgrading LOFAR -- NenuFAR}{223}{subsection.8.2.6}
+\contentsline {section}{\numberline {8.3}Global Signal Experiments}{224}{section.8.3}
 \contentsline {subsection}{\numberline {8.3.1}The Experiment to Detect the Global EoR Signature -- EDGES}{224}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}The Large aperture Experiment to detect the Dark Ages -- LEDA}{224}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.2}The Large aperture Experiment to detect the Dark Ages -- LEDA (global signal)}{225}{subsection.8.3.2}
 \contentsline {subsection}{\numberline {8.3.3}Shaped Antennas to measure the background RAdio Spectrum -- SARAS}{225}{subsection.8.3.3}
 \contentsline {section}{\numberline {8.4}Space-based instruments}{225}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}The Dark Ages Polarimetry Pathfinder -- DAPPER}{225}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.1}The Dark Ages Polarimetry Pathfinder -- DAPPER}{226}{subsection.8.4.1}
 \contentsline {subsection}{\numberline {8.4.2}Discovering the Sky at the Longest Wavelengths -- DSL}{226}{subsection.8.4.2}
 \contentsline {subsection}{\numberline {8.4.3}Farside Array for Radio Science Investigations of the Dark ages and Exoplanets -- FARSIDE}{226}{subsection.8.4.3}
-\contentsline {subsection}{\numberline {8.4.4}Netherlands-China Low frequency Explorer -- NCLE}{226}{subsection.8.4.4}
+\contentsline {subsection}{\numberline {8.4.4}Netherlands-China Low frequency Explorer -- NCLE}{227}{subsection.8.4.4}
 \contentsline {section}{\numberline {8.5}The far future of 21-cm cosmology}{227}{section.8.5}
 \gdef \the@ipfilectr {}

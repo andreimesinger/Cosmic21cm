@@ -43,6 +43,12 @@ F.~{Acero}, J.~T. {Acquaviva}, R.~{Adam}, N.~{Aghanim}, M.~{Allen}, M.~{Alves},
   Kilometre Array}.
 \newblock {\em arXiv e-prints}, page arXiv:1712.06950, Dec 2017.
 
+\bibitem{barkana18}
+Rennan Barkana.
+\newblock {Possible interaction between baryons and dark-matter particles
+  revealed by the first stars}.
+\newblock {\em Nature}, 555(7694):71--74, February 2018.
+
 \bibitem{beardsley16}
 A.~P. {Beardsley}, B.~J. {Hazelton}, I.~S. {Sullivan}, P.~{Carroll},
   N.~{Barry}, M.~{Rahimi}, B.~{Pindor}, C.~M. {Trott}, J.~{Line}, D.~C.
@@ -137,6 +143,11 @@ D.~R. {DeBoer}, A.~R. {Parsons}, J.~E. {Aguirre}, P.~{Alexander}, Z.~S. {Ali},
 \newblock {Hydrogen Epoch of Reionization Array (HERA)}.
 \newblock {\em \pasp}, 129(4):045001, April 2017.
 
+\bibitem{dewdney09}
+P.~E. {Dewdney}, P.~J. {Hall}, R.~T. {Schilizzi}, and T.~J.~L.~W. {Lazio}.
+\newblock {The Square Kilometre Array}.
+\newblock {\em IEEE Proceedings}, 97:1482--1496, August 2009.
+
 \bibitem{dillon14}
 J.~S. {Dillon}, A.~{Liu}, C.~L. {Williams}, J.~N. {Hewitt}, M.~{Tegmark}, E.~H.
   {Morgan}, A.~M. {Levine}, M.~F. {Morales}, S.~J. {Tingay}, G.~{Bernardi},
@@ -181,6 +192,18 @@ A.~{Ewall-Wice}, R.~{Bradley}, D.~{Deboer}, J.~{Hewitt}, A.~{Parsons},
   of Spectral Structure with Electromagnetic Simulations and Its Science
   Implications.}
 \newblock {\em \apj}, 831:196, November 2016.
+
+\bibitem{fialkov19}
+Anastasia {Fialkov} and Rennan {Barkana}.
+\newblock {Signature of excess radio background in the 21-cm global signal and
+  power spectrum}.
+\newblock {\em \mnras}, 486(2):1763--1773, Jun 2019.
+
+\bibitem{fialkov18}
+Anastasia Fialkov, Rennan Barkana, and Aviad Cohen.
+\newblock Constraining baryon--dark-matter scattering with the cosmic dawn
+  21-cm signal.
+\newblock {\em Phys. Rev. Lett.}, 121:011101, Jul 2018.
 
 \bibitem{greig17}
 B.~{Greig} and A.~{Mesinger}.
@@ -278,7 +301,13 @@ R.~A. {Monsalve}, B.~{Greig}, J.~D. {Bowman}, A.~{Mesinger}, A.~E.~E. {Rogers},
   Galaxies}.
 \newblock {\em \apj}, 863:11, August 2018.
 
-\bibitem{monsalve17}
+\bibitem{monsalve17a}
+R.~A. {Monsalve}, A.~E.~E. {Rogers}, J.~D. {Bowman}, and T.~J. {Mozdzen}.
+\newblock {Calibration of the EDGES High-band Receiver to Observe the Global 21
+  cm Signature from the Epoch of Reionization}.
+\newblock {\em \apj}, 835:49, January 2017.
+
+\bibitem{monsalve17b}
 R.~A. {Monsalve}, A.~E.~E. {Rogers}, J.~D. {Bowman}, and T.~J. {Mozdzen}.
 \newblock {Results from EDGES High-band. I. Constraints on Phenomenological
   Models for the Global 21 cm Signal}.
