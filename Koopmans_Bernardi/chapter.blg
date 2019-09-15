@@ -1,46 +1,51 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Koopmans_Bernardi/chapter.aux
 The style file: plain.bst
 Database file #1: Koopmans_Bernardi/References.bib
-You've used 28 entries,
+Repeated entry---line 679 of file Koopmans_Bernardi/References.bib
+ : @article{mesinger16
+ :                    ,
+I'm skipping whatever remains of this entry
+You've used 56 entries,
             2118 wiz_defined-function locations,
-            653 strings with 16733 characters,
-and the built_in function-call counts, 21903 in all, are:
-= -- 1687
-> -- 2544
-< -- 2
-+ -- 1012
-- -- 984
-* -- 2378
-:= -- 4066
-add.period$ -- 84
-call.type$ -- 28
-change.case$ -- 576
+            789 strings with 35906 characters,
+and the built_in function-call counts, 56803 in all, are:
+= -- 4238
+> -- 7152
+< -- 6
++ -- 2850
+- -- 2794
+* -- 6377
+:= -- 10594
+add.period$ -- 168
+call.type$ -- 56
+change.case$ -- 1565
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 324
-empty$ -- 667
-format.name$ -- 984
-if$ -- 3911
+cite$ -- 56
+duplicate$ -- 682
+empty$ -- 1336
+format.name$ -- 2794
+if$ -- 9960
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 28
-newline$ -- 143
-num.names$ -- 56
-pop$ -- 525
+int.to.str$ -- 56
+missing$ -- 56
+newline$ -- 283
+num.names$ -- 112
+pop$ -- 1484
 preamble$ -- 1
-purify$ -- 548
+purify$ -- 1509
 quote$ -- 0
-skip$ -- 217
+skip$ -- 485
 stack$ -- 0
-substring$ -- 500
-swap$ -- 44
-text.length$ -- 2
+substring$ -- 998
+swap$ -- 125
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
+type$ -- 224
 warning$ -- 0
-while$ -- 83
-width$ -- 30
-write$ -- 311
+while$ -- 164
+width$ -- 58
+write$ -- 614
+(There was 1 error message)

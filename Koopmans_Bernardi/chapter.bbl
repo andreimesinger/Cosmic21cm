@@ -1,5 +1,54 @@
 \begin{thebibliography}{10}
 
+\bibitem{french_ska_white_book}
+F.~{Acero}, J.~T. {Acquaviva}, R.~{Adam}, N.~{Aghanim}, M.~{Allen}, M.~{Alves},
+  R.~{Ammanouil}, R.~{Ansari}, A.~{Araudo}, E.~{Armengaud}, B.~{Ascaso},
+  E.~{Athanassoula}, D.~{Aubert}, S.~{Babak}, A.~{Bacmann}, A.~{Banday},
+  K.~{Barriere}, F.~{Bellossi}, J.~P. {Bernard}, M.~G. {Bernardini},
+  M.~{B{\'e}thermin}, E.~{Blanc}, L.~{Blanchet}, J.~{Bobin}, S.~{Boissier},
+  C.~{Boisson}, A.~{Boselli}, A.~{Bosma}, S.~{Bosse}, S.~{Bottinelli},
+  F.~{Boulanger}, R.~{Boyer}, A.~{Bracco}, C.~{Briand}, M.~{Bucher}, V.~{Buat},
+  L.~{Cambresy}, M.~{Caillat}, J.~M. {Casandjian}, E.~{Caux},
+  S.~{C{\'e}lestin}, M.~{Cerruti}, P.~{Charlot}, E.~{Chassand e-Mottin},
+  S.~{Chaty}, N.~{Christensen}, L.~{Ciesla}, N.~{Clerc}, J.~{Cohen-Tanugi},
+  I.~{Cognard}, F.~{Combes}, B.~{Comis}, S.~{Corbel}, B.~{Cordier},
+  M.~{Coriat}, R.~{Courtin}, H.~{Courtois}, B.~{Da Silva}, E.~{Daddi},
+  R.~{Dallier}, E.~{Dartois}, K.~{Demyk}, J.~M. {Denis}, L.~{Denis},
+  A.~{Djannati-Ata{\"\i}}, J.~F. {Donati}, M.~{Douspis}, W.~{van Driel}, M.~N.
+  {El Korso}, E.~{Falgarone}, A.~{Fantina}, T.~{Farges}, A.~{Ferrari},
+  C.~{Ferrari}, K.~{Ferri{\`e}re}, R.~{Flamary}, N.~{Gac}, S.~{Gauffre},
+  F.~{Genova}, J.~{Girard}, I.~{Grenier}, J.~M. {Griessmeier}, P.~{Guillard},
+  L.~{Guillemot}, F.~{Gulminelli}, A.~{Gusdorf}, E.~{Habart}, F.~{Hammer},
+  P.~{Hennebelle}, F.~{Herpin}, O.~{Hervet}, A.~{Hughes}, O.~{Ilbert},
+  M.~{Janvier}, E.~{Josselin}, A.~{Julier}, C.~{Lachaud}, G.~{Lagache},
+  R.~{Lallement}, S.~{Lambert}, L.~{Lamy}, M.~{Langer}, P.~{Larzabal},
+  G.~{Lavaux}, T.~{Le Bertre}, O.~{Le F{\`e}vre}, A.~{Le Tiec}, B.~{Lefloch},
+  M.~{Lehnert}, M.~{Lemoine-Goumard}, F.~{Levrier}, M.~{Limousin}, D.~{Lis},
+  A.~{L{\'o}pez-Sepulcre}, J.~{Macias-Perez}, C.~{Magneville}, A.~{Marcowith},
+  J.~{Margueron}, G.~{Marquette}, D.~{Marshall}, L.~{Martin}, D.~{Mary},
+  S.~{Masson}, S.~{Maurogordato}, C.~{Mazauric}, Y.~{Mellier}, M.~A.
+  {Miville-Desch{\^e}nes}, L.~{Montier}, F.~{Mottez}, D.~{Mourard},
+  N.~{Nesvadba}, J.~F. {Nezan}, P.~{Noterdaeme}, J.~{Novak}, P.~{Ocvirk},
+  M.~{Oertel}, X.~{Olive}, V.~{Ollier}, N.~{Palanque-Delabrouille}, M.~{Pand
+  ey-Pommier}, Y.~{Pennec}, M.~{P{\'e}rault}, C.~{Peroux}, P.~{Petit},
+  J.~{P{\'e}tri}, A.~{Petiteau}, J.~{Pety}, G.~W. {Pratt}, M.~{Puech},
+  B.~{Quertier}, E.~{Raffin}, S.~{Rakotozafy Harison}, S.~{Rawson},
+  M.~{Renaud}, B.~{Revenu}, C.~{Richard}, J.~{Richard}, F.~{Rincon},
+  I.~{Ristorcelli}, J.~{Rodriguez}, M.~{Schultheis}, C.~{Schimd}, B.~{Semelin},
+  H.~{Sol}, J.~L. {Starck}, M.~{Tagger}, C.~{Tasse}, G.~{Theureau},
+  S.~{Torchinsky}, C.~{Vastel}, S.~D. {Vergani}, L.~{Verstraete},
+  X.~{Vigouroux}, N.~{Vilmer}, J.~P. {Vilotte}, N.~{Webb}, N.~{Ysard}, and
+  P.~{Zarka}.
+\newblock {French SKA White Book - The French Community towards the Square
+  Kilometre Array}.
+\newblock {\em arXiv e-prints}, page arXiv:1712.06950, Dec 2017.
+
+\bibitem{barkana18}
+Rennan Barkana.
+\newblock {Possible interaction between baryons and dark-matter particles
+  revealed by the first stars}.
+\newblock {\em Nature}, 555(7694):71--74, February 2018.
+
 \bibitem{beardsley16}
 A.~P. {Beardsley}, B.~J. {Hazelton}, I.~S. {Sullivan}, P.~{Carroll},
   N.~{Barry}, M.~{Rahimi}, B.~{Pindor}, C.~M. {Trott}, J.~{Line}, D.~C.
@@ -45,6 +94,14 @@ J.~D. {Bowman}, A.~E.~E. {Rogers}, R.~A. {Monsalve}, T.~J. {Mozdzen}, and
   spectrum}.
 \newblock {\em \nat}, 555:67--70, March 2018.
 
+\bibitem{burns19b}
+J.~{Burns}, G.~{Hallinan}, J.~{Lux}, A.~{Romero-Wolf}, T.-C. {Chang},
+  J.~{Kocz}, J.~{Bowman}, R.~{MacDowall}, J.~{Kasper}, R.~{Bradley},
+  M.~{Anderson}, and D.~{Rapetti}.
+\newblock {FARSIDE: A Low Radio Frequency Interferometric Array on the Lunar
+  Farside}.
+\newblock {\em arXiv e-prints}, July 2019.
+
 \bibitem{burns19}
 J.~O. {Burns}, S.~{Bale}, and R.~F. {Bradley}.
 \newblock {Dark Cosmology: Investigating Dark Matter and Exotic Physics using
@@ -60,6 +117,17 @@ C.~L. {Carilli}, B.~{Nikolic}, N.~{Thyagarayan}, and K.~{Gale-Sides}.
   Massively Redundant Interferometric Arrays}.
 \newblock {\em Radio Science}, 53:845--865, May 2018.
 
+\bibitem{chen19}
+X.~{Chen}, J.~{Burns}, L.~{Koopmans}, H.~{Rothkaehi}, J.~{Silk}, J.~{Wu}, A.-J.
+  {Boonstra}, B.~{Cecconi}, C.~H. {Chiang}, L.~{Chen}, L.~{Deng}, M.~{Falanga},
+  H.~{Falcke}, Q.~{Fan}, G.~{Fang}, A.~{Fialkov}, L.~{Gurvits}, Y.~{Ji}, J.~C.
+  {Kasper}, K.~{Li}, Y.~{Mao}, B.~{Mckinley}, R.~{Monsalve}, J.~B. {Peterson},
+  J.~{Ping}, R.~{Subrahmanyan}, H.~{Vedantham}, M.~{Klein Wolt}, F.~{Wu},
+  Y.~{Xu}, J.~{Yan}, and B.~{Yue}.
+\newblock {Discovering the Sky at the Longest Wavelengths with Small Satellite
+  Constellations}.
+\newblock {\em arXiv e-prints}, July 2019.
+
 \bibitem{deboer17}
 D.~R. {DeBoer}, A.~R. {Parsons}, J.~E. {Aguirre}, P.~{Alexander}, Z.~S. {Ali},
   A.~P. {Beardsley}, G.~{Bernardi}, J.~D. {Bowman}, R.~F. {Bradley}, C.~L.
@@ -74,6 +142,11 @@ D.~R. {DeBoer}, A.~R. {Parsons}, J.~E. {Aguirre}, P.~{Alexander}, Z.~S. {Ali},
   M.~{Tegmark}, N.~{Thyagarajan}, P.~K.~G. {Williams}, and H.~{Zheng}.
 \newblock {Hydrogen Epoch of Reionization Array (HERA)}.
 \newblock {\em \pasp}, 129(4):045001, April 2017.
+
+\bibitem{dewdney09}
+P.~E. {Dewdney}, P.~J. {Hall}, R.~T. {Schilizzi}, and T.~J.~L.~W. {Lazio}.
+\newblock {The Square Kilometre Array}.
+\newblock {\em IEEE Proceedings}, 97:1482--1496, August 2009.
 
 \bibitem{dillon14}
 J.~S. {Dillon}, A.~{Liu}, C.~L. {Williams}, J.~N. {Hewitt}, M.~{Tegmark}, E.~H.
@@ -120,10 +193,28 @@ A.~{Ewall-Wice}, R.~{Bradley}, D.~{Deboer}, J.~{Hewitt}, A.~{Parsons},
   Implications.}
 \newblock {\em \apj}, 831:196, November 2016.
 
+\bibitem{fialkov19}
+Anastasia {Fialkov} and Rennan {Barkana}.
+\newblock {Signature of excess radio background in the 21-cm global signal and
+  power spectrum}.
+\newblock {\em \mnras}, 486(2):1763--1773, Jun 2019.
+
+\bibitem{fialkov18}
+Anastasia Fialkov, Rennan Barkana, and Aviad Cohen.
+\newblock Constraining baryon--dark-matter scattering with the cosmic dawn
+  21-cm signal.
+\newblock {\em Phys. Rev. Lett.}, 121:011101, Jul 2018.
+
 \bibitem{greig17}
 B.~{Greig} and A.~{Mesinger}.
 \newblock {The global history of reionization}.
 \newblock {\em \mnras}, 465:4838--4852, March 2017.
+
+\bibitem{greig19}
+Bradley Greig, Andrei Mesinger, and L{\'e}on V~E Koopmans.
+\newblock {Reionisation {\&} Cosmic Dawn Astrophysics from the Square Kilometre
+  Array: Impact of Observing Strategies}.
+\newblock {\em arXiv.org}, June 2019.
 
 \bibitem{kocz15}
 J.~{Kocz}, L.~J. {Greenhill}, B.~R. {Barsdell}, D.~{Price}, G.~{Bernardi},
@@ -134,11 +225,74 @@ J.~{Kocz}, L.~J. {Greenhill}, B.~R. {Barsdell}, D.~{Price}, G.~{Bernardi},
   512-Input Broadband Correlator for Radio Astronomy}.
 \newblock {\em Journal of Astronomical Instrumentation}, 4:1550003, June 2015.
 
+\bibitem{koopmans19}
+L.~{Koopmans}, R.~{Barkana}, M.~{Bentum}, G.~{Bernardi}, A.-J. {Boonstra},
+  J.~{Bowman}, J.~{Burns}, X.~{Chen}, A.~{Datta}, H.~{Falcke}, A.~{Fialkov},
+  B.~{Gehlot}, L.~{Gurvits}, V.~{Jeli{\'c}}, M.~{Klein-Wolt}, L.~{Koopmans},
+  J.~{Lazio}, D.~{Meerburg}, G.~{Mellema}, F.~{Mertens}, A.~{Mesinger},
+  A.~{Offringa}, J.~{Pritchard}, B.~{Semelin}, R.~{Subrahmanyan}, J.~{Silk},
+  C.~{Trott}, H.~{Vedantham}, L.~{Verde}, S.~{Zaroubi}, and P.~{Zarka}.
+\newblock {Peering into the Dark (Ages) with Low-Frequency Space
+  Interferometers}.
+\newblock {\em arXiv e-prints}, August 2019.
+
+\bibitem{koopmans15}
+L~Koopmans, J.~Pritchard, G~Mellema, J.~Aguirre, K~Ahn, R~Barkana, I~van
+  Bemmel, G~Bernardi, A~Bonaldi, F~Briggs, A~G de~Bruyn, T.-C. Chang,
+  E~Chapman, X~Chen, B~Ciardi, P~Dayal, A.~Ferrara, A~Fialkov, F~Fiore,
+  K~Ichiki, I~T Illiev, S~Inoue, V~Jeli{\'c}, M~Jones, J~Lazio, U~Maio,
+  S~Majumdar, K.{\textasciitilde}J. Mack, A.~Mesinger, M~F Morales, A.~Parsons,
+  U-L Pen, M~Santos, R~Schneider, B~Semelin, R~S de~Souza, R.~Subrahmanyan,
+  T~Takeuchi, H.~Vedantham, J~Wagg, R.~Webster, S~Wyithe, K.{\textasciitilde}K.
+  Datta, and C.~Trott.
+\newblock {The Cosmic Dawn and Epoch of Reionisation with SKA}.
+\newblock In {\em Proceedings of Advancing Astrophysics with the Square
+  Kilometre Array (AASKA14). 9 -13 June}, page~1, April 2015.
+
+\bibitem{li18}
+W.~{Li}, J.~C. {Pober}, B.~J. {Hazelton}, N.~{Barry}, M.~F. {Morales},
+  I.~{Sullivan}, A.~R. {Parsons}, Z.~S. {Ali}, J.~S. {Dillon}, A.~P.
+  {Beardsley}, J.~D. {Bowman}, F.~{Briggs}, R.~{Byrne}, P.~{Carroll},
+  B.~{Crosse}, D.~{Emrich}, A.~{Ewall-Wice}, L.~{Feng}, T.~M.~O. {Franzen},
+  J.~N. {Hewitt}, L.~{Horsley}, D.~C. {Jacobs}, M.~{Johnston-Hollitt},
+  C.~{Jordan}, R.~C. {Joseph}, D.~L. {Kaplan}, D.~{Kenney}, H.~{Kim},
+  P.~{Kittiwisit}, A.~{Lanman}, J.~{Line}, B.~{McKinley}, D.~A. {Mitchell},
+  S.~{Murray}, A.~{Neben}, A.~R. {Offringa}, D.~{Pallot}, S.~{Paul},
+  B.~{Pindor}, P.~{Procopio}, M.~{Rahimi}, J.~{Riding}, S.~K. {Sethi},
+  N.~{Udaya Shankar}, K.~{Steele}, R.~{Subrahmanian}, M.~{Tegmark},
+  N.~{Thyagarajan}, S.~J. {Tingay}, C.~{Trott}, M.~{Walker}, R.~B. {Wayth},
+  R.~L. {Webster}, A.~{Williams}, C.~{Wu}, and S.~{Wyithe}.
+\newblock {Comparing Redundant and Sky-model-based Interferometric Calibration:
+  A First Look with Phase II of the MWA}.
+\newblock {\em \apj}, 863:170, August 2018.
+
 \bibitem{liu16b}
 A.~{Liu} and A.~R. {Parsons}.
 \newblock {Constraining cosmology and ionization history with combined 21 cm
   power spectrum and global signal measurements}.
 \newblock {\em \mnras}, 457:1864--1877, April 2016.
+
+\bibitem{liu19}
+Adrian Liu and J~Richard Shaw.
+\newblock {Data Analysis for Precision 21 cm Cosmology}.
+\newblock {\em arXiv.org}, July 2019.
+
+\bibitem{mellema13}
+Garrelt Mellema, L{\'e}on V~E Koopmans, Filipe~A Abdalla, Gianni Bernardi,
+  Benedetta Ciardi, Soobash Daiboo, A~G de~Bruyn, Kanan~K Datta, Heino Falcke,
+  Andrea Ferrara, Ilian~T Iliev, Fabio Iocco, Vibor Jeli{\'c}, Hannes Jensen,
+  Ronniy Joseph, Panos Labroupoulos, Avery Meiksin, Andrei Mesinger,
+  Andr{\'e}~R Offringa, V~N Pandey, Jonathan~R Pritchard, Mario~G Santos,
+  Dominik~J Schwarz, Benoit Semelin, Harish Vedantham, Sarod Yatawatta, and
+  Saleem Zaroubi.
+\newblock {Reionization and the Cosmic Dawn with the Square Kilometre Array}.
+\newblock {\em Experimental Astronomy}, 36(1):235--318, August 2013.
+
+\bibitem{mesinger16}
+Andrei Mesinger, Bradley Greig, and Emanuele Sobacchi.
+\newblock {The Evolution Of 21 cm Structure (EOS): public, large-scale
+  simulations of Cosmic Dawn and reionization}.
+\newblock {\em MNRAS}, 459(3):2342--2353, 2016.
 
 \bibitem{monsalve18}
 R.~A. {Monsalve}, B.~{Greig}, J.~D. {Bowman}, A.~{Mesinger}, A.~E.~E. {Rogers},
@@ -147,7 +301,13 @@ R.~A. {Monsalve}, B.~{Greig}, J.~D. {Bowman}, A.~{Mesinger}, A.~E.~E. {Rogers},
   Galaxies}.
 \newblock {\em \apj}, 863:11, August 2018.
 
-\bibitem{monsalve17}
+\bibitem{monsalve17a}
+R.~A. {Monsalve}, A.~E.~E. {Rogers}, J.~D. {Bowman}, and T.~J. {Mozdzen}.
+\newblock {Calibration of the EDGES High-band Receiver to Observe the Global 21
+  cm Signature from the Epoch of Reionization}.
+\newblock {\em \apj}, 835:49, January 2017.
+
+\bibitem{monsalve17b}
 R.~A. {Monsalve}, A.~E.~E. {Rogers}, J.~D. {Bowman}, and T.~J. {Mozdzen}.
 \newblock {Results from EDGES High-band. I. Constraints on Phenomenological
   Models for the Global 21 cm Signal}.
@@ -170,6 +330,51 @@ B.~D. {Nhan}, R.~F. {Bradley}, and J.~O. {Burns}.
   Spectrum for Cosmological Global 21 cm Measurements}.
 \newblock {\em \apj}, 836:90, February 2017.
 
+\bibitem{offringa13}
+A.~R. {Offringa}, A.~G. {de Bruyn}, S.~{Zaroubi}, G.~{van Diepen},
+  O.~{Martinez-Ruby}, P.~{Labropoulos}, M.~A. {Brentjens}, B.~{Ciardi},
+  S.~{Daiboo}, G.~{Harker}, V.~{Jeli{\'c}}, S.~{Kazemi}, L.~V.~E. {Koopmans},
+  G.~{Mellema}, V.~N. {Pandey}, R.~F. {Pizzo}, J.~{Schaye}, H.~{Vedantham},
+  V.~{Veligatla}, S.~J. {Wijnholds}, S.~{Yatawatta}, P.~{Zarka}, A.~{Alexov},
+  J.~{Anderson}, A.~{Asgekar}, M.~{Avruch}, R.~{Beck}, M.~{Bell}, M.~R. {Bell},
+  M.~{Bentum}, G.~{Bernardi}, P.~{Best}, L.~{Birzan}, A.~{Bonafede},
+  F.~{Breitling}, J.~W. {Broderick}, M.~{Br{\"u}ggen}, H.~{Butcher},
+  J.~{Conway}, M.~{de Vos}, R.~J. {Dettmar}, J.~{Eisloeffel}, H.~{Falcke},
+  R.~{Fender}, W.~{Frieswijk}, M.~{Gerbers}, J.~M. {Griessmeier}, A.~W.
+  {Gunst}, T.~E. {Hassall}, G.~{Heald}, J.~{Hessels}, M.~{Hoeft},
+  A.~{Horneffer}, A.~{Karastergiou}, V.~{Kondratiev}, Y.~{Koopman},
+  M.~{Kuniyoshi}, G.~{Kuper}, P.~{Maat}, G.~{Mann}, J.~{McKean}, H.~{Meulman},
+  M.~{Mevius}, J.~D. {Mol}, R.~{Nijboer}, J.~{Noordam}, M.~{Norden}, H.~{Paas},
+  M.~{Pandey}, R.~{Pizzo}, A.~{Polatidis}, D.~{Rafferty}, S.~{Rawlings},
+  W.~{Reich}, H.~J.~A. {R{\"o}ttgering}, A.~P. {Schoenmakers}, J.~{Sluman},
+  O.~{Smirnov}, C.~{Sobey}, B.~{Stappers}, M.~{Steinmetz}, J.~{Swinbank},
+  M.~{Tagger}, Y.~{Tang}, C.~{Tasse}, A.~{van Ardenne}, W.~{van Cappellen},
+  A.~P. {van Duin}, M.~{van Haarlem}, J.~{van Leeuwen}, R.~J. {van Weeren},
+  R.~{Vermeulen}, C.~{Vocks}, R.~A.~M.~J. {Wijers}, M.~{Wise}, and
+  O.~{Wucknitz}.
+\newblock {The LOFAR radio environment}.
+\newblock {\em \aap}, 549:A11, January 2013.
+
+\bibitem{offringa15}
+A.~R. {Offringa}, R.~B. {Wayth}, N.~{Hurley-Walker}, D.~L. {Kaplan},
+  N.~{Barry}, A.~P. {Beardsley}, M.~E. {Bell}, G.~{Bernardi}, J.~D. {Bowman},
+  F.~{Briggs}, J.~R. {Callingham}, R.~J. {Cappallo}, P.~{Carroll}, A.~A.
+  {Deshpande}, J.~S. {Dillon}, K.~S. {Dwarakanath}, A.~{Ewall-Wice}, L.~{Feng},
+  B.-Q. {For}, B.~M. {Gaensler}, L.~J. {Greenhill}, P.~{Hancock}, B.~J.
+  {Hazelton}, J.~N. {Hewitt}, L.~{Hindson}, D.~C. {Jacobs},
+  M.~{Johnston-Hollitt}, A.~D. {Kapi{\'n}ska}, H.-S. {Kim}, P.~{Kittiwisit},
+  E.~{Lenc}, J.~{Line}, A.~{Loeb}, C.~J. {Lonsdale}, B.~{McKinley}, S.~R.
+  {McWhirter}, D.~A. {Mitchell}, M.~F. {Morales}, E.~{Morgan}, J.~{Morgan},
+  A.~R. {Neben}, D.~{Oberoi}, S.~M. {Ord}, S.~{Paul}, B.~{Pindor}, J.~C.
+  {Pober}, T.~{Prabu}, P.~{Procopio}, J.~{Riding}, N.~{Udaya Shankar},
+  S.~{Sethi}, K.~S. {Srivani}, L.~{Staveley-Smith}, R.~{Subrahmanyan}, I.~S.
+  {Sullivan}, M.~{Tegmark}, N.~{Thyagarajan}, S.~J. {Tingay}, C.~M. {Trott},
+  R.~L. {Webster}, A.~{Williams}, C.~L. {Williams}, C.~{Wu}, J.~S. {Wyithe},
+  and Q.~{Zheng}.
+\newblock {The Low-Frequency Environment of the Murchison Widefield Array:
+  Radio-Frequency Interference Analysis and Mitigation}.
+\newblock {\em \pasa}, 32:e008, March 2015.
+
 \bibitem{patra18}
 N.~{Patra}, A.~R. {Parsons}, D.~R. {DeBoer}, N.~{Thyagarajan}, A.~{Ewall-Wice},
   G.~{Hsyu}, T.~K. {Leung}, C.~K. {Day}, E.~{de Lera Acedo}, J.~E. {Aguirre},
@@ -186,6 +391,12 @@ N.~{Patra}, A.~R. {Parsons}, D.~R. {DeBoer}, N.~{Thyagarajan}, A.~{Ewall-Wice},
 \newblock {The hydrogen epoch of reionization array dish III: measuring
   chromaticity of prototype element with reflectometry}.
 \newblock {\em Experimental Astronomy}, 45:177--199, April 2018.
+
+\bibitem{patra13}
+N.~{Patra}, R.~{Subrahmanyan}, A.~{Raghunathan}, and N.~{Udaya Shankar}.
+\newblock {SARAS: a precision system for measurement of the cosmic radio
+  background and signatures from the epoch of reionization}.
+\newblock {\em Experimental Astronomy}, 36:319--370, August 2013.
 
 \bibitem{pober14}
 J.~C. {Pober}, A.~{Liu}, J.~S. {Dillon}, J.~E. {Aguirre}, J.~D. {Bowman}, R.~F.
@@ -207,6 +418,48 @@ D.~C. {Price}, L.~J. {Greenhill}, A.~{Fialkov}, G.~{Bernardi}, H.~{Garsden},
   Detect the Dark Age (LEDA) radiometer systems}.
 \newblock {\em \mnras}, 478:4193--4213, August 2018.
 
+\bibitem{hera19}
+T.~H.~E.~o. {Reionization Array}, {Collaboration}, J.~E. {Aguirre}, A.~P.
+  {Beardsley}, G.~{Bernardi}, J.~D. {Bowman}, P.~{Bull}, C.~L. {Carilli}, W.-M.
+  {Dai}, D.~R. {DeBoer}, J.~S. {Dillon}, A.~{Ewall-Wice}, S.~R. {Furlanetto},
+  B.~K. {Gehlot}, D.~{Gorthi}, B.~{Greig}, B.~J. {Hazelton}, J.~N. {Hewitt},
+  D.~C. {Jacobs}, N.~S. {Kern}, P.~{Kittiwisit}, M.~{Kolopanis}, P.~{La
+  Plante}, A.~{Liu}, Y.-Z. {Ma}, M.~{Mdlalose}, J.~{Mirocha}, S.~G. {Murray},
+  A.~R. {Parsons}, J.~C. {Pober}, P.~H. {Sims}, and N.~{Thyagarajan}.
+\newblock {A Roadmap for Astrophysics and Cosmology with High-Redshift 21 cm
+  Intensity Mapping}.
+\newblock {\em arXiv e-prints}, July 2019.
+
+\bibitem{sathyanarayana17}
+M.~{Sathyanarayana Rao}, R.~{Subrahmanyan}, N.~{Udaya Shankar}, and
+  J.~{Chluba}.
+\newblock {Modeling the Radio Foreground for Detection of CMB Spectral
+  Distortions from the Cosmic Dawn and the Epoch of Reionization}.
+\newblock {\em \apj}, 840:33, May 2017.
+
+\bibitem{singh18a}
+S.~{Singh}, R.~{Subrahmanyan}, N.~U. {Shankar}, M.~S. {Rao}, B.~S. {Girish},
+  A.~{Raghunathan}, R.~{Somashekar}, and K.~S. {Srivani}.
+\newblock {SARAS 2: a spectral radiometer for probing cosmic dawn and the epoch
+  of reionization through detection of the global 21-cm signal}.
+\newblock {\em Experimental Astronomy}, 45:269--314, April 2018.
+
+\bibitem{singh17}
+S.~{Singh}, R.~{Subrahmanyan}, N.~{Udaya Shankar}, M.~{Sathyanarayana Rao},
+  A.~{Fialkov}, A.~{Cohen}, R.~{Barkana}, B.~S. {Girish}, A.~{Raghunathan},
+  R.~{Somashekar}, and K.~S. {Srivani}.
+\newblock {First Results on the Epoch of Reionization from First Light with
+  SARAS 2}.
+\newblock {\em \apjl}, 845:L12, August 2017.
+
+\bibitem{singh18b}
+S.~{Singh}, R.~{Subrahmanyan}, N.~{Udaya Shankar}, M.~{Sathyanarayana Rao},
+  A.~{Fialkov}, A.~{Cohen}, R.~{Barkana}, B.~S. {Girish}, A.~{Raghunathan},
+  R.~{Somashekar}, and K.~S. {Srivani}.
+\newblock {SARAS 2 Constraints on Global 21 cm Signals from the Epoch of
+  Reionization}.
+\newblock {\em \apj}, 858:54, May 2018.
+
 \bibitem{tauscher18}
 K.~{Tauscher}, D.~{Rapetti}, J.~O. {Burns}, and E.~{Switzer}.
 \newblock {Global 21 cm Signal Extraction from Foreground and Instrumental
@@ -226,6 +479,25 @@ N.~{Thyagarajan}, A.~R. {Parsons}, D.~R. {DeBoer}, J.~D. {Bowman}, A.~M.
   Spectrum and Implications for Hydrogen Epoch of Reionization Array}.
 \newblock {\em \apj}, 825:9, July 2016.
 
+\bibitem{tingay13}
+S.~J. {Tingay}, R.~{Goeke}, J.~D. {Bowman}, D.~{Emrich}, S.~M. {Ord}, D.~A.
+  {Mitchell}, M.~F. {Morales}, T.~{Booler}, B.~{Crosse}, R.~B. {Wayth}, C.~J.
+  {Lonsdale}, S.~{Tremblay}, D.~{Pallot}, T.~{Colegate}, A.~{Wicenec},
+  N.~{Kudryavtseva}, W.~{Arcus}, D.~{Barnes}, G.~{Bernardi}, F.~{Briggs},
+  S.~{Burns}, J.~D. {Bunton}, R.~J. {Cappallo}, B.~E. {Corey}, A.~{Deshpande},
+  L.~{Desouza}, B.~M. {Gaensler}, L.~J. {Greenhill}, P.~J. {Hall}, B.~J.
+  {Hazelton}, D.~{Herne}, J.~N. {Hewitt}, M.~{Johnston-Hollitt}, D.~L.
+  {Kaplan}, J.~C. {Kasper}, B.~B. {Kincaid}, R.~{Koenig}, E.~{Kratzenberg},
+  M.~J. {Lynch}, B.~{Mckinley}, S.~R. {Mcwhirter}, E.~{Morgan}, D.~{Oberoi},
+  J.~{Pathikulangara}, T.~{Prabu}, R.~A. {Remillard}, A.~E.~E. {Rogers},
+  A.~{Roshi}, J.~E. {Salah}, R.~J. {Sault}, N.~{Udaya-Shankar},
+  F.~{Schlagenhaufer}, K.~S. {Srivani}, J.~{Stevens}, R.~{Subrahmanyan},
+  M.~{Waterson}, R.~L. {Webster}, A.~R. {Whitney}, A.~{Williams}, C.~L.
+  {Williams}, and J.~S.~B. {Wyithe}.
+\newblock {The Murchison Widefield Array: The Square Kilometre Array Precursor
+  at Low Radio Frequencies}.
+\newblock {\em \pasa}, 30:e007, January 2013.
+
 \bibitem{trott16}
 C.~M. {Trott}, B.~{Pindor}, P.~{Procopio}, R.~B. {Wayth}, D.~A. {Mitchell},
   B.~{McKinley}, S.~J. {Tingay}, N.~{Barry}, A.~P. {Beardsley}, G.~{Bernardi},
@@ -241,6 +513,62 @@ C.~M. {Trott}, B.~{Pindor}, P.~{Procopio}, R.~B. {Wayth}, D.~A. {Mitchell},
   C.~{Wu}, and J.~S.~B. {Wyithe}.
 \newblock {CHIPS: The Cosmological H I Power Spectrum Estimator}.
 \newblock {\em \apj}, 818:139, February 2016.
+
+\bibitem{vanhaarlem13}
+M~P van Haarlem, M~W Wise, A.{\textasciitilde}W. Gunst, G~Heald, J~P McKean,
+  J~W~T Hessels, A~G de~Bruyn, R~Nijboer, J~Swinbank, R~Fallows, M~Brentjens,
+  A~Nelles, R~Beck, H~Falcke, R~Fender, J~H{\"o}randel, L~V~E Koopmans, G~Mann,
+  G~Miley, H~R{\"o}ttgering, B~W Stappers, R~A M~J Wijers, S~Zaroubi, M~van~den
+  Akker, A~Alexov, J~Anderson, K~Anderson, A~van Ardenne, M~Arts, A~Asgekar,
+  I~M Avruch, F~Batejat, L~B{\"a}hren, M~E Bell, M~R Bell, I~van Bemmel,
+  P~Bennema, M~J Bentum, G~Bernardi, P~Best, L~B{\^\i}rzan, A~Bonafede, A~J
+  Boonstra, R.~Braun, J~Bregman, F~Breitling, R~H van~de Brink, J~Broderick,
+  P~C Broekema, W~N Brouw, M~Br{\"u}ggen, H~R Butcher, W~van Cappellen,
+  B~Ciardi, T~Coenen, J~Conway, A~Coolen, A~Corstanje, S~Damstra, O~Davies, A~T
+  Deller, R-J Dettmar, G~van Diepen, K~Dijkstra, P~Donker, A~Doorduin,
+  J~Dromer, M~Drost, A~van Duin, J~Eisl{\"o}ffel, J~van Enst, C~Ferrari,
+  W~Frieswijk, H~Gankema, M~A Garrett, F~de~Gasperin, M~Gerbers, E~de~Geus, J~M
+  Grie{\ss}meier, T~Grit, P~Gruppen, J~P Hamaker, T~Hassall, M~Hoeft, H~A
+  Holties, A~Horneffer, A~van~der Horst, A~van Houwelingen, A~Huijgen,
+  M~Iacobelli, H~Intema, N~Jackson, V~Jeli{\'c}, A~de~Jong, E~Juette, D~Kant,
+  A~Karastergiou, A~Koers, H~Kollen, V~I Kondratiev, E~Kooistra, Y~Koopman,
+  A~Koster, M~Kuniyoshi, M~Kramer, G~Kuper, P~Lambropoulos, C~Law, J~van
+  Leeuwen, J~Lemaitre, M~Loose, P~Maat, G~Macario, S~Markoff, J~Masters, R~A
+  McFadden, D~McKay-Bukowski, H~Meijering, H~Meulman, M~Mevius, E~Middelberg,
+  R~Millenaar, J~C~A Miller-Jones, R~N Mohan, J~D Mol, J~Morawietz, R~Morganti,
+  D~D Mulcahy, E~Mulder, H~Munk, L~Nieuwenhuis, R~van Nieuwpoort, J~E Noordam,
+  M~Norden, A~Noutsos, A~R Offringa, H~Olofsson, A~Omar, E~Orr{\`u}, R~Overeem,
+  H~Paas, M~Pandey-Pommier, V~N Pandey, R~Pizzo, A~Polatidis, D~Rafferty,
+  S.~Rawlings, W~Reich, J~P de~Reijer, J.~Reitsma, G~A Renting, P~Riemers,
+  E~Rol, J~W Romein, J~Roosjen, M~Ruiter, A~Scaife, K.~van~der Schaaf,
+  B~Scheers, P~Schellart, A~Schoenmakers, G~Schoonderbeek, M~Serylak,
+  A~Shulevski, J~Sluman, O~Smirnov, C~Sobey, H~Spreeuw, M~Steinmetz, C~G~M
+  Sterks, H~J Stiepel, K~Stuurwold, M~Tagger, Y~Tang, C~Tasse, I~Thomas,
+  S~Thoudam, M~C Toribio, B~van~der Tol, O~Usov, M~van Veelen, A-J van~der
+  Veen, S~ter Veen, J~P~W Verbiest, R~Vermeulen, N~Vermaas, C~Vocks, C~Vogt,
+  M~de~Vos, E~van~der Wal, R~van Weeren, H~Weggemans, P~Weltevrede, S.~White,
+  S~J Wijnholds, T~Wilhelmsson, O~Wucknitz, S~Yatawatta, P~Zarka, A~Zensus, and
+  J~van Zwieten.
+\newblock {LOFAR: The LOw-Frequency ARray}.
+\newblock {\em Astronomy and Astrophysics}, 556:A2, August 2013.
+
+\bibitem{vedantham15}
+H.~K. {Vedantham} and L.~V.~E. {Koopmans}.
+\newblock {Scintillation noise in widefield radio interferometry}.
+\newblock {\em \mnras}, 453:925--938, October 2015.
+
+\bibitem{vedantham16}
+H.~K. {Vedantham} and L.~V.~E. {Koopmans}.
+\newblock {Scintillation noise power spectrum and its impact on high-redshift
+  21-cm observations}.
+\newblock {\em \mnras}, 458:3099--3117, May 2016.
+
+\bibitem{waterson16}
+M.~F. {Waterson}, M.~G. {Labate}, H.~{Schnetler}, J.~{Wagg}, W.~{Turner}, and
+  P.~{Dewdney}.
+\newblock {The SKA1 LOW telescope: system architecture and design performance}.
+\newblock In {\em Ground-based and Airborne Telescopes VI}, volume 9906 of {\em
+  \procspie}, page 990628, July 2016.
 
 \bibitem{wayth18}
 R.~B. {Wayth}, S.~J. {Tingay}, C.~M. {Trott}, D.~{Emrich},
