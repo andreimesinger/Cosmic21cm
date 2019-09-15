@@ -1,11 +1,5 @@
 \begin{thebibliography}{100}
 
-\bibitem{Mineo2012a}
-
-
-\bibitem{Schauer2015}
-
-
 \bibitem{Abel1999}
 T.~{Abel}, M.~L. {Norman}, and P.~{Madau}.
 \newblock {Photon-conserving Radiative Transfer around Point Sources in
@@ -144,6 +138,16 @@ Carina {Cheng}, Aaron~R. {Parsons}, Matthew {Kolopanis}, Daniel~C. {Jacobs},
 \newblock {Characterizing Signal Loss in the 21 cm Reionization Power Spectrum:
   A Revised Study of PAPER-64}.
 \newblock {\em \apj}, 868(1):26, Nov 2018.
+
+\bibitem{Cohen2018}
+Aviad {Cohen}, Anastasia {Fialkov}, and Rennan {Barkana}.
+\newblock {Charting the parameter space of the 21-cm power spectrum}.
+\newblock {\em \mnras}, 478(2):2193--2217, Aug 2018.
+
+\bibitem{Cohen2017}
+Aviad {Cohen}, Anastasia {Fialkov}, Rennan {Barkana}, and Matan {Lotem}.
+\newblock {Charting the parameter space of the global 21-cm signal}.
+\newblock {\em \mnras}, 472(2):1915--1931, Dec 2017.
 
 \bibitem{Conroy2009}
 C.~{Conroy}, J.~E. {Gunn}, and M.~{White}.
@@ -565,6 +569,12 @@ Gerhardt~R. {Meurer}, Timothy~M. {Heckman}, and Daniela {Calzetti}.
   Galaxies}.
 \newblock {\em \apj}, 521(1):64--80, Aug 1999.
 
+\bibitem{Mineo2012a}
+S.~{Mineo}, M.~{Gilfanov}, and R.~{Sunyaev}.
+\newblock {X-ray emission from star-forming galaxies - I. High-mass X-ray
+  binaries}.
+\newblock {\em \mnras}, 419(3):2095--2115, Jan 2012.
+
 \bibitem{Mineo2012b}
 S.~{Mineo}, M.~{Gilfanov}, and R.~{Sunyaev}.
 \newblock {X-ray emission from star-forming galaxies - II. Hot
@@ -593,6 +603,18 @@ Jordan {Mirocha}, Steven~R. {Furlanetto}, and Guochao {Sun}.
 \newblock {The global 21-cm signal in the context of the high- z galaxy
   luminosity function}.
 \newblock {\em \mnras}, 464(2):1365--1379, Jan 2017.
+
+\bibitem{Mirocha2013}
+Jordan {Mirocha}, Geraint J.~A. {Harker}, and Jack~O. {Burns}.
+\newblock {Interpreting the Global 21 cm Signal from High Redshifts. I.
+  Model-independent constraints}.
+\newblock {\em \apj}, 777(2):118, Nov 2013.
+
+\bibitem{Mirocha2015}
+Jordan {Mirocha}, Geraint J.~A. {Harker}, and Jack~O. {Burns}.
+\newblock {Interpreting the Global 21-cm Signal from High Redshifts. II.
+  Parameter Estimation for Models of Galaxy Formation}.
+\newblock {\em \apj}, 813(1):11, Nov 2015.
 
 \bibitem{Mirocha2018}
 Jordan {Mirocha}, Richard~H. {Mebane}, Steven~R. {Furlanetto}, Krishma
@@ -811,6 +833,12 @@ D~Schaerer.
   stellar populations}.
 \newblock {\em Astronomy and Astrophysics}, 382(1):28--42, January 2002.
 
+\bibitem{Schauer2015}
+Anna T.~P. {Schauer}, Daniel~J. {Whalen}, Simon C.~O. {Glover}, and Ralf~S.
+  {Klessen}.
+\newblock {Lyman-Werner UV escape fractions from primordial haloes}.
+\newblock {\em \mnras}, 454(3):2441--2450, Dec 2015.
+
 \bibitem{Schaye2015}
 Joop {Schaye}, Robert~A. {Crain}, Richard~G. {Bower}, Michelle {Furlong},
   Matthieu {Schaller}, Tom {Theuns}, Claudio {Dalla Vecchia}, Carlos~S.
@@ -928,11 +956,6 @@ Michele Trenti and Massimo Stiavelli.
 \newblock {Formation Rates of Population III Stars and Chemical Enrichment of
   Halos during the Reionization Era}.
 \newblock {\em The Astrophysical Journal}, 694(2):879--892, April 2009.
-
-\bibitem{Tseliakhovich2011}
-Dmitriy {Tseliakhovich}, Rennan {Barkana}, and Christopher~M. {Hirata}.
-\newblock {Suppression and spatial variation of early galaxies and minihaloes}.
-\newblock {\em \mnras}, 418(2):906--915, Dec 2011.
 
 \bibitem{Tseliakhovich2010}
 Dmitriy {Tseliakhovich} and Christopher {Hirata}.
