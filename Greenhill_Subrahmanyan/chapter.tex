@@ -6,21 +6,34 @@
 \chapter{Zero-mode Signal Instrumentation}
 
 \begin{bf}
-\author{L. J. Greenhill (Harvard-Smithsonian Center for Astrophysics),\\  R. Subrahmanyan (Raman Research Institute)}  
-  
-\\
-\\
+\author{  
+L. J. Greenhill 
+(Harvard-Smithsonian Center for Astrophysics) \\
+R. Subrahmanyan 
+(Raman Research Institute)   
+}\\
 
-Abstract...\\
+
+
+\noindent
+Experiments that seek to detect a sky-averaged (zero-mode) HI signature during the Epoch of Reionization and Cosmic Dawn use purpose-built instrumentation that is elementary in concept (e.g., dipole antennas and spectrometers) but subtle in design owing to exceptional calibration tolerances.  This chapter presents the rudiments of radiometry, discussion of instrument design and calibration, and in the process, describes design approaches for three ongoing experiments: EDGES, SARAS, and LEDA. \\
 
 \end{bf}
 
-\section{Experiments}
+\section{Introduction}
 
-%% SELF_PLAGERIZED FROM PRICE, GREENHILL, et al. 
-%% TO BE REVISED.
+Several experiments have been deployed to measure predicted sky-averaged or zero-mode signals from HI at redshifts ($z$) from approximately 7 to 23 (180 to 60 MHz). The {\underline E}xperiment to
+{\underline D}etect the {\underline G}lobal {\underline E}OR {\underline S}ignature (EDGES) \cite{bowman08,rogers12} provided the first constraint on reionization, excluding substantial change in neutral fraction over an interval narrower than $\Delta z\sim 0.06$, with 95\% confidence, for $z\lesssim11)$. Two more experiments, the {\underline B}roadband {\underline I}nstrument for {\underline G}lobal {\underline H}ydrogen {\underline R}eionization {\underline S}ignal--BIGHORNS \cite{sokolowski15}, and the {\underline S}haped (\underline A)ntenna Measurement of the Background {\underline Ra}dio {\underline S}pectrum--SARAS \cite{patra13, singh17, singh18} also sought to contrain parameters describing reionization.  SARAS excluded some parameter combinations corresponding to late X-ray heating and rapid reionization, with 68 to 95\%.  
 
-Several experiments have been deployed in an attempt to measure the global 21-cm EoR signal. The first constraint on the global 21-cm EoR signal was provided by EDGES \cite{bowman08,rogers12}, which excluded reionization more rapid than $\Delta z > 0.06$ with 95\% confidence. The Broadband Instrument for Global HydrOgen ReioNisation Signal--BIGHORNS \cite{sokolowski15}, and the Shaped Antenna measurement of the background RAdio Spectrum--SARAS \cite{patra13, singh17,singh18} also target the global EoR signal, where results from the latter exclude at 68 to 95\% confidence some parameter combinations that correspond to late heating by X-rays in tandem with rapid reionization.  EDGES is one of several experiments designed to detect the global 21-cm Cosmic Dawn signal. The SARAS-2 experiment \cite{singh17}, SCI-HI \cite{voytek14},  the related Probing Radio Intensity at high $z$ from Marion island (PRIZM) experiment, follow similar methodology and instrumentation approaches, and the Large-Aperture Experiment to Detect the Dark Age instrument--LEDA \cite{price18}, which observes at frequencies between the HF and FM radio broadcast bands (30$<\nu<$88 MHz, $16<z<34$). LEDA is unique in its embedding of radiometers in a densely interferometric array to enable calibration of radiometric data (in part) with observations of celestial sources and to create a ready path for exploration of power spectra estimation for Cosmic Dawn. 
+Several experiments also target setting constraints on parameters describing conditions during Cosmic Dawn through detection of the predicted HI absorption against the Cosmic Microwave Background (CMB), which may be more readily separated from foreground contamination than the EOR signal owing to narrowness in redshift, in many models.  Exploiting techniques and radio-frequency (RF) electronics refined during  preceding work at lower redshift, EDGES has claimed detection of a trough \cite{bowman18} though with unlikely fitted amplitude, breadth, and shape.  As of this writing, much needed independent confirmation is pending \cite{greenhill18,hills18,bradley19,spinelli19}.  The SARAS-2 high-redshift ($15\lesssim z \lesssim 25$) successor experiment \cite{singh17,singh18} has collected data with multiple antenna architectures and at widely separated sites.  The {\underline L}arge-aperture {\underline E}xperiment to Detect the {\underline D}ark {\underline A}ge -- LEDA \cite{greenhill12,price18}, uses several configurations of the standard antenna first engineered by the Long Waveength Array (LWA) project \cite{taylor12} and embeds them in a dense interferometric array to make possible calibration techniques  unavailable for standalone antennas.  SCI-HI \cite{voytek14}, and  the related {\underline P}robing {\underline R}adio {\underline I}ntensity at High $z$ from {\underline M}arion island (PRIZM) experiment \cite{philip19}, achieving early data at two of the most radio quiet sites used thus far (e.g., judged from limited FM radio contamination), while following similar methodologies and instrumentation approaches.
+\
+\begin{figure}[htb]
+\begin{center}
+\hspace*{-0.15in}\includegraphics[width=1.05\textwidth]{EDGES_SARAS_LEDA_figure_19sep20.jpg}
+\end{center}
+\caption{(top left) EDGES antenna and serrated 30m $\times$ 30m ground screen.  (top right) Closeup of EDGES single polarization dipole.  (bottom right) Closeup of LEDA dual polarization dipole.  (bottom center) EDGES antenna and serrated 20m $\times$ 20m ground screen. (bottom left) SARAS-2 shaped monopole and 0.87m diameter ground screen.}
+\end{figure}
+
 
 %The Dark Ages Radio Explorer (DARE) concept proposes a satellite-based %radiometer in lunar orbit, where earth occultation and absence of ionospheric %effects are favorable \citep{datta2014, Burns:2017}.
 
@@ -99,6 +112,8 @@ Thus a radiometer for detecting interesting physics during the formation of the 
 Detection of the 21-cm zero-mode CMB distortions from Dark Ages, Cosmic Dawn and Reionization requires a radiometer that ideally covers the entire band of 5 to 200 MHz with a single sensor and associated radiometer receiver.  A single wide-band spectral observation of the all-sky averaged cosmic radio noise, calibrated for the transfer function of the antenna and receiver electronics, would provide the best separation between foregrounds and any cosmological 21-cm signal.  As the radiometer band is reduced, it becomes increasingly difficult to separate between foregrounds and at least the 21-cm signal predictions from standard cosmology that does not admit exotic physics.  The confusion results in reduced sensitivity to the 21-cm signals; therefore, radiometers with reduced bandwidths would require observing the sky spectrum with lower measurement noise and hence their associated calibration tolerance is also correspondingly tighter.
 
 The following subsections examine in detail the design considerations specific to the various components of the radiometer.
+
+
 
 \subsection{Antenna Effective Area}
   
