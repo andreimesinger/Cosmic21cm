@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  18 SEP 2019 17:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  23 SEP 2019 00:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -28,7 +28,7 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \@input{defns_journals.aux}
 \openout2 = `defns_journals.aux'.
 
-No file defns_journals.tex.
+(./defns_journals.tex)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
 
@@ -226,7 +226,7 @@ File: switch.def 2018/02/14 3.18 Babel switching mechanism
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-No file LG.RS.chapter.wrapper.aux.
+(./LG.RS.chapter.wrapper.aux (./chapter.aux))
 \openout1 = `LG.RS.chapter.wrapper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -242,6 +242,7 @@ LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 39.
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -355,109 +356,161 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 22.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 31
-.
 
+./chapter.tex:15: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 
+     
+? s
+OK, entering \scrollmode...
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 25
+.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 31
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 25
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 31
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 25
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 31
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 25
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
-
-./chapter.tex:31: Extra }, or forgotten $.
-l.31 \begin(itemize}
-                    
-? s
-OK, entering \scrollmode...
-
-./chapter.tex:32: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 \item
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 
 
-./chapter.tex:33: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33   T
-        he Electromagnetic sensor or antenna
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation `bowman08' in file `./chapter' on page 1 undefined on i
+nput line 25.
 
 
-./chapter.tex:33: LaTeX Error: Something's wrong--perhaps a missing \item.
+LaTeX Warning: Citation `rogers12' in file `./chapter' on page 1 undefined on i
+nput line 25.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33   T
-        he Electromagnetic sensor or antenna
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./chapter.tex:33: LaTeX Error: Lonely \item--perhaps a missing list environment
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33   T
-        he Electromagnetic sensor or antenna
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+./chapter.tex:25: Undefined control sequence.
+l.25 ....06$, with 95\% confidence, for $z\lesssim
+                                                  11)$. Two more experiments...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) detected at line 33
-[][]
+LaTeX Warning: Citation `sokolowski15' in file `./chapter' on page 1 undefined 
+on input line 25.
+
+
+LaTeX Warning: Citation `patra13' in file `./chapter' on page 1 undefined on in
+put line 25.
+
+
+LaTeX Warning: Citation `singh17' in file `./chapter' on page 1 undefined on in
+put line 25.
+
+
+LaTeX Warning: Citation `singh18' in file `./chapter' on page 1 undefined on in
+put line 25.
+
+
+LaTeX Warning: Citation `bowman18' in file `./chapter' on page 1 undefined on i
+nput line 27.
+
+
+LaTeX Warning: Citation `greenhill18' in file `./chapter' on page 1 undefined o
+n input line 27.
+
+
+LaTeX Warning: Citation `hills18' in file `./chapter' on page 1 undefined on in
+put line 27.
+
+
+LaTeX Warning: Citation `bradley19' in file `./chapter' on page 1 undefined on 
+input line 27.
+
+
+LaTeX Warning: Citation `spinelli19' in file `./chapter' on page 1 undefined on
+ input line 27.
+
+./chapter.tex:27: Undefined control sequence.
+l.27 ...}.  The SARAS-2 high-redshift ($15\lesssim
+                                                   z \lesssim 25$) successor...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chapter.tex:27: Undefined control sequence.
+l.27 ...AS-2 high-redshift ($15\lesssim z \lesssim
+                                                   25$) successor experiment...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `singh17' in file `./chapter' on page 1 undefined on in
+put line 27.
+
+
+LaTeX Warning: Citation `singh18' in file `./chapter' on page 1 undefined on in
+put line 27.
+
+
+LaTeX Warning: Citation `greenhill12' in file `./chapter' on page 1 undefined o
+n input line 27.
+
+
+LaTeX Warning: Citation `price18' in file `./chapter' on page 1 undefined on in
+put line 27.
+
+
+LaTeX Warning: Citation `taylor12' in file `./chapter' on page 1 undefined on i
+nput line 27.
+
+
+LaTeX Warning: Citation `voytek14' in file `./chapter' on page 1 undefined on i
+nput line 27.
+
+
+LaTeX Warning: Citation `philip19' in file `./chapter' on page 1 undefined on i
+nput line 27.
+
+<EDGES_SARAS_LEDA_figure_19sep20.jpg, id=1, 1156.32pt x 411.4572pt>
+File: EDGES_SARAS_LEDA_figure_19sep20.jpg Graphic file (type jpg)
+<use EDGES_SARAS_LEDA_figure_19sep20.jpg>
+Package pdftex.def Info: EDGES_SARAS_LEDA_figure_19sep20.jpg  used on input lin
+e 31.
+(pdftex.def)             Requested size: 463.06995pt x 164.77458pt.
+
+Overfull \hbox (11.21217pt too wide) in paragraph at lines 31--32
+ | [] 
  []
-
-./chapter.tex:34: Missing $ inserted.
-<inserted text> 
-                $
-l.34 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 [1
 
@@ -467,158 +520,98 @@ you left one out. Proceed, with fingers crossed.
 
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (75.15547pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 2 \OT1/ptm/m/sl/12 CHAPTER 1.  INSTRUMENTATION FOR ZERO-MODE SI
-GNAL DETECTION AND EXPERIMENTS
- []
-
-[2] [3]
-
-./chapter.tex:54: LaTeX Error: Lonely \item--perhaps a missing list environment
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54   A
-        nalog Signal Processor or Receiver
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 
 
-Underfull \hbox (badness 10000) detected at line 54
-[][]
- []
+LaTeX Warning: Citation `jansky33' in file `./chapter' on page 2 undefined on i
+nput line 40.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+[2 <./EDGES_SARAS_LEDA_figure_19sep20.jpg>]
+
+LaTeX Warning: Citation `friis46' in file `./chapter' on page 3 undefined on in
+put line 78.
 
 
-Overfull \hbox (75.15547pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 4 \OT1/ptm/m/sl/12 CHAPTER 1.  INSTRUMENTATION FOR ZERO-MODE SI
-GNAL DETECTION AND EXPERIMENTS
+LaTeX Warning: Citation `pozar98' in file `./chapter' on page 3 undefined on in
+put line 78.
+
+[3]
+
+LaTeX Warning: Citation `TMS17' in file `./chapter' on page 4 undefined on inpu
+t line 86.
+
+
+Overfull \hbox (14.83266pt too wide) in paragraph at lines 92--93
+\OT1/ptm/m/n/12 Reflection of RF sig-nals oc-curs at the in-ter-faces be-tween 
+com-po-nents with dif-fer-ent impedances.
  []
 
 [4]
+./chapter.tex:101: Undefined control sequence.
+<recently read> \gtrsim 
+                        
+l.101 ... absent, the sky signal occupies $\gtrsim
+                                                   4$ bits.  On that scale, ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-./chapter.tex:69: LaTeX Error: Lonely \item--perhaps a missing list environment
-.
+[5] [6]
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.69   D
-        igital Spectrometer
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 69
-[][]
- []
-
-
-Underfull \vbox (badness 1072) has occurred while \output is active []
-
- [5]
-Overfull \hbox (75.15547pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 6 \OT1/ptm/m/sl/12 CHAPTER 1.  INSTRUMENTATION FOR ZERO-MODE SI
-GNAL DETECTION AND EXPERIMENTS
- []
-
-[6]
-
-./chapter.tex:91: LaTeX Error: \begin{(} on input line 31 ended by \end{itemize
-}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 \end{itemize}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+LaTeX Font Warning: Command \sc invalid in math mode on input line 148.
 
 [7]
-Overfull \hbox (75.15547pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 8 \OT1/ptm/m/sl/12 CHAPTER 1.  INSTRUMENTATION FOR ZERO-MODE SI
-GNAL DETECTION AND EXPERIMENTS
- []
+Underfull \vbox (badness 3189) has occurred while \output is active []
 
-[8]
-
-LaTeX Font Warning: Command \sc invalid in math mode on input line 117.
-
-[9]
-Overfull \hbox (3.90103pt too wide) in paragraph at lines 135--136
-[]\OT1/ptm/m/n/12 An al-ter-nate de-sign for the el-e-men-tal an-tenna for zero
--mode 21-cm sig-nal is a monopole
- []
+ [8]
+[9] [10] [11] [12] [13]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 259.
 
 
-Overfull \hbox (81.15547pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 10 \OT1/ptm/m/sl/12 CHAPTER 1.  INSTRUMENTATION FOR ZERO-MODE S
-IGNAL DETECTION AND EXPERIMENTS
- []
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 259.
+ [14] [15]
+[16]
+No file ./chapter.bbl.
+) [17] (./LG.RS.chapter.wrapper.aux (./chapter.aux))
 
-[10] [11]
-Overfull \hbox (81.15547pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 12 \OT1/ptm/m/sl/12 CHAPTER 1.  INSTRUMENTATION FOR ZERO-MODE S
-IGNAL DETECTION AND EXPERIMENTS
- []
+LaTeX Warning: There were undefined references.
 
-[12] [13]
-Overfull \hbox (81.15547pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 14 \OT1/ptm/m/sl/12 CHAPTER 1.  INSTRUMENTATION FOR ZERO-MODE S
-IGNAL DETECTION AND EXPERIMENTS
- []
-
-[14] [15]
-Overfull \hbox (81.15547pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 16 \OT1/ptm/m/sl/12 CHAPTER 1.  INSTRUMENTATION FOR ZERO-MODE S
-IGNAL DETECTION AND EXPERIMENTS
- []
-
-[16] [17]
-Overfull \hbox (81.15547pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 18 \OT1/ptm/m/sl/12 CHAPTER 1.  INSTRUMENTATION FOR ZERO-MODE S
-IGNAL DETECTION AND EXPERIMENTS
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-(./chapter.bbl)) [19] (./LG.RS.chapter.wrapper.aux (./chapter.aux)) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 3337 strings out of 492649
- 46116 string characters out of 6129622
- 128772 words of memory out of 5000000
- 7131 multiletter control sequences out of 15000+600000
- 26221 words of font info for 57 fonts, out of 8000000 for 9000
+ 3395 strings out of 492649
+ 46915 string characters out of 6129622
+ 128247 words of memory out of 5000000
+ 7179 multiletter control sequences out of 15000+600000
+ 39654 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,31p,2410b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/loca
-l/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/font
-s/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw
-/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utm
-r8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LG.RS.chapter.wrapper.pdf (19 pages, 130842 bytes).
+ 41i,8n,31p,2412b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/tex
+mf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/u
+rw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on LG.RS.chapter.wrapper.pdf (17 pages, 6756642 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
