@@ -1,11 +1,11 @@
 \chapter{Theoretical Framework: The Fundamentals of the 21-cm Line}
 
 \begin{bf}
-  \author{Steven R. Furlanetto}\\
+  \author{Steven R. Furlanetto}
 
   Abstract\\
-
-We review some of the fundamental physics necessary for computing the highly-redshifted spin-flip background. We first discuss the radiative transfer of the 21-cm line and define the crucial quantities of interest. We then review the processes that set the spin temperature of the transition, with a particular focus on Wouthuysen-Field coupling, which is likely to be the most important process during and after the Cosmic Dawn. Finally, we discuss processes that heat the intergalactic medium during the Cosmic Dawn, including the scattering of Lyman-$\alpha$, cosmic microwave background, and X-ray photons.
+  
+We review some of the fundamental physics necessary for computing the highly-redshifted spin-flip background. We first discuss the radiative transfer of the 21-cm line and define the crucial quantities of interest. We then review the processes that set the spin temperature of the transition, with a particular focus on Wouthuysen-Field coupling, which is likely to be the most important process during and after the Cosmic Dawn. Finally, we discuss processes that heat the intergalactic medium during the Cosmic Dawn, including the scattering of Lyman-$\alpha$, cosmic microwave background, and X-ray photons.  \\
 \end{bf}
 
 \section{Radiative Transfer of the 21-cm Line} \label{rt-21cm}
@@ -49,7 +49,7 @@ Consider photons incident on the patch from this background. If any redshift int
  & \approx  & 0.0092 \, (1+\delta) \, (1+z)^{3/2}\, \frac{x_{\rm HI}}{T_S} \, \left[ \frac{H(z)/(1+z)}{d v_\parallel/d r_\parallel} \right],
 \label{optdepthcosmo-approx}
 \end{eqnarray}
-where $n_H$ is the hydrogen number density, $x_{\rm HI}$ is the neutral fraction, $dv_\parallel/dr_\parallel$ is the velocity gradient along the line of sight (here scaled to the Hubble flow). In the second part,$T_S$ is in Kelvins, and we have scaled the density to the mean value by writing $n_H = \bar{n}_H^0 (1+z)^3 (1 + \delta)$, where $\bar{n}_H^0$ is the mean comoving density today.
+where $n_H$ is the hydrogen number density, $x_{\rm HI}$ is the neutral fraction, $dv_\parallel/dr_\parallel$ is the velocity gradient along the line of sight (here scaled to the Hubble flow). In the second part,$T_S$ is in Kelvins, and we have scaled the density to the mean value by writing $n_H = \bar{n}_H^0 (1+z)^3 (1 + \delta)$, where $\bar{n}_H^0$ is the mean comoving density today. Note that this expression assumes a delta-function line profile, an assumption which breaks down in regimes where the peculiar velocity gradient is large. A more careful approach is required in those cases, though note that such regions are rare in most scenarios \cite{mao12}.
 
 In most circumstances, the CMB provides the background radiation source, for which with temperature $T_\gamma(z)$. Then $T_R' = T_{\gamma}(z)$, so that  we are observing the contrast between high-redshift hydrogen clouds and the CMB.   Because the optical depth is so small, we can then expand the exponentials in equation~(\ref{eq:rad_trans}), and
 \begin{eqnarray}
@@ -58,7 +58,9 @@ In most circumstances, the CMB provides the background radiation source, for whi
 & \approx & 9\;x_{\rm HI}(1+\delta) \, (1+z)^{1/2}\, \left[1-\frac{T_{\gamma}(z)}{T_S}\right] \, \left[ \frac{H(z)/(1+z)}{d v_\parallel/d r_\parallel} \right] \ \mbox{mK}.
 \label{eq:dtb}
 \end{eqnarray}
-Thus $T_b < 0$ if $T_S < T_{\gamma}$, yielding an absorption signal; otherwise it appears in emission relative to the CMB. Both regimes are likely important for the high-$z$ Universe. Note that $T_b$ saturates if $T_S \gg T_{\gamma}$, but the absorption can become arbitrarily large if $T_S \ll T_{\gamma}$.  The observability of the 21 cm transition therefore hinges on the spin temperature; we will next describe the mechanisms that control that factor.
+Thus $T_b < 0$ if $T_S < T_{\gamma}$, yielding an absorption signal; otherwise it appears in emission relative to the CMB. Both regimes are likely important for the high-$z$ Universe. Note that $T_b$ saturates if $T_S \gg T_{\gamma}$, but the absorption can become arbitrarily large if $T_S \ll T_{\gamma}$.  The observability of the 21 cm transition therefore hinges on the spin temperature; in the next section we will describe the mechanisms that control that factor.
+
+Of course, the other factors -- the density, velocity, and ionization fields -- are also important to understanding the 21-cm signal. The density field evolves through cosmological structure formation, and that same evolution drives the velocity field -- both of which we will describe briefly in Chapter 3. The ionization field depends, in most scenarios, on astrophysical sources, and it will be described in detail in Chapter 2. For now, we will simply note that so long as stars drive reionization, the ``two-phase" approximation is very accurate: the mean free path of ionizing photons is so short that regions around ionizing sources are essentially fully ionized, while those outside of those H~II regions are nearly fully neutral. Thus to a good approximation, we can take $x_{\rm HI}=0$ or 1.
 
 \section{The Spin Temperature} \label{spin-temp}
 
@@ -115,7 +117,7 @@ These rate coefficients can be calculated by the quantum mechanical cross sectio
 line), H-e$^-$ collisions (dotted line), and H-p collisions (solid
 line).  Note that the net rates are also proportional to the densities
 of the individual species, so H-H collisions still dominate in a
-weakly-ionized medium. From \cite{furl07-proton}.}
+weakly-ionized medium. Reproduced from Furlanetto, S.~R. \& Furlanetto, M.~R. ``Secondary ionization and heating by fast electrons,Ó \emph{Monthly Notices of the Royal Astronomical Society}, vol. 404, pp. 1869-1878. Copyright OUP 2007.}
 \label{fig:collrates}
 \end{figure}
 
@@ -139,7 +141,7 @@ Wouthuysen and Harvard astrophysicist George Field who first explored it \cite{w
 \begin{center}
 \includegraphics[width=0.6\textwidth]{Furlanetto/figure2-2}
 \end{center}
-\caption{Level diagram illustrating the Wouthuysen-Field effect.  We show the hyperfine splittings of the $1S$ and $2P$ levels.  The solid lines label transitions that can mix the ground state hyperfine levels, while the dashed lines label complementary allowed transitions that do not participate in mixing.  From \cite{pritchard06}.}
+\caption{Level diagram illustrating the Wouthuysen-Field effect.  We show the hyperfine splittings of the $1S$ and $2P$ levels.  The solid lines label transitions that can mix the ground state hyperfine levels, while the dashed lines label complementary allowed transitions that do not participate in mixing.  Reproduced from J.~R. Pritchard \& S.~R. Furlanetto, ``Descending from on high: Lyman-series cascades and spin-kinetic temperature coupling in the 21-cm line,Ó \emph{Monthly Notices of the Royal Astronomical Society}, vol. 367, pp. 1057-1066. Copyright OUP 2006.}
 \label{fig:wf}
 \end{figure}
 
@@ -192,7 +194,7 @@ A simple argument shows that $T_c \approx T_K$ \cite{field59-ts}: so long as the
 \caption{Decay chains for Lyman-$\beta$ and Lyman-$\gamma$ excitations.  We show
   Lyman-$n$ transitions by dashed curves, Lyman-$\alpha$ by the dot-dashed
   curve, cascades by solid curves, and the forbidden $2S \rightarrow
-  1S$ transition by the dotted curve. From \cite{pritchard06}.}
+  1S$ transition by the dotted curve. Reproduced from J.~R. Pritchard \& S.~R. Furlanetto, ``Descending from on high: Lyman-series cascades and spin-kinetic temperature coupling in the 21-cm line,Ó \emph{Monthly Notices of the Royal Astronomical Society}, vol. 367, pp. 1057-1066. Copyright OUP 2006.}
 \label{fig:lygamma}
 \end{figure}
 
@@ -266,7 +268,7 @@ from line center, in units of the Doppler width.  The upper and lower sets are f
 and photons injected at line center, respectively.  (The former are
 normalized to $J_\infty$; the latter have arbitrary normalization.)
 The solid and dashed curves take $T_K=10$ and $1000$~K,
-respectively.  From \cite{furl06-lyheat}.}
+respectively.  Reproduced from S.~R. Furlanetto \& J.~R., Pritchard, ``The scattering of Lyman-series photons in the intergalactic medium," \emph{Monthly Notices of the Royal Astronomical Society}, vol. 372, pp. 1093-1103. Copyright OUP 2006. }
 \label{fig:lyshape}
 \end{figure}
 
@@ -289,9 +291,9 @@ Note that this form applies to both photons injected at line center as well as t
 
 \section{Heating of the Intergalactic Medium} 
 
-We have seen that both collisions and the Wouthuysen-Field effect couple the spin temperature to the kinetic temperature of the gas. The 21-cm brightness temperature therefore depends on processes that heat the IGM. We will review several such mechanisms in this section.
+We have seen that both collisions and the Wouthuysen-Field effect couple the spin temperature to the kinetic temperature of the gas. The 21-cm brightness temperature therefore depends on processes that heat the \emph{neutral} IGM. (Note that photoionization heating is likely the most important mechanism in setting the IGM temperature, because that process typically heats the gas to $T \sim 10^4$~K. However, by definition that process only occurs when ionization is significant -- and, in standard reionization scenarios, where $x_{\rm HI} \approx 0$ so that the 21-cm signal vanishes.) We will review several such mechanisms in this section.
 
-\subsection{The Lyman-$\alpha$ Background} \label{sec:ch1_lya} 
+\subsection{The Lyman-$\alpha$ Background}
 
 The photons that trigger Lyman-$\alpha$ coupling exchange energy with the IGM, through the recoil in each scattering event. The typical energy exchange per scattering is small (see eq. \ref{eq:recoil-loss}), but the scattering rate is extremely large.  If the net heating rate per atom followed the naive expectation, $\sim
 P_\alpha \times (h \nu_\alpha)^2/m_p c^2$, the kinetic temperature would surpass $T_\gamma$ soon after Wouthuysen-Field coupling becomes efficient.
@@ -336,7 +338,7 @@ We can estimate the energy available to this heating mechanism by considering th
 
 A more detailed calculation of the heating rate shows that it is somewhat slower, but it does amplify the effect of the Lyman-$\alpha$ heating alone by a factor of several \cite{venumadhav18}. In standard models of the early radiation backgrounds, the correction is still relatively modest, but it is not negligible. For example, in the fiducial model considered by \cite{venumadhav18}, the Lyman-$\alpha$ heating on its own modifies $T_K$ by $\sim 1$--5\%, but with the CMB scattering included the effect is $\sim 9$--15\%. Additionally, the CMB scattering can be enhanced in some exotic physics models that decrease the spin temperature substantially.
 
-\subsection{The X-ray Background} \label{sec:ch1_xrb} 
+\subsection{The X-ray Background} \label{xrayheat}
 
 Because they have relatively long mean free paths, X-rays from galaxies and quasars are likely to be the most important heating agent for the low-density IGM  \cite{madau97}.  In particular, photons with $E>1.5 x_{\rm HI}^{1/3} [(1+z)/10]^{1/2}$~keV have mean free paths exceeding the Hubble length \cite{oh01}.  Lower-energy X-rays will be absorbed in the IGM, depositing much of their energy as heat, as will a fraction of higher-energy X-rays.
 
@@ -345,20 +347,26 @@ X-rays heat the IGM gas by first photoionizing a hydrogen or helium atom.  The r
 %%%%%: FIGURE: X-ray heating
 \begin{figure}[]
 \begin{center}
-\includegraphics[width=0.4\textwidth]{Furlanetto/figure2-5a} \includegraphics[width=0.4\textwidth]{Furlanetto/figure2-5b} \\
-\includegraphics[width=0.4\textwidth]{Furlanetto/figure2-5c} \includegraphics[width=0.4\textwidth]{Furlanetto/figure2-5d}
+\includegraphics[width=0.4\textwidth]{figure2-5a} \includegraphics[width=0.4\textwidth]{Furlanetto/figure2-5b} \\
+\includegraphics[width=0.4\textwidth]{figure2-5c} \includegraphics[width=0.4\textwidth]{Furlanetto/figure2-5d}
 \end{center}
-\caption{Energy deposition from fast electrons. We show the fraction of the initial energy deposited in ionization (upper left), heating (upper right), and collisional excitation (lower left), as a function of electron energy and for several different ionized fractions $x_i$. The lower right shows the fraction of the collisional excitation energy deposited in the HI Lyman-$\alpha$ transition, $f_{\rm Ly\alpha}$.  From \cite{furl10-xray}.}
+\caption{Energy deposition from fast electrons. We show the fraction of the initial X-ray energy deposited in ionization (upper left), heating (upper right), and collisional excitation (lower left), as a function of electron energy and for several different ionized fractions $x_i$. The lower right shows the fraction of the collisional excitation energy deposited in the HI Lyman-$\alpha$ transition, $f_{\rm Ly\alpha}$.  Reproduced from S.~R. Furlanetto \& S. Johnson-Stoever, ``Secondary ionization and heating by fast electrons,Ó \emph{Monthly Notices of the Royal Astronomical Society}, vol. 404, pp. 1869-1878. Copyright OUP 2010.}
 \label{fig:xrayheat}
 \end{figure}
 
-The details of this process have been examined numerically \cite{shull85,valdes08,furl10-xray}, and Figure~\ref{fig:xrayheat} shows some example results. Note that the deposition fractions are smooth functions at high electron energies but, at low energies -- where the atomic energy levels become relevant -- can be quite complex. A number of approximate fits have been presented for the high-energy regime \cite{ricotti02, volonteri09}, but they are not accurate over the full energy range. A crude but useful approximation to the high-energy limit often suffices \cite{chen04-decay}:
+The details of this process have been examined numerically \cite{shull85,valdes08,furl10-xray}, and Figure~\ref{fig:xrayheat} shows some example results.\footnote{Note that these results are relative to the initial X-ray energy; some others in the literature instead use present results relative to the primary electron's energy.}  Note that the deposition fractions are smooth functions at high electron energies but, at low energies -- where the atomic energy levels become relevant -- can be quite complex. A number of approximate fits have been presented for the high-energy regime \cite{ricotti02, volonteri09}, but they are not accurate over the full energy range. A crude but useful approximation to the high-energy limit often suffices \cite{chen04-decay}:
 \begin{eqnarray}
 f_{\rm heat} & \sim & (1+2 x_i)/3 \nonumber \\
 f_{\rm ion} \sim f_{\rm excite} & \sim & (1-x_i)/3,
 \label{eq:fxapprox}
 \end{eqnarray}
 where $x_i$ is the ionized fraction. In highly ionized gas, collisions with free electrons dominate and $f_{\rm heat} \rightarrow 1$; in the opposite limit, the energy is split roughly equally between these three processes. However, the complexity of the behavior at low electron energies -- together with the increasing optical thickness of the IGM in that regime, and the fact that most sources are brighter in this soft X-ray regime -- suggest that a more careful treatment is needed for accurate work. \cite{furl10-xray} recommend interpolating the exact results.
+
+\subsection{Other Potential Heating Mechanisms} \label{heat-other}
+
+We close this section by noting that other heating mechanisms have been considered in the literature. One possibility is the heating that accompanies structure formation. When regions collapse gravitationally, they are heated by adiabatic compression (which we will discuss in Chapter 3), which is a minor effect. But, if the resulting gas flows converge at velocities above the (very small) sound speed, they can also trigger shocks, which convert a large fraction of that kinetic energy into heat. Analytic models and simulations suggest, however, that structure formation is still sufficiently gentle during the Cosmic Dawn that these shocks will have little effect on the 21-cm signal.  \cite{furl04-sh, kuhlen06-21cm, mcquinn12}. 
+
+Finally, exotic mechanisms like dark matter annihilation or decay, primordial black hole emission, and other speculative processes can also affect the thermal evolution of the IGM during the Dark Ages. We will discuss such possibilities further in Chapter 3.
 
 \bibliographystyle{plain}
 \bibliography{Furlanetto/ch2-refs}

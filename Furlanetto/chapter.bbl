@@ -47,6 +47,11 @@ S.~R. {Furlanetto} and S.~{Johnson Stoever}.
 \newblock {Secondary ionization and heating by fast electrons}.
 \newblock {\em \mnras}, 404:1869--1878, June 2010.
 
+\bibitem{furl04-sh}
+S.~R. {Furlanetto} and A.~{Loeb}.
+\newblock {Large-Scale Structure Shocks at Low and High Redshifts}.
+\newblock {\em \apj}, 611:642--654, August 2004.
+
 \bibitem{furl06-lyheat}
 S.~R. {Furlanetto} and J.~R. {Pritchard}.
 \newblock {The scattering of Lyman-series photons in the intergalactic medium}.
@@ -69,11 +74,30 @@ Christopher~M. {Hirata} and Kris {Sigurdson}.
   profile of dark-age gas}.
 \newblock {\em \mnras}, 375(4):1241--1264, Mar 2007.
 
+\bibitem{kuhlen06-21cm}
+M.~{Kuhlen}, P.~{Madau}, and R.~{Montgomery}.
+\newblock {The Spin Temperature and 21 cm Brightness of the Intergalactic
+  Medium in the Pre-Reionization era}.
+\newblock {\em \apjl}, 637:L1--L4, January 2006.
+
 \bibitem{madau97}
 P.~{Madau}, A.~{Meiksin}, and M.~J. {Rees}.
 \newblock {21 Centimeter Tomography of the Intergalactic Medium at High
   Redshift}.
 \newblock {\em \apj}, 475:429, February 1997.
+
+\bibitem{mao12}
+Y.~{Mao}, P.~R. {Shapiro}, G.~{Mellema}, I.~T. {Iliev}, J.~{Koda}, and
+  K.~{Ahn}.
+\newblock {Redshift-space distortion of the 21-cm background from the epoch of
+  reionization - I. Methodology re-examined}.
+\newblock {\em \mnras}, 422:926--954, May 2012.
+
+\bibitem{mcquinn12}
+M.~{McQuinn} and R.~M. {O'Leary}.
+\newblock {The Impact of the Supersonic Baryon-Dark Matter Velocity Difference
+  on the z \~{} 20 21-cm Background}.
+\newblock {\em \apj}, 760:3, November 2012.
 
 \bibitem{meiksin00}
 A.~{Meiksin}.
