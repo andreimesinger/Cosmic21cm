@@ -7,11 +7,11 @@ Shankar {Agarwal}, Filipe~B. {Abdalla}, Hume~A. {Feldman}, Ofer {Lahav}, and
   artificial neural networks}.
 \newblock {\em \mnras}, 424(2):1409--1418, Aug 2012.
 
-\bibitem{Alsing:2019}
-Justin {Alsing}, Tom {Charnock}, Stephen {Feeney}, and Benjamin {Wand elt}.
-\newblock {Fast likelihood-free cosmology with neural density estimators and
-  active learning}.
-\newblock {\em \mnras}, page 1888, Jul 2019.
+\bibitem{alesker1999}
+Semyon Alesker.
+\newblock Description of continuous isometry covariant valuations on convex
+  sets.
+\newblock {\em Geometriae dedicata}, 74(3):241--248, 1999.
 
 \bibitem{Alvarez:2009}
 Marcelo~A. {Alvarez}, Michael {Busha}, Tom {Abel}, and Risa~H. {Wechsler}.
@@ -54,6 +54,12 @@ R.~{Barkana}.
   reionization}.
 \newblock {\em \mnras}, 376(4):1784--1792, Apr 2007.
 
+\bibitem{Barkana:2005}
+R.~{Barkana} and A.~{Loeb}.
+\newblock {A Method for Separating the Physics from the Astrophysics of
+  High-Redshift 21 Centimeter Fluctuations}.
+\newblock {\em \apjl}, 624:L65--L68, May 2005.
+
 \bibitem{Barkana:2009}
 Rennan {Barkana}.
 \newblock {Studying the sources of cosmic reionization with 21-cm
@@ -77,6 +83,12 @@ A.~P. {Beardsley}, M.~F. {Morales}, A.~{Lidz}, M.~{Malloy}, and P.~M. {Sutter}.
 \newblock {Adding Context to James Webb Space Telescope Surveys with Current
   and Future 21 cm Radio Observations}.
 \newblock {\em \apj}, 800(2):128, Feb 2015.
+
+\bibitem{beisbart2002}
+Claus Beisbart, Robert Dahlke, Klaus Mecke, and Herbert Wagner.
+\newblock Vector-and tensor-valued descriptors for spatial patterns.
+\newblock In {\em Morphology of condensed matter}, pages 238--260. Springer,
+  2002.
 
 \bibitem{Bernardi:2016}
 G.~{Bernardi}, J.~T.~L. {Zwart}, D.~{Price}, L.~J. {Greenhill}, A.~{Mesinger},
@@ -361,13 +373,6 @@ Raghunath {Ghara}, T.~Roy {Choudhury}, Kanan~K. {Datta}, and Samir {Choudhuri}.
   the cosmic dawn using the SKA}.
 \newblock {\em \mnras}, 464(2):2234--2248, Jan 2017.
 
-\bibitem{Ghara:2018}
-Raghunath {Ghara}, Garrelt {Mellema}, Sambit~K. {Giri}, T.~Roy {Choudhury},
-  Kanan~K. {Datta}, and Suman {Majumdar}.
-\newblock {Prediction of the 21-cm signal from reionization: comparison between
-  3D and 1D radiative transfer schemes}.
-\newblock {\em \mnras}, 476(2):1741--1755, May 2018.
-
 \bibitem{Gillet:2019}
 Nicolas {Gillet}, Andrei {Mesinger}, Bradley {Greig}, Adrian {Liu}, and
   Graziano {Ucci}.
@@ -420,6 +425,11 @@ Ad{\'e}lie {Gorce} and Jonathan~R. {Pritchard}.
 \newblock {Studying the morphology of reionisation with the triangle
   correlation function of phases}.
 \newblock {\em arXiv e-prints}, page arXiv:1903.11402, Mar 2019.
+
+\bibitem{Gott:1986}
+III {Gott}, J.~Richard, Adrian~L. {Melott}, and Mark {Dickinson}.
+\newblock {The Sponge-like Topology of Large-Scale Structure in the Universe}.
+\newblock {\em \apj}, 306:341, Jul 1986.
 
 \bibitem{Greig:2015}
 Bradley {Greig} and Andrei {Mesinger}.
@@ -512,6 +522,12 @@ Sultan {Hassan}, Adrian {Liu}, Saul {Kohn}, and Paul {La Plante}.
   Neural Networks}.
 \newblock {\em \mnras}, 483(2):2524--2537, Feb 2019.
 
+\bibitem{Hastings:1970}
+W.~K. Hastings.
+\newblock Monte carlo sampling methods using markov chains and their
+  applications.
+\newblock {\em Biometrika}, 57(1):97, Apr 1970.
+
 \bibitem{Heitmann:2016}
 Katrin {Heitmann}, Derek {Bingham}, Earl {Lawrence}, Steven {Bergner}, Salman
   {Habib}, David {Higdon}, Adrian {Pope}, Rahul {Biswas}, Hal {Finkel},
@@ -546,6 +562,11 @@ Sungwook~E. {Hong}, Kyungjin {Ahn}, Changbom {Park}, Juhan {Kim}, Ilian~T.
 \newblock {2D Genus Topology of 21-cm Differential Brightness Temperature
   During Cosmic Reionization}.
 \newblock {\em Journal of Korean Astronomical Society}, 47(2):49--67, Apr 2014.
+
+\bibitem{hug2008}
+Daniel Hug, Rolf Schneider, and Ralph Schuster.
+\newblock The space of isometry covariant tensor valuations.
+\newblock {\em St. Petersburg Mathematical Journal}, 19(1):137--158, 2008.
 
 \bibitem{Hutter:2018b}
 Anne {Hutter}.
@@ -590,6 +611,11 @@ Ilian~T. {Iliev}, Garrelt {Mellema}, Kyungjin {Ahn}, Paul~R. {Shapiro},
   Yi~{Mao}, and Ue-Li {Pen}.
 \newblock {Simulating cosmic reionization: how large a volume is large enough?}
 \newblock {\em \mnras}, 439(1):725--743, Mar 2014.
+
+\bibitem{Jeffreys:1961}
+H.~Jeffreys.
+\newblock {\em Theory of Probability}.
+\newblock Oxford, Oxford, England, third edition, 1961.
 
 \bibitem{Jeffreys:1946}
 Harold {Jeffreys}.
@@ -658,6 +684,17 @@ Piyanat {Kittiwisit}, Judd~D. {Bowman}, Daniel~C. {Jacobs}, Nithyanandan
   Statistics from Redshifted 21 cm Observations}.
 \newblock {\em arXiv e-prints}, page arXiv:1610.06100, Oct 2016.
 
+\bibitem{Komatsu:2009}
+E.~{Komatsu} et~al.
+\newblock {Five-Year Wilkinson Microwave Anisotropy Probe Observations:
+  Cosmological Interpretation}.
+\newblock {\em \apjs}, 180(2):330--376, Feb 2009.
+
+\bibitem{Kovetz:2017}
+Ely~D. {Kovetz} et~al.
+\newblock {Line-Intensity Mapping: 2017 Status Report}.
+\newblock {\em arXiv e-prints}, page arXiv:1709.09066, Sep 2017.
+
 \bibitem{Kubota:2016}
 Kenji {Kubota}, Shintaro {Yoshiura}, Hayato {Shimabukuro}, and Keitaro
   {Takahashi}.
@@ -694,6 +731,11 @@ Paul {La Plante} and Michelle {Ntampaka}.
 Khee-Gan {Lee}, Renyue {Cen}, III {Gott}, J.~Richard, and Hy~{Trac}.
 \newblock {The Topology of Cosmological Reionization}.
 \newblock {\em \apj}, 675(1):8--15, Mar 2008.
+
+\bibitem{Lee:2014}
+Michael~D. Lee and Eric-Jan Wagenmakers.
+\newblock {\em Bayesian Cognitive Modeling: A Practical Course}.
+\newblock Cambridge University Press, 2014.
 
 \bibitem{Lewis:2011}
 Antony {Lewis}.
@@ -768,11 +810,22 @@ Charlotte~A. {Mason}, Rohan~P. {Naidu}, Sandro {Tacchella}, and Joel {Leja}.
   z>6}.
 \newblock {\em arXiv e-prints}, page arXiv:1907.11332, Jul 2019.
 
+\bibitem{McGreer:2015}
+Ian~D. {McGreer}, Andrei {Mesinger}, and Valentina {D'Odorico}.
+\newblock {Model-independent evidence in favour of an end to reionization by z
+  {\ensuremath{\approx}} 6}.
+\newblock {\em \mnras}, 447(1):499--505, Feb 2015.
+
 \bibitem{McKay:1979}
 M.~D. McKay, R.~J. Beckman, and W.~J. Conover.
 \newblock A comparison of three methods for selecting values of input variables
   in the analysis of output from a computer code.
 \newblock {\em Technometrics}, 21(2):239--245, 1979.
+
+\bibitem{mcmullen1997}
+Peter McMullen.
+\newblock Isometry covariant valuations on convex bodies.
+\newblock {\em SUPPLEMENTO AI RENDICONTI CIRC MAT PALERMO}, 50:259--271, 1997.
 
 \bibitem{McQuinn:2005}
 Matthew {McQuinn}, Steven~R. {Furlanetto}, Lars {Hernquist}, Oliver {Zahn}, and
@@ -821,6 +874,13 @@ Andrei {Mesinger}, Matthew {McQuinn}, and David~N. {Spergel}.
 \newblock {The kinetic Sunyaev-Zel'dovich signal from inhomogeneous
   reionization: a parameter space study}.
 \newblock {\em \mnras}, 422(2):1403--1417, May 2012.
+
+\bibitem{Metropolis:1953}
+Nicholas Metropolis, Arianna~W Rosenbluth, Marshall~N Rosenbluth, Augusta~H
+  Teller, and Edward Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock {\em The Journal of Chemical Physics}, 21:1087, Jun 1953.
+\newblock 1953: American Institute of Physics.
 
 \bibitem{MiraldaEscude:2000}
 Jordi {Miralda-Escud{\'e}}, Martin {Haehnelt}, and Martin~J. {Rees}.
@@ -897,17 +957,22 @@ Raul~A. {Monsalve}, Alan E.~E. {Rogers}, Judd~D. {Bowman}, and Thomas~J.
   Models for the Global 21 cm Signal}.
 \newblock {\em \apj}, 847(1):64, Sep 2017.
 
+\bibitem{Moradinezhad:2019b}
+Azadeh {Moradinezhad Dizgah} and Garrett~K. {Keating}.
+\newblock {Line Intensity Mapping with [C II] and CO(1-0) as Probes of
+  Primordial Non-Gaussianity}.
+\newblock {\em \apj}, 872(2):126, Feb 2019.
+
+\bibitem{Moradinezhad:2019a}
+Azadeh {Moradinezhad Dizgah}, Garrett~K. {Keating}, and Anastasia {Fialkov}.
+\newblock {Probing Cosmic Origins with CO and [C II] Emission Lines}.
+\newblock {\em \apjl}, 870(1):L4, Jan 2019.
+
 \bibitem{Morandi:2012}
 Andrea {Morandi} and Rennan {Barkana}.
 \newblock {Studying cosmic reionization with observations of the global 21-cm
   signal}.
 \newblock {\em \mnras}, 424(4):2551--2561, Aug 2012.
-
-\bibitem{Munoz:2015}
-Julian~B. {Mu{\~n}oz}, Ely~D. {Kovetz}, and Yacine {Ali-Ha{\"\i}moud}.
-\newblock {Heating of baryons due to scattering with dark matter during the
-  dark ages}.
-\newblock {\em \prd}, 92(8):083528, Oct 2015.
 
 \bibitem{Mutch:2016}
 Simon~J. {Mutch}, Paul~M. {Geil}, Gregory~B. {Poole}, Paul~W. {Angel}, Alan~R.
@@ -1010,6 +1075,11 @@ Annalisa {Pillepich}, Cristiano {Porciani}, and Sabino {Matarrese}.
   Dark Ages}.
 \newblock {\em \apj}, 662(1):1--14, Jun 2007.
 
+\bibitem{Planck:2018}
+{Planck Collaboration}.
+\newblock {Planck 2018 results. VI. Cosmological parameters}.
+\newblock {\em arXiv e-prints}, page arXiv:1807.06209, Jul 2018.
+
 \bibitem{Pober:2014}
 Jonathan~C. {Pober}, Adrian {Liu}, Joshua~S. {Dillon}, James~E. {Aguirre},
   Judd~D. {Bowman}, Richard~F. {Bradley}, Chris~L. {Carilli}, David~R.
@@ -1063,6 +1133,17 @@ Hannah~E. {Ross}, Keri~L. {Dixon}, Ilian~T. {Iliev}, and Garrelt {Mellema}.
 \newblock {Simulating the impact of X-ray heating during the cosmic dawn}.
 \newblock {\em \mnras}, 468(4):3785--3797, Jul 2017.
 
+\bibitem{Sahni:1998}
+Varun {Sahni}, B.~S. {Sathyaprakash}, and Sergei~F. {Shandarin}.
+\newblock {Shapefinders: A New Shape Diagnostic for Large-Scale Structure}.
+\newblock {\em \apjl}, 495(1):L5--L8, Mar 1998.
+
+\bibitem{Santos:2005}
+M.~G. {Santos}, A.~{Cooray}, and L.~{Knox}.
+\newblock {Multifrequency Analysis of 21 Centimeter Fluctuations from the Era
+  of Reionization}.
+\newblock {\em \apj}, 625:575--587, June 2005.
+
 \bibitem{Santos:2010}
 M.~G. {Santos}, L.~{Ferramacho}, M.~B. {Silva}, A.~{Amblard}, and A.~{Cooray}.
 \newblock {Fast large volume simulations of the 21-cm signal from the
@@ -1076,6 +1157,12 @@ M{\'a}rio~G. {Santos}, Alexandre {Amblard}, Jonathan {Pritchard}, Hy~{Trac},
   Analytical Model and a Simulation}.
 \newblock {\em \apj}, 689(1):1--16, Dec 2008.
 
+\bibitem{Schmalzing:1997}
+Jens {Schmalzing} and Thomas {Buchert}.
+\newblock {Beyond Genus Statistics: A Unifying Approach to the Morphology of
+  Cosmic Structure}.
+\newblock {\em \apjl}, 482(1):L1--L4, Jun 1997.
+
 \bibitem{Schmit:2018}
 C.~J. {Schmit} and J.~R. {Pritchard}.
 \newblock {Emulation of reionization simulations for Bayesian inference of
@@ -1086,6 +1173,25 @@ C.~J. {Schmit} and J.~R. {Pritchard}.
 Michael~D. {Schneider}, {\'O}skar {Holm}, and Lloyd {Knox}.
 \newblock {Intelligent Design: On the Emulation of Cosmological Simulations}.
 \newblock {\em \apj}, 728(2):137, Feb 2011.
+
+\bibitem{Schroder-Turk:2013}
+G.~E. {Schr{\"o}der-Turk}, W.~{Mickel}, S.~C. {Kapfer}, F.~M. {Schaller},
+  B.~{Breidenbach}, D.~{Hug}, and K.~{Mecke}.
+\newblock {Minkowski tensors of anisotropic spatial structure}.
+\newblock {\em New Journal of Physics}, 15(8):083028, Aug 2013.
+
+\bibitem{schroder2010}
+Gerd~E SCHR{\"O}DER-TURK, Sebastian Kapfer, Boris Breidenbach, Claus Beisbart,
+  and Klaus Mecke.
+\newblock Tensorial minkowski functionals and anisotropy measures for planar
+  patterns.
+\newblock {\em Journal of microscopy}, 238(1):57--74, 2010.
+
+\bibitem{Seiler:2019}
+Jacob {Seiler}, Anne {Hutter}, Manodeep {Sinha}, and Darren {Croton}.
+\newblock {The escape fraction of ionizing photons during the Epoch of
+  Reionization: observability with the Square Kilometre Array}.
+\newblock {\em \mnras}, 487(4):5739--5752, Aug 2019.
 
 \bibitem{Shimabukuro:2017b}
 Hayato {Shimabukuro} and Benoit {Semelin}.
@@ -1133,12 +1239,6 @@ Emanuele {Sobacchi}, Andrei {Mesinger}, and Bradley {Greig}.
   {\ensuremath{\alpha}} emitters during reionization}.
 \newblock {\em \mnras}, 459(3):2741--2750, Jul 2016.
 
-\bibitem{Tashiro:2014}
-Hiroyuki {Tashiro}, Kenji {Kadota}, and Joseph {Silk}.
-\newblock {Effects of dark matter-baryon scattering on redshifted 21 cm
-  signals}.
-\newblock {\em \prd}, 90(8):083522, Oct 2014.
-
 \bibitem{Tegmark:1997}
 Max {Tegmark}, Andy~N. {Taylor}, and Alan~F. {Heavens}.
 \newblock {Karhunen-Lo{\`e}ve Eigenvalue Problems in Cosmology: How Should We
@@ -1180,12 +1280,6 @@ Cathryn~M. {Trott}, Catherine~A. {Watkinson}, Christopher~H. {Jordan}, Shintaro
   the Murchison Widefield Array}.
 \newblock {\em \pasa}, 36:e023, Jan 2019.
 
-\bibitem{Tseliakhovich:2010}
-Dmitriy {Tseliakhovich} and Christopher {Hirata}.
-\newblock {Relative velocity of dark matter and baryonic fluids and the
-  formation of the first structures}.
-\newblock {\em \prd}, 82(8):083520, Oct 2010.
-
 \bibitem{vanderVelden:2019}
 Ellert {van der Velden}, Alan~R. {Duffy}, Darren {Croton}, Simon~J. {Mutch},
   and Manodeep {Sinha}.
@@ -1216,11 +1310,6 @@ Dijana {Vrbanec}, Benedetta {Ciardi}, Vibor {Jeli{\'c}}, Hannes {Jensen},
 Yougang {Wang}, Changbom {Park}, Yidong {Xu}, Xuelei {Chen}, and Juhan {Kim}.
 \newblock {Two-dimensional Topology of Cosmological Reionization}.
 \newblock {\em \apj}, 814(1):6, Nov 2015.
-
-\bibitem{Watkinson:2019inprep}
-C.~A. {Watkinson} et~al.
-\newblock {}.
-\newblock {\em \mnras \, in prep}, 2019.
 
 \bibitem{Watkinson:2015b}
 C.~A. {Watkinson}, A.~{Mesinger}, J.~R. {Pritchard}, and E.~{Sobacchi}.

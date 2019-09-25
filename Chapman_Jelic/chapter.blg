@@ -2,221 +2,45 @@ This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Chapman_Jelic/chapter.aux
 The style file: plain.bst
-I couldn't open database file References.bib
----line 318 of file Chapman_Jelic/chapter.aux
- : \bibdata{References
- :                    }
-I'm skipping whatever remains of this command
-I found no database files---while reading file Chapman_Jelic/chapter.aux
-Warning--I didn't find a database entry for "jelic10"
-Warning--I didn't find a database entry for "jelic08"
-Warning--I didn't find a database entry for "mesinger11"
-Warning--I didn't find a database entry for "shaver99"
-Warning--I didn't find a database entry for "bowman09"
-Warning--I didn't find a database entry for "cooray04"
-Warning--I didn't find a database entry for "deoliveiracosta08"
-Warning--I didn't find a database entry for "dimatteo04"
-Warning--I didn't find a database entry for "dimatteo02"
-Warning--I didn't find a database entry for "liu12"
-Warning--I didn't find a database entry for "oh03"
-Warning--I didn't find a database entry for "petrovic11"
-Warning--I didn't find a database entry for "spinelli18"
-Warning--I didn't find a database entry for "wang06"
-Warning--I didn't find a database entry for "Chapman2013MNRAS.429..165C"
-Warning--I didn't find a database entry for "Chapman2012MNRAS.423.2518C"
-Warning--I didn't find a database entry for "ghosh18"
-Warning--I didn't find a database entry for "Harker2010MNRAS.405.2492H"
-Warning--I didn't find a database entry for "Harker2009MNRAS.397.1138H"
-Warning--I didn't find a database entry for "Harker2009MNRAS.393.1449H"
-Warning--I didn't find a database entry for "mertens18"
-Warning--I didn't find a database entry for "Chapman2015aska.confE...5C"
-Warning--I didn't find a database entry for "Chapman2016MNRAS.458.2928C"
-Warning--I didn't find a database entry for "haverkorn19"
-Warning--I didn't find a database entry for "sun09"
-Warning--I didn't find a database entry for "waelkens09"
-Warning--I didn't find a database entry for "bonaldi19"
-Warning--I didn't find a database entry for "wilman10"
-Warning--I didn't find a database entry for "wilman08"
-Warning--I didn't find a database entry for "bernardi09"
-Warning--I didn't find a database entry for "bernardi10"
-Warning--I didn't find a database entry for "pen09"
-Warning--I didn't find a database entry for "pacholczyk70"
-Warning--I didn't find a database entry for "rybicki86"
-Warning--I didn't find a database entry for "lawson87"
-Warning--I didn't find a database entry for "orlando13"
-Warning--I didn't find a database entry for "strong11"
-Warning--I didn't find a database entry for "platania98"
-Warning--I didn't find a database entry for "reich88"
-Warning--I didn't find a database entry for "guzman11"
-Warning--I didn't find a database entry for "rogers08"
-Warning--I didn't find a database entry for "mozdzen19"
-Warning--I didn't find a database entry for "mozdzen17"
-Warning--I didn't find a database entry for "longair11"
-Warning--I didn't find a database entry for "strong07"
-Warning--I didn't find a database entry for "landecker70"
-Warning--I didn't find a database entry for "haslam82"
-Warning--I didn't find a database entry for "haslam81"
-Warning--I didn't find a database entry for "remazeilles15"
-Warning--I didn't find a database entry for "patil17"
-Warning--I didn't find a database entry for "lenc16"
-Warning--I didn't find a database entry for "fanaroff74"
-Warning--I didn't find a database entry for "condon92"
-Warning--I didn't find a database entry for "helou85"
-Warning--I didn't find a database entry for "jarvis10"
-Warning--I didn't find a database entry for "hurleywalker17"
-Warning--I didn't find a database entry for "shimwell17"
-Warning--I didn't find a database entry for "shimwell19"
-Warning--I didn't find a database entry for "bondi08"
-Warning--I didn't find a database entry for "novak18"
-Warning--I didn't find a database entry for "smolcic17b"
-Warning--I didn't find a database entry for "smolcic17a"
-Warning--I didn't find a database entry for "smolcic17c"
-Warning--I didn't find a database entry for "prandoniIAUS333"
-Warning--I didn't find a database entry for "ceraj18"
-Warning--I didn't find a database entry for "delvecchio17"
-Warning--I didn't find a database entry for "mancuso17"
-Warning--I didn't find a database entry for "hopkins03"
-Warning--I didn't find a database entry for "prandoni18"
-Warning--I didn't find a database entry for "prandoni01"
-Warning--I didn't find a database entry for "heywood16"
-Warning--I didn't find a database entry for "white97"
-Warning--I didn't find a database entry for "murray17"
-Warning--I didn't find a database entry for "murray18"
-Warning--I didn't find a database entry for "calistrorivera17"
-Warning--I didn't find a database entry for "bernardi13"
-Warning--I didn't find a database entry for "jelic14"
-Warning--I didn't find a database entry for "jelic15"
-Warning--I didn't find a database entry for "lenc17"
-Warning--I didn't find a database entry for "vaneck19"
-Warning--I didn't find a database entry for "vaneck17"
-Warning--I didn't find a database entry for "sokoloff98"
-Warning--I didn't find a database entry for "iacobelli13b"
-Warning--I didn't find a database entry for "brentjens05"
-Warning--I didn't find a database entry for "vaneck18"
-Warning--I didn't find a database entry for "mulcahy14"
-Warning--I didn't find a database entry for "Offringa2012"
-Warning--I didn't find a database entry for "Prasad2012ExA....33..157P"
-Warning--I didn't find a database entry for "Offringa2019MNRAS.484.2866O"
-Warning--I didn't find a database entry for "Offringa2015PASA...32....8O"
-Warning--I didn't find a database entry for "Mitchell2008ISTSP...2..707M"
-Warning--I didn't find a database entry for "Carroll2016MNRAS.461.4151C"
-Warning--I didn't find a database entry for "Sullivan2012ApJ...759...17S"
-Warning--I didn't find a database entry for "Barry2019arXiv190102980B"
-Warning--I didn't find a database entry for "Yata2015MNRAS.449.4506Y"
-Warning--I didn't find a database entry for "Yata2013AA...550A.136Y"
-Warning--I didn't find a database entry for "EW2017MNRAS.470.1849E"
-Warning--I didn't find a database entry for "Procopio2017PASA...34...33P"
-Warning--I didn't find a database entry for "Barry2016MNRAS.461.3135B"
-Warning--I didn't find a database entry for "Patil2016MNRAS.463.4317P"
-Warning--I didn't find a database entry for "Datta2010ApJ...724..526D"
-Warning--I didn't find a database entry for "Liu2009MNRAS.394.1575L"
-Warning--I didn't find a database entry for "Byrne2019ApJ...875...70B"
-Warning--I didn't find a database entry for "Dillon2014PhRvD..89b3002D"
-Warning--I didn't find a database entry for "Jensen2016MNRAS.456...66J"
-Warning--I didn't find a database entry for "Liu2014PhRvD..90b3019L"
-Warning--I didn't find a database entry for "Liu2014PhRvD..90b3018L"
-Warning--I didn't find a database entry for "Hazelton2013ApJ...770..156H"
-Warning--I didn't find a database entry for "Thyagarajan2013ApJ...776....6T"
-Warning--I didn't find a database entry for "Pober2013ApJ...768L..36P"
-Warning--I didn't find a database entry for "Morales2012ApJ...752..137M"
-Warning--I didn't find a database entry for "Vedantham2012ApJ...745..176V"
-Warning--I didn't find a database entry for "Trott2012ApJ...757..101T"
-Warning--I didn't find a database entry for "Parsons2012ApJ...756..165P"
-Warning--I didn't find a database entry for "Bowman2009ApJ...695..183B"
-Warning--I didn't find a database entry for "Beardsley2016ApJ...833..102B"
-Warning--I didn't find a database entry for "Trott2016ApJ...818..139T"
-Warning--I didn't find a database entry for "Offringa2016MNRAS.458.1057O"
-Warning--I didn't find a database entry for "Parsons2010AJ....139.1468P"
-Warning--I didn't find a database entry for "Parsons2012ApJ...753...81P"
-Warning--I didn't find a database entry for "Parsons2009AJ....138..219P"
-Warning--I didn't find a database entry for "Thompson2001isra.book.....T"
-Warning--I didn't find a database entry for "Ronniy2018AJ....156..285J"
-Warning--I didn't find a database entry for "Li2018ApJ...863..170L"
-Warning--I didn't find a database entry for "Dillon2016ApJ...826..181D"
-Warning--I didn't find a database entry for "Zheng2014MNRAS.445.1084Z"
-Warning--I didn't find a database entry for "Wieringa1992ExA.....2..203W"
-Warning--I didn't find a database entry for "Ali2015ApJ...809...61A"
-Warning--I didn't find a database entry for "Cheng2018ApJ...868...26C"
-Warning--I didn't find a database entry for "Ali2018ApJ...863..201A"
-Warning--I didn't find a database entry for "Santos2005ApJ...625..575S"
-Warning--I didn't find a database entry for "DiMatteo2004MNRAS.355.1053D"
-Warning--I didn't find a database entry for "Oh2003MNRAS.346..871O"
-Warning--I didn't find a database entry for "DiMatteo2002ApJ...564..576D"
-Warning--I didn't find a database entry for "Zal2004ApJ...608..622Z"
-Warning--I didn't find a database entry for "Wang2006ApJ...650..529W"
-Warning--I didn't find a database entry for "Mcquinn2006ApJ...653..815M"
-Warning--I didn't find a database entry for "Liu2009MNRAS.398..401L"
-Warning--I didn't find a database entry for "Nunhokee2017ApJ...848...47N"
-Warning--I didn't find a database entry for "Asad2015MNRAS.451.3709A"
-Warning--I didn't find a database entry for "Wang2013ApJ...763...90W"
-Warning--I didn't find a database entry for "Paciga2011MNRAS.413.1174P"
-Warning--I didn't find a database entry for "Singh2018ApJ...858...54S"
-Warning--I didn't find a database entry for "Bowman2018Natur.555...67B"
-Warning--I didn't find a database entry for "Bradley2019ApJ...874..153B"
-Warning--I didn't find a database entry for "Hills2018Natur.564E..32H"
-Warning--I didn't find a database entry for "Mertens2018MNRAS.478.3640M"
-Warning--I didn't find a database entry for "PlanckI2018arXiv180706205P"
-Warning--I didn't find a database entry for "PlanckIV2018"
-Warning--I didn't find a database entry for "hyvarinen2004independent"
-Warning--I didn't find a database entry for "hyvarinen1999fast"
-Warning--I didn't find a database entry for "Bobin2016AA...591A..50B"
-Warning--I didn't find a database entry for "bobin2015sparsity"
-Warning--I didn't find a database entry for "Bobin2008StMet...5..307B"
-Warning--I didn't find a database entry for "Patil2017ApJ...838...65P"
-Warning--I didn't find a database entry for "Bonaldi2015MNRAS.447.1973B"
-Warning--I didn't find a database entry for "Gleser2008MNRAS.391..383G"
-Warning--I didn't find a database entry for "Zhang2016ApJS..222....3Z"
-Warning--I didn't find a database entry for "Li2019MNRAS.485.2628L"
-Warning--I didn't find a database entry for "Morales2006ApJ...648..767M"
-Warning--I didn't find a database entry for "Morales2004ApJ...615....7M"
-Warning--I didn't find a database entry for "moore13"
-Warning--I didn't find a database entry for "asad18"
-Warning--I didn't find a database entry for "asad16"
-Warning--I didn't find a database entry for "asad15"
-Warning--I didn't find a database entry for "sutinjo15"
-Warning--I didn't find a database entry for "kohn16"
-Warning--I didn't find a database entry for "nunhokee17"
-Warning--I didn't find a database entry for "geil11"
-Warning--I didn't find a database entry for "Thyagarajan2015ApJ...807L..28T"
-You've used 0 entries,
+Database file #1: Chapman_Jelic/References.bib
+You've used 170 entries,
             2118 wiz_defined-function locations,
-            748 strings with 8792 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            1428 strings with 48600 characters,
+and the built_in function-call counts, 80520 in all, are:
+= -- 6971
+> -- 6559
+< -- 10
++ -- 2589
+- -- 2419
+* -- 7772
+:= -- 14207
+add.period$ -- 510
+call.type$ -- 170
+change.case$ -- 1711
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 170
+duplicate$ -- 1985
+empty$ -- 4380
+format.name$ -- 2419
+if$ -- 15533
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 170
+missing$ -- 175
+newline$ -- 853
+num.names$ -- 346
+pop$ -- 1431
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 1546
 quote$ -- 0
-skip$ -- 1
+skip$ -- 1340
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 3741
+swap$ -- 277
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 670
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There were 2 error messages)
+while$ -- 512
+width$ -- 173
+write$ -- 1870
