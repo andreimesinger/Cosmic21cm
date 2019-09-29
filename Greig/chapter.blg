@@ -2,45 +2,59 @@ This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Greig/chapter.aux
 The style file: plain.bst
+Reallocated field_info (elt_size=4) to 10175 items from 5000.
 Database file #1: Greig/References.bib
-You've used 209 entries,
+Repeated entry---line 4255 of file Greig/References.bib
+ : @article{Mao:2008
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4557 of file Greig/References.bib
+ : @article{Fialkov:2018
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4576 of file Greig/References.bib
+ : @article{Fialkov:2014
+ :                      ,
+I'm skipping whatever remains of this entry
+You've used 225 entries,
             2118 wiz_defined-function locations,
-            1726 strings with 49474 characters,
-and the built_in function-call counts, 89774 in all, are:
-= -- 8448
-> -- 5569
-< -- 21
-+ -- 2192
-- -- 1981
-* -- 7817
-:= -- 14865
-add.period$ -- 627
-call.type$ -- 209
-change.case$ -- 1615
+            1831 strings with 52080 characters,
+and the built_in function-call counts, 95570 in all, are:
+= -- 9045
+> -- 5812
+< -- 23
++ -- 2289
+- -- 2061
+* -- 8219
+:= -- 15782
+add.period$ -- 677
+call.type$ -- 225
+change.case$ -- 1701
 chr.to.int$ -- 0
-cite$ -- 209
-duplicate$ -- 2909
-empty$ -- 5750
-format.name$ -- 1981
-if$ -- 18380
+cite$ -- 225
+duplicate$ -- 3158
+empty$ -- 6187
+format.name$ -- 2061
+if$ -- 19631
 int.to.chr$ -- 0
-int.to.str$ -- 209
-missing$ -- 209
-newline$ -- 1048
-num.names$ -- 420
-pop$ -- 1260
+int.to.str$ -- 225
+missing$ -- 227
+newline$ -- 1129
+num.names$ -- 452
+pop$ -- 1330
 preamble$ -- 1
-purify$ -- 1406
+purify$ -- 1477
 quote$ -- 0
-skip$ -- 2365
+skip$ -- 2574
 stack$ -- 0
-substring$ -- 5464
-swap$ -- 819
-text.length$ -- 21
+substring$ -- 5847
+swap$ -- 901
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 836
+type$ -- 896
 warning$ -- 0
-while$ -- 630
-width$ -- 212
-write$ -- 2301
+while$ -- 683
+width$ -- 228
+write$ -- 2481
+(There were 3 error messages)
