@@ -1,14 +1,8 @@
 % Greenhill & Subrahmanyan
 
-% fix noise wave/noise parameter presentation
+%\setcounter{chapter}{6} 
 
-% LJG: Consider adding to radiometry section guidance re what are significant elements 
-% that'll be treated later in the cal. §.
-
-
-\setcounter{chapter}{6} 
-
-\chapter{Zero-mode Signal Instrumentation}
+\chapter{Global Signal Instrumentation}
 
 \begin{bf}
 \author{  
@@ -19,7 +13,7 @@ R. Subrahmanyan
 }\\
 
 \noindent
-Experiments that seek to detect a sky-averaged (zero-mode) HI signature during the Epoch of Reionization and Cosmic Dawn use purpose-built meter-wave instrumentation that is elementary in concept but present subtleties in design and calibration.  This chapter presents the rudiments of radiometry and instrument design, technical challenges, calibration techniques, and drivers apparent in the design of three ongoing experiments: EDGES, SARAS, and LEDA. \\
+Experiments that seek to detect a global (zero-mode) HI signature during the Epoch of Reionization and Cosmic Dawn use purpose-built meter-wave instrumentation.  For the EOR, radiometry has contributed early constraints on models.   For Cosmic Dawn, the EDGES, SARAS, and LEDA efforts are active.  Radiometry by EDGES has delivered a first claim of detection but independent confirmation is not yet in hand. This chapter presents the rudiments of radiometry instrumentation, discussion of concepts that bear on design, and challenges going forward. \\
 
 \end{bf}
 
@@ -32,7 +26,7 @@ Several experiments have also targeted setting constraints on parameters describ
 
 \begin{figure}[htb]
 \begin{center}
-\hspace*{-0.15in}\includegraphics[width=1.05\textwidth]{EDGES_SARAS_LEDA_figure_19sep20.jpg}
+\hspace*{-0.15in}\includegraphics[width=1.05\textwidth]{Greenhill_Subrahmanyan/EDGES_SARAS_LEDA_figure_19sep20.jpg}
 \end{center}
 \caption{(top left) EDGES antenna and serrated 30~m $\times$ 30~m ground screen.  (top right) Closeup of the EDGES single polarization dipole comprising two rectilinear metal sheets.  (bottom right) Closeup of the LEDA dual polarization pyramidal dipole.  (bottom center) LEDA antenna and serrated 20~m $\times$ 20~m ground screen implemented in 2019. (bottom left) SARAS-2 antenna comprising a spherical element atop a 0.87~m diameter disc.  The maximum gains for EDGES and LEDA antennas are toward zenith.  In contrast, the maximum for SARAS-2 traces a ring on the sky at $30^\circ$ elevation, centered on zenith, where there is a null.}
 \end{figure}
@@ -49,7 +43,7 @@ A dipole with wire-like arms each of length one quarter wavelength ($\lambda_0$)
   
 However, the HI signal is inherently broadband, and instrumentation requires at least an octave of bandwidth ($\nu_{\rm high}/\nu_{\rm low}=2$ or $0.66\Bar{\nu}<\nu<1.33\Bar{\nu})$ in order to enable the predicted complex spectral structure due to the 21-cm transition to be distinguished from  smoothly varying foregrounds.  In general, the impedance of a dipole modified to achieve reasonable power transfer efficiency across such broad bandwidths varies considerably in amplitude and phase as a function of frequency.   It can be impossible to match to the RF electronics ``everywhere.''  The consequence is that power is reflected at the antenna-receiver interface and lost. Depending on experiment design, the best that can be achieved with a broadband dipole may be an upper limit on variations in impedance with frequency or an imposed functional form such even in the face of calibration error the variations cannot mimic the science signal.
 
-Broadband dipoles (Figure 1) may be planar with arms comprising 2D shapes (e.g., plates in the case of EDGES), 3D structures comprising planes  (e.g., triangles in the case of LEDA) or more complex structures.  Linear dipoles such as these couple to a single linear polarization mode (with electric field, {\bf E}, oriented along the dipole arms).  Dipoles with spiral and helical arms couple to the circularly polarized mode propagating on axis and jointly to circular and linear modes off axis.  Self-similar planar and conical spirals may have operational bandwidths that exceed an octave and maintain good impedance matching, but other metrics may suffer (e.g., frequency-variable sidelobe structure in gain patterns that generates ``chromaticity'' in antenna response).  Experiments weigh trade-offs differently, depending on calibration strategy.
+Broadband dipoles (Figure 1) may be planar with arms comprising 2D shapes (e.g., plates in the case of EDGES), 3D structures comprising planes  (e.g., triangles in the case of LEDA) or more complex structures.  Linear dipoles such as these couple to a single linear polarization mode (with electric field, {\bf E}, oriented along the dipole arms).  Dipoles with spiral and helical arms couple to the circularly polarized mode propagating on axis and jointly to circular and linear modes off axis.  Self-similar planar and conical spirals may have operational bandwidths that exceed an octave and maintain good impedance matching, but other metrics may suffer (e.g., frequency-variable sidelobe structure in gain patterns that generates ``chromaticity'' in antenna response).  Experiments weigh trade-offs differently, typically depending on calibration strategy.
 
 \subsubsection{Ground sensitivity}
 
@@ -78,8 +72,6 @@ Ground screens may be soldered or welded wire mesh, with a minimum conductor spa
 
 The purpose of an analog receiver is to amplify, over a desired frequency range, the signal coupled to the antenna and passed at it's terminals.  The fluctuating voltage at the terminals propagates along a transmission line to a (typically) modest gain amplifier that boosts signal-to-noise ratios relative to thermal processes in the electronics.  This amplifier too adds noise to the incoming signal, and this is amplified by later stages in the signal path.  There is always a practical trade off between achieving high gain and low noise during amplification, and having the lowest additive noise relative to the sky signal in the first stage amplification is usually paramount, as follows from \cite{friis46}--see also \cite{pozar98} for discussion.  Amplification is most often done in stages, to achieve an aggregate gain sufficient for conversion to a digital signal downstream, without introduction of excessive thermal noise by from particularly high-gain amplifiers. 
 
-% LJG: T_LNA will vary with antenna/RX impedance mismatch and therefore frequency. Omit?
-%Ravi to LJG:  We might consider the variation of LNA noise with antenna mismatch as arising from reflection of the amplifier noise waves propagating upstream?  Then this would be included in the discussion on reflection below.
 
 \subsubsection{Filtering}
 
@@ -95,71 +87,26 @@ Not limited to the antenna-receiver interface, reflection of RF signals occurs a
 
 In this regard, pairings of filters and amplifiers deserve particular attention.  As noted, filters present frequency structure at their outputs, depending on the selected topology.  They also present frequency structure in reflection at the input. In the case of a low-noise amplifier in the first stage of a receiver, if it is followed by a poorly chosen filter, then it receives back a fraction of its output power but with a potentially complicated frequency-dependent structure imposed.  This propagates upstream through the amplifier (with finite loss, a.k.a. isolation) and reflects off the imperfect antenna-receiver interface and arrives at the amplifier input, added to the cosmic signal and conceivably at detectable levels.
 
-Analysis of multipath propagation among components applies to additive  thermal noise as well as the amplified sky signal.  Where noise and an attenuated, phase-shifted reflection of the noise are co-added during propagation, it develops frequency structure, even though for any given circuit temperature, the noise intrinsically varies slowly and smoothly with frequency.  Because the antenna-receiver interface presents the largest mismatch along the signal path, this is especially important in the case of the first amplifier, from which noise propagates upstream toward the antenna as well as downstream toward later stages of amplification.
+Analysis of multi-path propagation among components applies to additive  thermal noise as well as the amplified sky signal.  Where noise and an attenuated, phase-shifted reflection are co-added during propagation, it develops frequency structure, even though for any given circuit temperature, the noise intrinsically varies slowly and smoothly with frequency.  Because the antenna-receiver interface presents the largest mismatch along the signal path, this is especially important in the case of the first amplifier, from which noise propagates upstream toward the antenna as well as downstream toward later stages of amplification.
 
-The primary engineering formalism describing noise characteristics involves four parameters.  These may be used to estimate the frequency structure impose on noise emanating from amplifiers, as well as the dependence of the amplifier noise temperature on frequency and impedance.  (An amplifier facing a resistive (real) or reactive (imaginary) impedance at its input exhibits different gain and noise temperature.)  Building off \cite{hu04}, \cite{rogers12}  present a simplified formalism for low-frequency systems referred to as ``noise wave'' analysis, which characterizes propagation of noise in terms of correlated and uncorrelated components.  As applied, this works well provided that the reactive component outside the amplifier is sufficiently small. 
+A primary engineering formalism describing noise characteristics of linear devices involves a quartet of parameters, one for each frequency:  minimum noise temperature, optimum voltage reflection coefficient (magnitude), the optimum voltage reflection coefficient (phase), and the equivalent noise resistance (referring to the spectral density of noise).  These may be used to estimate the frequency structure impose on noise emanating from amplifiers, as well as the dependence of the amplifier noise temperature on frequency and impedance.  (An amplifier facing a resistive (real) or reactive (imaginary) impedance at its input exhibits different gain and noise temperature.)  Building off \cite{hu04}, \cite{rogers12}  present a simplified formalism for low-frequency systems referred to as ``noise wave'' analysis, which characterizes propagation of noise in terms of correlated and uncorrelated components.  As applied, this works well provided that the reactive component outside the amplifier is sufficiently small. 
 
 \subsection{Digitzer}
   
 Analog-to-digital converters (ADC) sample the receiver output at the ``Nyquist rate,'' described above (e.g., 5\,ns for a bandwidth of 100\,MHz).  The number of bits used to represent each sample determines the dynamic range achievable in each spectrum generated by a Fourier transform of every $N$ samples (e.g., for $N=4096$, the frequency resolution, $R$, in the above example is 24.4\,kHz).   The number of bits per sample must be sufficient to represent the range of sky brightness integrated over the antenna gain pattern and prescribed bandwidth. In particular for a sky with a steep spectral index and/or antenna with steep change of gain with frequency, there must be enough bits to represent power at both the highest and lowest frequencies.  At present, transport of an aggregate data rate of {\it O}(2)\,Gbit s$^{-1}$ can be readily achieved, corresponding to 10-bits per sample and a $2^{10}$:1 dynamic range for voltage and $2^{20}$:1 for power.
 ADC hardware providing 8 to 16 bits at sample ranges {\it O}(100)\,MHz is readily available.  However, the minimum acceptable bit depth for a given site often depends on the presence and characteristics of interference.  Where peak band-averaged power due to continuous or impulsive interference exceeds that of the sky, representing both without saturation demands greater bit depth in sampling.  Additional considerations arise in  the uniformity of steps during quantization of analog data, linearity over the full analog range, and calibration accuracy where sampling may be parallelized over multiple samplers (a.k.a. interleaving).
  
+\section{Challenges Facing Experiments}
 
-\section{Instrument Design Considerations}
-
-Following cosmological recombination of the primeval plasma, the primordial gas is almost completely neutral and a significant fraction is hydrogen.  Hydrogen has a hyperfine spin flip transition with rest frequency 1420.4 MHz and rest wavelength 21.106 cm.  The ratio of populations in the upper triplet state and lower singlet state of this transition is described by the hydrogen spin temperature.  The cosmic microwave background (CMB) streams freely through the gas following recombination because the free electron density is extremely small; thus we observe the CMB as it propagates to us through the neutral gas.   If the spin temperature of the neutral hydrogen at any redshift exceeds the CMB temperature at that redshift, then the 21-cm emission from the gas adds to the CMB and will be observed at the present epoch at the corresponding redshifted frequency to have a positive distortion.  On the other hand, if the spin temperature of the neutral hydrogen at any redshift is lower than the CMB temperature at that redshift, then 21-cm absorption by the gas decrements the CMB and will be observed at the present epoch at the corresponding redshifted frequency to have a negative distortion.
-
-The Dark Ages signal in redshifted 21-cm zero-mode in standard cosmology is well defined by the cosmological parameters and the matter power spectrum to be a broad absorption feature between about redshift of 30 to 300, corresponding to observing frequencies of about 5 to 45 MHz. This absorption is expected to be at peak about 40 mK.  Cosmic Dawn and the light from the first stars competes in coupling the spin temperature to the cold gas kinetic temperature and also in heating the kinetic temperature to be raised above the ambient CMB temperature.  The uncertain thermal history at Cosmic Dawn leads to a family of possible 21-cm distortion signals: efficient coupling to cold gas might result in absorption as deep as a few hundred mK, and efficient heating might result in a positive CMB distortion of magnitude at most about 30 mK.  The 21-cm CMB distortions would almost certainly be absent at redshifts below 6, corresponding to observing frequencies above 200 MHz, since the intergalactic gas is almost certainly reionised by that epoch.  
-
-Thus a radiometer for detecting interesting physics during the formation of the first stars might have a focus on redshifted 21-cm during Cosmic Dawn and subsequent Epoch of Reionization that result in CMB distortions over the observing frequency band of 40 to 200 MHz, which are relatively uncertain.  Having said that, the 21-cm absorption of the CMB during the Dark Ages is also a signal worth pursuing, at least to confirm the standard models and rule out several exotic physics that might cause the thermal evolution to deviate from standard expectations. 
-
-Detection of the 21-cm zero-mode CMB distortions from Dark Ages, Cosmic Dawn and Reionization requires a radiometer that ideally covers the entire band of 5 to 200 MHz with a single sensor and associated radiometer receiver.  A single wide-band spectral observation of the all-sky averaged cosmic radio noise, calibrated for the transfer function of the antenna and receiver electronics, would provide the best separation between foregrounds and any cosmological 21-cm signal.  As the radiometer band is reduced, it becomes increasingly difficult to separate between foregrounds and at least the 21-cm signal predictions from standard cosmology that does not admit exotic physics.  The confusion results in reduced sensitivity to the 21-cm signals; therefore, radiometers with reduced bandwidths would require observing the sky spectrum with lower measurement noise and hence their associated calibration tolerance is also correspondingly tighter.
-
-The following subsections examine in detail the design considerations specific to the various components of the radiometer.
-
-\subsection{Antenna Effective Area}
-  
-   This collecting area in radio telescopes is often increased by arraying sensor elements and combining their terminal voltages in phase, or by using shaped reflectors to concentrate the incident field in a small area where the sensor elements might be placed to transduce the coherently integrated cosmic noise into a voltage waveform.  The antenna beam has a main lobe whose solid angle is inversely proportional to the effective collecting area and increasing the area in an attempt to enhance the received faint cosmic noise reduces the main lobe solid angle.  This strategy that is appropriately adopted for detection of weak celestial sources is pertinent for sources that are unresolved by the telescope beam.  
-   
-   Viewed as a transformer, the antenna presents at its terminals an equivalent noise power corresponding to the mean brightness temperature of the celestial radio sky weighted by the telescope beam.  Once the source extent on the sky exceeds the telescope beam, the antenna temperature (or the power in the cosmic noise as measured at the antenna terminals) will simply saturate to the brightness temperature of the source.  Since the zero-mode of the 21-cm signal is of extent $4\pi$ steradians, which will always exceed the telescope beam, the antenna terminals will always present equivalent noise corresponding to the zero-mode regardless of the telescope beam and hence the effective collecting area.  In other words, the antenna for the zero-mode may be of any arbitrary collecting area and increasing this area does not facilitate detection of the zero-mode.
-   
-\subsection{Coupling Spatial and Spectral Structure}
- 
-   Where as the zero-mode of the cosmological 21-cm signal is a uniform signal component over the sky, it may be noted here that the radio sky has spatial structures on various angular scales.  The largest features on the sky are of the Galaxy, the Galactic plane and loops and spurs.  H-${\sc ii}$ regions and supernova remnants form intermediate scale structures.  Compact sources in the Galaxy are more numerous in the Galactic plane. Extragalactic sources have an isotropic distribution, with some clustering, and with distributions in angular scales, in flux density and spectral indices.  If the zero-mode telescope antenna beam is achromatic, and has identical beam patterns including main lobe profile and all sidelobe structure across all frequencies in the observing band, then the same celestial sources are averaged with same weighting at all frequencies.  In this case the frequency spectrum of the antenna temperature will be the spectrum of the beam weighted sky and sources therein.  Of course, as the achromatic beam scans the sky, as would happen if the sky were to drift across the beam, this spectrum of the antenna temperature would vary as different parts of the sky move in and out of the beam.  After all, different sky regions and different sources in the sky do have somewhat different spectra.
-   
-   A key design goal for the antenna is avoidance of what is termed ``mode coupling.'' Mode coupling arises when the telescope beam is chromatic and varies across the observing band.  Then different sky structures and sources are ``visible'' to the telescope at different frequencies and then the spectrum of the antenna temperature will not only be a result of a weighted averaging over sky sources but also a result of sky structure.  With a chromatic beam, the antenna temperature will have a frequency structure even if the sky were of constant spectral index; in this case the frequency structure will reflect the sky spatial structure and the chromaticity of the beam pattern.  Thus a chromatic beam results in a coupling of sky spatial structure into frequency spectral structure and hence this effect is termed mode coupling.
-   
-   A radiometer for detection of the zero-mode 21-cm signal that views the celestial sky via its telescope beam will inevitably detect the Galactic and extragalactic foregrounds along with any 21-cm signal.  Algorithms for detection of the 21-cm signal in the observed spectra will necessarily have to perform a separation of the foregrounds, and have a model for the expected spectral behaviour of the foregrounds, which will involve relevant radiation processes and source properties and statistics.  Mode coupling introduces an added avoidable complexity into the analysis, which inevitably compromises detection of the 21-cm signal.  Therefore, a key design goal for the zero-mode antenna is to make it achromatic within the observing band.  The class of antennas that provide achromatic performance characteristics are what are called frequency independent antennas.
-   
-   Aperture arrays have a fixed physical size and hence are usually highly chromatic in their beams; aperture arrays are then unsuitable for radiometer detection of the zero-mode 21 cm.  Antennas with reflector optics may be made achromatic by deploying feeds that illuminate the reflectors over areas that are constant in wavelength units. Hence the effective areas are a constant in wavelength units and the physical effective area scales linearly with frequency, being larger at larger wavelengths.
-   
-   \subsection{Dipoles}
-   
-   Most radiometer designs for the zero-mode 21 cm deploy single element antennas without reflector optics.  The simplest forms are wideband dipole antennas, which may have arms that are planar 2D structures or 3D fat dipoles.  Dipole antennas have omnidirectional beam patterns that may be toroidal at their design frequency; however, the patterns usually deviate somewhat away from a central design frequency.  The beam patterns of the dipole antenna may be made achromatic in a band if the antenna is made electrically small and the arms of the dipole are significantly less than quarter wavelength at the highest frequency of operation.  In that case the beam pattern tends towards being toroidal and with a single lobe of cosine square form cross-section.  Dipoles are usually placed above a conductive and hence reflective ground plane, which covers the real earth below and in the vicinity of a horizontal dipole.  A dipole placed above a reflector is inevitably achromatic, since the ground is a fixed physical distance below and cosmic radiation incident from any sky direction would have two paths to the antenna, a direct ray and another reflected off the ground screen, and the two arrive with a path difference and hence a phase difference that linearly varies with frequency.  There are also additional paths via scattering off the edges of the ground screen. The more distant the edge the lesser is this effect; however, the greater distance to the edge results is greater phase variations across the band for the multi-path propagation.  The beam patterns of dipoles above ground screens are usually designed to somewhat avoid these effects by shaping the dipole arms off the horizontal plane as, for example, in the case of ``droopy'' dipoles.  Another design strategy is to serrate the edges of the ground screens and hence randomise the scattering. Nevertheless, considering how faint the zero-mode 21-cm signal is relative to the Galactic and extragalactic foreground, mode coupling has the potential to confuse the cosmological signal and hence dipoles over ground screens require corrections for mode coupling via modelling this unwanted spectral structure and correcting data.  The modelling requires excellent knowledge of the beam patterns, the chromaticity in the beam and a model for the sky structure including its frequency dependence.
-   
-   An alternate design strategy is to deploy an absorbing ferrite tile ground plane below the dipole antenna, which avoids reflections and hence any multi-path propagation between sky and antenna. 
-   
-   \subsection{Monopoles as Alternate}
-   
-   An alternate design for the elemental antenna for zero-mode 21-cm signal is a monopole antenna.  This structure has a vertical element, which is often shaped, and is above a ground plane.  As in the case of dipoles, the monopole beam is achromatic if it is electrically small and the vertical element is significantly smaller than quarter wavelength at the highest frequency of operation.  The beam pattern of a short monopole above ground plane depends on the extent of the ground plane. If finite, then the omnidirectional pattern has a null towards zenith, null towards horizon, and a maximum at an elevation angle that depends on the extent of the ground plane.  If the ground plane is infinite, the maximum is towards horizon, and as the extend is reduced the maximum lifts in elevation to a maximum of about 30 degrees.  Therefore an electrically short monopole with an electrically short ground plane has a frequency independent beam pattern whose peak is at some angle about 30 degrees above the horizon.
-   
-\subsection{Polarization}
-   
-   Dipoles that are oriented horizontally receive horizontal polarisation.  A crossed pair of horizontal dipoles would be sensitive to orthogonal polarisations for a wave incident from zenith, where the dipole beam is a maximum.  Since the Galactic and extragalactic foregrounds are composed of sources that often have significant fractions of linearly polarised emission, the foreground spectrum component detected in zero-mode radiometers will be polarisation dependent.  Complications arise because of Faraday rotation of the polarisation orientation on the sky plane, either during propagation in the interstellar medium or during passage through the Earth's ionosphere.  Faraday rotation is wavelength dependent and hence for a linearly polarised source, the source intensity received in any linearly polarised antenna will be frequency dependent.  Thus Faraday rotation results in spectral structure that may potentially confuse detection of zero-mode 21-cm spectral structure.  For this reason it is desirable and a design goal for zero-mode radiometers to be dual polarised pair of radiometers, with full polarisation calibration that allows for the Stokes I component of the sky cosmic noise to be derived.
-
-% Move this subsection up one?   (LJG) 
-% Ravi to LJG: Done!
 \subsection{Antenna Radiation Efficiency}
 
-   If the zero-mode 21-cm antenna is lossless, has no resistive elements, then when viewed as a transmitter all of the power fed to the antenna, and not reflected back along the transmission line at the antenna terminals, will emerge as radiation.  However, for an antenna on the ground part of the radiated power may be absorbed by the ground and only a part will go to the sky.  For antennas that are on ground covered by a conducting ground plane, all of the radiated power goes to sky either directly or on reflection off the ground plane. Ground planes are ideally continuous metal planes.  In practice, the ground plane may be a welded mesh, which would allow for some transmission and hence loss to ground.  The ground plane may also be in the form of sheets joined along edges, where there may be leakage across the plane via the slot gaps.  Passive reciprocal antennas may be viewed conversely as receivers where the loss in resistive elements of the antenna and loss in ground results in limited antenna radiation efficiency, and also emission from these resistive elements adding to the cosmic noise.  
+If an antenna is lossless and has no resistive elements, then when viewed as if it were a transmitting all of the power fed to the antenna, and not reflected back along the transmission line at the antenna terminals, will emerge as radiation.  However, for an antenna placed on bare ground, part of the radiated power may be absorbed.  Low-frequency electromagnetic waves penetrate soil to substantial depths: several meters for dry soil. For antennas that are placed on an infinite conducting ground screen, all of the radiated power goes to sky either directly or on reflection off the ground screen. Passive reciprocal antennas may be viewed conversely as receivers where the loss to resistive elements of the antenna and the loss to the ground both reduce antenna radiation efficiency while adding thermal noise.
    
-   The additive component of ground emission has an imprint of the antenna radiation efficiency in a complex manner, making it difficult to separate from zero-mode 21-cm signals unless the radiation efficiency itself is designed to have characteristics orthogonal to the expectations for zero-mode signals.  It is preferred to avoid the ground, and also to design the radiation efficiency to be a smooth function, as is also the design goal for the reflection efficiency.
+However, ground loss has a role in mechanisms that create two additional challenges where redress may be more difficult. First, the additive component of ground emission has a complex imprint of the antenna radiation efficiency, making it difficult to separate from zero-mode 21-cm signals unless the antenna is designed so that the radiation efficiency itself has characteristics orthogonal to expectations for zero-mode signals.  Second, the loss depends on ground characteristics, specifically conductivity and dielectric constant, which depend on soil characteristics and moisture content and are functions of depth and time. A sudden change in dielectric constant or conductivity at depth created an impedance discontinuity, as does intrusion of bedrock into the strata.  Such a discontinuity drives multi-path propagation among ground layers and instrumentation above--e.g., see \cite{bradley19}.  Mapping and tracking the RF characteristics of the ground can require extensive additional dedicated instrumentation, such as a network of dielectric impedance reflectometers, and tools to make use of the data are relatively crude at present.
    
-   Thus a design goal is to avoid resistive elements and also ground loss.  The ground loss does depend on the ground characteristics, conductivity and dielectric constant, which depend on soil characteristics and moisture content.  Structure in the soil beneath the antenna; for example, a rock bed some distance beneath the soil surface, may also result in reflections at impedance discontinuities and hence multi-path propagation.  Long wavelength electromagnetic waves in the frequency range of interest here does penetrate soil to substantial depths, which may be several metres in dry soil conditions typical of remote sites, and the soil may not be homogeneous at these depths.
-   
-   The antenna efficiency is also influenced by the environment of the antenna, not only the ground beneath but also feature above like, for example, trees and other man-made structures.  Conducting cables that may supply power to the radiometer and conduct signals to receivers located some distance away might also influence the total efficiency.  In measurements of the reflection efficiency as a transmitting antenna, power transmitted by the antenna reflect and scatter off trees and structures in the environment and return to the antenna, as in a radar. Thus measurements of $\Gamma$ sample the environment out to several tens of metres and beyond.  Conversely, these environmental features will influence the receipt of cosmic radiation in reverse, which will also scatter off these objects and appear with spectral structure that is an imprint of the environment.  Thus is it essential to have a clear space above ground and clear homogeneous soil below, to the extent at which the influence reduces below the zero-mode signal strength.
+Antenna radiation efficiency is also influenced by the environment of the antenna, not only the ground beneath but also feature above, such as shrubs and man-made structures at distances up to several wavelengths.  Conducting cables that supply power to the radiometer and conduct signals to receivers located some distance away may also influence the efficiency.  In measurements of the reflection efficiency as a transmitting antenna, power transmitted by the antenna reflect and scatter off trees and structures in the environment and return to the antenna, as in a radar. Thus measurements of $\Gamma$ sample the environment as well as the antenna.  Conversely, these environmental features will influence the receipt of cosmic radiation in reverse.  Scattering off these objects may generate spectral structure that is an imprint of the environment.  Thus, it is essential to have a clear space above ground and homogeneous if not also dry soil below.
 
-\subsection{Transfer Efficiency}
+\subsection{Antenna Transfer Efficiency}
    
    The antenna transfer or reflection efficiency, $(1-\Gamma^2)$, which is related to the voltage reflection coefficient $\Gamma$ at the antenna terminals, determines what fraction of cosmic noise received by the antenna propagates into the receiver chain.  In this consideration, it is the impedance of the antenna at its terminals, which is effectively the free space impedance transformed by the antenna to its terminals, as compared to the impedance of the first low noise amplifier encountered by the cosmic noise as transformed by the interconnecting transmission line to the antenna terminals, that decides the reflection coefficient $\Gamma$.  
    
@@ -168,90 +115,102 @@ The following subsections examine in detail the design considerations specific t
    What is probably of greater importance is that the reflection efficiency be a smooth function of low order so that the product of the relatively bright foreground sky with the reflection efficiency, to give the dominant unwanted component of the observed spectrum, does not confuse the desired zero-mode 21 cm signal, and is separable from the 21-cm signal.  If the antenna structure is electrically long, as would be the case, for example, in frequency independent spiral antennas with large structural bandwidth, the reflection efficiency would have fine structure in frequency.  Therefore, from the viewpoint of designing the antenna element to have reflection efficiency that is exclusively of low order, it is advantageous to have electrically small antennas.
    
    If the antenna does not have resistive elements, and the radiation efficiency is unity, then a measurement of the antenna reflection efficiency $\Gamma$ would be a useful method for correcting the data for antenna efficiency and translating the measured spectrum to a sky spectrum. In this case, it is desirable and useful to provide a switch at the antenna terminals, which might allow a 1-port network analyser to access the antenna terminals and make an accurate measurement of $\Gamma$.  This is best done at the observing site, where the antenna environment is the same as for the zero-mode observing.  Deriving the reflection efficiency and total efficiency requires also a measurement of $\Gamma$ for the low-noise amplifier, but that may be done in the laboratory provided that the amplifier temperature and operating conditions are the same.
-   
-   
-\subsection{Reflections within the Signal Path}
 
-  Impedance discontinuities in the receiver path cause internal reflections of the system noise, which includes the cosmic noise component and also the receiver noise.  Reflections of wideband noise over a physical length $l$ result in interference that cause spectral structure with frequency scale $v/2l$, where v is the propagation speed of electromagnetic waves in the physical medium.  For example, internal reflection within a cable of length 2 metres between the antenna and low-noise amplifier, with velocity factor 0.7, will result in spectral ripples with period 52.5 MHz. These structures would be a modulation of the receiver gain, and hence calibrated out, if the calibration includes these sections in their entirety.  However, if the receiver calibration is internal, then reflections from the antenna terminal and also reflections of receiver noise from environment are omitted from the calibration.  Ideally, receiver gain calibration using celestial sources, such as the passage of the Galactic plane across the radiometer beam, would best calibrate the signal path.  In any case, it is desirable that the signal path have isolators that prevent back flow of signal path components to the antenna.  Improved isolation also comes from use of amplifiers in which the forward gain is substantially greater than the reverse isolation, so that the net loss on propagation back and forth is substantial.
-  
-\subsection{Dynamic range}
-  
-  The cosmic signal is expected to be of peak amplitude in the range a few tens to a few hundred mK, and the foreground is expected to between a few hundred to a few thousand Kelvin brightness temperature.  This requires a dynamic range of at least $10^4$, clean signal detection requires aiming for dynamic range of $10^5$.  Because the algorithms for components separation, which depend on orthogonality between the zero-mode 21-cm signal and other unwanted additives and foreground, are usually limited and the models for the unwanted components would subsume a significant part of the 21-cm signal; therefore, the design goal for the 21-cm radiometers is typically to achieve a spurious free spectrum of about 1 mK sensitivity, which is about $10^6$ below the dominant foreground.
-  
-  Thus the analog system components are necessarily required to be chosen to have operating points wherein inter-modulation distortion products between signal components are 60~dB below the total spectral power.
-  
-\subsection{Analog to digital conversion}
- 
- A key component in the signal processing in a zero-mode 21-cm radiometer is the conversion from continuous to discrete data.  Random and systematic errors in the representation of the analog signal leads to performance limitations.  An important design consideration is the number of bits in the analog to digital converter.  Larger effective number of bits is essential for greater spurious free dynamic range.  A design goal of $10^6$ for dynamic range requires 10 effective bits, which implies analog to digital converters of 12 bits or greater.  The quality in the transfer function of the converter is also required to be accurate so that the spurious free dynamic range is $10^6$.
- 
-\subsection{Radio Frequency Interference (RFI)}
-  
-  Radio frequency interference (RFI), if present at the observing site, would naturally require improved performance of the radiometer to avoid spurious spectral structure that might confuse the zero-mode signal.  In good sites, it is expected that the total power in RFI would be well below the total band power from cosmic noise.  This is facilitated by adopting small antenna designs that have low gain, low effective collecting area, so that the cosmic noise is received without compromise but response to RFI is reduced. 
- 
- Presence of radio frequency interference may drive the design to lower the power in the cosmic noise going to the analog to digital converter, so that the signal is not clipped in the sampling, which would lead to non-linear products spread across the band.  Lowering the power in the cosmic noise, to provide greater headroom for the RFI components when they might occur, reduces the effective number of bits operating on the cosmic noise, thus requiring greater performance of the analog to digital converter.
-   
+\subsection{Gain Pattern}
 
-\section{Experimental Challenges}
+A critical challenge in antenna design is suppression of ``mode coupling.'' This arises when an antenna gain pattern is chromatic, i.e., for each direction, gain varies with frequency. \footnote{We note in passing that there is no general, compact, quantitative definition of chromaticity.}   Even for a sky with a constant spectral index, the consequence of chromatic response is potentially complex frequency structure everywhere on the sky.  
 
-CMB anisotropy and its spectrum has been measured with incredible precision; both measurements have been sufficient to explore theoretical models for the power spectrum and distortions with fractional accuracy comparable to or even exceeding that required for detection of the zero-mode 21-cm signal. 
+Mode-coupling can be a fundamental hurdle to detection of the 21-cm signal with any given antenna.  The most certain means to suppress it is to adopt antennas that are achromatic, i.e., frequency-independent in gain in all directions.  Chromaticity may not be easily quantified, but spectra being limited by statistical noise rather than undulations in the spectral baseline can be an effective figure of merit.  Servicing this, spectra simulated using calculated gain patterns and sky models may be used in tuning antenna designs to achieve a required level of a-chromaticity.
 
-The key difference is that the wavelengths at which zero-mode 21-cm spectral distortions are expected are orders of magnitude larger, metres instead of millimetres.  Scaling of physical sensors by factor 1000 is impractical: the COBE-FIRAS sensor was 2 metres long and scaling this to the redshifted 21-cm window would require a 200 metre long sensor.  The new sensor designs required for radiometers at the longer wavelengths has also required new methods of calibration.  Additionally, at the significantly longer wavelength, the radio sky is qualitatively different and that poses new challenges.  We discuss these aspects below.
+\subsubsection{Measurement and Simulation}
 
-\subsection{Foregrounds}
+High-accuracy direct calibration of gain patterns {\it in situ} (thereby taking into account all details of coupling to the ground, structures, ground screens, etc) is an unsolved problem.  There are no suitable standard antennas in communications engineering.  Lofting transmitters on drones has been developed \cite{jacobs17}, but cancellation of systemtics intrinsic to this scheme (e.g., multi-path and uncertainty in the gain pattern of the transmitting antenna) has not been demonstrated and confirmed.  The most widely employed alternative is numerical simulation.
 
-At millimetre wavelengths where the CMB peaks the sky is dominated by the CMB and the Galactic emission as well as extragalactic background is sub-dominant. Thus, in the case of mm-wavelength CMB spectral distortions, the dominant foreground spectrum is the CMB itself and the attempt is to detect distortions from Planck form in this dominant sky emission.
+Arguably, most available electromagnetic simulation packages are not capable of providing solutions with the precision necessary to quantify antenna response, though cross-referencing of results enables assessment of systematics stemming from the various simulation techniques applied.  Exacerbating the above difficulty is the need to include in simulations coupling to stocastic elements in the surroundings (vegetation), soil chemistry, and time-variable changes in water content. Antennas also couple to strata below ground with complex permittivities (i.e., non-zero conductivity) and infrasructure such as trenched cables.  In general the design path necessarily requires iteration to achieve exacting performance tolerances, and cross-referencing results obtained with different packages.   
 
-However, at metre wavelengths the Galaxy dominates the radio sky.  The Galactic plane is the most prominent feature and structures like loops and spurs form the dominant structures.  The sky brightness owing to extragalactic sources also completely dominates the CMB. Therefore, in the attempt to detect zero-mode 21-cm distortions, the dominant foreground is the Galactic and extragalactic sources, whose spectral form and intensity is only known with precision of 1-10\% in the redshifted 21-cm band.   To detect distortions that are expected to be a fraction $10^{-5}$ of the foreground, when the foreground is only known with precision $10^{-2}$ or worse, appears to be an impossible task!  Moreover, the foreground varies across the sky.
+\subsection{Cosmic Foregrounds}
+
+At millimeter wavelengths where the CMB peaks the sky is dominated by the CMB. Galactic emission and the extragalactic background are sub-dominant.  At frequencies relevant to the 21-cm transition at high $z$, the radio sky is qualitatively different, dominated by synchrotron emission from the Galactic plane, which extends to considerable latitudes, and diffuse off-plane components.  As well, in neither case is the structure readily modeled in angle or frequency, not least because position-resolved spectra of the sky at these low frequencies are known with accuracies of only {\it O}(10\%).  Moreover, there are no known fiducial tracers that may be used to establish external constraints.
+
+The peak amplitude of the cosmic 21-cm signal is expected to be a few tens to a few hundred mK, and the foreground is expected to between a few hundred to a few thousand Kelvin brightness temperature.  This requires a dynamic range of at least $10^4$, clean signal detection requires aiming for dynamic range of $10^5$.  Because the algorithms for components separation, which depend on orthogonality between the zero-mode 21-cm signal and other unwanted additives and foreground, are usually limited and the models for the unwanted components would subsume a significant part of the 21-cm signal; therefore, the typical design goal for the 21-cm radiometers is to achieve an artifact-free spectrum of {\it O}(1)\,mK sensitivity, about $10^6$ below the dominant foreground.
 
 \subsection{Ionosphere}
 
-The ionosphere has a time varying electron density and may be characterised by a time varying total electron content (TEC) along any line of sight.  The ionosphere modifies the cosmic radio spectrum as seen from Earth in several ways. The ionosphere refracts rays, bending rays so that sky sources appear at higher elevations.  The ionosphere partially absorbs the cosmic radio signal and also adds an ionospheric emission component to the sky spectrum. These effects of the ionosphere are strongly wavelength dependent and predominantly modifies the relatively longer wavelength radiation.  
+The ionosphere has time varying electron densities that is commonly characterized by the total electron content (TEC) along any line of sight.  The ionosphere modifies spectra of background sources in several ways.  It refracts rays, so that sources appear at higher elevations \cite{vedantham14}.  The ionosphere also both absorbs the background and adds emission from populations of hot electrons \cite{rogers15}. These effects of the ionosphere are strongly wavelength dependent and are anticipated to predominantly modify radiation at $\nu\lesssim 100$\,MHz.
 
-The TEC is measured and monitored with limited accuracy; however, the accuracy is inadequate for attempting a time-varying correction of measured sky spectra.  TEC data is primarily of use in deciding the relative severity and rough magnitude with which data might be modified by the prevailing ionosphere.  
+In general, the accuracy and spacing of TEC measurements is as yet inadequate to support time-varying correction of measured sky spectra.  TEC data are primarily of use in deciding the relative severity of ionospheric conditions and the order of magnitude of distortions to be anticipated in spectra--a coarse weather report.  Consequently, analyses of radiometry data  must include model nuisance parameters that describe ionosphere effects, requiring marginalization in order to extract the zero-mode signal from data.  
 
-The analysis of measurements from spectral radiometers must, therefore include models for ionosphere effects, whose parameters would require marginalisation while solving for the zero-mode 21-cm signal.  Space missions that operate beyond the ionosphere avoid this problem.
+\subsection{Polarization}
 
-\subsection{Radio Frequency Interference}
-
-A significant part of the radio spectrum in which the zero-mode 21-cm signal is expected is allocated to terrestrial and space communications and transmitters at these wavelengths exist in most parts of the populated world.  Radio quiet remote sites exist on Earth; however, transmissions do propagate across the world in normal as well as anomalous episodic modes and these have the potential to corrupt even data acquired in radio quiet sites and result in weak artefacts, which may be erroneously attributed to zero-mode 21-cm.  
-
-RFI is expected to be present even in Earth orbit and even at Earth Moon distances.  Avoidance of terrestrial RFI may be best achieved by locating the radiometers for zero-mode 21-cm on the far side of the Moon, either in orbit or on the surface.
-
-\subsection{Antenna Design}
-
-A critical component of zero-mode 21-cm radiometers is the antenna, which requires extremely careful design and development. Most available electromagnetic simulation packages are incapable of providing solutions with the precision necessary to qualify the antenna element; hence the design path necessarily requires iterations to achieve the exacting performance tolerances.  There are no standard antennas in the communications engineering world that may be directly adopted for this science goal; detection of the zero-mode 21-cm requires purpose design.  
-
-For antennas located on ground, modelling the soil to the depths needed to achieve accuracy in solutions, which may be validated via measurements of the antenna beam patterns and reflection efficiencies, is an engineering challenge, particularly since several metres of soil beneath the antenna could have significant influence on the performance.  In the case of antennas covered with ground screens, effects of finite screen, scattering at the edges of the screen,  effect of ground beyond the screen, effect of propagation through the screen and through slot gaps between screen segments are all issues that limit usefulness of the modelling.
-
-For antennas in space, where the ground is avoided, the antenna model needs to be inclusive of the satellite bus structure and all its conductive and dielectric materials.
-
-Since mode-coupling may be a fundamental limitation to detection, because correcting measurement data for mode coupling requires accurate knowledge of the frequency dependent foregrounds and also a frequency dependent beam pattern, designing the antenna to be frequency-independent is essential.  It is then necessary to be able to calibrate for the total efficiency, which includes reflection and radiation efficiencies, and calibrate for additives from resistive losses in antenna elements.
-
-\subsection{Receiver Design}
-
-The receiver modifies the cosmic radio spectrum in its bandpass, and adds receiver noise; these require bandpass calibration and correction of the measurement data for additives.  Most receiver designs adopt methods for cancellation of additives, via switching schemes.  However, there may be additives that suffer multi-path propagation that includes reflection off the antenna impedance, which may not be canceled.  In such cases, receiver designs often incorporate isolators and also minimise physical lengths of multi-path propagation, so that the unsubtracted additives are restricted to be of low order and hence largely orthogonal to the 21-cm signals.
+Galactic and extragalactic foregrounds comprise sources often with significant fractional  linear polarization.  The detected foreground spectrum will be polarisation dependent.  Complications arise due to Faraday rotation of differing degrees.  The effect is frequency  dependent, and for a linearly polarized source, the source intensity received by any single polarization will be frequency dependent.  Hence, Faraday rotation results in spectral structure that may potentially confuse attempts to detect zero-mode 21-cm spectral structure. For this reason, it is desirable and a design goal for zero-mode radiometers to be dual polarised pair of radiometers, with full polarisation calibration that allows derivation of the Stokes I component on the sky.
 
 
-\textbf{Architectures and methods for zero-mode signal detection}
+\subsection{Interference}
+
+Virtually all frequencies at which a zero-mode signal corresponding to the EOR or CD could appear are allocated to terrestrial and space communications. Transmitters at these frequencies exist in most parts of the world, and propagation paths may be line of sight, reflected (e.g., off meteor trails and aircraft), or bent by diffraction around obstacles. Extremely remote sites exist where interference due to long-range propagation is rare \cite{voytek14,philip19}, but apart from these unusual cases, low-frequency radiometry data is corrupted intermittently, raising the possibility of weak interference contributing weak artifacts in spectra.  These may be narrow band (e.g., FM transmission) or broadband (e.g., digital television, where each channel allocation is several MHz wide).  They may be recognizable as discrete spectral features or solely by deviations from Gaussian statistics in time-series.
+
+
+\section{Pr\'ecis of Design Requirements}
+
 
 \begin{itemize}
-%\tightlist
-\item
-  Single-element sensor based radiometer
+    \item[1.]
+    {\bf Radiometer bandwidth}: an octave or more, to enable separation of smooth-spectrum foregrounds and the distinctly not smooth 21-cm spectral signature.
+    
+    \item[2.]
+    {\bf Antenna gain pattern {\it in situ}}: maximally smooth in angle and frequency with minimum chromaticity, and characterization from direct measurement or simulation if necessary.
+    
+    \item[3.]
+    {\bf Ground screen}: large enough to isolate the radiometer from propagation in ground strata and buried infrastructure); sufficient geometric irregularity along the edges so as to suppress coherent patterns in scattering of incident radiation toward the antenna. 
+    
+    \item[4.]
+    {\bf Antenna polarization}: dual polarization to enable construction of Stokes I and cancel artifacts that can arise from Faraday rotation of foreground emission.
+    
+    \item[5.]
+    {\bf Site}:  a radiometry site with a clear horizon out to several wavelengths, and related to item no. 3,k homogeneous dry strata below.
+
+\end{itemize}
+
+
+
+   
+   
+%\subsection{Reflections within the Signal Path}
+
+ % Impedance discontinuities in the receiver path cause internal reflections of the system noise, which includes the cosmic noise component and also the receiver noise.  Reflections of wideband noise over a physical length $l$ result in interference that cause spectral structure with frequency scale $v/2l$, where v is the propagation speed of electromagnetic waves in the physical medium.  For example, internal reflection within a cable of length 2 metres between the antenna and low-noise amplifier, with velocity factor 0.7, will result in spectral ripples with period 52.5 MHz. These structures would be a modulation of the receiver gain, and hence calibrated out, if the calibration includes these sections in their entirety.  However, if the receiver calibration is internal, then reflections from the antenna terminal and also reflections of receiver noise from environment are omitted from the calibration.  Ideally, receiver gain calibration using celestial sources, such as the passage of the Galactic plane across the radiometer beam, would best calibrate the signal path.  In any case, it is desirable that the signal path have isolators that prevent back flow of signal path components to the antenna.  Improved isolation also comes from use of amplifiers in which the forward gain is substantially greater than the reverse isolation, so that the net loss on propagation back and forth is substantial.
+  
+  
+%\subsection{Analog to digital conversion}
+ 
+% A key component in the signal processing in a zero-mode 21-cm radiometer is the conversion from continuous to discrete data.  Random and systematic errors in the representation of the analog signal leads to performance limitations.  An important design consideration is the number of bits in the analog to digital converter.  Larger effective number of bits is essential for greater spurious free dynamic range.  A design goal of $10^6$ for dynamic range requires 10 effective bits, which implies analog to digital converters of 12 bits or greater.  The quality in the transfer function of the converter is also required to be accurate so that the spurious free dynamic range is $10^6$.
+ 
+%\subsection{Radio Frequency Interference (RFI)}
+  
+%  Radio frequency interference (RFI), if present at the observing site, would naturally require improved performance of the radiometer to avoid spurious spectral structure that might confuse the zero-mode signal.  In good sites, it is expected that the total power in RFI would be well below the total band power from cosmic noise.  This is facilitated by adopting small antenna designs that have low gain, low effective collecting area, so that the cosmic noise is received without compromise but response to RFI is reduced. 
+ 
+% Presence of radio frequency interference may drive the design to lower the power in the cosmic noise going to the analog to digital converter, so that the signal is not clipped in the sampling, which would lead to non-linear products spread across the band.  Lowering the power in the cosmic noise, to provide greater headroom for the RFI components when they might occur, reduces the effective number of bits operating on the cosmic noise, thus requiring greater performance of the analog to digital converter.
+   
+
+%\subsection{Receiver Design}
+
+%The receiver modifies the cosmic radio spectrum in its bandpass, and adds receiver noise; these require bandpass calibration and correction of the measurement data for additives.  Most receiver designs adopt methods for cancellation of additives, via switching schemes.  However, there may be additives that suffer multi-path propagation that includes reflection off the antenna impedance, which may not be canceled.  In such cases, receiver designs often incorporate isolators and also minimise physical lengths of multi-path propagation, so that the unsubtracted additives are restricted to be of low order and hence largely orthogonal to the 21-cm signals.
+
+
+\section{Outside the Box Architectures}
+
+\subsection{Single-element Sensor  Radiometer}
   
   The simplest form of a radio telescope that would be appropriate for detecting the zero-mode 21-cm signal is a single elemental wideband antenna followed by a spectrometer.  Such a radiometer would ideally have a frequency-independent antenna, a self-calibratable receiver that corrects for the bandpass, and switching schemes to cancel internal additives including receiver noise.
   
   The considerations that drive the design of such a radiometer have been discussed above.  Limitations and design challenges to the performance of such a single-element spectral radiometer are manifold.  Therefore, there have been new concepts and design attempts to develop alternate schemes or configurations that might avoid some of the potential show stoppers.
   
-\item
-  Outriggers to Fourier synthesis telescopes
+\subsection{Outriggers to Fourier Synthesis Telescopes}
   
   A key challenge in zero-mode 21-cm radiometers is knowing the antenna beam pattern, its chromaticity, and the bandpass of the antenna element.  Antenna measurements at long wavelengths are exceedingly difficult because of the parasitic effects of environment and the ground, which influence both the device under test and also the test and measurement antenna.  Switched calibration, using broad band noise sources, may serve to calibrate the bandpass of the receiver chain; however, this leave the antenna bandpass, radiation efficiency, uncalibrated.  This leads to a situation where the antenna characteristics may have to be derived from electromagnetic simulations, which may not have the accuracy needed for correction of the measurement data.
   
   A solution to these issues is to deploy the single-element sensor based radiometer as an outrigger to an array of antennas, which operate in Fourier synthesis interferometer mode.  The radiometer antenna and receiver chain then form another element of the array, which together observe the sky sources within the antenna primary beams.  The measured spectral visibilities are then used to solve simultaneously for the sky model and also the instrument parameters, which include the bandpass and beam shape of the outrigger antenna. If all array elements are dual polarised, then full Stokes calibration is also possible, providing polarisation calibration solutions as well for the outrigger antenna.
   
-  \item
-  Interferometer methods
+\subsection{Interferometric Methods}
   
   It is not often appreciated that interferometers are not totally blind to the zero-mode in the sky temperature distribution.  If the sky were uniformly bright, then the electromagnetic fields at two points in space separated by less than a wavelength will show mutual coherence, which may be measured by an interferometer.  A pair of half-wave dipoles placed adjacent to each other, in line, will respond to the zero-mode of the sky temperature distribution.  If placed parallel to each other the interferometer response will contain the zero mode, and the response in this case will be greater.  The interferometers may be thought of as sampling the zero-mode in the direction in which the projected spacing between the elements in zero.  Of course, if the spacing between the dipoles increases, the response falls off progressively.
   
@@ -261,97 +220,31 @@ The receiver modifies the cosmic radio spectrum in its bandpass, and adds receiv
   
   Thus interferometer measurements are blind to internal receiver additives, thus scoring over single element radiometers on this count.
   
-  \item
-  Zero-spacing interferometer
+\subsection{Zero-spacing Interferometer}
   
   If a pair of wideband antennas are placed adjacent to each other, with mutual coupling between the antennas, then the interferometer response includes the zero-mode signal.  This response may be enhanced by placing a vertical beam splitter in between the antennas, so that incident field from any side propagates to the antenna on the far side through the screen and to the near side in a direct path and also after reflection off the screen.  If the beam splitter is reactive, and lossless, then the response to zero-mode on the two sides of the screen cancel.  However, if the beam splitter is resistive, then the interferometer responses add with the same sign.  Optimally, it can be shown that the sensitivity is a maximum if the beam splitter has a sheet resistance equal to the impedance of free space.  
   
   Interferometers made from elemental antennas placed in a close packed configuration will have a telescope filter function, which defines the interferometer response to zero-mode 21-cm signals, that is highly frequency dependent and challenging to calibrate.  The advantage of the zero-spacing interferometer made from frequency independent antennas is that the telescope filter function in this case is flat, at least over the frequency range in which the resistive screen is frequency independent.  
   
-  \item
-  Moon block
+
+\subsection{Lunar Occultation}
   
   An alternate and interesting approach to detection of the zero-mode 21-cm signal is via Fourier synthesis imaging of the Moon.  The brightness measured towards the Moon, over frequency, would be a difference between the Moon brightness and the mean brightness of the radio sky.  Thus if the Moon were assumed to be of flat spectrum, or if the temperature spectrum of the Moon were known, then the differential measurement may be used to infer the zero-mode 21-cm signal.
   
   The measurement is not without difficulties.  Firstly, it is not clear that the temperature spectrum of the Moon is flat of even smooth; the lunar regolith may have structure and layered in depth, which would give spectral structure in the emission brightness.  Additionally, the Moon is reflective and hence the brightness of the Moon has a component that is a reflection of the radio sky. Finally, the synthetic beam of the Fourier synthesis telescope will have sidelobes that are chromatic; thus mode coupling will induce spectral structure whose removal from the data will be limited by the depth of deconvolution. 
     
-\end{itemize}
 
-\textbf{Calibration}
 
-\begin{itemize}
 
-    \item
-    Bandpass 
-
-    \item
-    Calibration of additives
-
-%some sub-units can be cal'd in the lab, others only in the field.
-
-%Ideal goal: flat spectral baseline to 1:10\textsuperscript{6}{~}
-
-%discrimination btw. 21cm and foreground signals
-
-%Compromise to admit spectral baselines that are at least partially
-%orthogonal to 21-cm signals
-
-    \item
-    Switching
-
-%  ways in which to separate what is up and downstream from frontend
-%  switch
-
-    \item
-    inbuilt noise and calibration sources
-\end{itemize}
-
-% correlation spectrometers -- phase switching ????
-
-\textbf{Model fitting}
-
-\begin{itemize}
-
-%when all else fails, fit a model to the spectral baseline
-
-    \item
-      physically motivated
-    \item
-      empirical
-    \item
-      dangers
-
-\end{itemize}
-
-\textbf{LEDA, SARAS, and EDGES}
-
-\begin{itemize}
-    \item
-      Design considerations emphasized in each project
-    \item
-      Status
-\end{itemize}
-
-\begin{itemize}
-    \item
-      First detection?  Perspectives
-\end{itemize}
-
-\textbf{Outlook}
-
-\begin{itemize}
-    \item
-      Testing the claim
-    \item
-      Is a First Detection the Only Goal?
-\end{itemize}
 
 
 %=============================================
 
 \bibliographystyle{plain}
-%\bibliography{Greenhill_Subrahmanyan/References}
-\bibliography{./references}
+\bibliography{Greenhill_Subrahmanyan/References}
+%\bibliography{./references}
 
 %=============================================
+
+
 
