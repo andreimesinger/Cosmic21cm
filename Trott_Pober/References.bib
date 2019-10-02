@@ -1,35 +1,3 @@
-#####LOFAR ########
-
-### As with many of the published papers in this early epoch, foregrounds in \cite{2008MNRAS.389.1319J} are modelled to be subtracted with a simple smooth fitting function. This work is notable because it provided realistic models for a range of different foreground components, and included discussion of the treatment of polarized foregrounds.
-
-### \cite{2010MNRAS.409.1647J} extended work from 2008 to focus on simulations of Faraday Rotation from polarized Galactic foregrounds. FR rotates the phase of the intrinsically-smooth foreground component yielding spectral structure that may mimic the EoR signal. In this work, Jeli{\'c} shows the effect of inaccurate data calibration on polarized emission, which can imprint total intensity structure if the polarized instrumental response is incorrect.
-
-## The SAGE algorithm (Space Alternating Generalized Expectation Maximization) is first introduced in 2011 by \cite{2011MNRAS.414.1656K}, as provides the basis for all calibration of LOFAR EoR datasets to the present day. Based on the well-known Expectation Maximization (EM) algorithm, which iteratively fits for calibration parameters (maximizes the likelihood with respect to a set of parameters and then alters the parameters to find a new likelihood) when the underlying system model contains unobserved variables, SAGE extends the traditional least-squares fitting to allow for more model flexibility, and improved convergence and efficiency. Part of the SAGE algorithm performs direction-dependent calibration towards clusters of sources on the sky, thereby allowing for ionospheric distortion of the sky model.
-
-
-### Detailed total intensity and polarized imaging of the LOFAR EoR fields were presented in \cite{2013A&A...550A.136Y} and \cite{2014A&A...568A.101J}. The North Celestial Pole field allows for deep, long winter nighttime observations, and was shown to be able to be calibrated over long integrations. Observations of low Faraday depth structures in the ELAIS-N1 field yielded structures that would be problematic for EoR science if the degree of polarization leakage into total intensity exceeded 1\%. This quantification of the accuracy required of instrumental polarization was the first of a set of papers that explored polarized signal and leakage for EoR science. Thus far, the LOFAR EoR collaboration has undertaken the most extensive work to quantify the impact of polarization leakage, while the MWA collaboration has made some observations of polarized emission in their data (\cite{2016ApJ...830...38L}, \cite{2017PASA...34...40L}, \cite{2013ApJ...771..105B}). In \cite{2015MNRAS.451.3709A} and \cite{2016MNRAS.462.4482A}, Asad and colleagues first studied the polarized emission in the 3C196 EoR field, finding them to be localized around a small Faraday depth, and quantified the leakage, and then studied the accuracy of the LOFAR polarized beam model to be able to limit leakage into total intensity. Given the level of polarized to total intensity, and a beam model accurate to 10\% at the field centre, the leakage and subsequent spectral structure would be acceptable for EoR science. Finally, \cite{2018MNRAS.476.3051A} considered the more problematic impact of wide-field polarization leakage on the EoR power spectrum. Far from the field centre, the primary beam models are less accurate, and sources imprint additional spectral structure due to the chromaticity of an interferometer. In these cases, bias was found to persist in the EoR power spectrum.
-
-## Discussed the use of Wp smoothing as a non-parametric method for fitting a smooth function, based on limiting the number of inflection points in the fit. Further, they discuss the systematic errors introduced by the fitting routine, methods for estimating these, and for accounting for them in the final uncertainties. This approach is used again in the work of \cite{mertens18} for the Gaussian Process Regression fitting, and also is used generically in the PAPER analysis. There, and elsewhere, use of the same dataset to empirically estimate the bias, and then to correct it, leads to resubstitution bias, underestimate of bias and signal loss.
-
-##In a series of papers, Chapman and collaborators explore novel approaches to fitting and removing foreground signal from image-based datacubes. In \cite{2012MNRAS.423.2518C}, they introduce the FastICA technique, as a non-parametric method that estimates independent foreground components and their mixing for each image pixel and frequency. The advantage of such methods is that they do not rely on any a priori knowledge of the signal, but instead only assume that the full signal can be represented by a small number of components (sparsity), thereby allowing for good estimation with a given dataset. The disadvantage lies in the sensitivity of results to the number of components the user chooses that the data should contain, and the potential for signal loss if the projection of the estimated components onto the EoR signal is non-negligible. ICA generically minimizes Gaussianity, thereby enforcing smoothness in the fitted components. Beyond ICA, a generalized method (GMCA; Generalized Morphological Component Analysis) was applied (\cite{2013MNRAS.429..165C,chapman14}) to use an underlying blind wavelet decomposition of the components, combined with the sparsity and mixing model methodology of the ICA method. As with other methods when the underlying structure, spatial distribution and amplitude of the cosmological signal and foreground components is unknown, the potential for signal loss is present. The ICA and GMCA methods both assume that the cosmological signal has negligible amplitude and is absorbed in the noise. Structural deviations from this assumption can lead to signal loss.
-
-## In a new approach to foreground treatment, Mertens and colleagues discuss use of the well-known Gaussian Process Regression (GPR) technique to fit for foregrounds using only an understanding for the spectral data covariance of different components \cite{2018MNRAS.478.3640M}. Unlike parametric methods that assume an underlying model, GPR (an extended version of kriging, which interpolates data based on their known covariance properties) relies only a statistical separation of foreground and cosmological signal via their spectral correlation lengths. This method also suffers from the potential for cosmological signal loss, but the authors attempt capture the potential bias statistically through increased noise. The ultimate utility of this approach has yet to be demonstrated on a large dataset at the time of the writing.
-
-
-
-### Along with the power spectrum as a measure of the signal variance as a function of spatial scale, the variance statistic was explored with simulations in \cite{2014MNRAS.443.1113P}. The variance of the brightness temperature, as the wavenumber integral over the power spectrum, quantifies the variability in the cosmological signal on the imaging scale (autocorrelation function). Although it provides limited cosmological information, detection of this variance can be theoretically obtained with fewer observing hours. Bayesian power spectrum extraction techniques were also explored in \cite{2015MNRAS.452.1587G}, with a view to allowing for a spatially-smooth component to capture the unmodelled diffuse emission in the NCP field. Like other instruments, the data calibration and foreground models were limited to point and extended sources, with the complex diffuse emission difficult to measure and model. Increasingly, the impact of this incomplete sky model has become apparent.
-
-### In a landmark paper published by Patil and colleagues in 2016 \cite{patil16} the source of `excess noise' and diffuse emission suppression in LOFAR data were studied. Excess noise is the identification of increased noise levels in the data post-calibration compared with expectations of thermal noise and Stokes V measurements. Ultimately, the lack of a diffuse model in the calibration sky model allowed for this signal to be absorbed into the gain calibration solutions, thereby yielding a direction-dependent bias and noise in the residual data. To address this problem, the short baselines containing the majority of the diffuse emission could be excluded, however this leads to increased noise on these scales (due to statistical leverage; effectively this amounts to additional flexibility in the gain solutions on these scales because they are not used in the modelling). This work was undertaken contemporaneously with that of \cite{barry16} and \cite{trottwayth2016}, which both studied the effect of incomplete sky models and spectrally varying bandpass parameters on calibration and residual signal. The combined outcome of these studies is an understanding of the impact of sky model incompleteness, the need to enforce spectral correlation (e.g., regularization as in SAGECal or smooth model fitting) for calibration parameter fitting, and the approaches to calibration that can mitigate these. 
-
-## Further exploration of the impact of calibration frameworks and data treatment were then explored in \cite{2019MNRAS.483.5480M} and \cite{2019MNRAS.484.2866O}, with a view to having a complete understanding of the end-to-end data processing of LOFAR EoR data on the path to a detection. Unlike in the previous ten years before real observations were undertaken and thermal noise sensitivity was seen to be the major impediment for EoR detection, the field now realises the crucial roles of unbiased calibration, sky model completeness, and foreground treatment without cosmological signal loss.
-
-### The culmination of the lessons learned from statistical leverage and incomplete sky models was applied to two fluctuation upper limit papers published since 2017. In \cite{2017ApJ...838...65P}, Patil and colleagues presented competitive results from a small set of data ($\sim$10 hours) at $z = [9.6 - 10.6]$, with the best limit of (59.6 mK)$^2$. This work reported an excess variance, in line with previous discussions, and the use of Stokes V power to remove noise power. At higher redshifts (lower frequencies), Gehlot and colleagues \cite{2018arXiv180906661G} reported upper limits above $z=20$, with use of the Gaussian Process Regression foreground fitting technique introduced by \cite{2018MNRAS.478.3640M} for EoR science.
-
-### Beyond the power spectrum, LOFAR has explored other tracers of the neutral hydrogen temperature field, namely the ability to produce low angular resolution images \cite{2012MNRAS.425.2964Z} and the 21~cm Forest \cite{2013MNRAS.428.1755C}. LOFAR like other current instruments, does not have the sensitivity to directly image neutral hydrogen bubbles at the instrumental resolution. However, by lowering the resolution of images (thereby improving the radiometric noise), Zaroubi and colleagues argue that the largest of bubbles may be detectable at low signal-to-noise ratio on the largest of scales late in reionization. The ability to detect the 21~cm Forest (absorption of continuum radio emission along the line-of-sight to high redshift AGN due to intervening neutral gas) remains a challenge and aim of many current interferometers. Ciardi and colleagues showed that LOFAR would have the ability to detect an absorption feature under ideal conditions. Unlike the statistical detection of the power spectrum of temperature fluctuations, the absorption signal amplitude is determined by the astrophysical conditions close to the gas, namely gas kinetic temperature. Cold gas is able to absorb light more readily than heated gas. The failure of this method to date is primarily due to the lack of any known high-redshift radio-loud AGN ($z>6$). Given the sensitivity of current instruments, a source with flux density exceeding 10~mJy and cold neutral gas would be required. It is likely that the arrival of SKA will provide both the sensitivity and the detection (and confirmation) of high-redshift radio-loud AGN to be able to undertake this experiment. Of the current interferometric experiments, only LOFAR has sufficient sensitivity to be able to attempt this experiment at all.
-
-#### The utility of extracting higher-order statistics of the 21~cm brightness temperature field were explored in this simulation study of foreground-subtracted image cubes by \cite{2009MNRAS.393.1449H}. Again, the ability to smoothly treat and remove foregrounds placed the burden of detection on pure noise considerations.
-
-
 @ARTICLE{2016MNRAS.463.4093C,
        author = {{Choudhuri}, Samir and {Bharadwaj}, Somnath and {Chatterjee}, Suman and
          {Ali}, Sk. Saiyad and {Roy}, Nirupam and {Ghosh}, Abhik},
@@ -317,7 +285,6 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-### The culmination of the lessons learned from statistical leverage and incomplete sky models was applied to two fluctuation upper limit papers published since 2017. In \cite{2017ApJ...838...65P}, Patil and colleagues presented competitive results from a small set of data ($\sim$10 hours) at $z = [9.6 - 10.6]$, with the best limit of (59.6 mK)$^2$. This work reported an excess variance, in line with previous discussions, and the use of Stokes V power to remove noise power. At higher redshifts (lower frequencies), Gehlot and colleagues \cite{2018arXiv180906661G} reported upper limits above $z=20$, with use of the Gaussian Process Regression foreground fitting technique introduced by \cite{2018MNRAS.478.3640M} for EoR science.
 
 @ARTICLE{2016MNRAS.458.3099V,
        author = {{Vedantham}, H.~K. and {Koopmans}, L.~V.~E.},
@@ -377,11 +344,6 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-### Along with the power spectrum as a measure of the signal variance as a function of spatial scale, the variance statistic was explored with simulations in \cite{2014MNRAS.443.1113P}. The variance of the brightness temperature, as the wavenumber integral over the power spectrum, quantifies the variability in the cosmological signal on the imaging scale (autocorrelation function). Although it provides limited cosmological information, detection of this variance can be theoretically obtained with fewer observing hours. Bayesian power spectrum extraction techniques were also explored in \cite{2015MNRAS.452.1587G}, with a view to allowing for a spatially-smooth component to capture the unmodelled diffuse emission in the NCP field. Like other instruments, the data calibration and foreground models were limited to point and extended sources, with the complex diffuse emission difficult to measure and model. Increasingly, the impact of this incomplete sky model has become apparent.
-
-### In a landmark paper published by Patil and colleagues in 2016 \cite{patil16} the source of `excess noise' and diffuse emission suppression in LOFAR data were studied. Excess noise is the identification of increased noise levels in the data post-calibration compared with expectations of thermal noise and Stokes V measurements. Ultimately, the lack of a diffuse model in the calibration sky model allowed for this signal to be absorbed into the gain calibration solutions, thereby yielding a direction-dependent bias and noise in the residual data. To address this problem, the short baselines containing the majority of the diffuse emission could be excluded, however this leads to increased noise on these scales (due to statistical leverage; effectively this amounts to additional flexibility in the gain solutions on these scales because they are not used in the modelling). This work was undertaken contemporaneously with that of \cite{barry16} and \cite{trottwayth2016}, which both studied the effect of incomplete sky models and spectrally varying bandpass parameters on calibration and residual signal. The combined outcome of these studies is an understanding of the impact of sky model incompleteness, the need to enforce spectral correlation (e.g., regularization as in SAGECal or smooth model fitting) for calibration parameter fitting, and the approaches to calibration that can mitigate these. 
-
-## Further exploration of the impact of calibration frameworks and data treatment were then explored in \cite{2019MNRAS.483.5480M} and \cite{2019MNRAS.484.2866O}, with a view to having a complete understanding of the end-to-end data processing of LOFAR EoR data on the path to a detection. Unlike in the previous ten years before real observations were undertaken and thermal noise sensitivity was seen to be the major impediment for EoR detection, the field now realises the crucial roles of unbiased calibration, sky model completeness, and foreground treatment without cosmological signal loss.
 
 @ARTICLE{2014A&A...568A.101J,
        author = {{Jeli{\'c}}, V. and {de Bruyn}, A.~G. and {Mevius}, M. and
@@ -465,9 +427,6 @@ archivePrefix = {arXiv},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2013A&A...550A.136Y},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
-
-### Detailed total intensity and polarized imaging of the LOFAR EoR fields were presented in \cite{2013A&A...550A.136Y} and \cite{2014A&A...568A.101J}. The North Celestial Pole field allows for deep, long winter nighttime observations, and was shown to be able to be calibrated over long integrations. Observations of low Faraday depth structures in the ELAIS-N1 field yielded structures that would be problematic for EoR science if the degree of polarization leakage into total intensity exceeded 1\%. This quantification of the accuracy required of instrumental polarization was the first of a set of papers that explored polarized signal and leakage for EoR science. Thus far, the LOFAR EoR collaboration has undertaken the most extensive work to quantify the impact of polarization leakage, while the MWA collaboration has made some observations of polarized emission in their data (\cite{2016ApJ...830...38L}, \cite{2017PASA...34...40L}, \cite{2013ApJ...771..105B}). In \cite{2015MNRAS.451.3709A} and \cite{2016MNRAS.462.4482A}, Asad and colleagues first studied the polarized emission in the 3C196 EoR field, finding them to be localized around a small Faraday depth, and quantified the leakage, and then studied the accuracy of the LOFAR polarized beam model to be able to limit leakage into total intensity. Given the level of polarized to total intensity, and a beam model accurate to 10\% at the field centre, the leakage and subsequent spectral structure would be acceptable for EoR science. Finally, \cite{2018MNRAS.476.3051A} considered the more problematic impact of wide-field polarization leakage on the EoR power spectrum. Far from the field centre, the primary beam models are less accurate, and sources imprint additional spectral structure due to the chromaticity of an interferometer. In these cases, bias was found to persist in the EoR power spectrum.
-
 
 @ARTICLE{2015MNRAS.451.3709A,
        author = {{Asad}, K.~M.~B. and {Koopmans}, L.~V.~E. and {Jeli{\'c}}, V. and {Pand
@@ -630,8 +589,6 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-### Beyond the power spectrum, LOFAR has explored other tracers of the neutral hydrogen temperature field, namely the ability to produce low angular resolution images \cite{2012MNRAS.425.2964Z} and the 21~cm Forest \cite{2013MNRAS.428.1755C}. LOFAR like other current instruments, does not have the sensitivity to directly image neutral hydrogen bubbles at the instrumental resolution. However, by lowering the resolution of images (thereby improving the radiometric noise), Zaroubi and colleagues argue that the largest of bubbles may be detectable at low signal-to-noise ratio on the largest of scales late in reionization. The ability to detect the 21~cm Forest (absorption of continuum radio emission along the line-of-sight to high redshift AGN due to intervening neutral gas) remains a challenge and aim of many current interferometers. Ciardi and colleagues showed that LOFAR would have the ability to detect an absorption feature under ideal conditions. Unlike the statistical detection of the power spectrum of temperature fluctuations, the absorption signal amplitude is determined by the astrophysical conditions close to the gas, namely gas kinetic temperature. Cold gas is able to absorb light more readily than heated gas. The failure of this method to date is primarily due to the lack of any known high-redshift radio-loud AGN ($z>6$). Given the sensitivity of current instruments, a source with flux density exceeding 10~mJy and cold neutral gas would be required. It is likely that the arrival of SKA will provide both the sensitivity and the detection (and confirmation) of high-redshift radio-loud AGN to be able to undertake this experiment. Of the current interferometric experiments, only LOFAR has sufficient sensitivity to be able to attempt this experiment at all.
-
 @ARTICLE{2012MNRAS.423.2518C,
        author = {{Chapman}, Emma and {Abdalla}, Filipe B. and {Harker}, Geraint and
          {Jeli{\'c}}, Vibor and {Labropoulos}, Panagiotis and {Zaroubi}, Saleem and
@@ -651,10 +608,6 @@ archivePrefix = {arXiv},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2012MNRAS.423.2518C},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
-
-## In a series of papers, Chapman and collaborators explore novel approaches to fitting and removing foreground signal from image-based datacubes. In \cite{2012MNRAS.423.2518C}, they introduce the FastICA technique, as a non-parametric method that estimates independent foreground components and their mixing for each image pixel and frequency. The advantage of such methods is that they do not rely on any a priori knowledge of the signal, but instead only assume that the full signal can be represented by a small number of components (sparsity), thereby allowing for good estimation with a given dataset. The disadvantage lies in the sensitivity of results to the number of components the user chooses that the data should contain, and the potential for signal loss if the projection of the estimated components onto the EoR signal is non-negligible. ICA generically minimizes Gaussianity, thereby enforcing smoothness in the fitted components. Beyond ICA, a generalized method (GMCA; Generalized Morphological Component Analysis) was applied (\cite{2013MNRAS.429..165C,chapman14}) to use an underlying blind wavelet decomposition of the components, combined with the sparsity and mixing model methodology of the ICA method. As with other methods when the underlying structure, spatial distribution and amplitude of the cosmological signal and foreground components is unknown, the potential for signal loss is present. The ICA and GMCA methods both assume that the cosmological signal has negligible amplitude and is absorbed in the noise. Structural deviations from this assumption can lead to signal loss.
-
-## In a new approach to foreground treatment, Mertens and colleagues discuss use of the well-known Gaussian Process Regression (GPR) technique to fit for foregrounds using only an understanding for the spectral data covariance of different components \cite{2018MNRAS.478.3640M}. Unlike parametric methods that assume an underlying model, GPR (an extended version of kriging, which interpolates data based on their known covariance properties) relies only a statistical separation of foreground and cosmological signal via their spectral correlation lengths. This method also suffers from the potential for cosmological signal loss, but the authors attempt capture the potential bias statistically through increased noise. The ultimate utility of this approach has yet to be demonstrated on a large dataset at the time of the writing.
 
 @ARTICLE{2011MNRAS.414.1656K,
        author = {{Kazemi}, S. and {Yatawatta}, S. and {Zaroubi}, S. and
@@ -676,8 +629,6 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-## The SAGE algorithm (Space Alternating Generalized Expectation Maximization) is first introduced in 2011 by \cite{2011MNRAS.414.1656K}, as provides the basis for all calibration of LOFAR EoR datasets to the present day. Based on the well-known Expectation Maximization (EM) algorithm, which iteratively fits for calibration parameters (maximizes the likelihood with respect to a set of parameters and then alters the parameters to find a new likelihood) when the underlying system model contains unobserved variables, SAGE extends the traditional least-squares fitting to allow for more model flexibility, and improved convergence and efficiency. Part of the SAGE algorithm performs direction-dependent calibration towards clusters of sources on the sky, thereby allowing for ionospheric distortion of the sky model.
-
 @ARTICLE{2010MNRAS.409.1647J,
        author = {{Jeli{\'c}}, Vibor and {Zaroubi}, Saleem and {Labropoulos}, Panagiotis and
          {Bernardi}, Gianni and {de Bruyn}, A.~G. and {Koopmans}, L{\'e}on V.~E.},
@@ -696,8 +647,6 @@ archivePrefix = {arXiv},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2010MNRAS.409.1647J},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
-
-### Extended work from 2008 to focus on simulations of Faraday Rotation from polarized Galactic foregrounds. FR rotates the phase of the intrinsically-smooth foreground component yielding spectral structure that may mimic the EoR signal. In this work, Jeli{\'c} shows the effect of inaccurate data calibration on polarized emission, which can imprint total intensity structure if the polarized instrumental response is incorrect.
 
 
 @ARTICLE{2010MNRAS.405.2492H,
@@ -721,8 +670,6 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-## Discussed the use of Wp smoothing as a non-parametric method for fitting a smooth function, based on limiting the number of inflection points in the fit. Further, they discuss the systematic errors introduced by the fitting routine, methods for estimating these, and for accounting for them in the final uncertainties. This approach is used again in the work of \cite{mertens18} for the Gaussian Process Regression fitting, and also is used generically in the PAPER analysis. There, and elsewhere, use of the same dataset to empirically estimate the bias, and then to correct it, leads to resubstitution bias, underestimate of bias and signal loss.
-
 @ARTICLE{2009MNRAS.393.1449H,
        author = {{Harker}, Geraint J.~A. and {Zaroubi}, Saleem and {Thomas}, Rajat M. and
          {Jeli{\'c}}, Vibor and {Labropoulos}, Panagiotis and
@@ -743,8 +690,6 @@ archivePrefix = {arXiv},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2009MNRAS.393.1449H},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
-
-#### The utility of extracting higher-order statistics of the 21~cm brightness temperature field were explored in this simulation study of foreground-subtracted image cubes by \cite{2009MNRAS.393.1449H}. Again, the ability to smoothly treat and remove foregrounds placed the burden of detection on pure noise considerations.
 
 @ARTICLE{2008MNRAS.389.1319J,
        author = {{Jeli{\'c}}, V. and {Zaroubi}, S. and {Labropoulos}, P. and
@@ -767,9 +712,6 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-
-### As with many of the published papers in this early epoch, foregrounds in \cite{2008MNRAS.389.1319J} are modelled to be subtracted with a simple smooth fitting function. This work is notable because it provided realistic models for a range of different foreground components, and included discussion of the treatment of polarized foregrounds.
-
 @ARTICLE{2006astro.ph.10596R,
        author = {{Rottgering}, H.~J.~A. and {Braun}, R. and {Barthel}, P.~D. and
          {van Haarlem}, M.~P. and {Miley}, G.~K. and {Morganti}, R. and
@@ -789,12 +731,6 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-
-
-
-#################################
-##### END LOFAR ###########
-##############################
 
 @ARTICLE{offringa19,
        author = {{Offringa}, A.~R. and {Mertens}, F. and {Koopmans}, L.~V.~E.},
@@ -856,7 +792,7 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{moore17
+@ARTICLE{moore17,
        author = {{Moore}, David F. and {Aguirre}, James E. and {Kohn}, Saul A. and
          {Parsons}, Aaron R. and {Ali}, Zaki S. and {Bradley}, Richard F. and
          {Carilli}, Chris L. and {DeBoer}, David R. and {Dexter}, Matthew R. and
@@ -1535,7 +1471,7 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{wieringa92
+@ARTICLE{wieringa92,
        author = {{Wieringa}, Mark H.},
         title = "{An investigation of the telescope based calibration methods `redundancy' and `self-cal'}",
       journal = {Experimental Astronomy},
@@ -1550,7 +1486,7 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
-@ARTICLE{pober13},
+@ARTICLE{pober13,
        author = {{Pober}, Jonathan C. and {Parsons}, Aaron R. and {Aguirre}, James E. and
          {Ali}, Zaki and {Bradley}, Richard F. and {Carilli}, Chris L. and
          {DeBoer}, Dave and {Dexter}, Matthew and {Gugliucci}, Nicole E. and
